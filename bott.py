@@ -81,27 +81,30 @@ def run_discord_bot():
                 try:
                     chara_skills = chara_info['skills']
                 except KeyError:
-                    pass
+                    print("Character skills not found")
 
-        colors = [0xb0bf1a, 0xc9ffe5, 0xb284be]
+        colors = [0xc71e1e, 0xd83131, 0xc97f7f, 0x9a0000, 0x0f0707]
         # Character information embed below
-        info_embed = discord.Embed(title=f"__{chara_info['name']}__", color=random.choice(colors))
+        info_embed = discord.Embed(title=f"__{chara_info['name']}__", description=f"{str(chara_info['description'])}", color=random.choice(colors))
         info_embed.set_thumbnail(url=chara_info['thumb'])
         info_embed.add_field(name="Rarity:", value=f"{str(chara_info['rarity'])}", inline=False)
-        info_embed.add_field(name="Description:", value=f"{str(chara_info['description'])}", inline=False)
-        info_embed.add_field(name="Path:", value=f"*{str(chara_info['path'])}*", inline=True)
+        # info_embed.add_field(name="Description:", value=f"{str(chara_info['description'])}", inline=False)
         info_embed.add_field(name="Combat Type:", value=f"*{str(chara_info['combat'])}*", inline=True)
+        info_embed.add_field(name="Path:", value=f"*{str(chara_info['path'])}*", inline=True)
         info_embed.add_field(name="Faction:", value=f"*{str(chara_info['faction'])}*", inline=False)
         info_embed.set_image(url=chara_info['picture'])
 
         # Character Skills embed below
         skills_embed = discord.Embed(title=f"{chara_info['name']}", color=random.choice(colors))
         skills_embed.set_thumbnail(url=chara_info['thumb'])
-        skills_embed.add_field(name="__Basic ATK__", value=f"**Name:** *{chara_skills['basic']['name']}*\n **Tag:** {chara_skills['basic']['tag']}\n **Description:** {chara_skills['basic']['description']}", inline=False)
-        skills_embed.add_field(name="__Skill__", value=f"**Name:** *{chara_skills['skill']['name']}*\n **Tag:** {chara_skills['skill']['tag']}\n **Description:** {chara_skills['skill']['description']}", inline=False)
-        skills_embed.add_field(name="__Ultimate__", value=f"**Name:** *{chara_skills['ult']['name']}*\n **Tag:** {chara_skills['ult']['tag']}\n **Description:** {chara_skills['ult']['description']}", inline=False)
-        skills_embed.add_field(name="__Talent__", value=f"**Name:** *{chara_skills['talent']['name']}*\n **Tag:** {chara_skills['talent']['tag']}\n **Description:** {chara_skills['talent']['description']}", inline=False)
-        skills_embed.add_field(name="__Technique__", value=f"**Name:** *{chara_skills['technique']['name']}*\n **Tag:** {chara_skills['technique']['tag']}\n **Description:** {chara_skills['technique']['description']}", inline=False)
+        if chara_skills['basic']['name'] == "":
+            skills_embed.add_field(name="Skills not found", value=f"Information regarding {chara_info['name']}'s skills is not out yet :(")
+        else:
+            skills_embed.add_field(name="__Basic ATK__", value=f"**Name:** *{chara_skills['basic']['name']}*\n **Tag:** {chara_skills['basic']['tag']}\n **Description:** {chara_skills['basic']['description']}", inline=False)
+            skills_embed.add_field(name="__Skill__", value=f"**Name:** *{chara_skills['skill']['name']}*\n **Tag:** {chara_skills['skill']['tag']}\n **Description:** {chara_skills['skill']['description']}", inline=False)
+            skills_embed.add_field(name="__Ultimate__", value=f"**Name:** *{chara_skills['ult']['name']}*\n **Tag:** {chara_skills['ult']['tag']}\n **Description:** {chara_skills['ult']['description']}", inline=False)
+            skills_embed.add_field(name="__Talent__", value=f"**Name:** *{chara_skills['talent']['name']}*\n **Tag:** {chara_skills['talent']['tag']}\n **Description:** {chara_skills['talent']['description']}", inline=False)
+            skills_embed.add_field(name="__Technique__", value=f"**Name:** *{chara_skills['technique']['name']}*\n **Tag:** {chara_skills['technique']['tag']}\n **Description:** {chara_skills['technique']['description']}", inline=False)
 
         embeds = [info_embed, skills_embed]
 
@@ -120,14 +123,17 @@ def run_discord_bot():
                 chara_info = each
                 chara_skills = chara_info['skills']
 
-        colors = [0xb0bf1a, 0xc9ffe5, 0xb284be]
+        colors = [0xc71e1e, 0xd83131, 0xc97f7f, 0x9a0000, 0x0f0707]
         skills_embed = discord.Embed(title=f"{chara_info['name']}", color=random.choice(colors))
         skills_embed.set_thumbnail(url=chara_info['thumb'])
-        skills_embed.add_field(name="__Basic ATK__", value=f"**Name:** *{chara_skills['basic']['name']}*\n **Tag:** {chara_skills['basic']['tag']}\n **Description:** {chara_skills['basic']['description']}", inline=False)
-        skills_embed.add_field(name="__Skill__", value=f"**Name:** *{chara_skills['skill']['name']}*\n **Tag:** {chara_skills['skill']['tag']}\n **Description:** {chara_skills['skill']['description']}", inline=False)
-        skills_embed.add_field(name="__Ultimate__", value=f"**Name:** *{chara_skills['ult']['name']}*\n **Tag:** {chara_skills['ult']['tag']}\n **Description:** {chara_skills['ult']['description']}", inline=False)
-        skills_embed.add_field(name="__Talent__", value=f"**Name:** *{chara_skills['talent']['name']}*\n **Tag:** {chara_skills['talent']['tag']}\n **Description:** {chara_skills['talent']['description']}", inline=False)
-        skills_embed.add_field(name="__Technique__", value=f"**Name:** *{chara_skills['technique']['name']}*\n **Tag:** {chara_skills['technique']['tag']}\n **Description:** {chara_skills['technique']['description']}", inline=False)
+        if chara_skills['basic']['name'] == "":
+            skills_embed.add_field(name="Skills not found", value="Information regarding this character's skills is not out yet :(")
+        else:
+            skills_embed.add_field(name="__Basic ATK__", value=f"**Name:** *{chara_skills['basic']['name']}*\n **Tag:** {chara_skills['basic']['tag']}\n **Description:** {chara_skills['basic']['description']}", inline=False)
+            skills_embed.add_field(name="__Skill__", value=f"**Name:** *{chara_skills['skill']['name']}*\n **Tag:** {chara_skills['skill']['tag']}\n **Description:** {chara_skills['skill']['description']}", inline=False)
+            skills_embed.add_field(name="__Ultimate__", value=f"**Name:** *{chara_skills['ult']['name']}*\n **Tag:** {chara_skills['ult']['tag']}\n **Description:** {chara_skills['ult']['description']}", inline=False)
+            skills_embed.add_field(name="__Talent__", value=f"**Name:** *{chara_skills['talent']['name']}*\n **Tag:** {chara_skills['talent']['tag']}\n **Description:** {chara_skills['talent']['description']}", inline=False)
+            skills_embed.add_field(name="__Technique__", value=f"**Name:** *{chara_skills['technique']['name']}*\n **Tag:** {chara_skills['technique']['tag']}\n **Description:** {chara_skills['technique']['description']}", inline=False)
 
         await interaction.response.send_message(embed=skills_embed)
 
