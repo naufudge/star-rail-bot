@@ -1,4 +1,4 @@
-from typing import List
+from typing import List, Optional
 import discord, random, json, httpx
 from discord import app_commands
 from discord.ext import commands
@@ -68,13 +68,22 @@ def run_discord_bot():
     TOKEN = config['TOKEN']
     client = commands.Bot(command_prefix='$', intents=intents, help_command=None)
 
-    # character finder
+    # Help Command
+    @client.tree.command(name="help", description="Get help on how to use Pom-Pom")
+    async def pp_help(interaction: discord.Interaction):
+        colors = [0xc71e1e, 0xd83131, 0xc97f7f, 0x9a0000, 0x0f0707]
+        help_embed = discord.Embed(title="__Help__", color=random.choice(colors) ,description="Hi Trailblazer! How can Pom-Pom help you today?\n")
+        help_embed.add_field(name="``/character <character name>``", value="Gives you some information about a specific character.", inline=False)
+        help_embed.add_field(name="``/skills <character name>``", value="Gives you information regarding the skills of a specific character.", inline=False)
+        help_embed.set_footer(text="Made with love by Nauf :)")
+        await interaction.response.send_message(embed=help_embed)
+
+    # Character finder command
     @client.tree.command(name="character", description="Gives you some information about a specific character.")
     @app_commands.describe(chara_name="Enter the name of the character")
     async def chara_search(interaction: discord.Interaction, chara_name: str):
         names = [x['name'] for x in chara_file]
-        result = similarity_sorter(names, chara_name)[0] # finds the character name most similar to the search
-        # await interaction.response.defer()
+        result = similarity_sorter(names, chara_name)[0] # Finds the name most similar to the search
         for each in chara_file:
             if each['name'] == result:
                 chara_info = each
@@ -111,12 +120,12 @@ def run_discord_bot():
         info_view = InfoView(embeds)
         await interaction.response.send_message(embed=info_view.initial, view=info_view)
 
-    # character SKILLS
+    # Character skills command
     @client.tree.command(name="skills", description="Gives you the information regarding the skills of a specific character.")
     @app_commands.describe(chara_name="Enter the name of the character")
     async def skill_search(interaction: discord.Interaction, chara_name: str):
         names = [x['name'] for x in chara_file]
-        result = similarity_sorter(names, chara_name)[0] # finds the character name most similar to the search
+        result = similarity_sorter(names, chara_name)[0] # finds the name most similar to the search
 
         for each in chara_file:
             if each['name'] == result:
