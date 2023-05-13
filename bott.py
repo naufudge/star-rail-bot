@@ -4,7 +4,7 @@ from discord import app_commands
 from discord.ext import commands
 from difflib import SequenceMatcher
 
-with open('characters.json', 'r') as f:
+with open('data/characters.json', 'r') as f:
     chara_file = json.load(f)
 
 def similar(a, b):
@@ -87,10 +87,7 @@ def run_discord_bot():
         # Character information embed below
         info_embed = discord.Embed(title=f"__{chara_info['name']}__", color=random.choice(colors))
         info_embed.set_thumbnail(url=chara_info['thumb'])
-        try:
-            info_embed.add_field(name="Rarity:", value=f"{str(chara_info['rarity'])}", inline=False)
-        except:
-            pass
+        info_embed.add_field(name="Rarity:", value=f"{str(chara_info['rarity'])}", inline=False)
         info_embed.add_field(name="Description:", value=f"{str(chara_info['description'])}", inline=False)
         info_embed.add_field(name="Path:", value=f"*{str(chara_info['path'])}*", inline=True)
         info_embed.add_field(name="Combat Type:", value=f"*{str(chara_info['combat'])}*", inline=True)
@@ -100,14 +97,12 @@ def run_discord_bot():
         # Character Skills embed below
         skills_embed = discord.Embed(title=f"{chara_info['name']}", color=random.choice(colors))
         skills_embed.set_thumbnail(url=chara_info['thumb'])
-        try:
-            skills_embed.add_field(name="__Basic ATK__", value=f"**Name:** *{chara_skills['basic']['name']}*\n **Tag:** {chara_skills['basic']['tag']}\n **Description:** {chara_skills['basic']['description']}", inline=False)
-            skills_embed.add_field(name="__Skill__", value=f"**Name:** *{chara_skills['skill']['name']}*\n **Tag:** {chara_skills['skill']['tag']}\n **Description:** {chara_skills['skill']['description']}", inline=False)
-            skills_embed.add_field(name="__Ultimate__", value=f"**Name:** *{chara_skills['ult']['name']}*\n **Tag:** {chara_skills['ult']['tag']}\n **Description:** {chara_skills['ult']['description']}", inline=False)
-            skills_embed.add_field(name="__Talent__", value=f"**Name:** *{chara_skills['talent']['name']}*\n **Tag:** {chara_skills['talent']['tag']}\n **Description:** {chara_skills['talent']['description']}", inline=False)
-            skills_embed.add_field(name="__Technique__", value=f"**Name:** *{chara_skills['technique']['name']}*\n **Tag:** {chara_skills['technique']['tag']}\n **Description:** {chara_skills['technique']['description']}", inline=False)
-        except:
-            pass
+        skills_embed.add_field(name="__Basic ATK__", value=f"**Name:** *{chara_skills['basic']['name']}*\n **Tag:** {chara_skills['basic']['tag']}\n **Description:** {chara_skills['basic']['description']}", inline=False)
+        skills_embed.add_field(name="__Skill__", value=f"**Name:** *{chara_skills['skill']['name']}*\n **Tag:** {chara_skills['skill']['tag']}\n **Description:** {chara_skills['skill']['description']}", inline=False)
+        skills_embed.add_field(name="__Ultimate__", value=f"**Name:** *{chara_skills['ult']['name']}*\n **Tag:** {chara_skills['ult']['tag']}\n **Description:** {chara_skills['ult']['description']}", inline=False)
+        skills_embed.add_field(name="__Talent__", value=f"**Name:** *{chara_skills['talent']['name']}*\n **Tag:** {chara_skills['talent']['tag']}\n **Description:** {chara_skills['talent']['description']}", inline=False)
+        skills_embed.add_field(name="__Technique__", value=f"**Name:** *{chara_skills['technique']['name']}*\n **Tag:** {chara_skills['technique']['tag']}\n **Description:** {chara_skills['technique']['description']}", inline=False)
+
         embeds = [info_embed, skills_embed]
 
         info_view = InfoView(embeds)
@@ -137,12 +132,6 @@ def run_discord_bot():
         await interaction.response.send_message(embed=skills_embed)
 
 
-    @client.tree.command(name="hello")
-    async def hello(interaction: discord.Interaction):
-        await interaction.response.send_message(f"<:smile:1032884011523129344>")
-        # await interaction.response.send_message(f"Goodbye {interaction.user.mention}!")
-
-
     @client.event
     async def on_ready():
         print(f'{client.user.name} has connected to Discord!')
@@ -153,7 +142,7 @@ def run_discord_bot():
         except Exception as e:
             print(e)
 
-        status = discord.Status.idle
+        status = discord.Status.online
         await client.change_presence(activity=discord.Game(name="Star Rail ✦"), status=status)
 
     client.run(TOKEN)
