@@ -1,0 +1,515 @@
+[
+    {
+        "name": "Trailblazer - the Destruction",
+        "id" : 1,
+        "description" : "",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/7e3dcd2464edfca47e45ee7f0b53f32b_1711910135236400099.gif",
+        "picture" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/7e3dcd2464edfca47e45ee7f0b53f32b_1711910135236400099.gif",
+        "path": "The Destruction",
+        "combat" : "Physical",
+        "faction" : "Astral Express",
+        "skills" : {
+            "basic" : {"name":"Farewell Hit", "tag":"Single Target", "description":"Deals Physical DMG equal to 50%-130% of Trailblazer 's ATK to a single enemy."},
+            "skill" : {"name":"RIP Home Run", "tag":"Blast", "description":"Deals Physical DMG equal to 62.5%-156.25% of the Trailblazer's ATK to a single enemy and enemies adjacent to it"},
+            "ult" : {"name":"Stardust Ace", "tag":"Enhance", "description":"Choose between two attack modes to deliver a full strike.Blowout: Farewell Hit deals Physical DMG equal to 300%-525% of the Trailblazer's ATK to a single enemy.Blowout: RIP Home Run deals Physical DMG equal to 180%-315% of the Trailblazer's ATK to a single enemy, and Physical DMG equal to 108%-189% of the Trailblazer's ATK to enemies adjacent to it."},
+            "talent" : {"name":"Perfect Pickoff", "tag":"Enhance", "description":"Each time after this character inflicts Weakness Break on an enemy, ATK increases by 10%-25%. This effect stacks up to 2 time(s)."},
+            "technique" : {"name":"Immortal Third Strike", "tag":"Restore", "description":"Immediately heals all allies for 15% of their respective Max HP after using this Technique."}
+        },
+        "eidolons" : {
+            "e1": ["A Falling Star", "When enemies are defeated due to the Trailblazer's Ultimate, the Trailblazer additionally regenerates 10 Energy. This effect can only be triggered once per attack."],
+            "e2" : ["An Unwilling Host", "Attacking an enemy with Physical Weakness restores the Trailblazer's HP equal to 5% of the Trailblazer's ATK."],
+            "e3" : ["A Leading Whisper", "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."],
+            "e4" : ["A Destructing Glance", "When attacking an enemy with Weakness Break, CRIT Rate is increased by 25%."],
+            "e5" : ["A Surviving Hope", "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."],
+            "e6" : ["A Trailblazing Will", "The Trailblazer's Talent is also triggered when they defeat an enemy."]
+        }
+    },
+
+    {
+        "name" : "March 7th",
+        "id" : 2,
+        "description": "A girl who once slumbered in eternal ice and knows nothing about her past. To find out the truth about her origins, she decided to travel with the Astral Express. As of right now, she has prepared about 67 different versions of her life story for herself.",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/0047e5284a840424de8b21d1ccd042cd_933159568797000001.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/1721c5c450299615748e2fa4971e2746_2999314882560891227.png",
+        "path" : "The Preservation",
+        "combat" : "Ice",
+        "faction" : "Astral Express",
+        "skills" : {
+            "basic" : {"type": "Basic ATK", "name": "Frigid Cold Arrow", "tag": "Single Target", "description": "Deals Ice DMG equal to 50%-130% of March 7th's ATK to a single enemy."},
+            "skill" : {"type": "Skill", "name": "The Power of Cuteness", "tag": "Defense", "description": "Provides a single ally with a Shield that can absorb DMG equal to 38%-66.5% of March 7th's DEF plus 190-973.75 for 3 turn(s). If the ally's current HP percentage is 30% or higher, greatly increases the chance of enemies attacking that ally."},
+            "ult" : {"type": "Ultimate", "name": "Glacial Cascade", "tag": "AoE", "description": "Deals Ice DMG equal to 90%-180% of March 7th's ATK to all enemies. Hit enemies have a 50% base chance to be Frozen for 1 turn(s). While Frozen, enemies cannot take action and will receive Additional Ice DMG equal to 30%-75% of March 7th's ATK at the beginning of each turn."},
+            "talent" : {"type": "Talent", "name": "Girl Power", "tag": "Single Target", "description": "After a Shielded ally is attacked by an enemy, March 7th immediately Counters, dealing Ice DMG equal to 50%-125% of her ATK. This effect can be triggered 2 time(s) each turn."},
+            "technique" : {"type": "Technique", "name": "Freezing Beauty", "tag": "", "description": "Immediately attacks the enemy. After entering battle, there is a 100% base chance to Freeze a random enemy for 1 turn(s). While Frozen, the enemy cannot take action and will take Additional Ice DMG equal to 50% of March 7th's ATK at the beginning of each turn."}
+        },
+        "eidolons" : {
+            "e1" : ["Memory of You", "Every time March 7th's Ultimate Freezes a target, she regenerates 6 Energy."],
+            "e2" : ["Memory of It", "Upon entering battle, grants a Shield equal to 24% of March 7th's DEF plus 320 to the ally with the lowest HP percentage, lasting for 3 turn(s)."],
+            "e3" : ["Memory of Everything", "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."],
+            "e4" : ["Never Forfeit Again", "The Talent's Counter effect can be triggered 1 more time in each turn. The DMG dealt by Counter increases by an amount that is equal to 30% of March 7th's DEF"],
+            "e5" : ["Never Forget Again", "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."],
+            "e6" : ["Just Like This, Always...", "Allies under the protection of the Shield granted by the Skill restores HP equal to 4% of their Max HP plus 106 at the beginning of each turn."]
+        }
+    },
+
+    {
+        "name" : "Dan Heng",
+        "id" : 3,
+        "description": "A cold and reserved young man who is reticent about his past. To avoid his kin, he decided to travel with the Astral Express.",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/f22589fcc8472c64f735d67ca72f0432_7471037767326702542.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/9ec9103cc5c2878441f4c9e225fa671d_4994838077000889508.png",
+        "path" : "The Hunt",
+        "combat" : "Wind",
+        "faction" : "Astral Express",
+        "skills" : {
+            "basic" : {"type": "Basic ATK", "name": "Cloudlancer Art: North Wind", "tag": "Single Target", "description": "Deals Wind DMG equal to 50%-130% of Dan Heng's ATK to a single enemy."},
+            "skill" : {"type": "Skill", "name": "Cloudlancer Art: North Wind", "tag": "Single Target", "description": "Deals Wind DMG equal to 130%-325% of Dan Heng's ATK to a single enemy. On a CRIT Hit, there is a 100% base chance to reduce the target's SPD by 12% for 2 turn(s)."},
+            "ult" : {"type": "Ultimate", "name": "Ethereal Dream", "tag": "Single Target", "description": "Deals Wind DMG equal to 240%-480% of Dan Heng's ATK to a single enemy. If the enemy is Slowed, the Ultimate's DMG multiplier increases by 72%-144%."},
+            "talent" : {"type": "Talent", "name": "Superiority of Reach", "tag": "Enhance", "description": "When Dan Heng is the target of an ally's Ability, his next attack's Wind RES PEN increases by 18%-45%. This effect can be triggered again after 2 turn(s)."},
+            "technique" : {"type": "Technique", "name": "Splitting Spearhead", "tag": "Enhance", "description": "After Dan Heng uses his Technique, his ATK increases by 40% at the start of the next battle for 3 turn(s)."}
+        },
+        "eidolons" : {}
+    },
+
+    {
+        "name" : "Himeko",
+        "id" : 4,
+        "description": "The one who repaired the Astral Express. To witness the vast starry sky, she decided to travel with the Astral Express. Her hobby is brewing hand-made coffee.",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/6170656b26d7383d0ee34f002284d3ff_7335309365701961860.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/887a32cddacb19f1bb2af4b0764e0769_5889631051507738416.png",
+        "path" : "The Erudition",
+        "combat" : "Fire",
+        "faction" : "Astral Express",
+        "skills" : {
+            "basic" : {"name":"Sawblade Tuning", "tag":"Single Target", "description":"Deals Fire DMG equal to 50%-130% of Himeko's ATK to a single enemy."},
+            "skill" : {"name":"Molten Detonation", "tag":"Blast", "description":"Deals Fire DMG equal to 100%-250% of Himeko's ATK to a single enemy and Fire DMG equal to 40%-100% of Himeko's ATK to enemies adjacent to it."},
+            "ult" : {"name":"Heavenly Flare", "tag":"AoE", "description":"Deals Fire DMG equal to 138%-276% of Himeko's ATK to all enemies. Himeko regenerates 5 extra Energy for each enemy defeated."},
+            "talent" : {"name":"Victory Rush", "tag":"AoE", "description":"When an enemy is inflicted with Weakness Break, Himeko gains 1 point of Charge (max 3 points).If Himeko is fully Charged when an ally performs an attack, Himeko immediately performs 1 follow-up attack and deals Fire DMG equal to 70%-175% of her ATK to all enemies, consuming all Charge points.At the start of the battle, Himeko gains 1 point of Charge."},
+            "technique" : {"name":"Incomplete Combustion", "tag":"Impair", "description":"After using Technique, creates a dimension that lasts for 15 second(s). After entering battle with enemies in the dimension, there is a 100% base chance to increase Fire DMG taken by enemies by 10% for 2 turn(s). Only 1 dimension created by allies can exist at the same time."}
+        },
+        "eidolons" : {}
+    },
+
+    {
+        "name" : "Welt",
+        "id" : 5,
+        "description": "A seasoned member of the Express Crew. The passion buried in his heart burns anew as he enjoys this fresh adventure. Occasionally, he would sketch the experiences in a notebook.",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/131c3de4c924022727ce61ac726d051a_4490115586020920921.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/614717416670d179b22d2a13add5dbee_7321507023883975762.png",
+        "path" : "The Nihility",
+        "combat" : "Imaginary",
+        "faction" : "Astral Express",
+        "skills" : {
+            "basic" : {"name":"Gravity Suppression", "tag":"Single Target", "description":"Deals Imaginary DMG equal to 50%-130% of Welt's ATK to a single enemy."},
+            "skill" : {"name":"Edge of the Void", "tag":"Bounce", "description":"Deals Imaginary DMG equal to 36%-90% of Welt's ATK to a single enemy and further deals DMG 2 extra times, with each time dealing Imaginary DMG equal to 36%-90% of Welt's ATK to a random enemy. On hit, there is a 65%-80% base chance to reduce the enemy's SPD by 10% for 2 turn(s)."},
+            "ult" : {"name":"Synthetic Black Hole", "tag":"AoE", "description":"Deals Imaginary DMG equal to 90%-180% of Welt's ATK to all enemies, with a 100% base chance for enemies hit by this ability to be Imprisoned for 1 turn.Imprisoned enemies have their actions delayed by 32%-44% and SPD reduced by 10%."},
+            "talent" : {"name":"Time Distortion", "tag":"Enhance", "description":"When hitting an enemy that is already Slowed, Welt deals Additional Imaginary DMG equal to 30%-75% of his ATK to the enemy."},
+            "technique" : {"name":"Gravitational Imprisonment", "tag":"Impair", "description":"After using Welt's Technique, create a dimension that lasts for 15 second(s). Enemies in this dimension have their Movement SPD reduced by 50%. After entering battle with enemies in the dimension, there is a 100% base chance to Imprison the enemies for 1 turn.Imprisoned enemies have their actions delayed by 20% and SPD reduced by 10%. Only 1 dimension created by allies can exist at the same time."}
+        },
+        "eidolons" : {}
+    },
+
+    {
+        "name" : "Arlan",
+        "id" : 6,
+        "description": "The head of Herta Space Station's Security Department. This quiet boy hopes to protect the researchers who value their pursuit of knowledge, and to help them to complete their work.",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/ec16879888ecb38f5e4a793d596817b5_7471037767326702542.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/0b49db4260bd75867f7f479ccf665c7b_6773667685205279792.png",
+        "path" : "The Destruction",
+        "combat" : "Lightning",
+        "faction" : "Herta Space Station",
+        "skills" : {
+            "basic" : {"name":"Lightning Rush", "tag":"Single Target", "description":"Deals Lightning DMG equal to 50%-130% of Arlan's ATK to a single enemy."},
+            "skill" : {"name":"Shackle Breaker", "tag":"Single Target", "description":"Consumes Arlan's HP equal to 15% of his Max HP to deal Lightning DMG equal to 120%-300% of Arlan's ATK to a single enemy. If Arlan does not have sufficient HP, his HP will be reduced to 1 after using his Skill."},
+            "ult" : {"name":"Frenzied Punishment", "tag":"Blast", "description":"Deals Lightning DMG equal to 192%-348% of Arlan's ATK to a single enemy and Lightning DMG equal to 96%-192% of Arlan's ATK to enemies adjacent to it."},
+            "talent" : {"name":"Pain and Anger", "tag":"Enhance", "description":"Increases Arlan's DMG for every percent of HP below his Max HP, up to a max of 36%-90% more DMG."},
+            "technique" : {"name":"Swift Harvest", "tag":"", "description":"Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to 80% of Arlan's ATK to all enemies."}
+        },
+        "eidolons" : {}
+    },
+
+    {
+        "name" : "Asta",
+        "id" : 7,
+        "description": "The lead researcher of Herta Space Station and a lady from a renowned family. She's an astronomer overflowing with curiosity, and excels at managing the disparate staff of the space station.",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/9ac18d37eab70ad1b7485d8025ec7499_4987547298490400207.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/7efb3fde8547b31aa6328e5393538d86_8780278128209122769.png",
+        "path" : "The Harmony",
+        "combat" : "Fire",
+        "faction" : "Herta Space Station",
+        "skills" : {
+            "basic" : {"name":"Spectrum Beam", "tag":"Single Target", "description":"Deals Fire DMG equal to 50%-130% of Asta's ATK to a single enemy."},
+            "skill" : {"name":"Meteor Storm", "tag":"Bounce", "description":"Deals Fire DMG equal to 25%-62.5% of Asta's ATK to a single enemy and further deals DMG for 4 extra times, with each time dealing Fire DMG equal to 25%-62.5% of Asta's ATK to a random enemy."},
+            "ult" : {"name":"Astral Blessing", "tag":"Support", "description":"Increases SPD of all allies by 36-57 for 2 turn(s)."},
+            "talent" : {"name":"Astrometry", "tag":"Support", "description":"Gains 1 stack of Charging for every different enemy hit by Asta plus an extra stack if the enemy hit has Fire Weakness.For every stack of Charging Asta has, all allies' ATK increases by 7.0%-17.5%, up to 5 time(s).Starting from her second turn, Asta's Charging stack count is reduced by 3 at the beginning of every turn."},
+            "technique" : {"name":"Miracle Flash", "tag":"", "description":"Immediately attacks the enemy. After entering battle, deals Fire DMG equal to 50% of Asta's ATK to all enemies."}
+        },
+        "eidolons" : {}
+    },
+
+    {
+        "name" : "Herta",
+        "id" : 8,
+        "description": "Member 83 of the Genius Society. The real master of the space station. An incredibly intelligent yet unsympathetic scientist.",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/a755d7167aa226264cb5aa26f70f9736_6990891585355987615.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/413ccdf412656119eb9205c6db098706_7321507023883975762.png",
+        "path" : "The Erudition",
+        "combat" : "Ice",
+        "faction" : "Herta Space Station",
+        "skills" : {
+            "basic" : {"name":"What Are You Looking At?", "tag":"Single Target", "description":"Deals Ice DMG equal to 50%-130% of Herta's ATK to a single enemy."},
+            "skill" : {"name":"One-Time Offer", "tag":"AoE", "description":"Deals Ice DMG equal to 50%-125% of Herta's ATK to all enemies. If the enemy's HP percentage is 50% or higher, DMG dealt to this target increases by 20%."},
+            "ult" : {"name":"It's Magic, I Added Some Magic", "tag":"AoE", "description":"Deals Ice DMG equal to 120%-240% of Herta's ATK to all enemies."},
+            "talent" : {"name":"Fine, I'll Do It Myself", "tag":"AoE", "description":"When an ally's attack causes an enemy's HP percentage to fall to 50% or lower, Herta will launch a follow-up attack, dealing Ice DMG equal to 25%-47.5% of Herta's ATK to all enemies."},
+            "technique" : {"name":"It Can Still Be Optimized", "tag":"Enhance", "description":"After using her Technique, Herta's ATK increases by 40% for 3 turn(s) at the beginning of the next battle."}
+        },
+        "eidolons" : {}
+    },
+
+    {
+        "name" : "Bronya",
+        "id" : 9,
+        "description": "Heir apparent to the Supreme Guardian of Belobog. She possesses pride befitting of a princess, but also the determination and integrity of a soldier.",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/7c97499ec8dac5bd41a0ab91b8bba9a2_9011443874790929649.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/29e12cc395d0d9c4081cada87237b21d_4323677689190609250.png",
+        "path" : "The Harmony",
+        "combat" : "Wind",
+        "faction" : "Silvermane Guards",
+        "skills" : {
+            "basic" : {"name":"Windrider Bullet", "tag":"Single Target", "description":"Deals Wind DMG equal to 50%-130% of Bronya's ATK to a single enemy."},
+            "skill" : {"name":"Combat Redeployment", "tag":"Support", "description":"Dispels a debuff from a single ally, allows them to immediately take action, and increases their DMG by 33%-82.5% for 1 turn(s).When this Skill is used on Bronya herself, she cannot immediately take action again."},
+            "ult" : {"name":"The Belobog March", "tag":"Support", "description":"Increases the ATK of all allies by 33%-66%, and increases their CRIT DMG equal to 12%-18% of Bronya's CRIT DMG plus 12%-24% for 2 turn(s)."},
+            "talent" : {"name":"Leading the Way", "tag":"Enhance", "description":"After using her Basic ATK, Bronya's next action will be Advanced Forward by 15%-37.5%."},
+            "technique" : {"name":"Banner of Command", "tag":"Support", "description":"After using Bronya's Technique, at the start of the next battle, all allies' ATK increases by 15% for 2 turn(s)."}
+        },
+        "eidolons" : {}
+    },
+
+    {
+        "name" : "Seele",
+        "id" : 10,
+        "description": "A resident of the Underworld and the backbone of Wildfire. She goes by the alias 'Babochka'. She has a frank personality, but there is a delicate and sensitive hidden side to her deep in her heart.",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/51d48aafbbf69b8e92256a381445ad07_4740490797942876174.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/5060d2a342075d081928230f28d6c68b_5889631051507738416.png",
+        "path" : "The Hunt",
+        "combat" : "Quantum",
+        "faction" : "Wildfire",
+        "skills" : {
+            "basic" : {"name":"Thwack", "tag":"Single Target", "description":"Deals Quantum DMG equal to 50%-130% of Seele's ATK to a single enemy."},
+            "skill" : {"name":"Sheathed Blade", "tag":"Single Target", "description":"Increases Seele's SPD by 25% for 2 turn(s) and deals Quantum DMG equal to 110%-275% of Seele's ATK to a single enemy."},
+            "ult" : {"name":"Butterfly Flurry", "tag":"Single Target", "description":"Seele enters the buffed state and deals Quantum DMG equal to 255%-510% of her ATK to a single enemy."},
+            "talent" : {"name":"Resurgence", "tag":"Enhance", "description":"Enters the buffed state upon defeating an enemy with Basic ATK, Skill, or Ultimate, and receives an extra turn. While in the buffed state, the DMG of Seele's attacks increases by 40%-100% for 1 turn(s).Enemies defeated in the extra turn provided by 'Resurgence' will not trigger another 'Resurgence.'"},
+            "technique" : {"name":"Phantom Illusion", "tag":"Enhance", "description":"After using her Technique, Seele gains Stealth for 20 second(s). While Stealth is active, Seele cannot be detected by enemies. And when entering battle by attacking enemies, Seele will immediately enter the buffed state."}
+        },
+        "eidolons" : {}
+    },
+
+    {
+        "name" : "Serval",
+        "id" : 11,
+        "description": "A Belobog mechanic who used to be a researcher for the Technology Division of the Architects. As Gepard Landau's elder sister, her personality stands in stark contrast to her brother's. She loves an ancient form of music known as 'rock 'n' roll' that was popular before the Eternal Freeze.",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/6660b8c2be9a0db0130a8a2bd1825e0c_115117260001571580.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/104029380412eb1a8dec009230d35002_4323677689190609250.png",
+        "path" : "The Erudition",
+        "combat" : "Lightning",
+        "faction" : "Belobog",
+        "skills" : {
+            "basic" : {"name":"Roaring Thunderclap", "tag":"Single Target", "description":"Deals Lightning DMG equal to 50%-130% of Serval's ATK to a single enemy."},
+            "skill" : {"name":"Lightning Flash", "tag":"Blast", "description":"Deals Lightning DMG equal to 70%-175% of Serval's ATK to a single enemy and Lightning DMG equal to 30%-75% of Serval's ATK to enemies adjacent to it, with a 80% base chance for enemies hit to become Shocked for 2 turn(s).While Shocked, enemies take Lightning DoT equal to 40%-130% of Serval's ATK at the beginning of each turn."},
+            "ult" : {"name":"Here Comes the Mechanical Fever", "tag":"AoE", "description":"Deals Lightning DMG equal to 108%-216% of Serval's ATK to all enemies. Enemies already Shocked will extend the duration of their Shock state by 2 turn(s)."},
+            "talent" : {"name":"Galvanic Chords", "tag":"Enhance", "description":"After Serval attacks, deals Additional Lightning DMG equal to 36%-90% of Serval's ATK to all Shocked enemies."},
+            "technique" : {"name":"Good Night, Belobog", "tag":"", "description":"Immediately attacks the enemy. After entering battle, deals Lightning DMG equal to 50% of Serval's ATK to a random enemy, with a 100% base chance for all enemies to become Shocked for 3 turn(s).While Shocked, enemies will take Lightning DoT equal to 50% of Serval's ATK at the beginning of each turn."}
+        },
+        "eidolons" : {}
+    },
+
+    {
+        "name" : "Gepard",
+        "id" : 12,
+        "description": "A captain in the Silvermane Guards and an outstanding warrior of Belobog. He is meticulous and vigilant to the core and is always true to himself.",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/21ae001edc80f597d35df15f35537d00_4983283866355038276.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/7136facc376707041eb292719d828603_4994838077000889508.png",
+        "path" : "The Preservation",
+        "combat" : "Ice",
+        "faction" : "Silvermane Guards",
+        "skills" : {
+            "basic" : {"name":"Fist of Conviction", "tag":"Single Target", "description":"Deals Ice DMG equal to 50%-130% of Gepard's ATK to a single enemy."},
+            "skill" : {"name":"Daunting Smite", "tag":"Impair", "description":"Deals Ice DMG equal to 100%-250% of Gepard's ATK to a single enemy, with a 65% base chance to Freeze the enemy for 1 turn(s).While Frozen, the enemy cannot take action and will take Additional Ice DMG equal to 30%-75% of Gepard's ATK at the beginning of each turn."},
+            "ult" : {"name":"Enduring Bulwark", "tag":"Defense", "description":"Applies a Shield to all allies, absorbing DMG equal to 30%-52.5% of Gepard's DEF plus 150-768.75 for 3 turn(s)."},
+            "talent" : {"name":"Unyielding Will", "tag":"Restore", "description":"When struck with a killing blow, instead of becoming knocked down, Gepard's HP immediately restores to 25%-62.5% of his Max HP. This effect can only trigger once per battle."},
+            "technique" : {"name":"Comradery", "tag":"Defense", "description":"After Gepard uses his Technique, when the next battle begins, a Shield will be applied to all allies, absorbing DMG equal to 24% of Gepard's DEF plus 150 for 2 turn(s)."}
+        },
+        "eidolons" : {}
+    },
+
+    {
+        "name" : "Natasha",
+        "id" : 13,
+        "description": "A doctor from the Underworld and a caregiver of children. Alongside her kindness and caring, she also has a hidden dangerous side.",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/59abc9abc0795ead8a3d3ac2c03530f1_1713347165320581354.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/ef25dcb366bf08ee26b727d9c79a2530_3222092199456075933.png",
+        "path" : "The Abundance",
+        "combat" : "Physical",
+        "faction" : "Wildfire",
+        "skills" : {
+            "basic" : {"name":"Behind the Kindness", "tag":"Single Target", "description":"Deals Physical DMG equal to 50%-130% of Natasha's ATK to a single enemy."},
+            "skill" : {"name":"Love, Heal, and Choose", "tag":"Restore", "description":"Restores a single ally for 7%-12.25% of Natasha's Max HP plus 70-358.75. Restores the ally for another 4.8%-8.4% of Natasha's Max HP plus 48-246 at the beginning of each turn for 2 turn(s)."},
+            "ult" : {"name":"Gift of Rebirth", "tag":"Restore", "description":"Heals all allies for 9.2%-16.1% of Natasha's Max HP plus 92-471.5."},
+            "talent" : {"name":"Innervation", "tag":"Enhance", "description":"When healing allies with HP percentage at 30% or lower, increases Natasha's Outgoing Healing by 25%-62.5%. This effect also works on continuous healing."},
+            "technique" : {"name":"Hypnosis Research", "tag":"", "description":"Immediately attacks the enemy. After entering battle, deals Physical DMG equal to 80% of Natasha's ATK to a random enemy, with a 100% base chance to Weaken all enemies.While Weakened, enemies deal 30% less DMG to allies for 1 turn(s)."}
+        },
+        "eidolons" : {}
+    },
+
+    {
+        "name" : "Pela",
+        "id" : 14,
+        "description": "A secretarial officer for the Silvermane Guards. She has a serious personality and is revered by other members of the Silvermane Guards.",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/9ca6f9a8509b3e8dd05fb551056d273d_933159568797000001.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/5096d00e54fca852d63ad62fe13bdb2d_3913364161979936619.png",
+        "path" : "The Nihility",
+        "combat" : "Ice",
+        "faction" : "Silvermane Guards",
+        "skills" : {
+            "basic" : {"name":"Frost Shot", "tag":"Single Target", "description":"Deals Ice DMG equal to 50%-130% of Pela's ATK to a single enemy."},
+            "skill" : {"name":"Frostbite", "tag":"Impair", "description":"Removes 1 buff(s) and deals Ice DMG equal to 105%-262.5% of Pela's ATK as to a single enemy."},
+            "ult" : {"name":"Zone Suppression", "tag":"Impair", "description":"Deals Ice DMG equal to 60%-120 of Pela's ATK to all enemies, with a 100% base chance to inflict Exposed on all enemies.When Exposed, enemies' DEF is reduced by 30%-45% for 2 turn(s)."},
+            "talent" : {"name":"Data Collecting", "tag":"Support", "description":"If the enemy is debuffed after Pela's attack, Pela will restore 5-12.5 extra Energy. This effect can only be triggered 1 time per attack."},
+            "technique" : {"name":"Preemptive Strike", "tag":"", "description":"Immediately attacks the enemy. Upon entering battle, Pela deals Ice DMG equal to 80% of her ATK to a random enemy, with a 100% base chance of lowering the DEF of all enemies by 20% for 2 turn(s)."}
+        },
+        "eidolons" : {}
+    },
+
+    {
+        "name" : "Clara",
+        "id" : 15,
+        "description": "A vagrant girl who lives with robots. She is introverted, gentle, and has a pure heart. She wishes for all Underworlders to become a family.",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/36ac7d1e87145434d0617a511066a3db_1713347165320581354.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/fc98321aa4593969d912a83bcc9c0d58_3913364161979936619.png",
+        "path" : "The Destruction",
+        "combat" : "Physical",
+        "faction" : "Belobog",
+        "skills" : {
+            "basic" : {"name":"I Want to Help", "tag":"Single Target", "description":"Deals Physical DMG equal to 50%-130% of Clara's ATK to a single enemy."},
+            "skill" : {"name":"Svarog Watches Over You", "tag":"AoE", "description":"Deals Physical DMG equal to 60%-150% of Clara's ATK to all enemies, and additionally deals Physical DMG equal to 60%-150% of Clara's ATK to enemies marked by Svarog with a Mark of Counter.All Marks of Counter will be removed after this Skill is used."},
+            "ult" : {"name":"Promise, Not Command", "tag":"Enhance", "description":"After Clara uses Ultimate, DMG dealt to her is reduced by an extra 15%-30%, and she has greatly increased chances of being attacked by enemies for 2 turn(s).In addition, Svarog's Counter is enhanced. When an ally is attacked, Svarog immediately launches a Counter, and its DMG multiplier against the enemy increases by 96%-192%. Enemies adjacent to it take 50% of the DMG dealt to the target enemy. Enhanced Counter(s) can take effect 2 time(s)."},
+            "talent" : {"name":"Because We're Family", "tag":"Single Target", "description":"Under the protection of Svarog, DMG taken by Clara when hit by enemy attacks is reduced by 10%. Svarog will mark enemies who attack Clara with his Mark of Counter and retaliate with a Counter, dealing Physical DMG equal to 80%-200% of Clara's ATK."},
+            "technique" : {"name":"A Small Price for Victory", "tag":"", "description":"Immediately attacks the enemy. Upon entering battle, the chance Clara will be attacked by enemies increases for 2 turn(s)."}
+        },
+        "eidolons" : {}
+    },
+
+    {
+        "name" : "Sampo",
+        "id" : 16,
+        "description": "A merchant who freely travels between the Overworld and the Underworld. He acts like he is everyone's friend, is enthusiastically humorous, and is good at bantering.",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/8cc98741a00c642fd5e47c86b22bf8d9_1867355418239514355.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/270265890433ac7c96320a3d57fa9a8c_4986354608351969003.png",
+        "path" : "The Nihility",
+        "combat" : "Wind",
+        "faction" : "Wildfire",
+        "skills" : {
+            "basic" : {"name":"Dazzling Blades", "tag":"Single Target", "description":"Deals Wind DMG equal to 50%-130% of Sampo's ATK to a single enemy."},
+            "skill" : {"name":"Ricochet Love", "tag":"Bounce", "description":"Deals Wind DMG equal to 28%-70% of Sampo's ATK to a single enemy, and further deals DMG for 4 extra time(s), with each time dealing Wind DMG equal to 28%-70% of Sampo's ATK to a random enemy."},
+            "ult" : {"name":"Surprise Present", "tag":"Impair", "description":"Deals Wind DMG equal to 96%-192% of Sampo's ATK to all enemies, with a 100% base chance to increase the targets' DoT taken by 20%-35% for 2 turn(s)."},
+            "talent" : {"name":"Windtorn Dagger", "tag":"Enhance", "description":"Sampo's attacks have a 65% base chance to inflict Wind Shear for 3 turn(s).Enemies inflicted with Wind Shear will take Wind DoT equal to 20%-65% of Sampo's ATK at the beginning of each turn. Wind Shear can stack up to 5 time(s)."},
+            "technique" : {"name":"Shining Bright", "tag":"Impair", "description":"After Sampo uses Technique, enemies in a set area are inflicted with Blind for 10 second(s). Blinded enemies cannot detect your team.When initiating combat against a Blinded enemy, there is a 100% fixed chance to delay all enemies' action by 25%."}
+        },
+        "eidolons" : {}
+    },
+
+    {
+        "name" : "Hook",
+        "id" : 17,
+        "description": "",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726",
+        "thumb" : "",
+        "picture" : "",
+        "path" : "",
+        "combat" : "",
+        "faction" : "",
+        "skills" : {
+            "basic" : {"name":"Hehe! Don't Get Burned!", "tag":"Single Target", "description":"Deals Fire DMG equal to 50%-130% of Hook's ATK to a target enemy."},
+            "skill" : {"name":"Hey! Remember Hook?", "tag":"Single Target", "description":"Single Target: Deals Fire DMG equal to 120%-300% of Hook's ATK to a single enemy. In addition, there is a 100% base chance to inflict Burn for 2 turn(s). When afflicted with Burn, enemies will take Fire DoT equal to 25%-81.25% of Hook's ATK at the beginning of each turn.Blast: Deals Fire DMG equal to 140%-350% of Hook's ATK to a single enemy, with a 100% base chance to Burn them for 2 turn(s). Additionally, deals Fire DMG equal to 40%-100% of Hook's ATK to enemies adjacent to it. When afflicted with Burn, enemies will take Fire DoT equal to 25%-81.25% of Hook's ATK at the beginning of each turn."},
+            "ult" : {"name":"Boom! Here Comes the Fire!", "tag":"Single Target", "description":"Deals Fire DMG equal to 240%-480% of Hook's ATK to a single enemy. After using Ultimate, the next Skill to be used is Enhanced, which deals DMG to a single enemy and enemies adjacent to it."},
+            "talent" : {"name":"Ha! Oil to the Flames!", "tag":"Enhance", "description":"When attacking a target afflicted with Burn, deals Additional Fire DMG equal to 50%-125% of Hook's ATK and regenerates 5 extra Energy."},
+            "technique" : {"name":"Ack! Look at This Mess!", "tag":"", "description":"Immediately attacks the enemy. Upon entering battle, Hook deals Fire DMG equal to 50% of her ATK to a random enemy. In addition, there is a 100% base chance to inflict Burn on every enemy for 3 turn(s). When afflicted with Burn, enemies will take Fire DoT equal to 50% of Hook's ATK at the beginning of each turn."}
+        },
+        "eidolons" : {}
+    },
+
+    {
+        "name" : "Qingque",
+        "id" : "",
+        "description": "",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726",
+        "thumb" : "",
+        "picture" : "",
+        "path" : "",
+        "combat" : "",
+        "faction" : "",
+        "skills" : {
+            "basic" : {"name":"Flower Pick", "tag":"Single Target", "description":"Tosses 1 jade tile from the suit with the fewest tiles in hand to deal Quantum DMG equal to 50%-130% of Qingque's ATK to a single enemy."},
+            "skill" : {"name":"Cherry on Top!", "tag":"Blast", "description":"Deals Quantum DMG equal to 120%-312% of Qingque's ATK to a single enemy, and deals Quantum DMG equal to 50%-130% of Qingque's ATK to enemies adjacent to it.'Cherry on Top!' cannot recover Skill Points."},
+            "ult" : {"name":"A Scoop of Moon", "tag":"Enhance", "description":"Immediately draws 2 jade tile(s) and increases DMG by 14%-35% until the end of the current turn. This effect can stack up to 4 time(s). The turn will not end after this Skill is used."},
+            "talent" : {"name":"A Quartet? Woo-hoo!", "tag":"AoE", "description":"Deals Quantum DMG equal to 120%-240% of Qingque's ATK to all enemies, and obtain 4 jade tiles of the same suit."},
+            "technique" : {"name":"Celestial Jade", "tag":"Enhance", "description":"When an ally's turn starts, Qingque randomly draws 1 tile from 3 different suits and can hold up to 4 tiles at one time.If Qingque starts her turn with 4 tiles of the same suit, she consumes all tiles to enter the 'Hidden Hand' state.While in this state, Qingque cannot use her Skill again. At the same time, Qingque's ATK increases by 36%-90%, and her Basic ATK 'Flower Pick' is enhanced, becoming 'Cherry on Top!' The 'Hidden Hand' state ends after using 'Cherry on Top!'."}
+        },
+        "eidolons" : {}
+    },
+
+    {
+        "name" : "Tingyun",
+        "id" : "",
+        "description": "",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726",
+        "thumb" : "",
+        "picture" : "",
+        "path" : "",
+        "combat" : "",
+        "faction" : "",
+        "skills" : {
+            "basic" : {"name":"Dislodged", "tag":"Single Target", "description":"Tingyun deals Lightning DMG equal to 50%-130% of her ATK to a single enemy."},
+            "skill" : {"name":"Soothing Melody", "tag":"Support", "description":"Grants a single ally with Benediction to increase their ATK by 25%-62.5%, up to 15%-30% of Tingyun's current ATK.When the ally with Benediction attacks, they will deal Additional Lightning DMG equal to 20%-50% of that ally's ATK for 1 time.Benediction lasts for 3 turn(s) and is only effective on the most recent receiver of Tingyun's Skill."},
+            "ult" : {"name":"Amidst the Rejoicing Clouds", "tag":"Support", "description":"Regenerates 50 Energy for a single ally and increases the target's DMG by 20%-65% for 2 turn(s)."},
+            "talent" : {"name":"Violet Sparknado", "tag":"Enhance", "description":"When an enemy is attacked by Tingyun, the ally with Benediction immediately deals Additional Lightning DMG equal to 30%-75% of that ally's ATK to the same enemy."},
+            "technique" : {"name":"Gentle Breeze", "tag":"Support", "description":"Tingyun immediately regenerates 50 Energy upon using her Technique."}
+        },
+        "eidolons" : {}
+    },
+
+    {
+        "name" : "Jing Yuan",
+        "id" : "",
+        "description": "",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb" : "",
+        "picture" : "",
+        "path" : "",
+        "combat" : "",
+        "faction" : "",
+        "skills" : {
+        },
+        "eidolons" : {}
+    },
+
+    {
+        "name" : "Sushang",
+        "id" : "",
+        "description": "",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726",
+        "thumb" : "",
+        "picture" : "",
+        "path" : "",
+        "combat" : "",
+        "faction" : "",
+        "skills" : {
+            "basic" : {"name":"Cloudfencer Art: Starshine", "tag":"Single Target", "description":"Deals Physical DMG equal to 50%-130% of Sushang's ATK to a single enemy."},
+            "skill" : {"name":"Cloudfencer Art: Mountainfall", "tag":"Single Target", "description":"Deals Physical DMG equal to 105%-262.5 of Sushang's ATK to a single enemy. In addition, there is a 33% chance to trigger Sword Stance on the final hit, dealing Additional Physical DMG equal to 50%-125% of Sushang's ATK to the enemy.If the enemy is inflicted with Weakness Break, Sword Stance is guaranteed to trigger."},
+            "ult" : {"name":"Shape of Taixu: Dawn Herald", "tag":"Single Target", "description":"Deals Physical DMG equal to 192%-384% of Sushang's ATK to a single enemy and immediately Advances her action forward by 100%. In addition, Sushang's ATK increases by 18%-36% and using her Skill has 2 extra chances to trigger Sword Stance for 2 turn(s).Sword Stance triggered from the extra chances deals 50% of the original DMG."},
+            "talent" : {"name":"Dancing Blade", "tag":"Enhance", "description":"When an enemy has their Weakness Broken on the field, Sushang's SPD increases by 15%-22.5% for 2 turn(s)."},
+            "technique" : {"name":"Cloudfencer Art: Warcry", "tag":"", "description":"Immediately attacks the enemy. Upon entering battle, Sushang deals Physical DMG equal to 80% of her ATK to all enemies."}
+        },
+        "eidolons" : {}
+    },
+
+    {
+        "name" : "Yanqing",
+        "id" : "",
+        "description": "",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb" : "",
+        "picture" : "",
+        "path" : "",
+        "combat" : "",
+        "faction" : "",
+        "skills" : {
+            "basic" : {"name":"Frost Thorn", "tag":"Single Target", "description":"Deals Ice DMG equal to 50%-130% of Yanqing's ATK to a single enemy."},
+            "skill" : {"name":"Darting Ironthorn", "tag":"Single Target", "description":"Deals Ice DMG equal to 110%-275% of Yanqing's ATK to a single enemy and activates Soulsteel Sync for 1 turn."},
+            "ult" : {"name":"Amidst the Raining Bliss", "tag":"Single Target", "description":"Increases Yanqing's CRIT Rate by 60%. When Soulsteel Sync is active, increases Yanqing's CRIT DMG by an extra 30%-60%. This buff lasts for one turn. Afterwards, deals Ice DMG equal to 210%-420% of Yanqing's ATK to a single enemy."},
+            "talent" : {"name":"One With the Sword", "tag":"Single Target", "description":"When Soulsteel Sync is active, Yanqing is less likely to be attacked by enemies. Yanqing's CRIT Rate increases by 15%-22.5% and his CRIT DMG increases by 15%-37.5%. After Yanqing attacks an enemy, there is a 50%-65% fixed chance to perform a follow-up attack, dealing Ice DMG equal to 25%-62.5% of Yanqing's ATK to the enemy, which has a 65% base chance to Freeze the enemy for 1 turn.The Frozen target cannot take action and receives Additional Ice DMG equal to 25%-62.5% of Yanqing's ATK at the beginning of each turn.When Yanqing receives DMG, the Soulsteel Sync effect will disappear."},
+            "technique" : {"name":"The One True Sword", "tag":"Enhance", "description":"After using his Technique, at the start of the next battle, Yanqing deals 30% more DMG for 2 turn(s) to enemies whose current HP is 50% or higher."}
+        },
+        "eidolons" : {}
+    },
+
+    {
+        "name" : "Bailu",
+        "id" : "",
+        "description": "",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb" : "",
+        "picture" : "",
+        "path" : "",
+        "combat" : "",
+        "faction" : "",
+        "skills" : {
+            "basic" : {"name":"Diagnostic Kick", "tag":"Single Target", "description":"Deals Lightning DMG equal to 50%-130% of Bailu's ATK to a single enemy."},
+            "skill" : {"name":"Singing Among Clouds", "tag":"Restore", "description":"Heals a single ally for 7.8%-13.65% of Bailu's Max HP plus 78-399.75. Bailu then heals random allies 2 time(s). After each healing, HP restored from the next healing is reduced by 15%."},
+            "ult" : {"name":"Felicitous Thunderleap", "tag":"Restore", "description":"Heals all allies for 9%-15.75% of Bailu's Max HP plus 90-461.25. Bailu applies Invigoration to allies that are not already Invigorated. For those already Invigorated, Bailu extends the duration of their Invigoration by 1 turn. The effect of Invigoration can last for 2 turn(s). This effect cannot stack."},
+            "talent" : {"name":"Gourdful of Elixir", "tag":"Restore", "description":"After an ally with Invigoration is hit, restores the ally's HP for 3.6%-6.3% of Bailu's Max HP plus 36-184.5. This effect can trigger 2 time(s). When an ally receives a killing blow, they will not be knocked down. Bailu immediately heals the ally for 12%-21% of Bailu's Max HP plus 120-615 HP. This effect can be triggered 1 time per battle."},
+            "technique" : {"name":"Saunter in the Rain", "tag":"Support", "description":"After using Technique, at the start of the next battle, all allies are granted Invigoration for 2 turn(s)."}
+        },
+        "eidolons" : {}
+    },
+
+    {
+        "name" : "Silver Wolf",
+        "id" : "",
+        "description": "",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb" : "",
+        "picture" : "",
+        "path" : "",
+        "combat" : "",
+        "faction" : "",
+        "skills" : {
+        },
+        "eidolons" : {}
+    },
+
+    {
+        "name" : "Luocha",
+        "id" : "",
+        "description": "",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb" : "",
+        "picture" : "",
+        "path" : "",
+        "combat" : "",
+        "faction" : "",
+        "skills" : {
+        },
+        "eidolons" : {}
+    },
+
+    {
+        "name" : "Yukong",
+        "id" : "",
+        "description": "",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726",
+        "thumb" : "",
+        "picture" : "",
+        "path" : "",
+        "combat" : "",
+        "faction" : "",
+        "skills" : {
+        },
+        "eidolons" : {}
+    }
+]
