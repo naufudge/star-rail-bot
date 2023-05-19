@@ -77,7 +77,8 @@ def run_discord_bot():
         help_embed = discord.Embed(title="__Help__", color=random.choice(colors) ,description="Hi Trailblazer! How can Pom-Pom help you today?\n")
         help_embed.add_field(name="``/character <character name>``", value="Gives you some information about a specific character.", inline=False)
         help_embed.add_field(name="``/skills <character name>``", value="Gives you information regarding the skills of a specific character.", inline=False)
-        help_embed.set_footer(text="Made with love by Nauf :)")
+        help_embed.add_field(name="``/light_cone <light cone name>``", value="Gives you information regarding a specific light cone.", inline=False)
+        help_embed.set_footer(text="Made with love by Nauf#0709 :)")
         await interaction.response.send_message(embed=help_embed)
 
     # Character finder command
@@ -94,9 +95,9 @@ def run_discord_bot():
                 except KeyError:
                     print("Character skills not found")
 
-        colors = [0xc71e1e, 0xd83131, 0xc97f7f, 0x9a0000, 0x0f0707]
+        cone_colors = {5: 0x0062cc, 7: 0xa000c8, 9: 0xedcb01}
         # Character information embed below
-        info_embed = discord.Embed(title=f"__{chara_info['name']}__", description=f"{str(chara_info['description'])}", color=random.choice(colors))
+        info_embed = discord.Embed(title=f"__{chara_info['name']}__", description=f"{str(chara_info['description'])}", color=cone_colors[len(chara_info['rarity'])])
         info_embed.set_thumbnail(url=chara_info['thumb'])
         info_embed.add_field(name="Rarity:", value=f"{str(chara_info['rarity'])}", inline=False)
         # info_embed.add_field(name="Description:", value=f"{str(chara_info['description'])}", inline=False)
@@ -106,7 +107,7 @@ def run_discord_bot():
         info_embed.set_image(url=chara_info['picture'])
 
         # Character Skills embed below
-        skills_embed = discord.Embed(title=f"{chara_info['name']}", color=random.choice(colors))
+        skills_embed = discord.Embed(title=f"{chara_info['name']}", color=cone_colors[len(chara_info['rarity'])])
         skills_embed.set_thumbnail(url=chara_info['thumb'])
         if chara_skills['basic']['name'] == "":
             skills_embed.add_field(name="Skills not found", value=f"Information regarding {chara_info['name']}'s skills is not out yet :(")
@@ -134,8 +135,8 @@ def run_discord_bot():
                 chara_info = each
                 chara_skills = chara_info['skills']
 
-        colors = [0xc71e1e, 0xd83131, 0xc97f7f, 0x9a0000, 0x0f0707]
-        skills_embed = discord.Embed(title=f"{chara_info['name']}", color=random.choice(colors))
+        cone_colors = {5: 0x0062cc, 7: 0xa000c8, 9: 0xedcb01}
+        skills_embed = discord.Embed(title=f"{chara_info['name']}", color=cone_colors[len(chara_info['rarity'])])
         skills_embed.set_thumbnail(url=chara_info['thumb'])
         if chara_skills['basic']['name'] == "":
             skills_embed.add_field(name="Skills not found", value="Information regarding this character's skills is not out yet :(")

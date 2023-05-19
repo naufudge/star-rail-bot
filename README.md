@@ -6,7 +6,7 @@ This is just a discord bot that provides various information related to Honkai: 
 ### Commands:
 - `/help` -> Lists all commands
 - `/character [character name]` -> Lookup any playable character of Star Rail!
-- `/skills` -> Get all details regarding the skills of a character
+- `/skills [character name]` -> Get all details regarding the skills of a character
 - `/light_cone [light cone name]` -> Lookup any useable light cone of Star Rail (Use without light cone name to see the names of all the light cones)
 
 #
