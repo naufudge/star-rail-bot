@@ -1,5 +1,5 @@
 from typing import List, Optional
-import discord, random, json, httpx
+import discord, random, json
 from discord import app_commands
 from discord.ext import commands
 from difflib import SequenceMatcher
@@ -35,6 +35,37 @@ def similarity_sorter(search_results, keyword):
 
     return sorted_results
 
+def seperate_lcs(lcs):
+    """
+    Seperates all the light cones into a dictionary, with each Path as key and the list of Cones of that path as it's value
+    Returns a dictionary.
+    """
+    paths = {
+    'The Destruction' : [],
+    'The Abundance' : [],
+    'The Hunt' : [],
+    'The Nihility' : [],
+    'The Erudition' : [],
+    'The Preservation' : [],
+    'The Harmony' : []
+    }
+    for cone in lcs:
+        cone_path = (' ').join(cone['path'].split()[0:2])
+        paths[cone_path].append(cone['name'])
+
+    return paths
+
+path_and_cones = seperate_lcs(light_cones)
+path_emojis = {
+    'The Destruction' : '<:destruction:1108984285060407396>',
+    'The Abundance' : '<:abundance:1106840945418313808>',
+    'The Hunt' : '<:hunt:1108984298977116203>',
+    'The Nihility' : '<:nihility:1108984309395763260>',
+    'The Erudition' : '<:erudition:1108984287455359109>',
+    'The Preservation' : '<:preservation:1108984312969306122>',
+    'The Harmony' : '<:harmony:1108984292312358972>'
+}
+
 intents = discord.Intents.default()
 intents.presences = True
 intents.message_content = True
@@ -63,11 +94,29 @@ class InfoView(discord.ui.View):
     def initial(self) -> discord.Embed:
         return self._initial
 
+class LightConeSelect(discord.ui.Select):
+    def __init__(self, options):
+        super().__init__(placeholder="Choose a Path", min_values=1, max_values=1, options=options)
+
+    async def callback(self, interaction: discord.Interaction):
+        selection = self.values[0]
+        colors = [0xc71e1e, 0xd83131, 0xc97f7f, 0x9a0000, 0x0f0707]
+        cones = "\n".join(path_and_cones[selection])
+        new_title = f"{selection} {path_emojis[selection]}"
+        emb = discord.Embed(title=new_title, description=cones, color=random.choice(colors))
+        await interaction.response.edit_message(embed=emb)
+
+class LightConeView(discord.ui.View):
+    def __init__(self, options):
+        super().__init__()
+        self.add_item(LightConeSelect(options))
+
+
 def run_discord_bot():
     with open('config.json', 'r') as f:
         config = json.load(f)
+        TOKEN = config['TOKEN']
 
-    TOKEN = config['TOKEN']
     client = commands.Bot(command_prefix='$', intents=intents, help_command=None)
 
     # Help Command
@@ -149,6 +198,7 @@ def run_discord_bot():
 
         await interaction.response.send_message(embed=skills_embed)
 
+    # Light cones command
     @client.tree.command(name="light_cone", description="Look up any light cone you want")
     @app_commands.describe(name="Enter the name of the light cone")
     async def light_cones_info(interaction: discord.Interaction, name: Optional[str]):
@@ -170,22 +220,26 @@ def run_discord_bot():
             cone_embed.set_footer(text="If this isn't the light cone you are looking for, use just /light_cone to look up all light cones!")
             await interaction.response.send_message(embed=cone_embed)
         else:
-            emb = discord.Embed(title="Light Cones", description="Lookup any light cone from below", color=random.choice(colors))
-            emb.add_field(name="Available light cones", value=', '.join(cone_names[0:26]))
-            emb.set_footer(text="This command is under construction!")
-            await interaction.response.send_message(embed=emb)
+            options = []
+            path_list = sorted(list(path_and_cones))
+            for path in path_list:
+                options.append(
+                    discord.SelectOption(label=path, value=path, emoji=path_emojis[path])
+                )
+            emb = discord.Embed(title="Light Cones", description="Lookup any light cone from any path below", color=random.choice(colors))
+
+            light_cone_view = LightConeView(options)
+            await interaction.response.send_message(embed=emb, view=light_cone_view)
 
 
     @client.event
     async def on_ready():
-        print(f'{client.user.name} has connected to Discord!')
-
+        print(f'{client.user.name} has connected to Discord!, and now on {len(client.guilds)} servers!')
         try:
             synced = await client.tree.sync()
             print(f"Synced {len(synced)} command(s)")
         except Exception as e:
             print(e)
-
         status = discord.Status.online
         await client.change_presence(activity=discord.Game(name="Star Rail ✦"), status=status)
 
