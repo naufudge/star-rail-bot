@@ -4,7 +4,7 @@ This is just a discord bot that provides various information related to Honkai: 
 <a href="https://discord.com/api/oauth2/authorize?client_id=1106848782022344765&permissions=274878187520&scope=bot">Invite the bot to your server!</a>
 
 ### Commands:
-- `/help` -> Lists all commands or just help for a specific command (help for specific commands not available yet)
+- `/help` -> Lists all commands
 - `/character` -> Lookup any playable character of Star Rail!
 - `/skills` -> Get all details regarding the skills of a character
 
