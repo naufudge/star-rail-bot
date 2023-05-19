@@ -6,6 +6,8 @@ from difflib import SequenceMatcher
 
 with open('data/characters.json', 'r') as f:
     chara_file = json.load(f)
+with open('data/light_cones.json', 'r') as f:
+    light_cones = json.load(f)
 
 def similar(a, b):
     """
@@ -109,11 +111,11 @@ def run_discord_bot():
         if chara_skills['basic']['name'] == "":
             skills_embed.add_field(name="Skills not found", value=f"Information regarding {chara_info['name']}'s skills is not out yet :(")
         else:
-            skills_embed.add_field(name="__Basic ATK__", value=f"**Name:** *{chara_skills['basic']['name']}*\n **Tag:** {chara_skills['basic']['tag']}\n **Description:** {chara_skills['basic']['description']}", inline=False)
-            skills_embed.add_field(name="__Skill__", value=f"**Name:** *{chara_skills['skill']['name']}*\n **Tag:** {chara_skills['skill']['tag']}\n **Description:** {chara_skills['skill']['description']}", inline=False)
-            skills_embed.add_field(name="__Ultimate__", value=f"**Name:** *{chara_skills['ult']['name']}*\n **Tag:** {chara_skills['ult']['tag']}\n **Description:** {chara_skills['ult']['description']}", inline=False)
-            skills_embed.add_field(name="__Talent__", value=f"**Name:** *{chara_skills['talent']['name']}*\n **Tag:** {chara_skills['talent']['tag']}\n **Description:** {chara_skills['talent']['description']}", inline=False)
-            skills_embed.add_field(name="__Technique__", value=f"**Name:** *{chara_skills['technique']['name']}*\n **Tag:** {chara_skills['technique']['tag']}\n **Description:** {chara_skills['technique']['description']}", inline=False)
+            skills_embed.add_field(name="__Basic ATK__", value=f"**Name:** *{chara_skills['basic']['name']}*\n**Tag:** {chara_skills['basic']['tag']}\n**Description:** {chara_skills['basic']['description']}", inline=False)
+            skills_embed.add_field(name="__Skill__", value=f"**Name:** *{chara_skills['skill']['name']}*\n**Tag:** {chara_skills['skill']['tag']}\n**Description:** {chara_skills['skill']['description']}", inline=False)
+            skills_embed.add_field(name="__Ultimate__", value=f"**Name:** *{chara_skills['ult']['name']}*\n**Tag:** {chara_skills['ult']['tag']}\n**Description:** {chara_skills['ult']['description']}", inline=False)
+            skills_embed.add_field(name="__Talent__", value=f"**Name:** *{chara_skills['talent']['name']}*\n**Tag:** {chara_skills['talent']['tag']}\n **Description:** {chara_skills['talent']['description']}", inline=False)
+            skills_embed.add_field(name="__Technique__", value=f"**Name:** *{chara_skills['technique']['name']}*\n**Tag:** {chara_skills['technique']['tag']}\n**Description:** {chara_skills['technique']['description']}", inline=False)
 
         embeds = [info_embed, skills_embed]
 
@@ -138,13 +140,39 @@ def run_discord_bot():
         if chara_skills['basic']['name'] == "":
             skills_embed.add_field(name="Skills not found", value="Information regarding this character's skills is not out yet :(")
         else:
-            skills_embed.add_field(name="__Basic ATK__", value=f"**Name:** *{chara_skills['basic']['name']}*\n **Tag:** {chara_skills['basic']['tag']}\n **Description:** {chara_skills['basic']['description']}", inline=False)
-            skills_embed.add_field(name="__Skill__", value=f"**Name:** *{chara_skills['skill']['name']}*\n **Tag:** {chara_skills['skill']['tag']}\n **Description:** {chara_skills['skill']['description']}", inline=False)
-            skills_embed.add_field(name="__Ultimate__", value=f"**Name:** *{chara_skills['ult']['name']}*\n **Tag:** {chara_skills['ult']['tag']}\n **Description:** {chara_skills['ult']['description']}", inline=False)
-            skills_embed.add_field(name="__Talent__", value=f"**Name:** *{chara_skills['talent']['name']}*\n **Tag:** {chara_skills['talent']['tag']}\n **Description:** {chara_skills['talent']['description']}", inline=False)
-            skills_embed.add_field(name="__Technique__", value=f"**Name:** *{chara_skills['technique']['name']}*\n **Tag:** {chara_skills['technique']['tag']}\n **Description:** {chara_skills['technique']['description']}", inline=False)
+            skills_embed.add_field(name="__Basic ATK__", value=f"**Name:** *{chara_skills['basic']['name']}*\n**Tag:** {chara_skills['basic']['tag']}\n**Description:** {chara_skills['basic']['description']}", inline=False)
+            skills_embed.add_field(name="__Skill__", value=f"**Name:** *{chara_skills['skill']['name']}*\n**Tag:** {chara_skills['skill']['tag']}\n**Description:** {chara_skills['skill']['description']}", inline=False)
+            skills_embed.add_field(name="__Ultimate__", value=f"**Name:** *{chara_skills['ult']['name']}*\n**Tag:** {chara_skills['ult']['tag']}\n**Description:** {chara_skills['ult']['description']}", inline=False)
+            skills_embed.add_field(name="__Talent__", value=f"**Name:** *{chara_skills['talent']['name']}*\n**Tag:** {chara_skills['talent']['tag']}\n**Description:** {chara_skills['talent']['description']}", inline=False)
+            skills_embed.add_field(name="__Technique__", value=f"**Name:** *{chara_skills['technique']['name']}*\n**Tag:** {chara_skills['technique']['tag']}\n**Description:** {chara_skills['technique']['description']}", inline=False)
 
         await interaction.response.send_message(embed=skills_embed)
+
+    @client.tree.command(name="light_cone", description="Look up any light cone you want")
+    @app_commands.describe(name="Enter the name of the light cone")
+    async def light_cones_info(interaction: discord.Interaction, name: str): # Optional[str]
+        cone_names = [x['name'] for x in light_cones]
+        colors = [0xc71e1e, 0xd83131, 0xc97f7f, 0x9a0000, 0x0f0707]
+        if name:
+            result = similarity_sorter(cone_names, name)[0]
+            for each in light_cones:
+                if each['name'] == result:
+                    light_cone = each
+
+            cone_colors = {5: 0x0062cc, 7: 0xa000c8, 9: 0xedcb01}
+            cone_embed = discord.Embed(title=light_cone['name'], description=f"*{light_cone['description']}*", color=cone_colors[len(light_cone['rarity'])])
+            cone_embed.set_thumbnail(url=light_cone['thumb'])
+            cone_embed.set_image(url=light_cone['picture'])
+            cone_embed.add_field(name="Path", value=light_cone['path'])
+            cone_embed.add_field(name="Rarity", value=light_cone['rarity'])
+            cone_embed.add_field(name="Effect", value=light_cone['effect'], inline=False)
+            cone_embed.set_footer(text="If this isn't the light cone you are looking for, use just /light_cone to look up all light cones!")
+            await interaction.response.send_message(embed=cone_embed)
+        else:
+            emb = discord.Embed(title="Light Cones", description="Lookup any light cone from below", color=random.choice(colors))
+            emb.add_field(name="Available light cones", value=', '.join(cone_names[0:26]))
+            emb.set_footer(text="This command is under construction!")
+            await interaction.response.send_message(embed=emb)
 
 
     @client.event

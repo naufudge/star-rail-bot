@@ -404,11 +404,11 @@
         "combat" : "Lightning",
         "faction" : "Xianzhou Luofu",
         "skills" : {
-            "basic" : {"name":"", "tag":"", "description":""},
-            "skill" : {"name":"", "tag":"", "description":""},
-            "ult" : {"name":"", "tag":"", "description":""},
-            "talent" : {"name":"", "tag":"", "description":""},
-            "technique" : {"name":"", "tag":"", "description":""}
+            "basic" : {"name":"Glistening Light", "tag":"Single Target", "description":"Jing Yuan deals Lightning DMG equal to 50%�130% of his ATK to a single enemy."},
+            "skill" : {"name":"Rifting Zenith", "tag":"AoE", "description":"Deals Lightning DMG equal to 50%�125% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 2 for the next turn."},
+            "ult" : {"name":"Lightbringer", "tag":"AoE", "description":"Deals Lightning DMG equal to 120%�240% of Jing Yuan's ATK to all enemies and increases Lightning-Lord's Hits Per Action by 3 for the next turn."},
+            "talent" : {"name":"Prana Extirpated", "tag":"Bounce", "description":"Summons Lightning-Lord at the start of the battle. Lightning-Lord has 60 base SPD and 3 base Hits Per Action. When the Lightning-Lord takes action, its hits are considered as follow-up attacks, with each hit dealing Lightning DMG equal to 33%�82.5% of Jing Yuan's ATK to a single enemy, and enemies adjacent to it also receive Lightning DMG equal to 25% of the DMG dealt to the target enemy.The Lightning-Lord's Hits Per Action can reach a max of 10. Every time Lightning-Lord's Hits Per Action increases by 1, its SPD increases by 10. After the Lightning-Lord's action ends, its SPD and Hits Per Action return to their base values.When Jing Yuan is knocked down, the Lightning-Lord will disappear.When Jing Yuan is affected by Crowd Control debuff, the Lightning-Lord is unable to take action."},
+            "technique" : {"name":"Spirit Invocation", "tag":"Enhance", "description":"After using Technique, at the start of the next battle, the Lightning-Lord's Hits Per Action in the first turn increases by 3."}
         },
         "eidolons" : {}
     },
