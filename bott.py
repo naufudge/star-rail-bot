@@ -150,7 +150,7 @@ def run_discord_bot():
 
     @client.tree.command(name="light_cone", description="Look up any light cone you want")
     @app_commands.describe(name="Enter the name of the light cone")
-    async def light_cones_info(interaction: discord.Interaction, name: str): # Optional[str]
+    async def light_cones_info(interaction: discord.Interaction, name: Optional[str]):
         cone_names = [x['name'] for x in light_cones]
         colors = [0xc71e1e, 0xd83131, 0xc97f7f, 0x9a0000, 0x0f0707]
         if name:
