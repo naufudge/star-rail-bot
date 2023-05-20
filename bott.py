@@ -79,8 +79,8 @@ class InfoView(discord.ui.View):
     @discord.ui.select(
         placeholder="Choose an option",
         options=[
-            discord.SelectOption(label="Character Information", value="1", description="Displays general information of a character"),
-            discord.SelectOption(label="Character Skills", value="2", description="Displays information of character's skills")
+            discord.SelectOption(label="Character Information", value="1", description=None),
+            discord.SelectOption(label="Character Skills", value="2", description=None)
         ]
     )
     async def select_callback(self, interaction: discord.Interaction, select: discord.ui.Select):
@@ -102,7 +102,7 @@ class LightConeSelect(discord.ui.Select):
         selection = self.values[0]
         colors = [0xc71e1e, 0xd83131, 0xc97f7f, 0x9a0000, 0x0f0707]
         cones = "\n".join(path_and_cones[selection])
-        new_title = f"{selection} {path_emojis[selection]}"
+        new_title = f"Light Cones: {selection} {path_emojis[selection]}"
         emb = discord.Embed(title=new_title, description=cones, color=random.choice(colors))
         await interaction.response.edit_message(embed=emb)
 
@@ -131,7 +131,7 @@ def run_discord_bot():
         await interaction.response.send_message(embed=help_embed)
 
     # Character finder command
-    @client.tree.command(name="character", description="Gives you some information about a specific character.")
+    @client.tree.command(name="character", description="Search for a specific character.")
     @app_commands.describe(chara_name="Enter the name of the character")
     async def chara_search(interaction: discord.Interaction, chara_name: str):
         names = [x['name'] for x in chara_file]
@@ -173,7 +173,7 @@ def run_discord_bot():
         await interaction.response.send_message(embed=info_view.initial, view=info_view)
 
     # Character skills command
-    @client.tree.command(name="skills", description="Gives you the information regarding the skills of a specific character.")
+    @client.tree.command(name="skills", description="Gives you information regarding the skills of a specific character.")
     @app_commands.describe(chara_name="Enter the name of the character")
     async def skill_search(interaction: discord.Interaction, chara_name: str):
         names = [x['name'] for x in chara_file]
@@ -231,6 +231,11 @@ def run_discord_bot():
             light_cone_view = LightConeView(options)
             await interaction.response.send_message(embed=emb, view=light_cone_view)
 
+
+    @client.command(name="check", pass_context=True)
+    @commands.is_owner()
+    async def check(ctx):
+        await ctx.send(f"Pom-Pom is now on {len(client.guilds)} servers!")
 
     @client.event
     async def on_ready():
