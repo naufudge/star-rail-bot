@@ -3,11 +3,12 @@ import discord, random, json
 from discord import app_commands
 from discord.ext import commands
 from difflib import SequenceMatcher
+from pom_views import *
 
 with open('data/characters.json', 'r') as f:
     chara_file = json.load(f)
-with open('data/light_cones.json', 'r') as f:
-    light_cones = json.load(f)
+with open('data/relics.json', 'r') as f:
+    relics = json.load(f)
 
 def similar(a, b):
     """
@@ -35,27 +36,6 @@ def similarity_sorter(search_results, keyword):
 
     return sorted_results
 
-def seperate_lcs(lcs):
-    """
-    Seperates all the light cones into a dictionary, with each Path as key and the list of Cones of that path as it's value
-    Returns a dictionary.
-    """
-    paths = {
-    'The Destruction' : [],
-    'The Abundance' : [],
-    'The Hunt' : [],
-    'The Nihility' : [],
-    'The Erudition' : [],
-    'The Preservation' : [],
-    'The Harmony' : []
-    }
-    for cone in lcs:
-        cone_path = (' ').join(cone['path'].split()[0:2])
-        paths[cone_path].append(cone['name'])
-
-    return paths
-
-path_and_cones = seperate_lcs(light_cones)
 path_emojis = {
     'The Destruction' : '<:destruction:1108984285060407396>',
     'The Abundance' : '<:abundance:1106840945418313808>',
@@ -69,48 +49,6 @@ path_emojis = {
 intents = discord.Intents.default()
 intents.presences = True
 intents.message_content = True
-
-class InfoView(discord.ui.View):
-    def __init__(self, embeds: List[discord.Embed]):
-        super().__init__(timeout=None)
-        self._embeds = embeds
-        self._initial = embeds[0]
-
-    @discord.ui.select(
-        placeholder="Choose an option",
-        options=[
-            discord.SelectOption(label="Character Information", value="1", description=None),
-            discord.SelectOption(label="Character Skills", value="2", description=None)
-        ]
-    )
-    async def select_callback(self, interaction: discord.Interaction, select: discord.ui.Select):
-        select.disabled = False
-        if select.values[0] == "1":
-            await interaction.response.edit_message(embed=self._embeds[0])
-        elif select.values[0] == "2":
-            await interaction.response.edit_message(embed=self._embeds[1])
-
-    @property
-    def initial(self) -> discord.Embed:
-        return self._initial
-
-class LightConeSelect(discord.ui.Select):
-    def __init__(self, options):
-        super().__init__(placeholder="Choose a Path", min_values=1, max_values=1, options=options)
-
-    async def callback(self, interaction: discord.Interaction):
-        selection = self.values[0]
-        colors = [0xc71e1e, 0xd83131, 0xc97f7f, 0x9a0000, 0x0f0707]
-        cones = "\n".join(path_and_cones[selection])
-        new_title = f"Light Cones: {selection} {path_emojis[selection]}"
-        emb = discord.Embed(title=new_title, description=cones, color=random.choice(colors))
-        await interaction.response.edit_message(embed=emb)
-
-class LightConeView(discord.ui.View):
-    def __init__(self, options):
-        super().__init__()
-        self.add_item(LightConeSelect(options))
-
 
 def run_discord_bot():
     with open('config.json', 'r') as f:
@@ -230,6 +168,35 @@ def run_discord_bot():
 
             light_cone_view = LightConeView(options)
             await interaction.response.send_message(embed=emb, view=light_cone_view)
+
+    # Relics command
+    @client.tree.command(name="relics", description="Look up any available Relic or Planar Ornament")
+    @app_commands.describe(name="Enter the name of a Relic or Planar Ornament")
+    async def relics_info(interaction: discord.Interaction, name: Optional[str]):
+        relics_names = [x['name'] for x in relics]
+        colors = [0xc71e1e, 0xd83131, 0xc97f7f, 0x9a0000, 0x0f0707]
+        if name:
+            result = similarity_sorter(relics_names, name)[0]
+            relic_data = [relic for relic in relics if relic['name'] == result][0]
+            relic_embed = discord.Embed(title=relic_data['name'], color=random.choice(colors))
+            relic_embed.set_thumbnail(url=relic_data['thumb'])
+            relic_embed.add_field(name="2 Piece:", value=relic_data['2pc'], inline=False)
+            if relic_data['4pc'] != "":
+                relic_embed.add_field(name="4 Piece:", value=relic_data['4pc'], inline=False)
+
+            await interaction.response.send_message(embed=relic_embed)
+        else:
+            only_relics = [x['name'] for x in relics if x['type'] == 'Relic']
+            only_planar = [x['name'] for x in relics if x['type'] != 'Relic']
+            relics_embed = discord.Embed(title="Relics", description="\n".join(sorted(only_relics)), color=random.choice(colors))
+            relics_embed.set_footer(text=f"There's currently a total of {len(only_relics)} Relics available in-game")
+            planars_embed = discord.Embed(title="Planar Ornaments", description="\n".join(sorted(only_planar)), color=random.choice(colors))
+            planars_embed.set_footer(text=f"There's currently a total of {len(only_planar)} Planar Ornaments available in-game")
+
+            options = [relics_embed, planars_embed]
+            relic_view = RelicsView(options)
+
+            await interaction.response.send_message(embed=relic_view.initial, view=relic_view)
 
 
     @client.command(name="check", pass_context=True)

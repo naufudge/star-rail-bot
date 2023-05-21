@@ -1,0 +1,142 @@
+[
+    {
+        "name" : "Passerby of Wandering Cloud",
+        "type" : "Relic",
+        "2pc" : "Increases Outgoing Healing by 10%.",
+        "4pc" : "At the start of the battle, immediately regenerates 1 Skill Point.",
+        "thumb" : "https://static.wikia.nocookie.net/houkai-star-rail/images/a/aa/Item_Passerby_of_Wandering_Cloud.png"
+    },
+    {
+        "name" : "Musketeer of Wild Wheat",
+        "type" : "Relic",
+        "2pc" : "ATK increases by 10%.",
+        "4pc" : "The wearer's SPD increases by 6% and Basic ATK DMG increases by 10%.",
+        "thumb" : "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fc/Item_Musketeer_of_Wild_Wheat.png/"
+    },
+    {
+        "name" : "Knight of Purity Palace",
+        "type" : "Relic",
+        "2pc" : "Increases DEF by 12%.",
+        "4pc" : "Increases the max DMG that can be absorbed by the shield created by the wearer by 20%.",
+        "thumb" : "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1f/Item_Knight_of_Purity_Palace.png/"
+    },
+    {
+        "name" : "Hunter of Glacial Forest",
+        "type" : "Relic",
+        "2pc" : "Increases Ice DMG by 10%.",
+        "4pc" : "After the wearer unleashes their Ultimate, their CRIT DMG increases by 25% for 2 turn(s).",
+        "thumb" : "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e8/Item_Hunter_of_Glacial_Forest.png/"
+    },
+    {
+        "name" : "Champion of Streetwise Boxing",
+        "type" : "Relic",
+        "2pc" : "Increases Physical DMG by 10%.",
+        "4pc" : "After the wearer attacks or is hit, their ATK increases by 5% for the rest of the battle. This effect can stack up to 5 time(s).",
+        "thumb" : "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b9/Item_Champion_of_Streetwise_Boxing.png/"
+    },
+    {
+        "name" : "Guard of Wuthering Snow",
+        "type" : "Relic",
+        "2pc" : "Reduces DMG taken by 8%.",
+        "4pc" : "At the beginning of the turn, if the wearer's HP is equal to or less than 50% of their Max HP, restores HP equal to 8% of their Max HP and regenerates 5 Energy.",
+        "thumb" : "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d8/Item_Guard_of_Wuthering_Snow.png/"
+    },
+    {
+        "name" : "Firesmith of Lava-Forging",
+        "type" : "Relic",
+        "2pc" : "Increases Fire DMG by 10%.",
+        "4pc" : "Increases the wearer's Skill DMG by 12%. After unleashing Ultimate, increases the wearer's Fire DMG by 12% for next attack.",
+        "thumb" : "https://static.wikia.nocookie.net/houkai-star-rail/images/9/96/Item_Firesmith_of_Lava-Forging.png/"
+    },
+    {
+        "name" : "Genius of Brilliant Stars",
+        "type" : "Relic",
+        "2pc" : "Increases Quantum DMG by 10%.",
+        "4pc" : "When the wearer deals DMG to the target enemy, ignores 10% DEF. If the target enemy has Quantum Weakness, the wearer additionally ignores 10% DEF.",
+        "thumb" : "https://static.wikia.nocookie.net/houkai-star-rail/images/a/aa/Item_Genius_of_Brilliant_Stars.png/"
+    },
+    {
+        "name" : "Band of Sizzling Thunder",
+        "type" : "Relic",
+        "2pc" : "Increases Lightning DMG by 10%.",
+        "4pc" : "When the wearer uses Skill, increases the wearer's ATK by 25% for 1 turn(s).",
+        "thumb" : "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6e/Item_Band_of_Sizzling_Thunder.png/"
+    },
+    {
+        "name" : "Eagle of Twilight Line",
+        "type" : "Relic",
+        "2pc" : "Increases Wind DMG by 10%.",
+        "4pc" : "After the wearer uses Ultimate, their action is Advanced Forward by 25%.",
+        "thumb" : "https://static.wikia.nocookie.net/houkai-star-rail/images/3/3f/Item_Eagle_of_Twilight_Line.png/"
+    },
+    {
+        "name" : "Thief of Shooting Meteor",
+        "type" : "Relic",
+        "2pc" : "Increases Break Effect by 16%.",
+        "4pc" : "Increases the wearer's Break Effect by 16%. When the wearer inflicts Weakness Break on an enemy, regenerates 3 Energy.",
+        "thumb" : "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9c/Item_Thief_of_Shooting_Meteor.png/"
+    },
+    {
+        "name" : "Wastelander of Banditry Desert",
+        "type" : "Relic",
+        "2pc" : "Increases Imaginary DMG by 10%.",
+        "4pc" : "When attacking debuffed enemies, the wearer's CRIT Rate increases by 10%. If the enemy is Imprisoned, then the wearer's CRIT DMG increases by 20%.",
+        "thumb" : "https://static.wikia.nocookie.net/houkai-star-rail/images/a/aa/Item_Wastelander_of_Banditry_Desert.png/"
+    },
+    {
+        "name" : "Belobog of the Architects",
+        "type" : "Planar Ornaments",
+        "2pc" : "Increases the wearer's DEF by 15%. When the wearer's Effect Hit Rate is 50% or higher, the wearer gains an extra 15% DEF.",
+        "4pc" : "",
+        "thumb" : "https://static.wikia.nocookie.net/houkai-star-rail/images/9/99/Item_Belobog_of_the_Architects.png/"
+    },
+    {
+        "name" : "Celestial Differentiator",
+        "type" : "Planar Ornaments",
+        "2pc" : "Increases the wearer's CRIT DMG by 16%. When the wearer's current CRIT DMG reaches 120% or higher, after entering battle, the wearer's CRIT Rate increases by 60% until the end of their first attack.",
+        "4pc" : "",
+        "thumb" : "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c2/Item_Celestial_Differentiator.png/"
+    },
+    {
+        "name" : "Fleet of the Ageless",
+        "type" : "Planar Ornaments",
+        "2pc" : "Increases the wearer's Max HP by 12%. When the wearer's SPD reaches 120 or higher, all allies' ATK increases by 8%.",
+        "4pc" : "",
+        "thumb" : "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a1/Item_Fleet_of_the_Ageless.png/"
+    },
+    {
+        "name" : "Inert Salsotto",
+        "type" : "Planar Ornaments",
+        "2pc" : "Increases the wearer's CRIT Rate by 8%. When the wearer's current CRIT Rate reaches 50% or higher, the wearer's Ultimate and follow-up attack DMG increases by 15%.",
+        "4pc" : "",
+        "thumb" : "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f5/Item_Inert_Salsotto.png/"
+    },
+    {
+        "name" : "Pan-Galactic Commercial Enterprise",
+        "type" : "Planar Ornaments",
+        "2pc" : "Increases the wearer's Effect Hit Rate by 10%. Meanwhile, the wearer's ATK increases by an amount that is equal to 25% of Effect Hit Rate, up to a maximum of 25%.",
+        "4pc" : "",
+        "thumb" : "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a2/Item_Pan-Galactic_Commercial_Enterprise.png/"
+    },
+    {
+        "name" : "Space Sealing Station",
+        "type" : "Planar Ornaments",
+        "2pc" : "Increases the wearer's ATK by 12%. When the wearer's SPD reaches 120 or higher, the wearer's ATK increases by another 12%.",
+        "4pc" : "",
+        "thumb" : "https://static.wikia.nocookie.net/houkai-star-rail/images/7/78/Item_Space_Sealing_Station.png/"
+    },
+    {
+        "name" : "Sprightly Vonwacq",
+        "type" : "Planar Ornaments",
+        "2pc" : "Increases the wearer's Energy Regeneration Rate by 5%. When the wearer's SPD reaches 120 or higher, the wearer's action is Advanced Forward by 50% immediately upon entering battle.",
+        "4pc" : "",
+        "thumb" : "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b6/Item_Sprightly_Vonwacq.png/"
+    },
+    {
+        "name" : "Talia: Kingdom of Banditry",
+        "type" : "Planar Ornaments",
+        "2pc" : "Increases the wearer's Break Effect by 20%. When the wearer's SPD reaches 145 or higher, the wearer's Break Effect increases by an extra 28%.",
+        "4pc" : "",
+        "thumb" : "https://static.wikia.nocookie.net/houkai-star-rail/images/9/92/Item_Talia_Kingdom_of_Banditry.png/"
+    }
+]
