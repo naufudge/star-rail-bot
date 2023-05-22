@@ -8,7 +8,7 @@ class PomPomClient(commands.Bot):
         intents.message_content = True
         self.poms = ['poms.pom1', 'poms.pom2', 'poms.pom3']
 
-        super().__init__(command_prefix="pom$", intents=intents)
+        super().__init__(command_prefix="pom$", intents=intents, help_command=None)
 
     async def setup_hook(self):
         for ext in self.poms:
