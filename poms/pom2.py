@@ -1,7 +1,7 @@
 import discord
 from discord import app_commands
 from discord.ext import commands
-from poms.pom_views import InfoView
+from poms.pom_views import InfoView, combat_emojis, path_emojis
 from poms.pom_funcs import similarity_sorter, chara_file, best_light_cones
 
 
@@ -24,8 +24,10 @@ class pom2(commands.Cog):
         info_embed = discord.Embed(title=f"__{chara_info['name']}__", description=f"{str(chara_info['description'])}", color=cone_colors[len(chara_info['rarity'])])
         info_embed.set_thumbnail(url=chara_info['thumb'])
         info_embed.add_field(name="Rarity:", value=f"{str(chara_info['rarity'])}", inline=False)
-        info_embed.add_field(name="Combat Type:", value=f"*{str(chara_info['combat'])}*", inline=True)
-        info_embed.add_field(name="Path:", value=f"*{str(chara_info['path'])}*", inline=True)
+        combat_type = str(chara_info['combat'])
+        info_embed.add_field(name="Combat Type:", value=f"*{combat_type} {combat_emojis[combat_type]}*", inline=True)
+        path = str(chara_info['path'])
+        info_embed.add_field(name="Path:", value=f"*{path} {path_emojis[path]}*", inline=True)
         info_embed.add_field(name="Faction:", value=f"*{str(chara_info['faction'])}*", inline=False)
         info_embed.set_image(url=chara_info['picture'])
 

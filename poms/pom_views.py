@@ -2,10 +2,8 @@ import discord
 import random
 import json
 from typing import List
-from poms.pom_funcs import seperate_lcs
+from poms.pom_funcs import seperate_lcs, light_cones
 
-with open('data/light_cones.json', 'r') as f:
-    light_cones = json.load(f)
 
 path_emojis = {
     'The Destruction' : '<:destruction:1108984285060407396>',
@@ -15,6 +13,16 @@ path_emojis = {
     'The Erudition' : '<:erudition:1108984287455359109>',
     'The Preservation' : '<:preservation:1108984312969306122>',
     'The Harmony' : '<:harmony:1108984292312358972>'
+}
+
+combat_emojis = {
+    'Imaginary' : '<:imaginary:1110210127983812688>',
+    'Ice' : '<:ice:1110209282286288989>',
+    'Quantum' : '<:quantum:1110210137584566403>',
+    'Lightning' : '<:lightning:1110210132496875561>',
+    'Fire' : '<:firee:1110210125341397112>',
+    'Wind' : '<:wind:1110210144169623643>',
+    'Physical' : '<:physical:1108984383215513661>'
 }
 
 path_and_cones = seperate_lcs(light_cones)
@@ -62,7 +70,7 @@ class LightConeSelect(discord.ui.Select):
 
 class LightConeView(discord.ui.View):
     def __init__(self, options):
-        super().__init__()
+        super().__init__(timeout=None)
         self.add_item(LightConeSelect(options))
 
 class RelicsView(discord.ui.View):

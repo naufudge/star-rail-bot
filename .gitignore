@@ -1,5 +1,6 @@
 config.json
 resources
+config_test.json
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
