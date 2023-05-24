@@ -49,12 +49,15 @@ class pom2(commands.Cog):
             best_cone_embed = discord.Embed(title=f"Best Light Cones for {chara_info['name']}", description='\n'.join(best_cones[0]['light_cones']), color=cone_colors[len(chara_info['rarity'])])
             best_cone_embed.set_thumbnail(url=chara_info['thumb'])
             best_cone_embed.set_footer(text="All credits to KeqingMains")
+            # Getting just the names of the best light cones for the character
+            best_cone_names = [best['light_cones'] for best in best_light_cones if best['chara_name'] == chara_info['name']][0]
         else:
+            best_cone_names = None
             best_cone_embed = discord.Embed(title="Sorry! Work in progress :(", description="We're still working on this, come back again later Trailblazer.", color=cone_colors[len(chara_info['rarity'])])
             # best_cone_embed.set_image(url=)
-        embeds = [info_embed, skills_embed, best_cone_embed]
-
-        info_view = InfoView(embeds)
+        main_embeds = [info_embed, skills_embed, best_cone_embed]
+        
+        info_view = InfoView(main_embeds, best_cone_names)
         await interaction.response.send_message(embed=info_view.initial, view=info_view)
 
     # Character skills command

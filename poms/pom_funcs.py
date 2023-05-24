@@ -34,7 +34,7 @@ def similarity_sorter(search_results, keyword):
     ``search_results``: sequence
         A non-empty sequence of search results. \n
     ``keyword``: str
-        The name of the manga you searched. \n
+        The term you want to search. \n
     Returns the sorted list.
     """
     temp_listed_results = []
