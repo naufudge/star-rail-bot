@@ -36,7 +36,7 @@ class pom3(commands.Cog):
                 options.append(
                     discord.SelectOption(label=path, value=path, emoji=path_emojis[path])
                 )
-            lc_desc = f"Lookup any light cone from any path below. There's currently a total of {len(cone_names)} available in-game!"
+            lc_desc = f"Lookup any light cone from any path below. There's currently a total of {len(cone_names)} light cones available in-game!"
             cone_embed = discord.Embed(title="Light Cones", description=lc_desc, color=random.choice(colors))
 
             light_cone_view = LightConeView(options)
