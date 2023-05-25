@@ -369,15 +369,6 @@
         "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b9/Light_Cone_Past_and_Future_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171824"
     },
     {
-        "name": "Patience Is All You Need",
-        "path": "The Nihility <:nihility:1108984309395763260>",
-        "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
-        "description": "'Is there anything else you'd like to tell me?'She watched as their neck stiffened, as if a lump was blocking their throat. She knew she was feared, and that no further step was needed. At this point, it didn't matter what she said. Anything would serve to radiate horror...They would stand no chance against her, and have no choice but to blurt out what she wanted to hear.Like a spider waiting on its web, patience was all she needed.",
-        "effect": "The wearer deals 16/20/24/28/32% more DMG to enemies inflicted with DoT. For every attack, increases the wearer's SPD by 4/5/6/7/8%, up to 5 time(s). Meanwhile, enemies receiving attacks take 20/23/26/29/32% more DoT for 1 turn.",
-        "thumb": "",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/87/Light_Cone_Patience_Is_All_You_Need.png/revision/latest/scale-to-width-down/350?cb=20220816223252"
-    },
-    {
         "name": "Perfect Timing",
         "path": "The Abundance <:abundance:1106840945418313808>",
         "rarity": "\u2726 \u2726 \u2726 \u2726",
@@ -547,15 +538,6 @@
         "effect": "Increases the wearer's DMG by 12/15/18/21/24%. For every defeated enemy, the wearer's ATK increases by 4/5/6/7/8%, stacking up to 3 time(s).",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d6/Light_Cone_The_Seriousness_of_Breakfast.png/revision/latest?cb=20230430164318",
         "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5a/Light_Cone_The_Seriousness_of_Breakfast_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171648"
-    },
-    {
-        "name": "The Unreachable Side",
-        "path": "The Destruction <:destruction:1108984285060407396>",
-        "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
-        "description": "He would come to this place every year, bringing new swords with him each time. He paid his last visit to all the sword owners.He would think to himself with sorrow every time he left...When will a stranger bring his sword here?",
-        "effect": "Increase HP by 16% and ATK by 16%. Damage when attacking is increased by 30%, and follow-up attacks by 30%",
-        "thumb": "",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b7/Light_Cone_The_Unreachable_Side.png/revision/latest/scale-to-width-down/327?cb=20230323125558"
     },
     {
         "name": "This Is Me!",
