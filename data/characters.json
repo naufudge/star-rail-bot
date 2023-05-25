@@ -531,5 +531,26 @@
             "technique" : {"name":"", "tag":"", "description":""}
         },
         "eidolons" : {}
+    },
+
+    {
+        "name" : "Trailblazer - the Preservation",
+        "id" : 27,
+        "description" : "",
+        "rarity" :"\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/9d99c7926e8519f151abeac02a1f7210_8780278128209122769.gif",
+        "picture" : "https://upload-static.hoyoverse.com/hoyowiki/2023/02/21/c74eb9c6d1c028fc9813c87612c84a3e_5924273427451673630.gif",
+        "path" : "The Preservation",
+        "combat" : "Fire",
+        "faction" : "Astral Express",
+        "skills" : {
+            "basic" : {"name":"Ice-Breaking Light", "tag":"Single Target", "description":"Deals Fire DMG equal to 50%-130% of Trailblazer's ATK to a single enemy and gains 1 stack of Magma Will."},
+            "basic2" : {"name":"Ice-Breaking Light", "tag":"Blast", "description":"Consumes 4 stacks of Magma Will to enhance Basic ATK, dealing Fire DMG equal to 90%-168.75% of the Trailblazer's ATK to a single enemy and Fire DMG to equal to 36%-67.5% of the Trailblazer's ATK to enemies adjacent to it."},
+            "skill" : {"name":"Ever-Burning Amber", "tag":"Defense", "description":"Increases the Trailblazer's DMG Reduction by 40%-55% and gains 1 stack of Magma Will, with a 100% base chance to Taunt all enemies for 1 turn(s)."},
+            "ult" : {"name":"War-Flaming Lance", "tag":"AoE", "description":"Deals Fire DMG equal to 50%-125% of the Trailblazer's ATK plus 75%-187.5% of the Trailblazer's DEF to all enemies. The next Basic ATK will be automatically enhanced and does not cost Magma Will."},
+            "talent" : {"name":"Treasure of the Architects", "tag":"Enhance", "description":"Each time the Trailblazer is hit, they gain 1 stack of Magma Will for a max of 8 stack(s). When Magma Will has no fewer than 4 stacks, the Trailblazer's Basic ATK becomes enhanced, dealing DMG to a single enemy and enemies adjacent to it. When the Trailblazer uses Basic ATK, Skill, or Ultimate, apply a Shield to all allies that absorbs DMG equal to 4%-7% of the Trailblazer's DEF plus 20-102.5. The Shield lasts for 2 turn(s)."},
+            "technique" : {"name":"Call of the Guardian", "tag":"Defense", "description":"After using Technique, at the start of the next battle, gains a Shield that absorbs DMG equal to 30% of the Trailblazer's DEF plus 384 for 1 turn(s)."}
+        },
+        "eidolons" : {}
     }
 ]
