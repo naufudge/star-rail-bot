@@ -4,7 +4,8 @@ import json
 def seperate_lcs(lcs):
     """
     Seperates all the light cones into a dictionary, with each Path as key and the list of Cones of that path as it's value
-    Returns a dictionary.
+
+    Returns a ``dict``
     """
     paths = {
     'The Destruction' : [],
@@ -18,6 +19,27 @@ def seperate_lcs(lcs):
     for cone in lcs:
         cone_path = (' ').join(cone['path'].split()[0:2])
         paths[cone_path].append(cone['name'])
+
+    return paths
+
+def seperate_charas(charas):
+    """
+    Seperates all the characters into a dictionary, with each Path as key and the list of Characters of the respective path as it's value
+
+    Returns a ``dict``
+    """
+    paths = {
+    'The Destruction' : [],
+    'The Abundance' : [],
+    'The Hunt' : [],
+    'The Nihility' : [],
+    'The Erudition' : [],
+    'The Preservation' : [],
+    'The Harmony' : []
+    }
+
+    for chara_info in charas:
+        paths[chara_info['path']].append(chara_info['name'])
 
     return paths
 

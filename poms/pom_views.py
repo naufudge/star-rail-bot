@@ -2,31 +2,12 @@ import discord
 import random
 from typing import List
 from discord.interactions import Interaction
-from poms.pom_funcs import seperate_lcs, similarity_sorter, light_cones
+from poms.pom_funcs import seperate_charas, seperate_lcs, similarity_sorter, light_cones, chara_file
+from poms.pom_misc import path_thumbs, path_emojis
 
-
-path_emojis = {
-    'The Destruction' : '<:destruction:1108984285060407396>',
-    'The Abundance' : '<:abundance:1106840945418313808>',
-    'The Hunt' : '<:hunt:1108984298977116203>',
-    'The Nihility' : '<:nihility:1108984309395763260>',
-    'The Erudition' : '<:erudition:1108984287455359109>',
-    'The Preservation' : '<:preservation:1108984312969306122>',
-    'The Harmony' : '<:harmony:1108984292312358972>'
-}
-
-combat_emojis = {
-    'Imaginary' : '<:imaginary:1110210127983812688>',
-    'Ice' : '<:ice:1110209282286288989>',
-    'Quantum' : '<:quantum:1110210137584566403>',
-    'Lightning' : '<:lightning:1110210132496875561>',
-    'Fire' : '<:firee:1110210125341397112>',
-    'Wind' : '<:wind:1110210144169623643>',
-    'Physical' : '<:physical:1108984383215513661>'
-}
 
 path_and_cones = seperate_lcs(light_cones)
-
+path_and_charas = seperate_charas(chara_file)
 
 # Views Below
 class InfoView(discord.ui.View):
@@ -76,6 +57,22 @@ class InfoView(discord.ui.View):
     def initial(self) -> discord.Embed:
         return self._initial
 
+class CharactersView(discord.ui.View):
+    def __init__(self):
+        super().__init__(timeout=None)
+
+    @discord.ui.select(
+        placeholder="Select a Path",
+        options=[discord.SelectOption(label=path, value=path, emoji=path_emojis[path]) for path, charas in sorted(path_and_charas.items())]
+    )
+    async def callback(self, interaction: discord.Interaction, select: discord.ui.Select):
+        path = select.values[0]
+        characters = sorted(path_and_charas[path])
+        charas_embed = discord.Embed(title=f"Characters: {path}", description='\n'.join(characters))
+        charas_embed.set_thumbnail(url=path_thumbs[path])
+
+        await interaction.response.edit_message(embed=charas_embed)
+
 class LightConeSelect(discord.ui.Select):
     def __init__(self, options):
         super().__init__(placeholder="Choose a Path", min_values=1, max_values=1, options=options)
@@ -84,8 +81,10 @@ class LightConeSelect(discord.ui.Select):
         selection = self.values[0]
         colors = [0xc71e1e, 0xd83131, 0xc97f7f, 0x9a0000, 0x0f0707]
         cones = "\n".join(path_and_cones[selection])
-        new_title = f"Light Cones: {selection} {path_emojis[selection]}"
+        new_title = f"Light Cones: {selection}"
+
         emb = discord.Embed(title=new_title, description=cones, color=random.choice(colors))
+        emb.set_thumbnail(url=path_thumbs[selection])
         await interaction.response.edit_message(embed=emb)
 
 class LightConeView(discord.ui.View):
