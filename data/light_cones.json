@@ -496,10 +496,10 @@
     },
     {
         "name": "Subscribe for More!",
-        "path": "The Destruction <:destruction:1108984285060407396>",
+        "path": "The Hunt <:hunt:1108984298977116203>",
         "rarity": "\u2726 \u2726 \u2726 \u2726",
         "description": "'Yo, yo. What is up! Is everything coming through?'The orange-haired girl slowly lifts a sledgehammer while shouting enthusiastically at the camera.'Ever seen a pretty girl doing the cinder-block-smashed-on-chest stunt?''I didn't sign up for this!'The brunette girl cried out loud, only to be met with a sly smile from the girl with the orange hair.'Please. Just let me do this. This is what people would've wanted.''",
-        "effect": "Increases the wearer's ATK by 24/28/32/36/40%. When the wearer defeats an enemy or is hit, immediately restores HP equal to 8/9/10/11/12% of the wearer's ATK. At the same time, the wearer's DMG is increased by 24/28/32/36/40% until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.",
+        "effect": "Increases the DMG of the wearer's Basic ATK and Skill by 24/30/36/42/48%. This effect increases by an extra 24/30/36/42/48% when the wearer's current Energy reaches its max level.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/57/Light_Cone_Subscribe_for_More%21.png/revision/latest?cb=20230430164209",
         "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/44/Light_Cone_Subscribe_for_More%21_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171851"
     },
