@@ -46,10 +46,10 @@
     },
     {
         "name": "But the Battle Isn't Over",
-        "path": "The Erudition <:erudition:1108984287455359109>",
+        "path": "The Harmony <:harmony:1108984292312358972>",
         "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
         "description": "'Remember, the war with the monsters cannot be won by retreating.''We are the last defense, the final iron wall between them and Belobog...''We cannot retreat under any circumstances!'She looks up to see the frozen earth and endless winter ahead.Business as usual.Only that... the figure at which she had been gazing is gone.",
-        "effect": "Increases the wearer's CRIT DMG by 36/42/48/54/60%. Increases the wearer's Skill and Ultimate DMG by 18/21/24/27/30%. After the wearer uses their Skill or Ultimate, they gain Somnus Corpus. Upon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by 48/56/64/72/80%.",
+        "effect": "Increases the wearer's Energy Regeneration Rate by 10/12/14/16/18% and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 30/35/40/45/50% more DMG for 1 turn(s).",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/29/Light_Cone_But_the_Battle_Isn%27t_Over.png/revision/latest?cb=20230430164621",
         "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9c/Light_Cone_But_the_Battle_Isn%27t_Over_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171719"
     },
@@ -145,10 +145,10 @@
     },
     {
         "name": "Echoes of the Coffin",
-        "path": "The Preservation <:preservation:1108984312969306122>",
+        "path": "The Abundance <:abundance:1106840945418313808>",
         "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
         "description": "Under the watch of the white irises, he bashed the coffin with his hands.'Sometimes, I feel like I underestimated you by proposing this deal.''",
-        "effect": "When the wearer unleashes their Ultimate, they restore HP by 18/21/24/27/30% of their Max HP.",
+        "effect": "Increases ATK of the wearer by 20/25/30/35/40%. After the wearer using Ultimate, all allies gain 16/20/24/28/32 Speed for 1 turn. Additionally, for each different target the wearer attacks, recovers 5 Energy. Each attack can recover Energy a maximum of 3 time(s).",
         "thumb": "",
         "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c0/Light_Cone_Echoes_of_the_Coffin.png/revision/latest/scale-to-width-down/350?cb=20220816225416"
     },
@@ -226,10 +226,10 @@
     },
     {
         "name": "Incessant Rain",
-        "path": "The Hunt <:hunt:1108984298977116203>",
+        "path": "The Nihility <:nihility:1108984309395763260>",
         "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
         "description": "She left the cover of the roof, opened her umbrella, and ran into an alley humming a light-hearted tune.The rain lasted a little while more before it stopped. She scratched her head and swept her screen open.After several taps, raindrops began to fall down again within a zone covering no wider than her umbrella.Rain pitter-pattered on her umbrella, mixing with the music from her game. All was calm and relaxing.'Raining and gaming should be a thing.''",
-        "effect": "Increases the wearer's CRIT Rate by 18/21/24/27/30%. While the wearer is in battle, for every 10 SPD that exceeds 100, the DMG of the wearer's Basic ATK and Skill is increased by 6/7/8/9/10%, and the CRIT DMG of their Ultimate is increased by 12/14/16/18/20%. This effect can stack up to 8 time(s).",
+        "effect": "Each time the wearer stars a turn, there is a 100% base chance to implant a random enemy with Aether Code. When that enemy is inflicted with Break, Aether Code self-destructs, dealing additional DMG to that enemy equal to 80% of the wearer's ATK. When attacking an enemy with more than 3% debuff(s), deals additional DMG equal to 40% of the wearer's ATK.",
         "thumb": "",
         "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0b/Light_Cone_Incessant_Rain.png/revision/latest/scale-to-width-down/350?cb=20230323125244"
     },
@@ -262,10 +262,10 @@
     },
     {
         "name": "Mediation",
-        "path": "The Erudition <:erudition:1108984287455359109>",
+        "path": "The Harmony <:harmony:1108984292312358972>",
         "rarity": "\u2726 \u2726 \u2726",
         "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.'What can be more joyous than purging disharmony?'",
-        "effect": "The wearer regenerates 20/23/26/29/32 Energy immediately upon entering battle, and increases Ultimate DMG by 32/40/48/56/64%.",
+        "effect": "After entering battle, increases SPD of all allies by 12/14/16/18/20 for 1 turn(s).",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/28/Light_Cone_Mediation.png/revision/latest?cb=20230430165119",
         "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1c/Light_Cone_Mediation_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171803"
     },
@@ -370,19 +370,19 @@
     },
     {
         "name": "Patience Is All You Need",
-        "path": "The Harmony <:harmony:1108984292312358972>",
+        "path": "The Nihility <:nihility:1108984309395763260>",
         "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
         "description": "'Is there anything else you'd like to tell me?'She watched as their neck stiffened, as if a lump was blocking their throat. She knew she was feared, and that no further step was needed. At this point, it didn't matter what she said. Anything would serve to radiate horror...They would stand no chance against her, and have no choice but to blurt out what she wanted to hear.Like a spider waiting on its web, patience was all she needed.",
-        "effect": "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals 16/20/24/28/32% increased DMG for 1 turn(s).",
+        "effect": "The wearer deals 16/20/24/28/32% more DMG to enemies inflicted with DoT. For every attack, increases the wearer's SPD by 4/5/6/7/8%, up to 5 time(s). Meanwhile, enemies receiving attacks take 20/23/26/29/32% more DoT for 1 turn.",
         "thumb": "",
         "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/87/Light_Cone_Patience_Is_All_You_Need.png/revision/latest/scale-to-width-down/350?cb=20220816223252"
     },
     {
         "name": "Perfect Timing",
-        "path": "The Harmony <:harmony:1108984292312358972>",
+        "path": "The Abundance <:abundance:1106840945418313808>",
         "rarity": "\u2726 \u2726 \u2726 \u2726",
         "description": "On a bustling street he walks and walks. The sunlight closely follows his footsteps.He makes a stop and picks up an umbrella to shade himself from the sun...and from that prying gaze.",
-        "effect": "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals 16/20/24/28/32% increased DMG for 1 turn(s).",
+        "effect": "Increases the wearer's Effect RES by 16/20/24/28/32% and increases Outgoing Healing by an amount that is equal to 33/36/39/42/45% of Effect RES. Outgoing Healing can be increased this way by up to 15/18/21/24/27%.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/77/Light_Cone_Perfect_Timing.png/revision/latest?cb=20230430165405",
         "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/25/Light_Cone_Perfect_Timing_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171826"
     },
@@ -445,7 +445,7 @@
         "path": "The Hunt <:hunt:1108984298977116203>",
         "rarity": "\u2726 \u2726 \u2726 \u2726",
         "description": "The young boy took a short break from his sword practice.The sunlight was baking his already heated neck. He slowly got into the water, whose coldness touched his bare feet.When the bell chimes and birds tweet, even the people far away would know that springtime had arrived.",
-        "effect": "Increases the wearer's CRIT Rate by 12/15/18/21/24%. After a CRIT Hit, there is a 16/20/24/28/32% fixed chance to dispel 1 buff on the target enemy. This effect can only trigger 1 time per attack.",
+        "effect": "After entering battle, increases the wearer's SPD by 8/9/10/11/12% and DMG by 12/15/18/21/24%. When the wearer takes DMG, this effect will disappear. This effect will resume after the end of the wearer's next turn.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b3/Light_Cone_River_Flows_in_Spring.png/revision/latest?cb=20230430164059",
         "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a0/Light_Cone_River_Flows_in_Spring_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171840"
     },
@@ -472,7 +472,7 @@
         "path": "The Destruction <:destruction:1108984285060407396>",
         "rarity": "\u2726 \u2726 \u2726",
         "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.'Absolute control comes from the ability to inflict total destruction.'",
-        "effect": "Deals 20/25/30/35/40% increased DMG to any enemies whose HP is above 50%..",
+        "effect": "Deals 20/25/30/35/40% increased DMG to any enemies whose HP is above 50%.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/62/Light_Cone_Shattered_Home.png/revision/latest?cb=20230430164130",
         "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fd/Light_Cone_Shattered_Home_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171845"
     },
@@ -550,10 +550,10 @@
     },
     {
         "name": "The Unreachable Side",
-        "path": "The Erudition <:erudition:1108984287455359109>",
+        "path": "The Destruction <:destruction:1108984285060407396>",
         "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
         "description": "He would come to this place every year, bringing new swords with him each time. He paid his last visit to all the sword owners.He would think to himself with sorrow every time he left...When will a stranger bring his sword here?",
-        "effect": "Increases the wearer's DMG by 12/15/18/21/24%. For every defeated enemy, the wearer's ATK increases by 4/5/6/7/8%, stacking up to 3 time(s).",
+        "effect": "Increase HP by 16% and ATK by 16%. Damage when attacking is increased by 30%, and follow-up attacks by 30%",
         "thumb": "",
         "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b7/Light_Cone_The_Unreachable_Side.png/revision/latest/scale-to-width-down/327?cb=20230323125558"
     },
@@ -586,19 +586,19 @@
     },
     {
         "name": "Trend of the Universal Market",
-        "path": "The Erudition <:erudition:1108984287455359109>",
+        "path": "The Preservation <:preservation:1108984312969306122>",
         "rarity": "\u2726 \u2726 \u2726 \u2726",
         "description": "The planet is receiving a revaluation...'Will this project show that it's mutually beneficial to collect any outstanding debts?''But we only need to convey one message \u2014 our existence.''If it were to have a value of its own, then it must create value for the corporation.''",
-        "effect": "After entering battle, increases the wearer's DMG based on their Max Energy. DMG increases by 0.2/0.25/0.3/0.35/0.4% per point of Energy, up to 160 Energy.",
+        "effect": "Increases the wearer's DEF by 16/20/24/28/32%. When the wearer is attacked, there is a 100/105/110/115/120% base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to 40/50/60/70/80% of the wearer's DEF for 2 turn(s).",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8a/Light_Cone_Trend_of_the_Universal_Market.png/revision/latest?cb=20230430164411",
         "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b3/Light_Cone_Trend_of_the_Universal_Market_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171656"
     },
     {
         "name": "Under the Blue Sky",
-        "path": "The Erudition <:erudition:1108984287455359109>",
+        "path": "The Destruction <:destruction:1108984285060407396>",
         "rarity": "\u2726 \u2726 \u2726 \u2726",
         "description": "Under the blue sky, fields of wheat were dancing.The young girl was carefully weaving a flower wreath, for her most beloved little sister.That was when they were still the same height.That was when they shared the same smile.",
-        "effect": "After entering battle, increases the wearer's DMG based on their Max Energy. DMG increases by 0.2/0.25/0.3/0.35/0.4% per point of Energy, up to 160 Energy.",
+        "effect": "Increases the wearer's ATK by 16/20/24/28/32%. When the wearer defeats an enemy, the wearer's CRIT Rate increases by 12/15/18/21/24% for 3 turn(s).",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/01/Light_Cone_Under_the_Blue_Sky.png/revision/latest?cb=20230430164420",
         "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/24/Light_Cone_Under_the_Blue_Sky_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171658"
     },
