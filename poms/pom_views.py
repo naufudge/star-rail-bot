@@ -68,7 +68,8 @@ class CharactersView(discord.ui.View):
     async def callback(self, interaction: discord.Interaction, select: discord.ui.Select):
         path = select.values[0]
         characters = sorted(path_and_charas[path])
-        charas_embed = discord.Embed(title=f"Characters: {path}", description='\n'.join(characters))
+        colors = [0xc71e1e, 0xd83131, 0xc97f7f, 0x9a0000, 0x0f0707]
+        charas_embed = discord.Embed(title=f"Characters: {path}", description='\n'.join(characters), color=random.choice(colors))
         charas_embed.set_thumbnail(url=path_thumbs[path])
 
         await interaction.response.edit_message(embed=charas_embed)

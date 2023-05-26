@@ -1,4 +1,5 @@
 from difflib import SequenceMatcher
+from poms.pom_misc import combat_emojis
 import json
 
 def seperate_lcs(lcs):
@@ -39,7 +40,7 @@ def seperate_charas(charas):
     }
 
     for chara_info in charas:
-        paths[chara_info['path']].append(chara_info['name'])
+        paths[chara_info['path']].append(f"{chara_info['name']} {combat_emojis[chara_info['combat']]}")
 
     return paths
 

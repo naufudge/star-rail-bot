@@ -2,6 +2,7 @@ import discord
 from discord import app_commands
 from discord.ext import commands
 from typing import Optional
+import random
 from poms.pom_views import InfoView, CharactersView
 from poms.pom_funcs import similarity_sorter, chara_file, best_light_cones
 from poms.pom_misc import combat_emojis, path_emojis
@@ -67,7 +68,8 @@ class pom2(commands.Cog):
             info_view = InfoView(main_embeds, best_cone_names)
             await interaction.response.send_message(embed=info_view.initial, view=info_view)
         else:
-            emb = discord.Embed(title="Characters", description="Find any playable/announced character under their respective paths")
+            colors = [0xc71e1e, 0xd83131, 0xc97f7f, 0x9a0000, 0x0f0707]
+            emb = discord.Embed(title="Characters", description="Find any playable/announced character under their respective paths", color=random.choice(colors))
             charas_view = CharactersView()
             await interaction.response.send_message(embed=emb, view=charas_view)
 
