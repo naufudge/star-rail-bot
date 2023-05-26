@@ -26,6 +26,8 @@ class pom3(commands.Cog):
             cone_embed.set_image(url=light_cone['picture'])
             cone_embed.add_field(name="Path", value=light_cone['path'])
             cone_embed.add_field(name="Rarity", value=light_cone['rarity'])
+            if light_cone['source'] != "":
+                cone_embed.add_field(name="How to Obtain", value=light_cone['source'], inline=False)
             cone_embed.add_field(name="Effect", value=light_cone['effect'], inline=False)
             cone_embed.set_footer(text="If this isn't the light cone you are looking for, use just /light_cone to look up all light cones!")
             await interaction.response.send_message(embed=cone_embed)
@@ -70,7 +72,6 @@ class pom3(commands.Cog):
             relic_view = RelicsView(options)
 
             await interaction.response.send_message(embed=relic_view.initial, view=relic_view)
-
 
 
 async def setup(client: commands.Bot) -> None:

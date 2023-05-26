@@ -6,7 +6,8 @@
         "description": "The boy would always make sure that his gloves and elbow guards were in good shape before leaving.He treasured his gloves more than anything because they were tight enough to hide secrets.With this layer of protection, no one could see the bandages on his hand and the wound beneath them.He would be treated as if he was normal, and he would be greeted just like everyone else.That was all he asked for.",
         "effect": "Increases DMG dealt by the wearer by 20/25/30/35/40%. The wearer also deals an extra 20/25/30/35/40% of DMG to enemies with a higher HP percentage than the wearer.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a2/Light_Cone_A_Secret_Vow.png/revision/latest?cb=20230430170446",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/01/Light_Cone_A_Secret_Vow_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171710"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/01/Light_Cone_A_Secret_Vow_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171710",
+        "source": "Regular Warp"
     },
     {
         "name": "Adversarial",
@@ -15,7 +16,8 @@
         "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.'Freedom fighters will never die, as their stories will forever be told.'",
         "effect": "When the wearer defeats an enemy, increases SPD by 10/12/14/16/18% for 2 turn(s).",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f7/Light_Cone_Adversarial.png/revision/latest?cb=20230430164527",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/3c/Light_Cone_Adversarial_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171712"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/3c/Light_Cone_Adversarial_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171712",
+        "source": "Regular Warp"
     },
     {
         "name": "Amber",
@@ -24,7 +26,8 @@
         "description": "A rare power condensed from time. A magnificent fate is in fact woven from countless insignificant moments.'Only those who aren't affected by time can survive in time.'",
         "effect": "Increases the wearer's DEF by 16/20/24/28/32%. If the wearer's current HP is lower than 50%, increases their DEF by a further 16/20/24/28/32%.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/42/Light_Cone_Amber.png/revision/latest?cb=20230430164537",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/19/Light_Cone_Amber_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171714"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/19/Light_Cone_Amber_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171714",
+        "source": "Regular Warp"
     },
     {
         "name": "Arrows",
@@ -33,7 +36,8 @@
         "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.'The hunter's eyes are the clearest when they pull back the bowstring with the arrow notched.'",
         "effect": "At the start of the battle, the wearer's CRIT Rate increases by 12/15/18/21/24% for 3 turn(s).",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/79/Light_Cone_Arrows.png/revision/latest?cb=20230430164552",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/ca/Light_Cone_Arrows_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171716"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/ca/Light_Cone_Arrows_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171716",
+        "source": "Regular Warp"
     },
     {
         "name": "Before Dawn",
@@ -42,16 +46,18 @@
         "description": "'''Do not make this decision lightly, general... Think about how you will be remembered in history...'The general of the Cloud Knights listens to his subordinates' words with eyes half-closed.'History will make its own judgment, but I have no interest in my legacy.''If I succeed, history will state that I am currently supremely confident in my masterful strategy.''But if I fail, then history will state that I am currently neglecting my duties in wanton pleasure, preferring finches over my people.'A finch jumps down from his shoulder, and he extends his hand to catch the small creature.'I have simply made my own decision.'",
         "effect": "Increases the wearer's CRIT DMG by 36/42/48/54/60%. Increases the wearer's Skill and Ultimate DMG by 18/21/24/27/30%. After the wearer uses their Skill or Ultimate, they gain Somnus Corpus. Upon triggering a follow-up attack, Somnus Corpus will be consumed and the follow-up attack DMG increases by 48/56/64/72/80%.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/26/Light_Cone_Before_Dawn.png/revision/latest?cb=20230430164605",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/31/Light_Cone_Before_Dawn_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171717"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/31/Light_Cone_Before_Dawn_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171717",
+        "source": "Limited Warp"
     },
     {
-        "name": "But the Battle Isn't Over",
+        "name": "But The Battle Isn't Over",
         "path": "The Harmony <:harmony:1108984292312358972>",
         "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
         "description": "'Remember, the war with the monsters cannot be won by retreating.''We are the last defense, the final iron wall between them and Belobog...''We cannot retreat under any circumstances!'She looks up to see the frozen earth and endless winter ahead.Business as usual.Only that... the figure at which she had been gazing is gone.",
         "effect": "Increases the wearer's Energy Regeneration Rate by 10/12/14/16/18% and regenerates 1 Skill Point when the wearer uses their Ultimate on an ally. This effect can be triggered after every 2 uses of the wearer's Ultimate. When the wearer uses their Skill, the next ally taking action (except the wearer) deals 30/35/40/45/50% more DMG for 1 turn(s).",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/29/Light_Cone_But_the_Battle_Isn%27t_Over.png/revision/latest?cb=20230430164621",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9c/Light_Cone_But_the_Battle_Isn%27t_Over_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171719"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9c/Light_Cone_But_the_Battle_Isn%27t_Over_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171719",
+        "source": "Regular Warp"
     },
     {
         "name": "Carve the Moon, Weave the Clouds",
@@ -60,7 +66,8 @@
         "description": "He immediately falls in love with the golden vessel and is about to buy it,but the Foxian girl drags him aside and whispers:'Please return at night, Mr. Benefactor, and make up your mind then.'As promised, he returns at night.The same Foxian girl opens the door and smiles at him.'Please follow me, Mr. Benefactor.'A ray of moonlight shines onto the base of the etched plate.The artisan had traced the petals with lines of various depths, and he would not be able to see such details without the moonlight.He finally recalls why this item is called 'Carve the Moon, Weave the Clouds.'",
         "effect": "At the start of the battle and whenever the wearer's turn begins, one of the following effects is applied randomly: All allies' ATK increases by 10/12.5/15/17.5/20%, all allies' CRIT DMG increases by 12/15/18/21/24%, or all allies' Energy Regeneration Rate increases by 6/7.5/9/10.5/12%. The applied effect cannot be identical to the last effect applied, and will replace the previous effect. The applied effect will be removed when the wearer has been knocked down. Effects of the similar type cannot be stacked.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1f/Light_Cone_Carve_the_Moon%2C_Weave_the_Clouds.png/revision/latest?cb=20230430164633",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/05/Light_Cone_Carve_the_Moon%2C_Weave_the_Clouds_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171721"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/05/Light_Cone_Carve_the_Moon%2C_Weave_the_Clouds_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171721",
+        "source": "Nameless Honor"
     },
     {
         "name": "Chorus",
@@ -69,7 +76,8 @@
         "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.'Fingers clutch to make a fist, strength is built via numbers. I give myself for something higher \u2014 the concept of us.'",
         "effect": "After entering battle, increases the ATK of all allies by 8/9/10/11/12%. Effects of the same type cannot stack.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e2/Light_Cone_Chorus.png/revision/latest?cb=20230430164648",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e9/Light_Cone_Chorus_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171723"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e9/Light_Cone_Chorus_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171723",
+        "source": "Regular Warp"
     },
     {
         "name": "Collapsing Sky",
@@ -78,7 +86,8 @@
         "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.'The death of all things is as natural as their birth. Time erodes everything, turning all tangible entities to dust.'",
         "effect": "Increases the wearer's Basic ATK and Skill DMG by 20/25/30/35/40%.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d0/Light_Cone_Collapsing_Sky.png/revision/latest?cb=20230430164704",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/3f/Light_Cone_Collapsing_Sky_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171725"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/3f/Light_Cone_Collapsing_Sky_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171725",
+        "source": "Regular Warp"
     },
     {
         "name": "Cornucopia",
@@ -87,7 +96,8 @@
         "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.'Life is the existence of order beyond a certain threshold. Its birth is the final answer to the silent universe, declaring the end to the era of old chaos'",
         "effect": "When the wearer uses their Skill or Ultimate, their Outgoing Healing increases by 12/15/18/21/24%.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/46/Light_Cone_Cornucopia.png/revision/latest?cb=20230501041146",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d2/Light_Cone_Cornucopia_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171727"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d2/Light_Cone_Cornucopia_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171727",
+        "source": "Regular Warp"
     },
     {
         "name": "Cruising in the Stellar Sea",
@@ -96,7 +106,8 @@
         "description": "Coursing 'tween the sea of stars,they cruise with the speed of a rainbow's chromatic flash.A journey of hunting undying abominations,collecting cures and miracles,and seeking deliverance.Akin to a vow unbroken, their voyage will be,ad infinitum.",
         "effect": "Increases the wearer's CRIT Rate by 8/10/12/14/16%, and increases their CRIT Rate against enemies with HP less than or equal to 50% by an extra 8/10/12/14/16%. When the wearer defeats an enemy, increase their ATK by 20/25/30/35/40% for 2 turn(s).",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/2a/Light_Cone_Cruising_in_the_Stellar_Sea.png/revision/latest?cb=20230430164734",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/56/Light_Cone_Cruising_in_the_Stellar_Sea_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171729"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/56/Light_Cone_Cruising_in_the_Stellar_Sea_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171729",
+        "source": "Simulated Universe (Herta's Store)"
     },
     {
         "name": "Dance! Dance! Dance!",
@@ -105,7 +116,8 @@
         "description": "'Why couldn't Hook do a spinning dance move, just like how Clara does?'She clenched her tiny fists and pouted her cute lips, her chubby little face looking redder than ever under her signature felt hat.'Please, Mr. Svarog, can you please help Hook with this?'Without saying any words, Mr. Svarog began to hold out his robotic arm.'I'm g-gonna be sick!!! Put me down now! Please!'",
         "effect": "When the wearer uses their Ultimate, all allies' actions are Advanced Forward by 16/18/20/22/24%.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/64/Light_Cone_Dance%21_Dance%21_Dance%21.png/revision/latest?cb=20230430164749",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fb/Light_Cone_Dance%21_Dance%21_Dance%21_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171731"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fb/Light_Cone_Dance%21_Dance%21_Dance%21_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171731",
+        "source": "Regular Warp"
     },
     {
         "name": "Darting Arrow",
@@ -114,7 +126,8 @@
         "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.'The battle has begun. Arrows are thirsty for blood.'",
         "effect": "When the wearer defeats an enemy, increases ATK by 24/30/36/42/48% for 3 turn(s).",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/51/Light_Cone_Darting_Arrow.png/revision/latest?cb=20230430164758",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/ca/Light_Cone_Darting_Arrow_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171733"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/ca/Light_Cone_Darting_Arrow_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171733",
+        "source": "Regular Warp"
     },
     {
         "name": "Data Bank",
@@ -123,7 +136,8 @@
         "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.'Human extinction is inevitable, but the library will live on: lonely, immobile, and hidden from the public. Its vast collection is useless, yet pure from corruption.'",
         "effect": "Increases the wearer's Ultimate DMG by 28/35/42/49/56%.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/ac/Light_Cone_Data_Bank.png/revision/latest?cb=20230430164814",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c4/Light_Cone_Data_Bank_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171735"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c4/Light_Cone_Data_Bank_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171735",
+        "source": "Regular Warp"
     },
     {
         "name": "Day One of My New Life",
@@ -132,7 +146,8 @@
         "description": "'So happy I got to see Pom-Pom in new clothes today! I like it~''Today's my birthday! I'm still as cute as ever.''Today, I finally finally finally have a junior! Isn't that right, (Trailblazer)?'We click the shutter many times without thinking.Do we do that to capture the happiness at that moment?Or to capture ourselves at that moment?",
         "effect": "Increases the wearer's DEF by 16/18/20/22/24%. After entering battle, increases DMG RES of all allies by 8/9/10/11/12%. Effects of the same type cannot stack.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/61/Light_Cone_Day_One_of_My_New_Life.png/revision/latest?cb=20230430164825",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/25/Light_Cone_Day_One_of_My_New_Life_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171737"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/25/Light_Cone_Day_One_of_My_New_Life_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171737",
+        "source": "Regular Warp"
     },
     {
         "name": "Defense",
@@ -141,7 +156,8 @@
         "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.'If you ever doubt these walls will lead us to victory, just look at these brave souls standing atop them.'",
         "effect": "When the wearer unleashes their Ultimate, they restore HP by 18/21/24/27/30% of their Max HP.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/96/Light_Cone_Defense.png/revision/latest?cb=20230430164840",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8f/Light_Cone_Defense_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171739"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8f/Light_Cone_Defense_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171739",
+        "source": "Regular Warp"
     },
     {
         "name": "Echoes of the Coffin",
@@ -150,7 +166,8 @@
         "description": "Under the watch of the white irises, he bashed the coffin with his hands.'Sometimes, I feel like I underestimated you by proposing this deal.''",
         "effect": "Increases ATK of the wearer by 20/25/30/35/40%. After the wearer using Ultimate, all allies gain 16/20/24/28/32 Speed for 1 turn. Additionally, for each different target the wearer attacks, recovers 5 Energy. Each attack can recover Energy a maximum of 3 time(s).",
         "thumb": "",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c0/Light_Cone_Echoes_of_the_Coffin.png/revision/latest/scale-to-width-down/350?cb=20220816225416"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c0/Light_Cone_Echoes_of_the_Coffin.png/revision/latest/scale-to-width-down/350?cb=20220816225416",
+        "source": ""
     },
     {
         "name": "Eyes of the Prey",
@@ -159,7 +176,8 @@
         "description": "In reality, most prey don't realize when danger is encroaching.This one's no exception.The sniper's scope slowly centers on a man throwing banknotes stack after stack, who seems completely oblivious to his impending demise.'So that's what greed looks like. That amount is equal to several of my contracts already... No wonder someone wants him dead.'As if these thoughts were broadcasted out loud, the man in the scope turns his head, looking straight into the eyes of the sniper.'I've been waiting for you. Would this much be enough for you to hear me out?''",
         "effect": "Increases Effect Hit Rate of its wearer by 20/25/30/35/40% and increases DoT by 24/30/36/42/48%.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/87/Light_Cone_Eyes_of_the_Prey.png/revision/latest?cb=20230430164853",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/48/Light_Cone_Eyes_of_the_Prey_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171740"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/48/Light_Cone_Eyes_of_the_Prey_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171740",
+        "source": "Regular Warp"
     },
     {
         "name": "Fermata",
@@ -168,7 +186,8 @@
         "description": "The phonograph record is being played, spinning nonstop.Even the sounds of all those hoarse shrieks cannot escape the heatwave and are dampened by its tepidity.She seemed unprepared and utterly enthralled by the fascinating melodies:It started with sincerity and anticipation......followed by a passionate catharsis......with one climax after another......until the record's spinning came to a final stop and those hoarse shrieks were no longer audible.'Mission accomplished.''",
         "effect": "Increases the Break Effect dealt by the wearer by 16/20/24/28/32%, and increases their DMG to enemies afflicted with Shock or Wind Shear by 16/20/24/28/32%. This also applies to DoT.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1b/Light_Cone_Fermata.png/revision/latest?cb=20230430164908",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/73/Light_Cone_Fermata_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171742"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/73/Light_Cone_Fermata_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171742",
+        "source": "Spend a total of 2600 Shield in Underground Shop located in Boulder Town, Jarilo-VI \n*Echo of war* (Weekly Boss) \nBuy from *Light Cone Manifest* (Forgotten Hall)"
     },
     {
         "name": "Fine Fruit",
@@ -177,7 +196,8 @@
         "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.'Everything tastes sweet for those desperate for water.'",
         "effect": "At the beginning of the battle, immediately regenerates 6/7.5/9/10.5/12 Energy for all allies.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/70/Light_Cone_Fine_Fruit.png/revision/latest?cb=20230430164916",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/81/Light_Cone_Fine_Fruit_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171746"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/81/Light_Cone_Fine_Fruit_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171746",
+        "source": "Regular Warp"
     },
     {
         "name": "Geniuses' Repose",
@@ -186,7 +206,8 @@
         "description": "She pointed at that green rice cake.'The experiment has ended. Time to take a break. I just can't miss this freshly made dessert.'She saw the puppet girl frowning in deep thought.'Well, in your current body, you can only look but not eat. I'll make you a box of new ones when the time comes.'She saw the mechanical aristocrat hesitating at his own cup.'Don't worry. It's only machine oil. Perfectly safe for you to consume.''",
         "effect": "Increases the wearer's ATK by 16/20/24/28/32%. When the wearer defeats an enemy, the wearer's CRIT DMG increases by 24/30/36/42/48% for 3 turn(s).",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b9/Light_Cone_Geniuses%27_Repose.png/revision/latest?cb=20230430164930",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8c/Light_Cone_Geniuses%27_Repose_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171748"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8c/Light_Cone_Geniuses%27_Repose_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171748",
+        "source": "Regular Warp"
     },
     {
         "name": "Good Night and Sleep Well",
@@ -195,7 +216,8 @@
         "description": "The dim light outlines the dust tracks,As a young girl mumbles sweetly in her sleep.A silent figure appears behind her.'Well, well, well, you're cuter without those glasses \u2014 I knew it.'The guitarist stares at her sleeping face, muttering to herself:'Good night, the genius girl that worries a lot.'''",
         "effect": "For every debuff the target enemy has, the DMG dealt by the wearer increases by 12/15/18/21/24%, stacking up to 3 time(s). This effect also applies to DoT.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/ef/Light_Cone_Good_Night_and_Sleep_Well.png/revision/latest?cb=20230430164939",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6a/Light_Cone_Good_Night_and_Sleep_Well_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171750"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6a/Light_Cone_Good_Night_and_Sleep_Well_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171750",
+        "source": "Regular Warp"
     },
     {
         "name": "Hidden Shadow",
@@ -204,7 +226,8 @@
         "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.'The Nihility might find us, but there is a non-zero chance that they might not.'",
         "effect": "After using Skill, the wearer's next Basic ATK deals 60/75/90/105/120% of ATK as additional DMG to the target enemy.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/19/Light_Cone_Hidden_Shadow.png/revision/latest?cb=20230430164955",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8e/Light_Cone_Hidden_Shadow_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171751"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8e/Light_Cone_Hidden_Shadow_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171751",
+        "source": "Regular Warp"
     },
     {
         "name": "In the Name of the World",
@@ -213,7 +236,8 @@
         "description": "'''Welt...?''It's a... great name, right?''Then...''From now on, you are Welt.''This Herrscher core... and the mission to protect the world...''I'll leave them to you, Welt.'",
         "effect": "Increases the wearer's DMG to debuffed enemies by 24/28/32/36/40%. When the wearer uses their Skill, the Effect Hit Rate for this attack increases by 18/21/24/27/30%, and ATK increases by 24/28/32/36/40%.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b7/Light_Cone_In_the_Name_of_the_World.png/revision/latest?cb=20230430165004",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/52/Light_Cone_In_the_Name_of_the_World_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171753"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/52/Light_Cone_In_the_Name_of_the_World_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171753",
+        "source": "Regular Warp"
     },
     {
         "name": "In the Night",
@@ -222,7 +246,8 @@
         "description": "A young girl smiles subtly.'How?''Right here, right now, I am alone...''But it feels... very lively.''",
         "effect": "Increases the wearer's CRIT Rate by 18/21/24/27/30%. While the wearer is in battle, for every 10 SPD that exceeds 100, the DMG of the wearer's Basic ATK and Skill is increased by 6/7/8/9/10%, and the CRIT DMG of their Ultimate is increased by 12/14/16/18/20%. This effect can stack up to 8 time(s).",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/78/Light_Cone_In_the_Night.png/revision/latest?cb=20230430165020",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5b/Light_Cone_In_the_Night_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171755"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5b/Light_Cone_In_the_Night_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171755",
+        "source": "Limited Warp"
     },
     {
         "name": "Incessant Rain",
@@ -231,7 +256,8 @@
         "description": "She left the cover of the roof, opened her umbrella, and ran into an alley humming a light-hearted tune.The rain lasted a little while more before it stopped. She scratched her head and swept her screen open.After several taps, raindrops began to fall down again within a zone covering no wider than her umbrella.Rain pitter-pattered on her umbrella, mixing with the music from her game. All was calm and relaxing.'Raining and gaming should be a thing.''",
         "effect": "Each time the wearer stars a turn, there is a 100% base chance to implant a random enemy with Aether Code. When that enemy is inflicted with Break, Aether Code self-destructs, dealing additional DMG to that enemy equal to 80% of the wearer's ATK. When attacking an enemy with more than 3% debuff(s), deals additional DMG equal to 40% of the wearer's ATK.",
         "thumb": "",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0b/Light_Cone_Incessant_Rain.png/revision/latest/scale-to-width-down/350?cb=20230323125244"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0b/Light_Cone_Incessant_Rain.png/revision/latest/scale-to-width-down/350?cb=20230323125244",
+        "source": ""
     },
     {
         "name": "Landau's Choice",
@@ -240,7 +266,8 @@
         "description": "'Did you not hear me? Don't go there ever again! What good can peasants learn in a group!''But I've never heard of the Belobog stories they tell...'She pulled her brother behind her, denying him the chance to talk back.'You are both Landaus! One day, you'll face hard choices. Especially you, Serval.'She knew that her brother did nothing wrong, but she couldn't think of a rebuttal.She went to bed angry after the argument, vowing to herself:'I will be a grown-up one day. And when that day comes, I will make choices...''My own choices...'",
         "effect": "The wearer is more likely to be attacked, but DMG taken is reduced by 16/18/20/22/24%.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b7/Light_Cone_Landau%27s_Choice.png/revision/latest?cb=20230430165035",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/14/Light_Cone_Landau%27s_Choice_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171757"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/14/Light_Cone_Landau%27s_Choice_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171757",
+        "source": "Regular Warp"
     },
     {
         "name": "Loop",
@@ -249,7 +276,8 @@
         "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.'Those running away from the past think no one understands their despair. When they finally take a breather, they'll find their future selves staring right at them with bloodshot eyes.'",
         "effect": "Increases DMG dealt from its wearer to Slowed enemies by 24/30/36/42/48%.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d8/Light_Cone_Loop.png/revision/latest?cb=20230430165051",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/06/Light_Cone_Loop_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171759"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/06/Light_Cone_Loop_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171759",
+        "source": "Regular Warp"
     },
     {
         "name": "Make the World Clamor",
@@ -258,7 +286,8 @@
         "description": "She stood on the stage, waving at her audience, encouraging them to make their voice heard.Songs, shouting, or sigh \u2014 anything that makes a sound.Voice your thoughts, so others can come to help.'Don't make your heart as cold as this concrete jungle.'\u2014 Make the world clamor.",
         "effect": "The wearer regenerates 20/23/26/29/32 Energy immediately upon entering battle, and increases Ultimate DMG by 32/40/48/56/64%.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0b/Light_Cone_Make_the_World_Clamor.png/revision/latest?cb=20230430165103",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b4/Light_Cone_Make_the_World_Clamor_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171801"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b4/Light_Cone_Make_the_World_Clamor_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171801",
+        "source": "Regular Warp"
     },
     {
         "name": "Mediation",
@@ -267,7 +296,8 @@
         "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.'What can be more joyous than purging disharmony?'",
         "effect": "After entering battle, increases SPD of all allies by 12/14/16/18/20 for 1 turn(s).",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/28/Light_Cone_Mediation.png/revision/latest?cb=20230430165119",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1c/Light_Cone_Mediation_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171803"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1c/Light_Cone_Mediation_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171803",
+        "source": "Regular Warp"
     },
     {
         "name": "Memories of the Past",
@@ -276,7 +306,8 @@
         "description": "An old photo lies on the far end of the table in the guardian's residence.She would always subconsciously move her eyes away whenever she happened to see it.The memories of the past had already become distant, but the dreams of today still linger.",
         "effect": "Increases the wearer's Break Effect by 28/35/42/49/56%. When the wearer attacks, additionally regenerates 4/5/6/7/8 Energy. This effect can only be triggered 1 time per turn.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/15/Light_Cone_Memories_of_the_Past.png/revision/latest?cb=20230430165128",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5c/Light_Cone_Memories_of_the_Past_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171805"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5c/Light_Cone_Memories_of_the_Past_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171805",
+        "source": "Regular Warp"
     },
     {
         "name": "Meshing Cogs",
@@ -285,7 +316,8 @@
         "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.'Harmony is achieved when everyone does their bit amidst the clunking of machines.'",
         "effect": "After the wearer uses attacks or gets hit, additionally regenerates 4/5/6/7/8 Energy. This effect can only be triggered 1 time per turn.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/89/Light_Cone_Meshing_Cogs.png/revision/latest?cb=20230430163912",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0c/Light_Cone_Meshing_Cogs_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171807"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0c/Light_Cone_Meshing_Cogs_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171807",
+        "source": "Regular Warp"
     },
     {
         "name": "Moment of Victory",
@@ -294,7 +326,8 @@
         "description": "''If you want to cry after your loss, Gepard, then cry.''But you need to stand back up even you are crying, until you can defeat me... Even if it takes years.'A few years later, the boy no longer cried or lost to his sister.Now on the battle field, the courageous Silvermane Guard captain will defend till the end no matter what \u2014 all to find the moment to completely destroy the enemy.",
         "effect": "Increases the wearer's DEF by 24/28/32/36/40% and Effect Hit Rate by 24/28/32/36/40%. Increases the chance for the wearer to be attacked by enemies. When the wearer is attacked, increase their DEF by an additional 24/28/32/36/40% until the end of the wearer's turn.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a1/Light_Cone_Moment_of_Victory.png/revision/latest?cb=20230430165146",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c1/Light_Cone_Moment_of_Victory_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171809"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c1/Light_Cone_Moment_of_Victory_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171809",
+        "source": "Regular Warp"
     },
     {
         "name": "Multiplication",
@@ -303,7 +336,8 @@
         "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.'When life has lost its meaning, please continue to bestow life upon it.'",
         "effect": "After the wearer uses their Basic ATK, their next action will be Advanced Forward by 12/14/16/18/20%.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/70/Light_Cone_Multiplication.png/revision/latest?cb=20230430165202",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/91/Light_Cone_Multiplication_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171811"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/91/Light_Cone_Multiplication_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171811",
+        "source": "Regular Warp"
     },
     {
         "name": "Mutual Demise",
@@ -312,7 +346,8 @@
         "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.'How does one make perfect the past of a planet? Now \u2014 immediately \u2014 rend the planet asunder'",
         "effect": "If the wearer's current HP is less than 80%, CRIT Rate increases by 12/15/18/21/24%.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a0/Light_Cone_Mutual_Demise.png/revision/latest?cb=20230430165210",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/3b/Light_Cone_Mutual_Demise_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171813"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/3b/Light_Cone_Mutual_Demise_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171813",
+        "source": "Regular Warp"
     },
     {
         "name": "Night on the Milky Way",
@@ -321,7 +356,8 @@
         "description": "If you are concerned for the road, just look up again.When the stars look gently down, the heart would already be soaring.Every thought and every whisper,becomes a life experience that would never leave.",
         "effect": "For every enemy on the field, increases the wearer's ATK by 9/10.5/12/13.5/15%, up to 5 stacks. When an enemy is inflicted with Weakness Break, the DMG dealt by the wearer increases by 30/35/40/45/50% for 1 turn.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d4/Light_Cone_Night_on_the_Milky_Way.png/revision/latest?cb=20230430165219",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d5/Light_Cone_Night_on_the_Milky_Way_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171815"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d5/Light_Cone_Night_on_the_Milky_Way_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171815",
+        "source": "Regular Warp"
     },
     {
         "name": "Nowhere to Run",
@@ -330,7 +366,8 @@
         "description": "This isn't the first time he's seen this man.This man had become his own inseparable shadow.No matter how many times he runs this man through with his spear, the man always comes back.He can neither lose to this man, nor truly win.Though he wants to run away, there is nowhere to run.",
         "effect": "Increases the wearer's ATK by 24/30/36/42/48%. Whenever the wearer defeats an enemy, they restore HP equal to 12/15/18/21/24% of their ATK.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/42/Light_Cone_Nowhere_to_Run.png/revision/latest?cb=20230430165302",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9a/Light_Cone_Nowhere_to_Run_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171817"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9a/Light_Cone_Nowhere_to_Run_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171817",
+        "source": "Nameless Honor"
     },
     {
         "name": "On the Fall of an Aeon",
@@ -339,7 +376,8 @@
         "description": "It began with a flash of light.One by one, they fell as the threat of expiration loomed over them.They had to stop self-replicating and rushed to embrace each other,trying to offer the right to reproduce in exchange for a possibility of survival.They held hands in a show of unprecedented unity....But the Paths met an abrupt end,And they were headed to a true death.",
         "effect": "Whenever the wearer attacks, increase their ATK by 8/10/12/14/16% in this battle, up to 4 time(s). When the wearer inflicts Weakness Break on enemies, the wearer's DMG increases by 12/15/18/21/24% for 2 turn(s).",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/99/Light_Cone_On_the_Fall_of_an_Aeon.png/revision/latest?cb=20230430165315",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e2/Light_Cone_On_the_Fall_of_an_Aeon_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171819"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e2/Light_Cone_On_the_Fall_of_an_Aeon_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171819",
+        "source": "Simulated Universe (Herta's Store)"
     },
     {
         "name": "Only Silence Remains",
@@ -348,7 +386,8 @@
         "description": "'Shouldn't we get off? It's our stop.'A chuckle came from above. His eyes moved, but he didn't look up.'To be clear, March always says you're expressionless, but I don't agree.''The train's archives show traces of an update, but the results weren't saved.''So... which entry were you having trouble with?'He grasped his pen tighter as he looked at the bloody scene drawn in the notebook from memory.'I see. It was the one about you...''",
         "effect": "Increases ATK of its wearer by 16/20/24/28/32%. If there are 2 or fewer enemies on the field, increases wearer's CRIT Rate by 12/15/18/21/24%.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e2/Light_Cone_Only_Silence_Remains.png/revision/latest?cb=20230430165329",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e2/Light_Cone_Only_Silence_Remains_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171821"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e2/Light_Cone_Only_Silence_Remains_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171821",
+        "source": "Regular Warp"
     },
     {
         "name": "Passkey",
@@ -357,7 +396,8 @@
         "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.'Knowledge is locked behind a gate, the key to which is hidden from those seeking answers from others, while made obvious for those determined to find it on their own.'",
         "effect": "After the wearer uses their Skill, additionally regenerates 8/9/10/11/12 Energy. This effect can only be triggered 1 time per turn.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a4/Light_Cone_Passkey.png/revision/latest?cb=20230430165344",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a4/Light_Cone_Passkey_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171822"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a4/Light_Cone_Passkey_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171822",
+        "source": "Regular Warp"
     },
     {
         "name": "Past and Future",
@@ -366,7 +406,8 @@
         "description": "The wings of the paper kite in her hands were broken, brutally reminding her of her beloved's tragic passing.She kneeled next to the fire of war, eyes full of sorrow.'If you are the only one left to do this, then our sacrifice would...'Gunfire raged on, painting the sky red without dampening its majesty.She looked up at the sky, eyes full of fury.",
         "effect": "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals 16/20/24/28/32% increased DMG for 1 turn(s).",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b0/Light_Cone_Past_and_Future.png/revision/latest?cb=20230430165356",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b9/Light_Cone_Past_and_Future_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171824"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b9/Light_Cone_Past_and_Future_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171824",
+        "source": "Spend a total of 590 Strale at Jeweler's Pagoda located in Central Starskiff Haven, Xianzhou Luofu. \n*Echo of war* (Weekly Boss) \nBuy from *Light Cone Manifest* (Forgotten Hall)"
     },
     {
         "name": "Perfect Timing",
@@ -375,7 +416,8 @@
         "description": "On a bustling street he walks and walks. The sunlight closely follows his footsteps.He makes a stop and picks up an umbrella to shade himself from the sun...and from that prying gaze.",
         "effect": "Increases the wearer's Effect RES by 16/20/24/28/32% and increases Outgoing Healing by an amount that is equal to 33/36/39/42/45% of Effect RES. Outgoing Healing can be increased this way by up to 15/18/21/24/27%.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/77/Light_Cone_Perfect_Timing.png/revision/latest?cb=20230430165405",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/25/Light_Cone_Perfect_Timing_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171826"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/25/Light_Cone_Perfect_Timing_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171826",
+        "source": ""
     },
     {
         "name": "Pioneering",
@@ -384,7 +426,8 @@
         "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.'We will no longer fight alone. The IPC will stand alongside everyone in assistance.'",
         "effect": "When the wearer Breaks the enemy target's Weakness, the wearer restores HP by 12/14/16/18/20% of their Max HP.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fa/Light_Cone_Pioneering.png/revision/latest?cb=20230430165413",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/61/Light_Cone_Pioneering_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171828"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/61/Light_Cone_Pioneering_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171828",
+        "source": "Regular Warp"
     },
     {
         "name": "Planetary Rendezvous",
@@ -393,7 +436,8 @@
         "description": "She had no idea what to expect when she first started out on this journey.All she knew was that she could at long last be rid of the judgmental eyes and petty bickering of her family.She felt she finally understood what the poet was trying to say.'One day, we would grow wings and forget what it was like to walk.'The light in her eyes became the glittering stars.",
         "effect": "Upon battle entry, if an ally deals the same DMG Type as the wearer, DMG dealt increases by 12/15/18/21/24%.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b0/Light_Cone_Planetary_Rendezvous.png/revision/latest?cb=20230430165422",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/13/Light_Cone_Planetary_Rendezvous_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171830"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/13/Light_Cone_Planetary_Rendezvous_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171830",
+        "source": "Regular Warp"
     },
     {
         "name": "Post-Op Conversation",
@@ -402,7 +446,8 @@
         "description": "''You're awake... Thank you.''You... saved my life, Natasha. The one who should be saying thanks... is me.''No, I should be thanking you... for holding on until I finished the surgery.'The doctor and patient smiled wearily at each other and said nothing more",
         "effect": "Increases Energy Regeneration Rate of its wearer by 8/10/12/14/16% and increases Outgoing Healing when they use their Ultimate by 12/15/18/21/24%.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/03/Light_Cone_Post-Op_Conversation.png/revision/latest?cb=20230430165436",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/2f/Light_Cone_Post-Op_Conversation_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171832"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/2f/Light_Cone_Post-Op_Conversation_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171832",
+        "source": "Regular Warp"
     },
     {
         "name": "Quid Pro Quo",
@@ -411,7 +456,8 @@
         "description": "After enjoying an intense massage from the dragon girl,the Foxian girl held out her hand and playfully pinched the dragon girl's little chubby cheeks.The little girl then pouted her lips, clearly offended, only to elicit a gleeful giggle from the Foxian girl.'Now that's what I call a proper quid pro quo.''",
         "effect": "At the start of the wearer's turn, regenerates 8/10/12/14/16 Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50%.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/71/Light_Cone_Quid_Pro_Quo.png/revision/latest?cb=20230430165451",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/cf/Light_Cone_Quid_Pro_Quo_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171834"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/cf/Light_Cone_Quid_Pro_Quo_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171834",
+        "source": "Trailblazer *Level 20* Reward \n*Echo of war* (Weekly Boss) \nBuy from *Light Cone Manifest* (Forgotten Hall)"
     },
     {
         "name": "Resolution Shines As Pearls of Sweat",
@@ -420,7 +466,8 @@
         "description": "The limelight cast on the boxing ring is bright, but no brighter than all those beads of sweat running down his back.He has long been determined to use his two fists to protect those he cherishes the most.After all, they are the ones who ignited his determination in the first place.They are the ones who have always been there for him, be it inside or outside the boxing ring.",
         "effect": "When the wearer hits an enemy and if the hit enemy is not already Ensnared, then there is a 60/70/80/90/100% base chance to Ensnare the hit enemy. Ensnared enemies' DEF decreases by 12/13/14/15/16% for 1 turn(s).",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/72/Light_Cone_Resolution_Shines_As_Pearls_of_Sweat.png/revision/latest?cb=20230430165459",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bc/Light_Cone_Resolution_Shines_As_Pearls_of_Sweat_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171836"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/bc/Light_Cone_Resolution_Shines_As_Pearls_of_Sweat_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171836",
+        "source": "Regular Warp"
     },
     {
         "name": "Return to Darkness",
@@ -429,7 +476,8 @@
         "description": "Even though her sister was close by her side, she could hear nothing.The only thing audible was the voice in the depths of her heart, which only grew louder by the minute.'Big sis's body is cold.''Big sis's body is not moving.'A violent surge of fury irrevocably overwhelmed her so much that she didn't even find the time to clear her mind, or to remember this crucial yet neglected fact...'Big sis's body has been cold like this for a very long time.''",
         "effect": "Increases the wearer's CRIT Rate by 12/15/18/21/24%. After a CRIT Hit, there is a 16/20/24/28/32% fixed chance to dispel 1 buff on the target enemy. This effect can only trigger 1 time per attack.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e0/Light_Cone_Return_to_Darkness.png/revision/latest?cb=20230430165508",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/44/Light_Cone_Return_to_Darkness_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171838"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/44/Light_Cone_Return_to_Darkness_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171838",
+        "source": "Nameless Honor"
     },
     {
         "name": "River Flows in Spring",
@@ -438,7 +486,8 @@
         "description": "The young boy took a short break from his sword practice.The sunlight was baking his already heated neck. He slowly got into the water, whose coldness touched his bare feet.When the bell chimes and birds tweet, even the people far away would know that springtime had arrived.",
         "effect": "After entering battle, increases the wearer's SPD by 8/9/10/11/12% and DMG by 12/15/18/21/24%. When the wearer takes DMG, this effect will disappear. This effect will resume after the end of the wearer's next turn.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b3/Light_Cone_River_Flows_in_Spring.png/revision/latest?cb=20230430164059",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a0/Light_Cone_River_Flows_in_Spring_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171840"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a0/Light_Cone_River_Flows_in_Spring_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171840",
+        "source": "Complete Part 2 of *Operation Briefing* (Forgotten Hall) \n*Echo of War* (Weekly Boss) \nBuy from *Light Cone Manifest* (Forgotten Hall)"
     },
     {
         "name": "Sagacity",
@@ -447,7 +496,8 @@
         "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.'Should Wise Ones be unable to abandon their identity as humans, they shall be abandoned by wisdom.'",
         "effect": "When the wearer unleashes their Ultimate, increases ATK by 24/30/36/42/48% for 2 turn(s).",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/70/Light_Cone_Sagacity.png/revision/latest?cb=20230430164107",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d7/Light_Cone_Sagacity_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171842"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d7/Light_Cone_Sagacity_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171842",
+        "source": "Regular Warp"
     },
     {
         "name": "Shared Feeling",
@@ -456,7 +506,8 @@
         "description": "When the doctor found the wounded girl, she was clinging a machine that had stopped working, with all sorts of parts filling her pocket.She took the girl back to her clinic and treated the wounds.Drops of sweat slowly rolled down the girl's cheek, but she remained silent and her hands didn't stop fiddling the machine.To the doctor, the way the girl was attached to the machine was very much like how she was attached to her patients who needed help.So the doctor did not try to comfort the girl nor did she nag her about being more careful;but rather, she sat down with her to give her a moment of peace.",
         "effect": "Increases the wearer's Outgoing Healing by 10/12.5/15/17.5/20%. When using Skill, regenerates 2/2.5/3/3.5/4 Energy for all allies.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/35/Light_Cone_Shared_Feeling.png/revision/latest?cb=20230430164116",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8d/Light_Cone_Shared_Feeling_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171843"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8d/Light_Cone_Shared_Feeling_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171843",
+        "source": "Regular Warp"
     },
     {
         "name": "Shattered Home",
@@ -465,7 +516,8 @@
         "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.'Absolute control comes from the ability to inflict total destruction.'",
         "effect": "Deals 20/25/30/35/40% increased DMG to any enemies whose HP is above 50%.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/62/Light_Cone_Shattered_Home.png/revision/latest?cb=20230430164130",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fd/Light_Cone_Shattered_Home_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171845"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fd/Light_Cone_Shattered_Home_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171845",
+        "source": "Regular Warp"
     },
     {
         "name": "Sleep Like the Dead",
@@ -474,7 +526,8 @@
         "description": "The boy is still tightly grasping the sword even when fast asleep against the general's shoulder.The general gently taps the boy's cheek, and the boy mutters in his sleep.'General... I finally... won.'The general pauses.He suddenly realizes that, compared to the boy trying to improve every day,He himself has endured too many years and is used to stagnation.'You will soon be better than everyone, and that will be only the beginning...''",
         "effect": "Increases the wearer's CRIT DMG by 30/35/40/45/50%. When the wearer's Basic ATK or Skill does not result in a CRIT Hit, increases their CRIT Rate by 36/42/48/54/60% for 1 turn(s). This effect can only trigger once every 3 turn(s).",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/2d/Light_Cone_Sleep_Like_the_Dead.png/revision/latest?cb=20230430164141",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/dd/Light_Cone_Sleep_Like_the_Dead_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171847"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/dd/Light_Cone_Sleep_Like_the_Dead_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171847",
+        "source": "Regular Warp"
     },
     {
         "name": "Something Irreplaceable",
@@ -483,7 +536,8 @@
         "description": "''Should a day come when even I'm not here anymore, please look after this database, Svarog.'(Who is this... Why is this message in my records...)'Do you have something that's irreplaceable, Svarog?'(Irreplaceable... broken parts... can simply be replaced...)'You'll definitely find it one day, Svarog.'(Such things... will only cause trouble...)'When that time comes... You should leave this place behind.''",
         "effect": "Increases the wearer's ATK by 24/28/32/36/40%. When the wearer defeats an enemy or is hit, immediately restores HP equal to 8/9/10/11/12% of the wearer's ATK. At the same time, the wearer's DMG is increased by 24/28/32/36/40% until the end of their next turn. This effect cannot stack and can only trigger 1 time per turn.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7a/Light_Cone_Something_Irreplaceable.png/revision/latest?cb=20230430164156",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7a/Light_Cone_Something_Irreplaceable_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171849"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7a/Light_Cone_Something_Irreplaceable_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171849",
+        "source": "Regular Warp"
     },
     {
         "name": "Subscribe for More!",
@@ -492,7 +546,8 @@
         "description": "'Yo, yo. What is up! Is everything coming through?'The orange-haired girl slowly lifts a sledgehammer while shouting enthusiastically at the camera.'Ever seen a pretty girl doing the cinder-block-smashed-on-chest stunt?''I didn't sign up for this!'The brunette girl cried out loud, only to be met with a sly smile from the girl with the orange hair.'Please. Just let me do this. This is what people would've wanted.''",
         "effect": "Increases the DMG of the wearer's Basic ATK and Skill by 24/30/36/42/48%. This effect increases by an extra 24/30/36/42/48% when the wearer's current Energy reaches its max level.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/57/Light_Cone_Subscribe_for_More%21.png/revision/latest?cb=20230430164209",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/44/Light_Cone_Subscribe_for_More%21_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171851"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/44/Light_Cone_Subscribe_for_More%21_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171851",
+        "source": "Regular Warp"
     },
     {
         "name": "Swordplay",
@@ -501,7 +556,8 @@
         "description": "Looking rather skeptical, the girl thrust the small sword at her imaginary enemy in an attempt to convince herself that this thing was useful.How can something so feeble compete with my two-handed sword? Do enemies even notice when they get stabbed?The owner of the sword did not seem to care about its size.After all, enemies are defeated by strategy, not swords.It doesn't matter whether the sword is heavy or light, as long as you use the pointy end.",
         "effect": "For each time the wearer hits the same target, DMG dealt increases by 8/10/12/14/16%, stacking up to 5 time(s). This effect will be dispelled when the wearer changes targets.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b9/Light_Cone_Swordplay.png/revision/latest?cb=20230430164219",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e2/Light_Cone_Swordplay_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171853"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e2/Light_Cone_Swordplay_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171853",
+        "source": "Regular Warp"
     },
     {
         "name": "Texture of Memories",
@@ -510,7 +566,8 @@
         "description": "The universe was like a badland filled with rubbish.There were the occasional treasure that lies undiscovered.They looked through the cracks of the past, choosing seeds of memory....If a new life was to be born, its seed has to be dead.Precious stones of pink, blue, and white were brought forth,Twinkling gently in their seed plot,Even though the universe held onto its enigmatic silence.",
         "effect": "Increases the wearer's Effect RES by 8/10/12/14/16%. If the wearer is attacked and has no Shield, they gain a Shield equal to 16/20/24/28/32% of their Max HP for 2 turn(s). This effect can only be triggered once every 3 turn(s). If the wearer has a Shield when attacked, the DMG they receive decreases by 12/15/18/21/24%.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1e/Light_Cone_Texture_of_Memories.png/revision/latest?cb=20230430164234",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/99/Light_Cone_Texture_of_Memories_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171855"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/99/Light_Cone_Texture_of_Memories_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171855",
+        "source": "Simulated Universe (Herta's Store)"
     },
     {
         "name": "The Birth of the Self",
@@ -519,7 +576,8 @@
         "description": "In the beginning, it had the exact same pose as the previous portrait.Looking at the face identical to hers, she was convinced that this was not her.'Impossible. how can two portraits be exactly the same?'She tweaked its joints, opened its eyes, and made its fingers softer.She looked happy when all changes were done.'Completely different from yesterday. This is more like who I am today.''",
         "effect": "Increases DMG dealt by the wearer's follow-up attacks by 24/30/36/42/48%. If the current HP of the target enemy is below or equal to 50%, increases DMG dealt by follow-up attacks by an extra 24/30/36/42/48%.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f1/Light_Cone_The_Birth_of_the_Self.png/revision/latest?cb=20230430164249",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/22/Light_Cone_The_Birth_of_the_Self_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171644"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/22/Light_Cone_The_Birth_of_the_Self_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171644",
+        "source": "Regular Warp"
     },
     {
         "name": "The Moles Welcome You",
@@ -528,7 +586,8 @@
         "description": "'Moles, moles,''Leaving our holes,''Smart moles fear naught foes,''Moles, moles,''Bite your toes!''",
         "effect": "When the wearer uses Basic ATK, Skill, or Ultimate to attack enemies, the wearer gains one stack of Mischievous. Each stack increases the wearer's ATK by 12/15/18/21/24%.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5a/Light_Cone_The_Moles_Welcome_You.png/revision/latest?cb=20230430164305",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/61/Light_Cone_The_Moles_Welcome_You_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171646"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/61/Light_Cone_The_Moles_Welcome_You_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171646",
+        "source": "Regular Warp"
     },
     {
         "name": "The Seriousness of Breakfast",
@@ -537,7 +596,8 @@
         "description": "Though the table is set...Some people want a cup of tea first.Some people want to take a picture first.Some people want to read the newspaper first.Some people want to write a page in their notebook first.Some people want to play on their phone first.'All of you, eat while the food is hot!''",
         "effect": "Increases the wearer's DMG by 12/15/18/21/24%. For every defeated enemy, the wearer's ATK increases by 4/5/6/7/8%, stacking up to 3 time(s).",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d6/Light_Cone_The_Seriousness_of_Breakfast.png/revision/latest?cb=20230430164318",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5a/Light_Cone_The_Seriousness_of_Breakfast_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171648"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5a/Light_Cone_The_Seriousness_of_Breakfast_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171648",
+        "source": "*To Rot or To Burn* Mission Reward \n*Echo of war* (Weekly Boss) \nBuy from *Light Cone Manifest* (Forgotten Hall)"
     },
     {
         "name": "This Is Me!",
@@ -546,7 +606,8 @@
         "description": "The girl could rock any outfit she chooses, but she was unsatisfied, judging by the dozen sets of clothing piled up behind her.'Will this be the last outfit for today?'She thought silently to herself and looked at the girl in the mirror. She looked extra happy on this day.'Okay! This is me!''",
         "effect": "Increases the wearer's DEF by 16/20/24/28/32%. Increases the DMG of the wearer when they use their Ultimate by 60/75/90/105/120% of the wearer's DEF. This effect can only apply 1 time per enemy target.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/cb/Light_Cone_This_Is_Me%21.png/revision/latest?cb=20230430164328",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/84/Light_Cone_This_Is_Me%21_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171650"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/84/Light_Cone_This_Is_Me%21_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171650",
+        "source": "Nameless Honor"
     },
     {
         "name": "Time Waits for No One",
@@ -555,7 +616,8 @@
         "description": "She had spent many days next to the window.Flowers were blooming outside when she made gentle medicines with mint and nepeta.Rain was falling outside when she made strong medicines with mosla and ginger.Leaves were falling outside when she made sour medicines with peony roots and dry plums.And snow was falling outside when she made bitter medicines with skullcaps and anemarrhena.Time flows endlessly, but this window and the person sitting next to it remain forever the same.",
         "effect": "Increases the wearer's Max HP by 18/21/24/27/30% and Outgoing Healing by 12/14/16/18/20%. When the wearer heals allies, record the amount of Outgoing Healing. When any ally launches an attack, a random attacked enemy takes additional DMG equal to 36/42/48/54/60% of the recorded Outgoing Healing value. This additional DMG is of the same Type as the wearer's, is not affected by other buffs, and can only occur 1 time per turn.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b1/Light_Cone_Time_Waits_for_No_One.png/revision/latest?cb=20230430164343",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1c/Light_Cone_Time_Waits_for_No_One_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171652"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1c/Light_Cone_Time_Waits_for_No_One_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171652",
+        "source": "Regular Warp"
     },
     {
         "name": "Today Is Another Peaceful Day",
@@ -564,7 +626,8 @@
         "description": "There is the new book borrowed for lunch and she just figured out a new way to play tiles.If she works slowly, the rest of her job should last exactly till the end of day.She ducks easily into a corner.No one must disturb her in her wonderful off time\u2014 not even diviner Fu.Just on the off chance that she does show up...'Then I'll give this milk candy ball to Diviner Fu. She can't be angry after having sweets!''",
         "effect": "After entering battle, increases the wearer's DMG based on their Max Energy. DMG increases by 0.2/0.25/0.3/0.35/0.4% per point of Energy, up to 160 Energy.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c3/Light_Cone_Today_Is_Another_Peaceful_Day.png/revision/latest?cb=20230430164356",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e7/Light_Cone_Today_Is_Another_Peaceful_Day_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171654"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e7/Light_Cone_Today_Is_Another_Peaceful_Day_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171654",
+        "source": "Nameless Honor"
     },
     {
         "name": "Trend of the Universal Market",
@@ -573,7 +636,8 @@
         "description": "The planet is receiving a revaluation...'Will this project show that it's mutually beneficial to collect any outstanding debts?''But we only need to convey one message \u2014 our existence.''If it were to have a value of its own, then it must create value for the corporation.''",
         "effect": "Increases the wearer's DEF by 16/20/24/28/32%. When the wearer is attacked, there is a 100/105/110/115/120% base chance to Burn the enemy. For each turn, the wearer deals DoT that is equal to 40/50/60/70/80% of the wearer's DEF for 2 turn(s).",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8a/Light_Cone_Trend_of_the_Universal_Market.png/revision/latest?cb=20230430164411",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b3/Light_Cone_Trend_of_the_Universal_Market_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171656"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b3/Light_Cone_Trend_of_the_Universal_Market_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171656",
+        "source": "Regular Warp"
     },
     {
         "name": "Under the Blue Sky",
@@ -582,7 +646,8 @@
         "description": "Under the blue sky, fields of wheat were dancing.The young girl was carefully weaving a flower wreath, for her most beloved little sister.That was when they were still the same height.That was when they shared the same smile.",
         "effect": "Increases the wearer's ATK by 16/20/24/28/32%. When the wearer defeats an enemy, the wearer's CRIT Rate increases by 12/15/18/21/24% for 3 turn(s).",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/01/Light_Cone_Under_the_Blue_Sky.png/revision/latest?cb=20230430164420",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/24/Light_Cone_Under_the_Blue_Sky_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171658"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/24/Light_Cone_Under_the_Blue_Sky_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171658",
+        "source": "Regular Warp"
     },
     {
         "name": "Void",
@@ -591,7 +656,8 @@
         "description": "A drop of strength condensed from time itself. All the seemingly insignificant moments come together to form the magnificent choir of fate.'He stared into the void, hanging high like the dark sun at the end of all matter, or a mouth that answered all questions.It said: \u2588\u2588\u2588 \u2588 \u2588\u2588\u2588 \u2588\u2588The answer couldn't be expressed in any human language, but could be understood by all.'",
         "effect": "At the start of the battle, the wearer's Effect Hit Rate increases by 20/25/30/35/40% for 3 turn(s).",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/37/Light_Cone_Void.png/revision/latest?cb=20230430164430",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/94/Light_Cone_Void_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171700"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/94/Light_Cone_Void_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171700",
+        "source": "Regular Warp"
     },
     {
         "name": "Warmth Shortens Cold Nights",
@@ -600,7 +666,8 @@
         "description": "Lighting a light, she glanced at her friend beside her while holding a mug of warm chocolate.Watching her read the books and notes she gifted her.Watching her expressing a rare smile.In cold nights like this, even the tiniest bit of bliss can chase away the chills.",
         "effect": "Increases the wearer's Max HP by 16/20/24/28/32%. When using Basic ATK or Skill, restore all allies' HP by an amount equal to 2/2.5/3/3.5/4% of their respective Max HP.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a2/Light_Cone_Warmth_Shortens_Cold_Nights.png/revision/latest?cb=20230430164445",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/27/Light_Cone_Warmth_Shortens_Cold_Nights_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171702"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/27/Light_Cone_Warmth_Shortens_Cold_Nights_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171702",
+        "source": "Nameless Honor"
     },
     {
         "name": "We Are Wildfire",
@@ -609,7 +676,8 @@
         "description": "She got used to people losing their homes.And she got used to people losing their lives.But crying alone was useless.'Wear this red scarf, and then we shall share each other's pain.''We are family. We are Wildfire.'The moment that pair of big hands held her head, she could no longer hold back her tears.",
         "effect": "At the start of the battle, the DMG dealt to all allies decreases by 8/10/12/14/16% for 5 turn(s). At the same time, immediately restores HP to all allies equal to 30/35/40/45/50% of the respective HP difference between the characters' Max HP and current HP.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c2/Light_Cone_We_Are_Wildfire.png/revision/latest?cb=20230430164453",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/22/Light_Cone_We_Are_Wildfire_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171704"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/22/Light_Cone_We_Are_Wildfire_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171704",
+        "source": "Complete Part 4 of *Operation Briefing* (Interastral Guide) \nSpend 500 Shield in Underground Shop located in Boulder Town, Jarilo-VI \n*Echo of War* (Weekly Boss) \nBuy from *Light Cone Manifest* (Forgotten Hall)"
     },
     {
         "name": "We Will Meet Again",
@@ -618,7 +686,8 @@
         "description": "She had once thought it was some sort of program. How else would it never tire?But a program would never actively discard the optimal solution and bypass her trap.'Seems like we'll have a war of attrition.'She yawns.'Time to sleep. Organic lifeforms should treasure rest.'The surroundings dim.She suddenly bolts awake, but the residues of data are swept away and destroyed. It all seems like a dream\u2014 but the taste of defeat is very real.",
         "effect": "After the wearer uses Basic ATK or Skill, deals Additional DMG equal to 48/60/72/84/96% of the wearer's ATK to a random enemy that has been attacked.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c1/Light_Cone_We_Will_Meet_Again.png/revision/latest?cb=20230430164502",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0e/Light_Cone_We_Will_Meet_Again_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171706"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0e/Light_Cone_We_Will_Meet_Again_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171706",
+        "source": "Nameless Honor"
     },
     {
         "name": "Woof! Walk Time!",
@@ -627,6 +696,7 @@
         "description": "Pity that no one has seen it...Seen it screw up its nose and sniff around and dive into an empty path.Pity that no one has seen it...Seen it retract its claws, enter the password, and leap into the embraces of freedom.Has nobody seen it still...?A grown dog can now walk by itself in space!",
         "effect": "Increases the wearer's ATK by 10/12.5/15/17.5/20%, and increases their DMG to enemies affected with Burn or Bleed by 16/20/24/28/32%. This also applies to DoT.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f2/Light_Cone_Woof%21_Walk_Time%21.png/revision/latest?cb=20230430164516",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/eb/Light_Cone_Woof%21_Walk_Time%21_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171708"
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/eb/Light_Cone_Woof%21_Walk_Time%21_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171708",
+        "source": "Spend 390 Hertareum at Internal Purchase Officer on the Herta Space Station"
     }
 ]
