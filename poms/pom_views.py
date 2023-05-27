@@ -63,7 +63,7 @@ class CharactersView(discord.ui.View):
 
     @discord.ui.select(
         placeholder="Select a Path",
-        options=[discord.SelectOption(label=path, value=path, emoji=path_emojis[path]) for path, charas in sorted(path_and_charas.items())]
+        options=[discord.SelectOption(label=path, value=path, emoji=path_emojis[path]) for path in sorted(list(path_and_charas))]
     )
     async def callback(self, interaction: discord.Interaction, select: discord.ui.Select):
         path = select.values[0]

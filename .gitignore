@@ -2,7 +2,7 @@ config.json
 resources
 config_test.json
 thumbs
-
+pom4.py
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
