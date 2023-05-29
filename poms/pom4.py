@@ -23,6 +23,7 @@ class pom4(commands.Cog):
         rarity = [chara['rarity'] for chara in chara_file if chara['name'] == selected_chara][0]
 
         if results != []:
+            results = results[0]
             eidolon_embed = discord.Embed(title=f"{selected_chara}'s Eidolons", color=cone_colors[len(rarity)])
             for num in range(1, 7):
                 eidolon = results[f'e{num}']
