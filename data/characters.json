@@ -552,5 +552,25 @@
             "technique" : {"name":"Call of the Guardian", "tag":"Defense", "description":"After using Technique, at the start of the next battle, gains a Shield that absorbs DMG equal to 30% of the Trailblazer's DEF plus 384 for 1 turn(s)."}
         },
         "eidolons" : {}
+    },
+
+    {
+        "name" : "Blade",
+        "id" : 28,
+        "description": "",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/24/5308864/64c098cc21d7f053a020f4e051407e41_4906678554337574546.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/24/5308864/69979126001789194203104611286cc4_7182966574849486053.png",
+        "path" : "The Destruction",
+        "combat" : "Wind",
+        "faction" : "Stellaron Hunters",
+        "skills" : {
+            "basic" : {"name":"", "tag":"", "description":""},
+            "skill" : {"name":"", "tag":"", "description":""},
+            "ult" : {"name":"", "tag":"", "description":""},
+            "talent" : {"name":"", "tag":"", "description":""},
+            "technique" : {"name":"", "tag":"", "description":""}
+        },
+        "eidolons" : {}
     }
 ]
