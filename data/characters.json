@@ -572,5 +572,45 @@
             "technique" : {"name":"", "tag":"", "description":""}
         },
         "eidolons" : {}
+    },
+
+    {
+        "name" : "Kafka",
+        "id" : 29,
+        "description": "",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/27/5308864/4893a52c54b02106778799cbebd289f6_452357800696146209.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/27/5308864/65d197d46bb434c561ba157123d8565e_3324824020268332080.png",
+        "path" : "The Nihility",
+        "combat" : "Lightning",
+        "faction" : "Stellaron Hunters",
+        "skills" : {
+            "basic" : {"name":"", "tag":"", "description":""},
+            "skill" : {"name":"", "tag":"", "description":""},
+            "ult" : {"name":"", "tag":"", "description":""},
+            "talent" : {"name":"", "tag":"", "description":""},
+            "technique" : {"name":"", "tag":"", "description":""}
+        },
+        "eidolons" : {}
+    },
+
+    {
+        "name" : "Luka",
+        "id" : 28,
+        "description": "",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/27/5308864/c6d6b8bef93b257573df2eab95302f0e_1251386704248841120.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/29/5308864/9947591de84abc3f20b5ffcfa6a678fe_8082563694045560394.png",
+        "path" : "The Nihility",
+        "combat" : "Physical",
+        "faction" : "",
+        "skills" : {
+            "basic" : {"name":"", "tag":"", "description":""},
+            "skill" : {"name":"", "tag":"", "description":""},
+            "ult" : {"name":"", "tag":"", "description":""},
+            "talent" : {"name":"", "tag":"", "description":""},
+            "technique" : {"name":"", "tag":"", "description":""}
+        },
+        "eidolons" : {}
     }
 ]
