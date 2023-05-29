@@ -15,7 +15,7 @@ class InfoView(discord.ui.View):
         super().__init__(timeout=None)
         self._embeds = embeds
         self._initial = embeds[0]
-        self.active = False # checks whether "best light cone" embed is active or not
+        self.blc_active = False # checks whether "best light cone" embed is active or not
         if blc != None:
             self.bestlc = BestLcSelect(blc)
         else:
@@ -26,32 +26,43 @@ class InfoView(discord.ui.View):
         options=[
             discord.SelectOption(label="Character Information", value="1", description=None),
             discord.SelectOption(label="Character Skills", value="2", description=None),
-            discord.SelectOption(label="Best Light Cones", value="3", description=None)
+            discord.SelectOption(label="Eidolons", value="3", description=None),
+            discord.SelectOption(label="Best Light Cones", value="4", description=None)
         ]
     )
     async def select_callback(self, interaction: discord.Interaction, select: discord.ui.Select):
         select.disabled = False
         if select.values[0] == "1":
-            if self.active == True:
-                self.remove_item(self.bestlc)
-                await interaction.response.edit_message(embed=self._embeds[0], view=self)
-                self.active = False
-            else:
-                await interaction.response.edit_message(embed=self._embeds[0], view=self)
+            i = 1
+            while i < len(self.children):
+                self.remove_item(self.children[i])
+                i+=1
+            self.blc_active = False
+            await interaction.response.edit_message(embed=self._embeds[0], view=self)
+
         elif select.values[0] == "2":
-            if self.active == True:
-                self.remove_item(self.bestlc)
-                await interaction.response.edit_message(embed=self._embeds[1], view=self)
-                self.active = False
-            else:
-                await interaction.response.edit_message(embed=self._embeds[1], view=self)
+            i = 1
+            while i < len(self.children):
+                self.remove_item(self.children[i])
+                i+=1
+            self.blc_active = False
+            await interaction.response.edit_message(embed=self._embeds[1], view=self)
+
         elif select.values[0] == "3":
-            if self.bestlc != None and self.active == False:
+            i = 1
+            while i < len(self.children):
+                self.remove_item(self.children[i])
+                i+=1
+            self.blc_active = False
+            await interaction.response.edit_message(embed=self._embeds[2], view=self)
+
+        elif select.values[0] == "4":
+            if self.bestlc != None and self.blc_active == False:
                 self.add_item(self.bestlc)
-                await interaction.response.edit_message(embed=self._embeds[2], view=self)
-                self.active = True
+                await interaction.response.edit_message(embed=self._embeds[3], view=self)
+                self.blc_active = True
             else:
-                await interaction.response.edit_message(embed=self._embeds[2])
+                await interaction.response.edit_message(embed=self._embeds[3])
 
     @property
     def initial(self) -> discord.Embed:

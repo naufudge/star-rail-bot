@@ -4,7 +4,7 @@ from discord.ext import commands
 from typing import Optional
 import random
 from poms.pom_views import InfoView, CharactersView
-from poms.pom_funcs import similarity_sorter, chara_file, best_light_cones
+from poms.pom_funcs import similarity_sorter, chara_file, best_light_cones, eidolons
 from poms.pom_misc import combat_emojis, path_emojis
 
 
@@ -36,7 +36,7 @@ class pom2(commands.Cog):
             info_embed.set_image(url=chara_info['picture'])
 
             # Character Skills embed below
-            skills_embed = discord.Embed(title=f"{chara_info['name']}", color=cone_colors[len(chara_info['rarity'])])
+            skills_embed = discord.Embed(title=f"{chara_info['name']}'s Skills", color=cone_colors[len(chara_info['rarity'])])
             skills_embed.set_thumbnail(url=chara_info['thumb'])
             if chara_skills['basic']['name'] == "":
                 skills_embed.add_field(name="Skills not found", value=f"Information regarding {chara_info['name']}'s skills is not out yet :(")
@@ -55,7 +55,6 @@ class pom2(commands.Cog):
             best_cones = [best for best in best_light_cones if best['chara_name'] == chara_info['name']]
             if best_cones != []:
                 best_cone_embed = discord.Embed(title=f"Best Light Cones for {chara_info['name']}", description='\n'.join(best_cones[0]['light_cones']), color=cone_colors[len(chara_info['rarity'])])
-                best_cone_embed.set_thumbnail(url=chara_info['thumb'])
                 best_cone_embed.set_footer(text="All credits to KeqingMains")
                 # Getting just the names of the best light cones for the character
                 best_cone_names = [best['light_cones'] for best in best_light_cones if best['chara_name'] == chara_info['name']][0]
@@ -63,8 +62,22 @@ class pom2(commands.Cog):
                 best_cone_names = None
                 best_cone_embed = discord.Embed(title="Sorry! Work in progress :(", description="We're still working on this, come back again later Trailblazer.", color=cone_colors[len(chara_info['rarity'])])
                 # best_cone_embed.set_image(url=)
-            main_embeds = [info_embed, skills_embed, best_cone_embed]
+            best_cone_embed.set_thumbnail(url=chara_info['thumb'])
+            
+            # Eidelons embed below
+            eidolons_details = [eidolon for eidolon in eidolons if eidolon['character'] == result]
+            thumb = [chara['thumb'] for chara in chara_file if chara['name'] == result][0]
+            if eidolons_details != []:
+                eidolons_details = eidolons_details[0]
+                eidolon_embed = discord.Embed(title=f"{result}'s Eidolons", color=cone_colors[len(chara_info['rarity'])])
+                for num in range(1, 7):
+                    eidolon = eidolons_details[f'e{num}']
+                    eidolon_embed.add_field(name=f"E{num} - {eidolon['name']}", value=f"*{eidolon['description']}*", inline=False)
+            else:
+                eidolon_embed = discord.Embed(title=f"{result}'s Eidolons", description=f"Details regarding {result}'s Eidolons is not out yet.", color=cone_colors[len(chara_info['rarity'])])
+            eidolon_embed.set_thumbnail(url=thumb)
 
+            main_embeds = [info_embed, skills_embed, eidolon_embed, best_cone_embed]
             info_view = InfoView(main_embeds, best_cone_names)
             await interaction.response.send_message(embed=info_view.initial, view=info_view)
         else:

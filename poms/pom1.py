@@ -13,6 +13,7 @@ class pom1(commands.Cog):
         help_embed = discord.Embed(title="__Help__", color=random.choice(colors) ,description="Hi Trailblazer! How can Pom-Pom help you today?\n")
         help_embed.add_field(name="``/character <character name>``", value="Gives you some information about a specific character.", inline=False)
         help_embed.add_field(name="``/skills <character name>``", value="Gives you information regarding the skills of a specific character.", inline=False)
+        help_embed.add_field(name="``/eidolons <character name>``", value="Lists all the Eidolons of a specific character.", inline=False)
         help_embed.add_field(name="``/light_cone <light cone name>``", value="Gives you information regarding a specific light cone.", inline=False)
         help_embed.add_field(name="``/relics <relic name>``", value="Gives you information regarding a specific relic or planar ornament.", inline=False)
         help_embed.set_footer(text="Made with love by Nauf#0709 :)")

@@ -1,0 +1,794 @@
+[
+    {
+        "character": "Dan Heng",
+        "e1": {
+            "name": "The Higher You Fly, the Harder You Fall",
+            "description": "When the target enemy's current HP is greater than or equal to 50% of their Max HP, Dan Heng's CRIT Rate increases by 12%.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/30/250281765/4f96bdeb3658c3c192644cea9361e2ba_6815468081366114447.png"
+        },
+        "e2": {
+            "name": "Quell the Venom Octet, Quench the Vice O'Flame",
+            "description": "Reduces Talent cooldown by 1 turn.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/30/250281765/c335e18d7d08d3623b55788f35f83395_7204451961860490148.png"
+        },
+        "e3": {
+            "name": "Seen and Unseen",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/30/250281765/14be23bba963bca238af98b19aefc15b_7774272541472843803.png"
+        },
+        "e4": {
+            "name": "Roaring Dragon and Soaring Sun",
+            "description": "When Dan Heng uses his Ultimate to defeat an enemy, his next action is Advanced Forward by 100%",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/30/250281765/60005f29d346ebf2cf5133e54bd8e832_6336573295556785351.png"
+        },
+        "e5": {
+            "name": "A Drop of Rain Feeds a Torrent",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/30/250281765/5c33cdcc5651d92ab3db2a96ed7f408f_7623118609948268063.png"
+        },
+        "e6": {
+            "name": "The Troubled Soul Lies in Wait",
+            "description": "The Slow state triggered by Skill reduces the enemy's SPD by an extra 8%.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/30/250281765/24ffa8a4fa5ec609cc2ae02618beeb25_3394672076546459800.png"
+        }
+    },
+    {
+        "character": "March 7th",
+        "e1": {
+            "name": "Memory of You",
+            "description": "Every time March 7th's Ultimate Freezes a target, she regenerates 6 Energy.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/e70b0d782f8effad43fd403b5fb52cfc_6520859200987046836.png"
+        },
+        "e2": {
+            "name": "Memory of It",
+            "description": "Upon entering battle, grants a Shield equal to 24% of March 7th's DEF plus 320 to the ally with the lowest HP percentage, lasting for 3 turn(s).",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/cf02e90fd72f17657ed11543ed0cafa8_110820983690066226.png"
+        },
+        "e3": {
+            "name": "Memory of Everything",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/753954f0d0ad20401ff8bd4eb81a538b_4139540039808422642.png"
+        },
+        "e4": {
+            "name": "Never Forfeit Again",
+            "description": "The Talent's Counter effect can be triggered 1 more time in each turn. The DMG dealt by Counter increases by an amount that is equal to 30% of March 7th's DEF",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/db3a53277b7f8001542acae757e7ed58_7174501837240320892.png"
+        },
+        "e5": {
+            "name": "Never Forget Again",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/a5670c8ffbfc92273a64b7fd6cd04c28_3827934713120843953.png"
+        },
+        "e6": {
+            "name": "Just Like This, Always...",
+            "description": "Allies under the protection of the Shield granted by the Skill restores HP equal to 4% of their Max HP plus 106 at the beginning of each turn.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/8117af18b0194d4b4386408564500a0a_3805573599103998084.png"
+        }
+    },
+    {
+        "character": "Trailblazer - the Destruction",
+        "e1": {
+            "name": "A Falling Star",
+            "description": "When enemies are defeated due to the Trailblazer's Ultimate, the Trailblazer additionally regenerates 10 Energy. This effect can only be triggered once per attack.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/93a20c4ae6807eaa65fb189f72cca0c3_6534012898593448767.png"
+        },
+        "e2": {
+            "name": "An Unwilling Host",
+            "description": "Attacking an enemy with Physical Weakness restores the Trailblazer's HP equal to 5% of the Trailblazer's ATK.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/6476b09c648acd770c56b34a51a9e26f_2543219840617273566.png"
+        },
+        "e3": {
+            "name": "A Leading Whisper",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/c672c11cfdb8992380388f98ff44d1b0_225942779364723544.png"
+        },
+        "e4": {
+            "name": "A Destructing Glance",
+            "description": "When attacking an enemy with Weakness Break, CRIT Rate is increased by 25%.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/1b83b98c3942e075545abe5a8510befd_1879694227414356480.png"
+        },
+        "e5": {
+            "name": "A Surviving Hope",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/6f5241d9d4bff980a5b4e4a4dca39cfd_6935414798935688.png"
+        },
+        "e6": {
+            "name": "A Trailblazing Will",
+            "description": "The Trailblazer's Talent is also triggered when they defeat an enemy.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/632187f6c6a23123f49c97beac80bb10_3891418593710168086.png"
+        }
+    },
+    {
+        "character": "Himeko",
+        "e1": {
+            "name": "Childhood",
+            "description": "After \"Victory Rush\" is triggered, Himeko's SPD increases by 20% for 2 turn(s).",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/30/250281765/223e32ddf1bcd406bf77d1afa8ae8f43_4886724556210604416.png"
+        },
+        "e2": {
+            "name": "Convergence",
+            "description": "Deals 15% more DMG to enemies whose HP percentage is 50% or less.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/30/250281765/0483fe9538fe5b9d0b378865d2ad9817_6669568719870159065.png"
+        },
+        "e3": {
+            "name": "Poised",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/30/250281765/56314154209f22a051bead49846f0e40_8288705426681656915.png"
+        },
+        "e4": {
+            "name": "Dedication",
+            "description": "When Himeko's Skill inflicts Weakness Break on an enemy, she gains 1 extra point(s) of Charge.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/30/250281765/889f2f7a5ff49b3c4a5e6eaeca11f4a4_3980646414355438200.png"
+        },
+        "e5": {
+            "name": "Aspiration",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/30/250281765/bacbef3fd4730aef9b52b56899c4e6ca_948140803316966589.png"
+        },
+        "e6": {
+            "name": "Trailblaze!",
+            "description": "Ultimate deals DMG 2 extra times, each of which deals Fire DMG equal to 40% of the original DMG to a random enemy.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/30/250281765/d5590cb7e4ce9f5c090aef3448dfefc2_6714997817486029047.png"
+        }
+    },
+    {
+        "character": "Welt",
+        "e1": {
+            "name": "Legacy of Honor",
+            "description": "After Welt uses his Ultimate, his abilities are enhanced. The next 2 time(s) he uses his Basic ATK or Skill, deals additional DMG to the target equal to 50% of his Basic ATK's DMG multiplier or 80% of his Skill's DMG multiplier respectively.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/30/250281765/a68943c6b0c83989ca8d4296c536e641_2856161668816424478.png"
+        },
+        "e2": {
+            "name": "Conflux of Stars",
+            "description": "When his Talent is triggered, Welt regenerates 3 Energy.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/30/250281765/ea0abfa5210a2528f64bcae1eb8aa4ee_65463667128307050.png"
+        },
+        "e3": {
+            "name": "Prayer of Peace",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/30/250281765/7b8014627bde12342b53b2c6641a8333_8809725191520801364.png"
+        },
+        "e4": {
+            "name": "Appellation of Justice",
+            "description": "Base chance for Skill to inflict SPD Reduction increases by 35%.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/30/250281765/faaa3199a03f166fd5cdac7dc89b7e1b_2916795073895989575.png"
+        },
+        "e5": {
+            "name": "Power of Kindness",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/30/250281765/aecd419e6b9c8e88946617160f953902_962347883358924278.png"
+        },
+        "e6": {
+            "name": "Prospect of Glory",
+            "description": "When using Skill, deals DMG for 1 extra time to a random enemy.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/30/250281765/4abf016ad324853cebcd17f54146ddba_8266665860910074536.png"
+        }
+    },
+    {
+        "character": "Arlan",
+        "e1": {
+            "name": "To the Bitter End",
+            "description": "When HP is lowered than or equal to 50% of Max HP, increases Skill's DMG by 10%.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/18/250281765/fabe99d159d520ad9fcd88ae14ad14ed_8730938237803944442.png"
+        },
+        "e2": {
+            "name": "Breaking Free",
+            "description": "Using Skill or Ultimate removes 1 debuff from oneself.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/18/250281765/d1bb9b4ce51ca7d63c973887b86c5110_8353560378247151434.png"
+        },
+        "e3": {
+            "name": "Power Through",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/18/250281765/edb8f53124eb0613bae107452739f49f_1595386507437038662.png"
+        },
+        "e4": {
+            "name": "Turn the Tables",
+            "description": "When struck by a killing blow after entering combat, instead of becoming incapacitated, Arlan immediately restores his HP to 25% of his Max HP. This effect is automatically removed after it is triggered once or after 2 turn(s) have elapsed.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/18/250281765/8774a1b43c4c2d62f34c5cdd8248b78c_421835565404986297.png"
+        },
+        "e5": {
+            "name": "Hammer and Tongs",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/18/250281765/93a1aab9e52f16b8bcb7d42ccc0ede22_5779241145733968541.png"
+        },
+        "e6": {
+            "name": "Self-Sacrifice",
+            "description": "When HP drops to 50% or below, Ultimate deals 20% more DMG, and the DMG multiplier on adjacent targets increases to match the DMG multiplier for the main target enemy.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/18/250281765/659fecc89b242196bb5f3d310dcd4990_4320857010693728865.png"
+        }
+    },
+    {
+        "character": "Asta",
+        "e1": {
+            "name": "Star Sings Sans Verses or Vocals",
+            "description": "When using Skill, deals DMG for 1 extra time to a random enemy.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/03/24/5308864/6740bb2f79cbac1a4a4edf10c595a0e2_7773407874950572885.png"
+        },
+        "e2": {
+            "name": "Moon Speaks in Wax and Wane",
+            "description": "After using her Ultimate, Asta's Charging stacks will not be reduced in the next turn.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/03/24/5308864/c95c74a15e2db4ded265ccca0009529d_8852214343391582796.png"
+        },
+        "e3": {
+            "name": "Meteor Showers for Wish and Want",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/03/24/5308864/7b769e702998ce9899991a605606b997_290060390101790578.png"
+        },
+        "e4": {
+            "name": "Aurora Basks in Beauty and Bliss",
+            "description": "Asta's Energy Regeneration Rate increases by 15% when she has 2 or more Charging stacks.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/03/24/5308864/b82c78ea1b6622b58b3007ae9d82fbb7_4398240199920271750.png"
+        },
+        "e5": {
+            "name": "Nebula Secludes in Cold Cosmos",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/03/24/5308864/cba1d3cda13ff08e88a5db63f5df3d82_4219362677962361792.png"
+        },
+        "e6": {
+            "name": "Galaxy Dreams in Calm and Comfort",
+            "description": "Charging stack(s) lost in each turn is reduced by 1",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/03/24/5308864/f957152819935fbdee9273199afc6981_7451544907145343459.png"
+        }
+    },
+    {
+        "character": "Herta",
+        "e1": {
+            "name": "Kick You When You're Down",
+            "description": "If the enemy's HP is at 50% of their Max HP or less, Herta's Basic ATK deals additional Ice DMG equal to 40% of Herta's ATK.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/04/250281765/ee6308af01a5068b5903f8e1a79bf8ed_7838870516351420964.png"
+        },
+        "e2": {
+            "name": "Keep the Ball Rolling",
+            "description": "Every time Talent is triggered, this character's CRIT Rate increases by 3%. This effect can stack up to 5 time(s).",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/04/250281765/754a99efd201dd12c6b5106edef0a4f0_7725628305431181081.png"
+        },
+        "e3": {
+            "name": "That's the Kind of Girl I Am",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/04/250281765/a0354243fab9de49c8d8556cbadc3992_2608957880723944098.png"
+        },
+        "e4": {
+            "name": "Hit Where It Hurts",
+            "description": "When Talent is triggered, DMG increases by 10%",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/04/250281765/5f47fc72b3b00db41601a694f1e5c384_542996241541654209.png"
+        },
+        "e5": {
+            "name": "Cuss Big or Cuss Nothing",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/04/250281765/94fcdb40ba20b3b1194bfddd7210f620_3735959268632369033.png"
+        },
+        "e6": {
+            "name": "No One Can Betray Me",
+            "description": "After using Ultimate, this character's ATK increases by 25% for 1 turn(s).",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/04/250281765/01657554f3efb5aabbbb035685ca99a4_4789292618633788338.png"
+        }
+    },
+    {
+        "character": "Bronya",
+        "e1": {
+            "name": "Hone Your Strength",
+            "description": "When using Skill, there is 50% fixed chance of recovering 1 Skill Point. This effect has a 1-turn cooldown.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/04/250281765/d9756a8693a181b6ba7914a7d080409c_1318654428263415166.png"
+        },
+        "e2": {
+            "name": "Quick March",
+            "description": "When using Skill, the target ally's SPD increases by 30% after taking action, lasting for 1 turn.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/04/250281765/4839a288847b430e5c4d090f23601bb6_4261024970918437189.png"
+        },
+        "e3": {
+            "name": "Bombardment",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/04/250281765/06ff3719bcc4ff26716a0828656a3ef7_5221039212024222689.png"
+        },
+        "e4": {
+            "name": "Take by Surprise",
+            "description": "After an ally other than Bronya uses Basic ATK on an enemy with Wind Weakness, Bronya immediately launches a follow-up attack on the target, dealing Wind DMG equal to 80% of Bronya's Basic ATK DMG. This effect can only be triggered 1 time per turn.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/04/250281765/0b22005d11a869eac1a7605dc2ccb692_5548865983388806547.png"
+        },
+        "e5": {
+            "name": "Unstoppable",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/04/250281765/3450b9dd492e45388ca2b33eb33a0c57_761393641912600660.png"
+        },
+        "e6": {
+            "name": "Piercing Rainbow",
+            "description": "The duration of the DMG Boost effect placed by the Skill on the target ally increases by 1 turn(s).",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/04/250281765/ca93fd91ce833325610471f9af3fdbdc_5777031628402130267.png"
+        }
+    },
+    {
+        "character": "Seele",
+        "e1": {
+            "name": "Extirpating Slash",
+            "description": "When dealing DMG to an enemy whose HP is at 80% of their Max HP or lower, Seele's CRIT Rate increases by 15%.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/04/250281765/bbd439a1121fb5256c51b7248c2a842e_8160739891219466583.png"
+        },
+        "e2": {
+            "name": "Dancing Butterfly",
+            "description": "The SPD Boost effect of Seele's Skill can stack up to 2 time(s).",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/04/250281765/bd3355f0917ead70827a4ae17395251a_6671766173854103538.png"
+        },
+        "e3": {
+            "name": "Dazzled Tumult",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/04/250281765/c61b3b9dc089877cff2df169d7d6ec22_8770264707161606766.png"
+        },
+        "e4": {
+            "name": "Flitting Phantasm",
+            "description": "Seele regenerates 15 Energy when she defeats an enemy.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/04/250281765/bd071e7b88d3fc27e5d3d1688b607639_550254018524627216.png"
+        },
+        "e5": {
+            "name": "Piercing Shards",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/04/250281765/6b0c318d5e42ee53faf3da6ad7b94aa6_8257195679511618084.png"
+        },
+        "e6": {
+            "name": "Shattering Shambles",
+            "description": "After using Seele's Ultimate, inflict the target enemy with Butterfly Flurry for 1 turn(s). Enemies suffering from Butterfly Flurry takes additional Quantum DMG equal to 15% of Seele's Ultimate DMG every time they are attacked. If the enemy is defeated by the Butterfly Flurry DMG triggered by other allies' attacks, Seele's Talent will not be triggered.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/04/250281765/56cd4cc371106a1e56e7c4c311d4933d_2302883579237479804.png"
+        }
+    },
+    {
+        "character": "Serval",
+        "e1": {
+            "name": "Echo Chamber",
+            "description": "Serval's Basic ATK deals Lightning DMG equal to 60% of her Basic ATK DMG to a random enemy adjacent to the Basic ATK target.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/03/5308864/38959210f678318e9376a162d6bb3706_6609809609373304923.png"
+        },
+        "e2": {
+            "name": "Encore!",
+            "description": "Every time her Talent is triggered to deal additional DMG, Serval regenerates 4 Energy.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/03/5308864/dfe2cc68a034ce7f27fbbf2e7eca9bba_8567709815630968706.png"
+        },
+        "e3": {
+            "name": "Listen, the Heartbeat of the Gears",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/03/5308864/340b0497db60cf14d74fefb9941ce1af_3533380737871262912.png"
+        },
+        "e4": {
+            "name": "Make Some Noise!",
+            "description": "Serval's Ultimate has a 100% base chance to apply Shock to any enemies not currently Shocked. This Shock has the same effects as that applied by her Skill.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/03/5308864/70bd68ba20fd353ef7901904865e1d27_1324565558079214242.png"
+        },
+        "e5": {
+            "name": "Belobog's Loudest Roar!",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/03/5308864/376e1fff9cc8126c09feb8820028e415_6217248264721062143.png"
+        },
+        "e6": {
+            "name": "This Song Rocks the Heavens!",
+            "description": "Serval deals 30% more DMG to Shocked enemies.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/03/5308864/b24d826d510fc36ba8800df219c10308_2768377272885296234.png"
+        }
+    },
+    {
+        "character": "Gepard",
+        "e1": {
+            "name": "Due Diligence",
+            "description": "Base chance for Gepard's Skill to Freeze enemies increases by 35%.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/03/5308864/1bae97b76d8cd92a47bb4155ae7e273b_1914296900939112863.png"
+        },
+        "e2": {
+            "name": "Lingering Cold",
+            "description": "After an enemy Frozen by Gepard's Skill is unfrozen, their SPD is reduced by 20% for 1 turn(s).",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/03/5308864/a5f09d1868119f4b05523facc895e585_7469117859694197621.png"
+        },
+        "e3": {
+            "name": "Never Surrender",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/03/5308864/12d0c76fd742f1882b8c6b5f1a9974c7_6385880168245989651.png"
+        },
+        "e4": {
+            "name": "Faith Moves Mountains",
+            "description": "When Gepard is in battle, all allies' Effect RES increases by 20%.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/03/5308864/c223153aa88e4918b136763265b62f1b_4155725178077120879.png"
+        },
+        "e5": {
+            "name": "Cold Iron Fist",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/03/5308864/9692bc0880b81b1e7df44326ee3208d1_4424912606583418879.png"
+        },
+        "e6": {
+            "name": "Unyielding Resolve",
+            "description": "When his Talent is triggered, Gepard's action is Advanced Forward by 100%, and he restores extra HP equal to 50% of his Max HP.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/03/5308864/82e402d17a9b9e3cf78a357f4b0c9a2a_8048304630119923706.png"
+        }
+    },
+    {
+        "character": "Natasha",
+        "e1": {
+            "name": "Pharmacology Expertise",
+            "description": "After being attacked, if Natasha's current HP is at 30% of her Max HP or lower, she will heal herself for 1 time to restore HP equal to 15% of her Max HP plus 400. This effect can only be triggered 1 time per battle.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/af11cfce940d61c154adb7ce2777530c_4370546730484238441.png"
+        },
+        "e2": {
+            "name": "Clinical Research",
+            "description": "Using her Ultimate grants continuous healing for 1 turn(s) to allies whose HP is at 30% or lower. At the beginning of their turn, their HP is restored by an amount equal to 6% of Natasha's Max HP plus 160.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/01273e76423da8060ab1ed928ddbd1b7_6895427723400487186.png"
+        },
+        "e3": {
+            "name": "The Right Cure",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/faf2a58853ef37c0c795a7975adb9a00_725435731498450545.png"
+        },
+        "e4": {
+            "name": "Miracle Cure",
+            "description": "Natasha additionally regenerates 5 Energy after being attacked.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/eb67dc403f99eae8939a10eedf3c095c_4096418736829118214.png"
+        },
+        "e5": {
+            "name": "Preventive Treatment",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/dc7120a377b9455203952794ac85924c_6943179193662662596.png"
+        },
+        "e6": {
+            "name": "Doctor's Grace",
+            "description": "Natasha's Basic ATK deals additional Physical DMG equal to 40% of her Max HP.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/1d37374f48f105f061a810a5a384d1d9_6669009030043080612.png"
+        }
+    },
+    {
+        "character": "Pela",
+        "e1": {
+            "name": "Victory Report",
+            "description": "When an enemy is defeated, Pela regenerates 5 Energy.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/26/5308864/b67a121838f9e0cd3c7159bbd40bdd59_6709373632450761946.png"
+        },
+        "e2": {
+            "name": "Adamant Charge",
+            "description": "After using Pela's Skill to remove an enemy buff, her SPD increases by 10% for 2 turn(s).",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/26/5308864/321498416d0541f6aced990d70813878_5466018113850042569.png"
+        },
+        "e3": {
+            "name": "Suppressive Force",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/26/5308864/8644ea1e67b20faaa252c6e3a83e95b1_6903690295350109822.png"
+        },
+        "e4": {
+            "name": "Full Analysis",
+            "description": "When using Skill, there is a 100% base chance to reduce the target enemy's Ice RES by 12% for 2 turn(s).",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/26/5308864/776c1b1b7bf9085047f2353ca164f75f_3340875154133374449.png"
+        },
+        "e5": {
+            "name": "Absolute Jeopardy",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/26/5308864/9a02959a5595517d779ffe81467735dd_8691113135102519409.png"
+        },
+        "e6": {
+            "name": "Feeble Pursuit",
+            "description": "When Pela attacks a debuffed enemy, she deals additional Ice DMG equal to 40% of Pela's ATK to the enemy.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/26/5308864/5f6429f7b542ed813dbe7b58b60ecfc4_2462167568857363821.png"
+        }
+    },
+    {
+        "character": "Clara",
+        "e1": {
+            "name": "A Tall Figure",
+            "description": "Using Clara's Skill will not remove the Mark of Counter on the enemy.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/084ef87e3921bd41d45bee153f631bf7_2201543899131473135.png"
+        },
+        "e2": {
+            "name": "A Tight Embrace",
+            "description": "After using Ultimate, ATK increases by 30% for 2 turn(s).",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/c640ad74067d1c80deb0f3f93cc90fd1_5590646578989064652.png"
+        },
+        "e3": {
+            "name": "Cold Steel Armor",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/15e58f296256f033d6246df77eaf9a4a_3175074901949677391.png"
+        },
+        "e4": {
+            "name": "Family's Warmth",
+            "description": "After being hit, DMG taken by Clara is reduced by 30%. This effect lasts until the start of her next turn.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/93274423711be0c3edf8dc2b7963ba28_7618500428035136318.png"
+        },
+        "e5": {
+            "name": "A Small Promise",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/daa4832b9074077b954d9dd1b11ab11f_2039651444918399134.png"
+        },
+        "e6": {
+            "name": "Long Company",
+            "description": "After other allies are hit, Svarog also has a 50% fixed chance to trigger a Counter on the attacker and mark them with a Mark of Counter. When using Clara's Ultimate, trigger an additional 1 Enhanced Counter(s).",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/0423d874ef22ce98b4bf8af833740e06_7471622576406418608.png"
+        }
+    },
+    {
+        "character": "Sampo",
+        "e1": {
+            "name": "Rising Love",
+            "description": "When using Skill, deals DMG for 1 extra time(s) to a random enemy.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/88a62c91b1dbd0b93bd974521216cea2_7741737992667768425.png"
+        },
+        "e2": {
+            "name": "Infectious Enthusiasm",
+            "description": "Defeating an enemy with Wind Shear has 100% base chance to inflict all enemies with 1 stack(s) of Wind Shear, equivalent to the Talent's Wind Shear.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/255806d13bf2687a79ae36755782b40e_5040838298171077385.png"
+        },
+        "e3": {
+            "name": "Big Money!",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/6f8a4c91795596a605eff926474e3962_3742560654395340328.png"
+        },
+        "e4": {
+            "name": "The Deeper the Love, the Stronger the Hate",
+            "description": "When Skill hits an enemy with 5 or more stack(s) of Wind Shear, the enemy immediately takes 8% of current Wind Shear DMG.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/91b5f69384a1dd4532d72a2060fcf829_6399821370675239220.png"
+        },
+        "e5": {
+            "name": "Huge Money!",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/5cd0a3a77c89b728de6d9ba1f2882559_831031928633961920.png"
+        },
+        "e6": {
+            "name": "Increased Spending",
+            "description": "Talent's Wind Shear DMG multiplier increases by 15%.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/72535307f7950700f47d12b1cc7362a1_991938510987993615.png"
+        }
+    },
+    {
+        "character": "Hook",
+        "e1": {
+            "name": "Early to Bed, Early to Rise",
+            "description": "Hook's Enhanced Skills deal 20% more DMG.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/420493c0952a88c77eac25fc276871f6_7084788597466836317.png"
+        },
+        "e2": {
+            "name": "Happy Tummy, Happy Body",
+            "description": "Extends the duration of Burn caused by Hook's Skill by 1 turn(s).",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/0db334179ca226b0ecb16d1fb0632762_8136479579245889802.png"
+        },
+        "e3": {
+            "name": "Don't Be Picky, Nothing's Icky",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/d1e1824d80b8b5621f107a1df8950a4b_9033884743982480298.png"
+        },
+        "e4": {
+            "name": "It's Okay to Not Know",
+            "description": "When Talent is triggered, there is a 100% base chance to inflict the target's adjacent enemies with a Burn equivalent to that Skill.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/88bc79da85984fbc9ce54abe56458e75_1635021034301552763.png"
+        },
+        "e5": {
+            "name": "Let the Moles' Deeds Be Known",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/c5f34ea66358d2f8d0415094bea67491_1560829729115015060.png"
+        },
+        "e6": {
+            "name": "Always Ready to Punch and Kick",
+            "description": "Hook deals 20% more DMG to enemies inflicted with Burn.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/33e5d286ce2fd848c704915f15e5475f_5864613903511814753.png"
+        }
+    },
+    {
+        "character": "Trailblazer - the Preservation",
+        "e1": {
+            "name": "Earth-Shaking Resonance",
+            "description": "When the Trailblazer uses their Basic ATK, deal additional Fire DMG equal to 25% of the Trailblazer's DEF. When the Trailblazer uses their enhanced Basic ATK, deals additional Fire DMG equal to 50% of the Trailblazer's DEF.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/04/250281765/fa220935c4b3a619e2bb60bb94de3d7a_5774194133388952320.png"
+        },
+        "e2": {
+            "name": "Time-Defying Tenacity",
+            "description": "The Shield applied to all allies from the Trailblazer's Talent will block additional DMG equal to 2% of the Trailblazer's DEF plus 27.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/04/250281765/8a0de1f60f81d5875a866f41fbab61fe_8783236655706294423.png"
+        },
+        "e3": {
+            "name": "Trail-Blazing Blueprint",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/04/250281765/4e9f130496a22dea5bff6ee7854669c0_7611121125847545719.png"
+        },
+        "e4": {
+            "name": "Nation-Building Oath",
+            "description": "Immediately gains 4 stack(s) of Magma Will at the beginning of the battle.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/04/250281765/04f26e8f368dfd6a1e58502fb8ead6ec_2139552624252411911.png"
+        },
+        "e5": {
+            "name": "Spirit-Warming Flame",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/04/250281765/d2a99ac2b2145f03f166c515b35559f5_6285516661837739947.png"
+        },
+        "e6": {
+            "name": "City-Forging Bulwarks",
+            "description": "After using an enhanced Basic ATK or Ultimate, the Trailblazer's DEF increases by 10%. Stacks up to 3 time(s).",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/04/250281765/713688aed15686c188f0b59681c84e9e_4672729955691466300.png"
+        }
+    },
+    {
+        "character": "Qingque",
+        "e1": {
+            "name": "Rise Through the Tiles",
+            "description": "Qingque's Ultimate deals 10% more DMG.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/f358bad346ceb2732a63df03fdde5b78_8695600036729312818.png"
+        },
+        "e2": {
+            "name": "Sleep on the Tiles",
+            "description": "Every time Draw Tile is triggered, Qingque immediately regenerates 1 Energy.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/49c90fee264edc0c15c1446f38ebd64c_6569798665410191602.png"
+        },
+        "e3": {
+            "name": "Read Between the Tiles",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/8b3a7652a43c2a1fafe9e39b56180596_7558622569121856129.png"
+        },
+        "e4": {
+            "name": "Right on the Tiles",
+            "description": "After using the Skill, there is a 24% fixed chance to gain Autarky.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/44662eec4198987e949a2b811db4d481_4723716703473730766.png"
+        },
+        "e5": {
+            "name": "Gambit for the Tiles",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/0d5139c784c9bee7359f1a29850c61f3_6000927117095567272.png"
+        },
+        "e6": {
+            "name": "Prevail Beyond the Tiles",
+            "description": "Recovers 1 Skill Point after using Enhanced Basic ATK.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/5da6f082bea066e27756a661d8f769d2_4847969010287061265.png"
+        }
+    },
+    {
+        "character": "Tingyun",
+        "e1": {
+            "name": "Windfall of Lucky Springs",
+            "description": "After using their Ultimate, the ally with Benediction gains a 20% increase in SPD for 1 turn.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/a6583813ea23310ca10820ea9a586e53_4631522596867902111.png"
+        },
+        "e2": {
+            "name": "Gainfully Gives, Givingly Gains",
+            "description": "The ally with Benediction regenerates 5 Energy after defeating an enemy. This effect can only be triggered once per turn.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/adb0a62f43b3245e9c572d43e0f866b9_4571437056816626996.png"
+        },
+        "e3": {
+            "name": "Halcyon Bequest",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/97b1be2077b0461ce1576a10f24ef5db_3444372364427857535.png"
+        },
+        "e4": {
+            "name": "Jovial Versatility",
+            "description": "The DMG multiplier provided by Benediction increases by 20%.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/20955661d35c216d951cf0efc8295696_566647368071681894.png"
+        },
+        "e5": {
+            "name": "Sauntering Coquette",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/9ef8898f2cbcae5fcd91aceebfff4332_6081696473532896589.png"
+        },
+        "e6": {
+            "name": "Peace Brings Wealth to All",
+            "description": "Ultimate regenerates 10 more Energy for the targeted ally.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/dbdb73e31fd8ace808a773c6646f1206_1877351549332875626.png"
+        }
+    },
+    {
+        "character": "Jing Yuan",
+        "e1": {
+            "name": "Slash, Seas Split",
+            "description": "When Lightning-Lord attacks, the DMG multiplier on enemies adjacent to the target enemy increases by an extra amount equal to 25% of the DMG multiplier against the target enemy.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/04/250281765/51e8e70c1676590f02af1de0ae09a3f9_6441429267216526621.png"
+        },
+        "e2": {
+            "name": "Swing, Skies Squashed",
+            "description": "After Lightning-Lord takes action, DMG caused by Jing Yuan's Basic ATK, Skill, and Ultimate increases by 20% for 2 turn(s).",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/04/250281765/8794abe45edd232632ba4cd339759a0e_7190090944966578588.png"
+        },
+        "e3": {
+            "name": "Strike, Suns Subdued",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/04/250281765/38f06d754a2168d8f8c1c0abfeec859b_7339119873415280156.png"
+        },
+        "e4": {
+            "name": "Spin, Stars Sieged",
+            "description": "For each hit performed by the Lightning-Lord when it takes action, Jing Yuan regenerates 2 Energy.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/04/250281765/e4ffd8cb504b25046bc61be6ca89fee4_5562879289832019551.png"
+        },
+        "e5": {
+            "name": "Stride, Spoils Seized",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/04/250281765/e22c971c69b2fc3374a36d2c323b033b_7218356644841418104.png"
+        },
+        "e6": {
+            "name": "Sweep, Souls Slain",
+            "description": "Each hit performed by the Lightning-Lord when it takes action will make the target enemy Vulnerable.\nWhile Vulnerable, enemies receive 12% more DMG until the end of the Lightning-Lord's current turn, stacking up to 3 time(s).",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/04/250281765/5a88d736a6387ccdf65857d369802a6e_3845278463512260538.png"
+        }
+    },
+    {
+        "character": "Sushang",
+        "e1": {
+            "name": "Cut With Ease",
+            "description": "After using Skill against a Weakness Broken enemy, regenerates 1 Skill Point.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/82c7e6d1ee281a2f4ad4cccf24a1fb2a_4544780139741731777.png"
+        },
+        "e2": {
+            "name": "Refined in Toil",
+            "description": "After triggering Sword Stance, the DMG taken by Sushang is reduce by 20% for 1 turn.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/61b07739723ff42bca5af00edf1073cd_2643509317620882838.png"
+        },
+        "e3": {
+            "name": "Rise From Fame",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/def1f65757a792ec77de19277f67b7e1_5816483084989585665.png"
+        },
+        "e4": {
+            "name": "Cleave With Heart",
+            "description": "Sushang's Break Effect increases by 40%.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/6b2c067596774a21dc7e07ba643bc2f3_5861351394038025202.png"
+        },
+        "e5": {
+            "name": "Prevail via Taixu",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/6255ad962bd276f383db9094dc86503b_6554754664474542892.png"
+        },
+        "e6": {
+            "name": "Dwell Like Water",
+            "description": "Talent's SPD Boost is stackable and can stack up to 2 times. Additionally, after entering battle, Sushang immediately gains 1 stack of her Talent's SPD Boost.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/11ef540f45ca6df9c666705b64861d40_8413938353031965354.png"
+        }
+    },
+    {
+        "character": "Yanqing",
+        "e1": {
+            "name": "Svelte Saber",
+            "description": "When Yanqing attacks a Frozen enemy, he deals additional Ice DMG equal to 60% of his ATK",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/f012aa4e6d5727fb82d92b587783cc00_7167278930049609138.png"
+        },
+        "e2": {
+            "name": "Supine Serenade",
+            "description": "When Soulsteel Sync is active, Energy Regeneration Rate increases by an extra 10%.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/ce496291222818388d9d65afd7753e03_1263188614754176646.png"
+        },
+        "e3": {
+            "name": "Sword Savant",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/de4a8850249416e1e223c99921cbc07f_6041080811813762463.png"
+        },
+        "e4": {
+            "name": "Searing Sting",
+            "description": "When current HP percentage is 80% or higher, Ice RES PEN increases by 12%.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/527fcb021044fc24116c6cd05795a9a1_8997759237283563675.png"
+        },
+        "e5": {
+            "name": "Surging Strife",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/2d8178c1e0c9eda756db25d7be28a858_8739314276145783725.png"
+        },
+        "e6": {
+            "name": "Swift Swoop",
+            "description": "If the Ultimate's buff are still in effect when an enemy is defeated, their duration is extended by 1 turn.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/214e1464bee3e9c67a3ac32d23a90d25_4723273198655193508.png"
+        }
+    },
+    {
+        "character": "Bailu",
+        "e1": {
+            "name": "Ambrosial Aqua",
+            "description": "If the target ally's current HP is equal to their Max HP when Invigoration ends, regenerates 8 extra Energy for this target.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/292f699d0bf032e5be800478b6b2e76f_1822770069079494322.png"
+        },
+        "e2": {
+            "name": "Sylphic Slumber",
+            "description": "After using her Ultimate, Bailu's Outgoing Healing increases by an additional 15% for 2 turn(s).",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/d4d525df5f48d0b634e2870937b0ed39_7250274293554054982.png"
+        },
+        "e3": {
+            "name": "Omniscient Opulence",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/125d718f4e735657940b0934e96e49b2_6364435150836780761.png"
+        },
+        "e4": {
+            "name": "Evil Excision",
+            "description": "Every healing provided by the Skill makes the recipient deal 10% more DMG for 2 turn(s). This effect can stack up to 3 time(s).",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/3ab8539621f7e18a5e02a51bd180b11f_165251322147797750.png"
+        },
+        "e5": {
+            "name": "Waning Worries",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/013d283b1cfad7f1ba9f151feeb96c6c_8409674543068090136.png"
+        },
+        "e6": {
+            "name": "Drooling Drop of Draconic Divinity",
+            "description": "Bailu can heal allies who received a killing blow 1 more time(s) in a single battle.",
+            "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/0a525359bff6b34573c3b0040f738784_6818005873490097251.png"
+        }
+    }
+]

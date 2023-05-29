@@ -78,3 +78,5 @@ with open('data/light_cones.json', 'r') as f:
     light_cones = json.load(f)
 with open('data/best_light_cones.json', 'r') as f:
     best_light_cones = json.load(f)
+with open('data/eidolons.json', 'r') as f:
+    eidolons = json.load(f)
