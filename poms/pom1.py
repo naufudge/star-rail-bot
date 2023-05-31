@@ -19,6 +19,10 @@ class pom1(commands.Cog):
         help_embed.set_footer(text="Made with love by Nauf#0709 :)")
         await interaction.response.send_message(embed=help_embed)
 
+    @commands.command(name="check")
+    @commands.is_owner()
+    async def check(self, ctx: commands.Context):
+        await ctx.channel.send(f'{self.client.user.name} has connected to Discord!, and now on {len(self.client.guilds)} servers!')
 
 async def setup(client: commands.Bot) -> None:
     await client.add_cog(pom1(client))
