@@ -63,7 +63,7 @@ class pom2(commands.Cog):
                 best_cone_embed = discord.Embed(title="Sorry! Work in progress :(", description="We're still working on this, come back again later Trailblazer.", color=cone_colors[len(chara_info['rarity'])])
                 # best_cone_embed.set_image(url=)
             best_cone_embed.set_thumbnail(url=chara_info['thumb'])
-            
+
             # Eidelons embed below
             eidolons_details = [eidolon for eidolon in eidolons if eidolon['character'] == result]
             thumb = [chara['thumb'] for chara in chara_file if chara['name'] == result][0]
@@ -81,8 +81,7 @@ class pom2(commands.Cog):
             info_view = InfoView(main_embeds, best_cone_names)
             await interaction.response.send_message(embed=info_view.initial, view=info_view)
         else:
-            colors = [0xc71e1e, 0xd83131, 0xc97f7f, 0x9a0000, 0x0f0707]
-            emb = discord.Embed(title="Characters", description="Find any playable/announced character under their respective paths", color=random.choice(colors))
+            emb = discord.Embed(title="Characters", description="Find any playable/announced character under their respective paths", color=0xffffff)
             charas_view = CharactersView()
             await interaction.response.send_message(embed=emb, view=charas_view)
 

@@ -24,7 +24,7 @@ class pom1(commands.Cog):
     @commands.command(name="check")
     @commands.is_owner()
     async def check(self, ctx: commands.Context):
-        await ctx.channel.send(f'{self.client.user.name} has connected to Discord!, and now on {len(self.client.guilds)} servers!')
+        await ctx.channel.send(f'{self.client.user.name} is now on {len(self.client.guilds)} servers!')
 
 async def setup(client: commands.Bot) -> None:
     await client.add_cog(pom1(client))
