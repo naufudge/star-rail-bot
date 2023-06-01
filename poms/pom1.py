@@ -2,6 +2,7 @@ import discord
 import random
 from discord import app_commands
 from discord.ext import commands
+from poms.pom_views import HelpView
 
 class pom1(commands.Cog):
     def __init__(self, client: commands.Bot):
@@ -17,7 +18,8 @@ class pom1(commands.Cog):
         help_embed.add_field(name="``/light_cone <light cone name>``", value="Gives you information regarding a specific light cone.", inline=False)
         help_embed.add_field(name="``/relics <relic name>``", value="Gives you information regarding a specific relic or planar ornament.", inline=False)
         help_embed.set_footer(text="Made with love by Nauf#0709 :)")
-        await interaction.response.send_message(embed=help_embed)
+        help_view = HelpView()
+        await interaction.response.send_message(embed=help_embed, view=help_view)
 
     @commands.command(name="check")
     @commands.is_owner()
