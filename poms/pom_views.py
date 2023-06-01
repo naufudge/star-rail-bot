@@ -3,7 +3,7 @@ import random
 from typing import Any, List
 from discord.interactions import Interaction
 from poms.pom_funcs import seperate_charas, seperate_lcs, similarity_sorter, light_cones, chara_file
-from poms.pom_misc import path_thumbs, path_emojis, combat_emojis
+from poms.pom_misc import path_thumbs, path_emojis, combat_emojis,combat_colors
 
 
 path_and_cones = seperate_lcs(light_cones)
@@ -78,7 +78,6 @@ class CharactersView(discord.ui.View):
     def __init__(self):
         super().__init__(timeout=None)
         self.children[1].disabled = True
-        self.colors = [0xc71e1e, 0xd83131, 0xc97f7f, 0x9a0000, 0x0f0707]
 
     @discord.ui.select(
         placeholder="Select a Path",
@@ -89,7 +88,7 @@ class CharactersView(discord.ui.View):
         self.combat = None
         self.children[1].disabled = False
         characters = sorted(path_and_charas[self.path])
-        charas_embed = discord.Embed(title=f"Characters: {self.path}", description='\n'.join(characters), color=random.choice(self.colors))
+        charas_embed = discord.Embed(title=f"Characters: {self.path}", description='\n'.join(characters), color=0xffffff)
         charas_embed.set_thumbnail(url=path_thumbs[self.path])
 
         await interaction.response.edit_message(embed=charas_embed, view=self)
@@ -105,9 +104,9 @@ class CharactersView(discord.ui.View):
                 result = [f"{chara['name']} {combat_emojis[chara['combat']]}" for chara in chara_file if (chara['path'] == self.path) and (chara['combat'] == self.combat)]
 
             if result != []:
-                charas_embed = discord.Embed(title=f"Characters: {self.path} + {self.combat}", description='\n'.join(result), color=random.choice(self.colors))
+                charas_embed = discord.Embed(title=f"Characters: {self.path} + {self.combat}", description='\n'.join(result), color=combat_colors[self.combat])
             else:
-                charas_embed = discord.Embed(title=f"Characters: {self.path} + {self.combat}", description="No character of that combination found :(", color=random.choice(self.colors))
+                charas_embed = discord.Embed(title=f"Characters: {self.path} + {self.combat}", description="No character of that combination found :(", color=combat_colors[self.combat])
             charas_embed.set_thumbnail(url=path_thumbs[self.path])
 
             await interaction.response.edit_message(embed=charas_embed, view=self)

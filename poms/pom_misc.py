@@ -27,3 +27,13 @@ combat_emojis = {
     'Wind' : '<:wind:1110210144169623643>',
     'Physical' : '<:physical:1108984383215513661>'
 }
+
+combat_colors = {
+    'Fire': 0xfc4c34,
+    'Ice': 0x44c4fc,
+    'Imaginary': 0xfcec64,
+    'Lightning': 0xdc54fc,
+    'Physical': 0xb4acac,
+    'Quantum': 0x8c84fc,
+    'Wind': 0x44dc9c
+}
