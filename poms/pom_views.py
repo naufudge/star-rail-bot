@@ -1,15 +1,21 @@
 import discord
 import random
-from typing import List
+from typing import Any, List
 from discord.interactions import Interaction
 from poms.pom_funcs import seperate_charas, seperate_lcs, similarity_sorter, light_cones, chara_file
-from poms.pom_misc import path_thumbs, path_emojis
+from poms.pom_misc import path_thumbs, path_emojis, combat_emojis
 
 
 path_and_cones = seperate_lcs(light_cones)
 path_and_charas = seperate_charas(chara_file)
 
 # Views Below
+class HelpView(discord.ui.View):
+    def __init__(self):
+        super().__init__(timeout=None)
+        vote_btn = discord.ui.Button(label="Vote on Top.gg", url="https://top.gg/bot/1106848782022344765?s=0cca57f4ceea7")
+        self.add_item(vote_btn)
+
 class InfoView(discord.ui.View):
     def __init__(self, embeds: List[discord.Embed], blc: list = None):
         super().__init__(timeout=None)
@@ -71,19 +77,40 @@ class InfoView(discord.ui.View):
 class CharactersView(discord.ui.View):
     def __init__(self):
         super().__init__(timeout=None)
+        self.children[1].disabled = True
+        self.colors = [0xc71e1e, 0xd83131, 0xc97f7f, 0x9a0000, 0x0f0707]
 
     @discord.ui.select(
         placeholder="Select a Path",
         options=[discord.SelectOption(label=path, value=path, emoji=path_emojis[path]) for path in sorted(list(path_and_charas))]
     )
     async def callback(self, interaction: discord.Interaction, select: discord.ui.Select):
-        path = select.values[0]
-        characters = sorted(path_and_charas[path])
-        colors = [0xc71e1e, 0xd83131, 0xc97f7f, 0x9a0000, 0x0f0707]
-        charas_embed = discord.Embed(title=f"Characters: {path}", description='\n'.join(characters), color=random.choice(colors))
-        charas_embed.set_thumbnail(url=path_thumbs[path])
+        self.path = select.values[0]
+        self.combat = None
+        self.children[1].disabled = False
+        characters = sorted(path_and_charas[self.path])
+        charas_embed = discord.Embed(title=f"Characters: {self.path}", description='\n'.join(characters), color=random.choice(self.colors))
+        charas_embed.set_thumbnail(url=path_thumbs[self.path])
 
-        await interaction.response.edit_message(embed=charas_embed)
+        await interaction.response.edit_message(embed=charas_embed, view=self)
+
+    @discord.ui.select(
+        placeholder="Select an Element",
+        options=[discord.SelectOption(label=combat, value=combat, emoji=combat_emojis[combat]) for combat in sorted(list(combat_emojis))]
+    )
+    async def callback2(self, interaction: discord.Interaction, select: discord.ui.Select):
+        if self.path:
+            self.combat = select.values[0]
+            if self.path != "" and self.combat != "":
+                result = [f"{chara['name']} {combat_emojis[chara['combat']]}" for chara in chara_file if (chara['path'] == self.path) and (chara['combat'] == self.combat)]
+
+            if result != []:
+                charas_embed = discord.Embed(title=f"Characters: {self.path} + {self.combat}", description='\n'.join(result), color=random.choice(self.colors))
+            else:
+                charas_embed = discord.Embed(title=f"Characters: {self.path} + {self.combat}", description="No character of that combination found :(", color=random.choice(self.colors))
+            charas_embed.set_thumbnail(url=path_thumbs[self.path])
+
+            await interaction.response.edit_message(embed=charas_embed, view=self)
 
 class LightConeSelect(discord.ui.Select):
     def __init__(self, options):
