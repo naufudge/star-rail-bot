@@ -253,9 +253,9 @@
         "name": "Incessant Rain",
         "path": "The Nihility <:nihility:1108984309395763260>",
         "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
-        "description": "She left the cover of the roof, opened her umbrella, and ran into an alley humming a light-hearted tune.The rain lasted a little while more before it stopped. She scratched her head and swept her screen open.After several taps, raindrops began to fall down again within a zone covering no wider than her umbrella.Rain pitter-pattered on her umbrella, mixing with the music from her game. All was calm and relaxing.'Raining and gaming should be a thing.''",
-        "effect": "Each time the wearer stars a turn, there is a 100% base chance to implant a random enemy with Aether Code. When that enemy is inflicted with Break, Aether Code self-destructs, dealing additional DMG to that enemy equal to 80% of the wearer's ATK. When attacking an enemy with more than 3% debuff(s), deals additional DMG equal to 40% of the wearer's ATK.",
-        "thumb": "",
+        "description": "She leaves the cover of the awning, opens her umbrella, and dives into an alley while humming a lighthearted tune. The rain stops a little while after. She scratches her head and swipes her screen open. After a few taps, raindrops begin to fall in an area no wider than her umbrella. The pitter-patter sound of raindrops on the umbrella mixes with music from the game. All was calm and relaxing.\"Gaming and rain totally go together.\"",
+        "effect": "Increases the wearer's Effect Hit Rate by 24/28/32/36/40%. When the wearer deals DMG to an enemy that currently has 3 or more debuffs, increases the wearer's CRIT Rate by 12/14/16/18/20%. After the wearer uses their Basic ATK, Skill, or Ultimate, there is a 100% base chance to implant Aether Code on a random hit target that does not yet have it. Targets with Aether Code receive 12/14/16/18/20% increased DMG for 1 turn.",
+        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0b/Light_Cone_Incessant_Rain.png/",
         "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0b/Light_Cone_Incessant_Rain.png/revision/latest/scale-to-width-down/350?cb=20230323125244",
         "source": ""
     },
@@ -698,5 +698,15 @@
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f2/Light_Cone_Woof%21_Walk_Time%21.png/revision/latest?cb=20230430164516",
         "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/eb/Light_Cone_Woof%21_Walk_Time%21_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171708",
         "source": "Spend 390 Hertareum at Internal Purchase Officer on the Herta Space Station"
+    },
+    {
+        "name": "Before the Tutorial Mission Starts",
+        "path": "The Nihility <:nihility:1108984309395763260>",
+        "rarity": "\u2726 \u2726 \u2726 \u2726",
+        "description": "\"How much longer until the action starts?\"\n\"You have the nerve to ask a question... is something wrong with the new recruit?\"\n\"No.\"\n\"Elio didn't chose her becuase she was good at field work, but she has to at least survive this rookie assignment.\"\n\"She's cruising.\"\n\"Then I'm relieved. It seems that Bladie has proven to be a reliable operative as well.\"\n\"...\"",
+        "effect": "Increases the wearer's Effect Hit Rate by 20/25/30/35/40%. When the wearer attacks enemies that have reduced DEF, regenerates 4/5/6/7/8 Energy.",
+        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/76/Light_Cone_Before_the_Tutorial_Mission_Starts.png",
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5c/Light_Cone_Before_the_Tutorial_Mission_Starts_Artwork.png",
+        "source": ""
     }
 ]

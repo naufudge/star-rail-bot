@@ -20,6 +20,8 @@ class pom1(commands.Cog):
         help_embed.set_footer(text="Made with love by Nauf#0709 :)")
         help_view = HelpView()
         await interaction.response.send_message(embed=help_embed, view=help_view)
+        if interaction.guild.id == 782971853999702017:
+            await interaction.channel.send(content=f'**{self.client.user.name}** is now on **{len(self.client.guilds)}** servers!')
 
     @commands.command(name="check")
     @commands.is_owner()
