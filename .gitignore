@@ -2,10 +2,9 @@ config.json
 resources
 config_test.json
 thumbs
+organiser.py
 WarpCards
-all_warps.json
-warp.py
-pom5.py
+WarpThumbs
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
