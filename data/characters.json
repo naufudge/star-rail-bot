@@ -484,11 +484,11 @@
         "combat" : "Quantum",
         "faction" : "Stellaron Hunters",
         "skills" : {
-            "basic" : {"name":"", "tag":"", "description":""},
-            "skill" : {"name":"", "tag":"", "description":""},
-            "ult" : {"name":"", "tag":"", "description":""},
-            "talent" : {"name":"", "tag":"", "description":""},
-            "technique" : {"name":"", "tag":"", "description":""}
+            "basic" : {"name":"System Warning", "tag":"Single Target", "description":"Deals Quantum DMG equal to 50%-130% of Silver Wolf's ATK to a single enemy."},
+            "skill" : {"name":"Allow Changes?", "tag":"Impair", "description":"There is a 75%-90% base chance to add 1 Weakness of an on-field ally's Type to the target enemy. This also reduces the enemy's DMG RES to that Weakness Type by 20% for 2 turn(s). If the enemy already has that Type Weakness, the effect of DMG RES reduction to that Weakness Type will not be triggered. Each enemy can only have 1 Weakness implanted by Silver Wolf. When Silver Wolf implants another Weakness to the target, only the most recent implanted Weakness will be kept. In addition, there is a 100% base chance to further reduce the All-Type RES of the enemy by 7.5%-11.25% for 2 turn(s). Deals Quantum DMG equal to 98%-245% of Silver Wolf's ATK to this enemy."},
+            "ult" : {"name":"User Banned", "tag":"Impair", "description":"There's a 85%-107.5% base chance to decrease the target enemy's DEF by 36%-49.5% for 3 turn(s). And at the same time, deals Quantum DMG equal to 228%-456% of Silver Wolf's ATK to the target enemy."},
+            "talent" : {"name":"Awaiting System Response... ", "tag":"Impair", "description":"Silver Wolf can create three types of Bugs: reduce ATK by 5%-12.5%, reduce DEF by 4%-10%, and reduce SPD by 3%-7.5%. Every time Silver Wolf attacks, she has a 60%-78% base chance to implant a random Bug that lasts for 3 turn(s) in the enemy target."},
+            "technique" : {"name":"Force Quit Program", "tag":"", "description":"Immediately attacks the enemy. After entering battle, deals Quantum DMG equal to 80% of Silver Wolf's ATK to all enemies, and ignores Weakness Types and reduces Toughness from all enemies. Enemies with their Weakness Broken in this way will trigger the Quantum Weakness Break effect."}
         },
         "eidolons" : {}
     },
@@ -504,11 +504,11 @@
         "combat" : "Imaginary",
         "faction" : "Xianzhou Luofu",
         "skills" : {
-            "basic" : {"name":"", "tag":"", "description":""},
-            "skill" : {"name":"", "tag":"", "description":""},
-            "ult" : {"name":"", "tag":"", "description":""},
-            "talent" : {"name":"", "tag":"", "description":""},
-            "technique" : {"name":"", "tag":"", "description":""}
+            "basic" : {"name":"Thorns of the Abyss", "tag":"Single Target", "description":"Deals Imaginary DMG equal to 50%-130% of Luocha's ATK to a single enemy."},
+            "skill" : {"name":"Prayer of Abyss Flower", "tag":"Restore", "description":"After using his Skill, Luocha immediately restores the target ally's HP equal to 40%-70% of Luocha's ATK plus 200-1025. Meanwhile, Luocha gains 1 stack of Abyss Flower. When any ally's HP percentage drops to 50% or lower, an effect equivalent to Luocha's Skill will immediately be triggered and applied to this ally for one time (without consuming Skill Points). This effect can be triggered again after 2 turn(s)."},
+            "ult" : {"name":"Death Wish", "tag":"", "description":"Removes 1 buff(s) from all enemies and deals all enemies Imaginary DMG equal to 120%-240% of Luocha's ATK. At the same time, Luocha gains 1 stack of Abyss Flower."},
+            "talent" : {"name":"Cycle of Life", "tag":"", "description":"When Abyss Flower reaches 2 stacks, Luocha consumes all stacks of Abyss Flower to deploy a Field against the enemy. When any enemy in the Field is attacked by an ally, the attacking ally's HP is immediately restored by an amount equal to 12%-21% of Luocha's ATK plus 60-307.5. The Field's effect lasts for 2 turns. When Luocha is knocked down, the Field will be dispelled."},
+            "technique" : {"name":"Mercy of a Fool", "tag":"", "description":"After the Technique is used, the Talent will be immediately triggered at the start of the next battle."}
         },
         "eidolons" : {}
     },
@@ -524,11 +524,11 @@
         "combat" : "Imaginary",
         "faction" : "Xianzhou Luofu",
         "skills" : {
-            "basic" : {"name":"", "tag":"", "description":""},
-            "skill" : {"name":"", "tag":"", "description":""},
-            "ult" : {"name":"", "tag":"", "description":""},
-            "talent" : {"name":"", "tag":"", "description":""},
-            "technique" : {"name":"", "tag":"", "description":""}
+            "basic" : {"name":"Arrowslinger", "tag":"Single Target", "description":"Deals 50%-130% of Yukong's ATK as Imaginary DMG to a target enemy."},
+            "skill" : {"name":"Emboldening Salvo", "tag":"Enhance", "description":"Obtains 2 stack(s) of \"Roaring Bowstrings\" (to a maximum of 2 stacks). When \"Roaring Bowstrings\" is active, the ATK of all allies increases by 40%-100%, and every time an ally's turn ends, Yukong loses 1 stack of \"Roaring Bowstrings.\" When it's the turn where Yukong gains \"Roaring Bowstrings\" by using Skill, \"Roaring Bowstrings\" will not be removed."},
+            "ult" : {"name":"Diving Kestrel", "tag":"", "description":"If \"Roaring Bowstrings\" is active on Yukong when her Ultimate is used, additionally increases all allies' CRIT Rate by 21%-31.5% and CRIT DMG by 39%-78%. At the same time, deals Imaginary DMG equal to 228%-456% of Yukong's ATK to a single enemy."},
+            "talent" : {"name":"Seven Layers, One Arrow", "tag":"", "description":"Basic ATK additionally deals Imaginary DMG equal to 40%-100% of Yukong's ATK, and increases the Toughness-Reducing DMG of this attack by 100%. This effect can be triggered again in 1 turn(s)."},
+            "technique" : {"name":"Chasing the Wind", "tag":"", "description":"After using her Technique, Yukong enters Sprint mode for 20 seconds. In Sprint mode, her Movement SPD increases by 35%, and Yukong gains 2 stack(s) of \"Roaring Bowstrings\" when she enters battle by attacking enemies."}
         },
         "eidolons" : {}
     },

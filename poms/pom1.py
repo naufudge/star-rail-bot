@@ -17,7 +17,8 @@ class pom1(commands.Cog):
         help_embed.add_field(name="``/eidolons <character name>``", value="Lists all the Eidolons of a specific character.", inline=False)
         help_embed.add_field(name="``/light_cone <light cone name>``", value="Gives you information regarding a specific light cone.", inline=False)
         help_embed.add_field(name="``/relics <relic name>``", value="Gives you information regarding a specific relic or planar ornament.", inline=False)
-        help_embed.set_footer(text="Made with love by Nauf#0709 :)")
+        help_embed.add_field(name="``/warp <warp name>``", value="Try your luck out in this Warp Simulator (beta stage)", inline=False)
+        help_embed.set_footer(text="Made with love by Nauf :)")
         help_view = HelpView()
         await interaction.response.send_message(embed=help_embed, view=help_view)
         if interaction.guild.id == 782971853999702017:
