@@ -3,8 +3,10 @@ from discord.ext import commands
 
 class PomPomClient(commands.Bot):
     def __init__(self):
+        # REMEMBER TO CHANGE THE INTENTS BEFORE FINALING
         intents = discord.Intents.default()
-        self.poms = ['poms.pom1', 'poms.pom2', 'poms.pom3', 'poms.pom4']
+        # intents.message_content = True
+        self.poms = ['poms.pom1', 'poms.pom2', 'poms.pom3', 'poms.pom4', 'poms.pom5']
 
         super().__init__(command_prefix="pom$", intents=intents, help_command=None)
 
