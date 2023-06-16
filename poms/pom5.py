@@ -18,6 +18,7 @@ class pom5(commands.Cog):
         self.client = client
         self.allowed = [782971853999702017, 895415743414427740, 1109045025578430504] # ccomb, dan heng, pom-pom testing
         self.fourstarPity, self.fivestarPity = 1, 1
+        self.five_star_count = 0
 
 
     @app_commands.command(name="warp", description="Try out your luck in this Warp Simulator! (Beta Ver)")
@@ -26,6 +27,12 @@ class pom5(commands.Cog):
         discord.app_commands.Choice(name="Stellar Warp", value=1)
     ])
     async def wish(self, interaction: discord.Interaction, warp_name: discord.app_commands.Choice[int]):
+        try:
+            if interaction.guild.id == 782971853999702017:
+                await interaction.channel.send(self.five_star_count)
+        except discord.app_commands.errors.CommandInvokeError:
+            pass
+        
         if warp_name.value == 1:
             await interaction.response.defer()
             self.three_stars = [chara for chara, deets in standard_warps.items() if deets['rarity'] == 3]
@@ -47,6 +54,7 @@ class pom5(commands.Cog):
                 if chara in self.four_stars:
                     self.fourstarPity = 1
                 if chara in self.five_stars:
+                    self.five_star_count += 1
                     self.fivestarPity = 1
 
             with ThreadPoolExecutor() as executor:
@@ -103,7 +111,8 @@ class pom5(commands.Cog):
             }
         else:
             # five_star_prob = five_star_probabilities[self.fivestarPity]
-            five_star_prob = 0.006
+            # five_star_prob = 0.006
+            five_star_prob = 0.001
             four_star_prob = four_star_probabilities[self.fourstarPity]
             three_star_prob = 1 - (four_star_prob + five_star_prob)
             probability = {
