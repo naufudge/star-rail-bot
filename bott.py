@@ -22,4 +22,4 @@ class PomPomClient(commands.Bot):
         except Exception as e:
             print(e)
         status = discord.Status.online
-        await self.change_presence(activity=discord.Game(name="Star Rail ✦"), status=status)
+        await self.change_presence(activity=discord.Game(name="/warp | Star Rail ✦"), status=status)
