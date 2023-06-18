@@ -4,14 +4,15 @@ from discord.ext import commands
 from io import BytesIO
 import json
 import asyncio
-# import sqlite3
 import numpy as np
 from concurrent.futures import ThreadPoolExecutor
 from warps.warp import ten_pull
 from warps.probabilities import *
 
-with open('warps/standard_banner.json', 'r') as f:
+with open('warps/data/standard_banner.json', 'r') as f:
     standard_warps = json.load(f)
+with open('warps/data/user_data.json', 'r') as f:
+    user_data = json.load(f)
 
 class pom5(commands.Cog):
     def __init__(self, client: commands.Bot):
@@ -32,12 +33,17 @@ class pom5(commands.Cog):
                 await interaction.channel.send(self.five_star_count)
         except discord.app_commands.errors.CommandInvokeError:
             pass
-        
+
+        with open('warps/data/user_data.json', 'r') as f:
+            user_data = json.load(f)
+
+        # Standard Banner
         if warp_name.value == 1:
             await interaction.response.defer()
             self.three_stars = [chara for chara, deets in standard_warps.items() if deets['rarity'] == 3]
             self.four_stars = [chara for chara, deets in standard_warps.items() if deets['rarity'] == 4]
             self.five_stars = [chara for chara, deets in standard_warps.items() if deets['rarity'] == 5]
+            self.five_and_four_stars = [chara for chara, deets in standard_warps.items() if (deets['rarity'] == 5 or deets['rarity'] == 4) and (deets['type'] == 'character')]
 
             chara_names = list(standard_warps)
             rarities = [standard_warps[chara]['rarity'] for chara in chara_names]
@@ -57,14 +63,34 @@ class pom5(commands.Cog):
                     self.five_star_count += 1
                     self.fivestarPity = 1
 
+            user_id = str(interaction.user.id)
+            try:
+                assert(user_data[user_id])
+                # print("User data exists")
+            except KeyError:
+                # print("No user data")
+                user_data[user_id] = {}
+
+            list_of_charas_owned = list(user_data[user_id])
+
+            for chara_got in [result for result in results if result in self.five_and_four_stars]:
+                if not chara_got in list_of_charas_owned:
+                    user_data[user_id][chara_got] = 1
+                    list_of_charas_owned.append(chara_got)
+                else:
+                    user_data[user_id][chara_got] += 1
+                    
+            with open('warps/data/user_data.json', 'w', encoding='utf-8') as json_file:
+                json.dump(user_data, json_file, indent=4)
+
             with ThreadPoolExecutor() as executor:
                 future = executor.submit(self.img_process, results)
                 file = future.result()
 
             if [result for result in results if result in self.five_stars] != []:
-                embed_color = 0xedcb01 # 5 star pull
+                embed_color = 0xedcb01 # 5 star pull embed color
             else:
-                embed_color = 0xa000c8 # 4 star pull
+                embed_color = 0xa000c8 # 4 star pull embed color
 
             pulls_embed = discord.Embed(title="Warp Simulator", color=embed_color)
             if [result for result in results if result in self.five_stars] != []:

@@ -6,7 +6,7 @@ class PomPomClient(commands.Bot):
         # REMEMBER TO CHANGE THE INTENTS BEFORE FINALING
         intents = discord.Intents.default()
         # intents.message_content = True
-        self.poms = ['poms.pom1', 'poms.pom2', 'poms.pom3', 'poms.pom4', 'poms.pom5']
+        self.poms = ['poms.pom1', 'poms.pom2', 'poms.pom3', 'poms.pom4', 'poms.pom5', 'poms.pom6']
 
         super().__init__(command_prefix="pom$", intents=intents, help_command=None)
 
