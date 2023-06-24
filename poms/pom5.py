@@ -11,8 +11,6 @@ from warps.probabilities import *
 
 with open('warps/data/standard_banner.json', 'r') as f:
     standard_warps = json.load(f)
-with open('warps/data/user_data.json', 'r') as f:
-    user_data = json.load(f)
 
 class pom5(commands.Cog):
     def __init__(self, client: commands.Bot):
