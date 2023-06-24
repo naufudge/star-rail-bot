@@ -19,20 +19,22 @@ class pom5(commands.Cog):
         self.allowed = [782971853999702017, 895415743414427740, 1109045025578430504] # ccomb, dan heng, pom-pom testing
         self.fourstarPity, self.fivestarPity = 1, 1
         self.five_star_count = 0
+        self.total_pulls = 0
 
-
+    @app_commands.checks.cooldown(rate=10, per=120, key=lambda i: (i.user.id))
     @app_commands.command(name="warp", description="Try out your luck in this Warp Simulator! (Beta Ver)")
     @app_commands.describe(warp_name="Choose one of the available Warps")
     @app_commands.choices(warp_name=[
         discord.app_commands.Choice(name="Stellar Warp", value=1)
     ])
-    async def wish(self, interaction: discord.Interaction, warp_name: discord.app_commands.Choice[int]):
+    async def warp(self, interaction: discord.Interaction, warp_name: discord.app_commands.Choice[int]):
+        self.total_pulls += 10
         try:
             if interaction.guild.id == 782971853999702017:
-                await interaction.channel.send(self.five_star_count)
+                await interaction.channel.send(f"**Total Number of Pulls:** {self.total_pulls}\n**Number of 5 Stars Pulled:** {self.five_star_count}")
         except discord.app_commands.errors.CommandInvokeError:
             pass
-        
+
         if warp_name.value == 1:
             await interaction.response.defer()
             self.three_stars = [chara for chara, deets in standard_warps.items() if deets['rarity'] == 3]
@@ -121,6 +123,12 @@ class pom5(commands.Cog):
                 5 : five_star_prob/len(self.five_stars)
             }
         return probability
+
+    @warp.error
+    async def cooldown_error(self, interaction: discord.Interaction, error: app_commands.AppCommandError):
+        if isinstance(error, app_commands.CommandOnCooldown):
+            seconds_remaining = int(error.retry_after)
+            await interaction.response.send_message(f"You can warp again after `{seconds_remaining}` seconds :)", ephemeral=True)
 
 async def setup(client: commands.Bot) -> None:
     await client.add_cog(pom5(client))
