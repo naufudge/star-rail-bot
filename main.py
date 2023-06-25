@@ -1,10 +1,21 @@
 import json
+import asyncio
 from bott import PomPomClient
+from motor.motor_asyncio import AsyncIOMotorClient
+from warps.inventory_db import uri
 
 with open('config.json', 'r') as f:
     data = json.load(f)
     TOKEN = data['TOKEN']
 
+client = PomPomClient()
+
+async def main():
+    async with client:
+        client.mongoConnect = AsyncIOMotorClient(uri)
+        await client.start(TOKEN)
+
 if __name__ == '__main__':
-    client = PomPomClient()
-    client.run(TOKEN)
+    asyncio.run(main())
+    # client = PomPomClient()
+    # client.run(TOKEN)
