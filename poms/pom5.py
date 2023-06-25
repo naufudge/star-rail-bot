@@ -4,13 +4,12 @@ from discord.ext import commands
 from io import BytesIO
 import json
 import asyncio
-# import sqlite3
 import numpy as np
 from concurrent.futures import ThreadPoolExecutor
 from warps.warp import ten_pull
 from warps.probabilities import *
 
-with open('warps/standard_banner.json', 'r') as f:
+with open('warps/data/standard_banner.json', 'r') as f:
     standard_warps = json.load(f)
 
 class pom5(commands.Cog):
@@ -18,8 +17,6 @@ class pom5(commands.Cog):
         self.client = client
         self.allowed = [782971853999702017, 895415743414427740, 1109045025578430504] # ccomb, dan heng, pom-pom testing
         self.fourstarPity, self.fivestarPity = 1, 1
-        self.five_star_count = 0
-        self.total_pulls = 0
 
     @app_commands.checks.cooldown(rate=10, per=120, key=lambda i: (i.user.id))
     @app_commands.command(name="warp", description="Try out your luck in this Warp Simulator! (Beta Ver)")
@@ -28,26 +25,32 @@ class pom5(commands.Cog):
         discord.app_commands.Choice(name="Stellar Warp", value=1)
     ])
     async def warp(self, interaction: discord.Interaction, warp_name: discord.app_commands.Choice[int]):
-        self.total_pulls += 10
-        try:
-            if interaction.guild.id == 782971853999702017:
-                await interaction.channel.send(f"**Total Number of Pulls:** {self.total_pulls}\n**Number of 5 Stars Pulled:** {self.five_star_count}")
-        except discord.app_commands.errors.CommandInvokeError:
-            pass
-
+        # Standard Banner
         if warp_name.value == 1:
             await interaction.response.defer()
             self.three_stars = [chara for chara, deets in standard_warps.items() if deets['rarity'] == 3]
             self.four_stars = [chara for chara, deets in standard_warps.items() if deets['rarity'] == 4]
             self.five_stars = [chara for chara, deets in standard_warps.items() if deets['rarity'] == 5]
+            # List of 4 & 5 star characters
+            self.five_and_four_stars = [chara for chara, deets in standard_warps.items() if (deets['rarity'] == 5 or deets['rarity'] == 4) and (deets['type'] == 'character')]
+
+            pompomParentDB = self.client.mongoConnect['PomPomDB']
+            pompomDB = pompomParentDB['characters']
+
+            user_id = interaction.user.id
+            filter = {'_id': user_id}
+            if await pompomDB.find_one(filter) == None:
+                new_user = {"_id": user_id, "ten_pulls": 0, "characters": {}}
+                await pompomDB.insert_one(new_user)
+            user_data = await pompomDB.find_one(filter)
 
             chara_names = list(standard_warps)
             rarities = [standard_warps[chara]['rarity'] for chara in chara_names]
-            results = []
+            results = [] # This will contain the characters/weapons that a user gets from the 10 pull
 
             for pull in range(1, 11):
                 probability = self.probability_calculator()
-                chances = [probability[prob] for prob in rarities]
+                chances = [probability[rarity] for rarity in rarities]
 
                 self.fourstarPity += 1
                 self.fivestarPity += 1
@@ -56,24 +59,40 @@ class pom5(commands.Cog):
                 if chara in self.four_stars:
                     self.fourstarPity = 1
                 if chara in self.five_stars:
-                    self.five_star_count += 1
                     self.fivestarPity = 1
+
+            list_of_charas_owned = list(user_data["characters"])
+
+            for chara_got in [result for result in results if result in self.five_and_four_stars]:
+                if not chara_got in list_of_charas_owned:
+                    user_data["characters"][chara_got] = 1
+                    list_of_charas_owned.append(chara_got)
+                else:
+                    user_data["characters"][chara_got] += 1
+
+            updated_ten_pull_count = user_data["ten_pulls"] + 1
+
+            if [result for result in results if result in self.five_and_four_stars] != []:
+                updated_post = {"$set": {"ten_pulls": updated_ten_pull_count, "characters" : user_data["characters"]}}
+            else:
+                updated_post = {"$set": {"ten_pulls": updated_ten_pull_count}}
+            await pompomDB.update_one(filter, updated_post)
 
             with ThreadPoolExecutor() as executor:
                 future = executor.submit(self.img_process, results)
                 file = future.result()
 
             if [result for result in results if result in self.five_stars] != []:
-                embed_color = 0xedcb01 # 5 star pull
+                embed_color = 0xedcb01 # 5 star pull embed color
             else:
-                embed_color = 0xa000c8 # 4 star pull
+                embed_color = 0xa000c8 # 4 star pull embed color
 
             pulls_embed = discord.Embed(title="Warp Simulator", color=embed_color)
             if [result for result in results if result in self.five_stars] != []:
                 pulls_embed.set_image(url="https://cdn.discordapp.com/attachments/1117016812069081140/1117017484000772096/five_star.gif")
             else:
                 pulls_embed.set_image(url="https://cdn.discordapp.com/attachments/1117016812069081140/1117017472940384317/four_star.gif")
-            pulls_embed.set_footer(text="Please do note that this is a prototype and not the final version. There will not be any record of the characters you pull as of now. However, inventory system will be implemented in the near future.")
+            pulls_embed.set_footer(text="Good news! You can now view the characters you pull by typing `/my_characters`")
 
             await interaction.followup.send(embed=pulls_embed)
 
@@ -84,7 +103,7 @@ class pom5(commands.Cog):
                 pulls_embed.add_field(name="5 Stars:", value="--", inline=False)
             pulls_embed.set_image(url="attachment://pulls.png")
 
-            await asyncio.sleep(13)
+            await asyncio.sleep(12)
             await interaction.edit_original_response(attachments=[file], embed=pulls_embed)
 
     def img_process(self, imgs: list):
@@ -113,8 +132,8 @@ class pom5(commands.Cog):
             }
         else:
             # five_star_prob = five_star_probabilities[self.fivestarPity]
-            # five_star_prob = 0.006
-            five_star_prob = 0.001
+            # five_star_prob = 0.006 -> 0.001
+            five_star_prob = 0.0001
             four_star_prob = four_star_probabilities[self.fourstarPity]
             three_star_prob = 1 - (four_star_prob + five_star_prob)
             probability = {
@@ -130,5 +149,6 @@ class pom5(commands.Cog):
             seconds_remaining = int(error.retry_after)
             await interaction.response.send_message(f"You can warp again after `{seconds_remaining}` seconds :)", ephemeral=True)
 
+            
 async def setup(client: commands.Bot) -> None:
     await client.add_cog(pom5(client))
