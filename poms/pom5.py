@@ -18,7 +18,6 @@ class pom5(commands.Cog):
         self.allowed = [782971853999702017, 895415743414427740, 1109045025578430504] # ccomb, dan heng, pom-pom testing
         self.fourstarPity, self.fivestarPity = 1, 1
 
-
     @app_commands.checks.cooldown(rate=10, per=120, key=lambda i: (i.user.id))
     @app_commands.command(name="warp", description="Try out your luck in this Warp Simulator! (Beta Ver)")
     @app_commands.describe(warp_name="Choose one of the available Warps")
@@ -150,6 +149,6 @@ class pom5(commands.Cog):
             seconds_remaining = int(error.retry_after)
             await interaction.response.send_message(f"You can warp again after `{seconds_remaining}` seconds :)", ephemeral=True)
 
-
+            
 async def setup(client: commands.Bot) -> None:
     await client.add_cog(pom5(client))
