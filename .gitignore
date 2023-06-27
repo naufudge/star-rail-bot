@@ -5,6 +5,8 @@ thumbs
 organiser.py
 WarpCards
 WarpThumbs
+inventory_db.py
+user_data.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
