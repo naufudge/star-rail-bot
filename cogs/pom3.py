@@ -3,8 +3,8 @@ import discord
 import random
 from discord import app_commands
 from discord.ext import commands
-from poms.pom_funcs import similarity_sorter, light_cones, relics
-from poms.pom_views import RelicsView, LightConeView, path_and_cones, path_emojis
+from helpers.pom_funcs import similarity_sorter, light_cones, relics
+from helpers.pom_views import RelicsView, LightConeView, path_and_cones, path_emojis
 
 class pom3(commands.Cog):
     def __init__(self, client: commands.Bot):

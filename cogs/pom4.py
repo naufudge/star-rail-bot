@@ -3,7 +3,7 @@ import discord
 import random
 from discord import app_commands
 from discord.ext import commands
-from poms.pom_funcs import similarity_sorter, eidolons, chara_file
+from helpers.pom_funcs import similarity_sorter, eidolons, chara_file
 
 
 class pom4(commands.Cog):
