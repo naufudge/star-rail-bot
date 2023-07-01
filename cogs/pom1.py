@@ -2,37 +2,36 @@ import discord
 import random
 from discord import app_commands
 from discord.ext import commands
-from helpers.pom_views import HelpView
+from typing import Optional
+from cogs.help import CustomHelpCommand
 
 class pom1(commands.Cog):
     def __init__(self, client: commands.Bot):
         self.client = client
 
-    # See the help.py cog - I've remade most of this there
+    @app_commands.command(name="help", description="Get help on how to use Pom-Pom")
+    @app_commands.describe(command_name="Get more information about a specific command")
+    async def pp_help(self, interaction: discord.Interaction, command_name: Optional[str] = None):
+        custom_help = CustomHelpCommand()
+        custom_help.context = ctx = await commands.Context.from_interaction(interaction)
+        await custom_help.command_callback(ctx, command = command_name)
 
-    # @app_commands.command(name="help", description="Get help on how to use Pom-Pom")
-    # async def pp_help(self, interaction: discord.Interaction):
-    #     colors = [0xc71e1e, 0xd83131, 0xc97f7f, 0x9a0000, 0x0f0707]
-    #     help_embed = discord.Embed(title="__Help__", color=random.choice(colors) ,description="Hi Trailblazer! How can Pom-Pom help you today?\n")
-    #     help_embed.add_field(name="``/character <character name>``", value="Gives you some information about a specific character.", inline=False)
-    #     help_embed.add_field(name="``/skills <character name>``", value="Gives you information regarding the skills of a specific character.", inline=False)
-    #     help_embed.add_field(name="``/eidolons <character name>``", value="Lists all the Eidolons of a specific character.", inline=False)
-    #     help_embed.add_field(name="``/light_cone <light cone name>``", value="Gives you information regarding a specific light cone.", inline=False)
-    #     help_embed.add_field(name="``/relics <relic name>``", value="Gives you information regarding a specific relic or planar ornament.", inline=False)
-    #     help_embed.add_field(name="``/warp <warp name>``", value="Try your luck out in this Warp Simulator (beta stage)", inline=False)
-    #     help_embed.set_footer(text="Made with love by Nauf :)")
-    #     help_view = HelpView()
-    #     await interaction.response.send_message(embed=help_embed, view=help_view)
-    #     try:
-    #         if interaction.guild.id == 782971853999702017:
-    #             await interaction.channel.send(content=f'**{self.client.user.name}** is now on **{len(self.client.guilds)}** servers!')
-    #     except discord.app_commands.errors.CommandInvokeError:
-    #         pass
+    @commands.hybrid_command(name="sync", with_app_command=False, description="syncs the slash commands", hidden=True)
+    @commands.is_owner()
+    @commands.guild_only()
+    async def sync(self, ctx: commands.Context):
+        # await ctx.send(f'{self.client.user.name} is now on {len(self.client.guilds)} servers!')
+        try:
+            synced = await self.client.tree.sync()
+            await ctx.send(f"{self.client.user.name.capitalize()} has synced {len(synced)} command(s)")
+        except Exception as e:
+            problem = e.__class__.__name__
+            await ctx.send(f"The following error occured; *{problem}*")
 
-    @commands.command(name="check")
+    @commands.hybrid_command(name="check", with_app_command=False, description="checks the guild count", hidden=True)
     @commands.is_owner()
     async def check(self, ctx: commands.Context):
-        await ctx.channel.send(f'{self.client.user.name} is now on {len(self.client.guilds)} servers!')
+        await ctx.send(f'`{self.client.user.name}` is now on **{len(self.client.guilds)}** servers!')
 
 async def setup(client: commands.Bot) -> None:
     await client.add_cog(pom1(client))
