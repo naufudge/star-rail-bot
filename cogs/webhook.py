@@ -1,15 +1,28 @@
 from aiohttp import web
 from discord.ext import commands
+import topgg
 
 # This is basically a barebones version of top.gg
 class webhook(commands.Cog):
-    def __init__(self, bot):
-        self.bot = bot
+    def __init__(self, client: commands.Bot):
+        self.client = client
+
+    # async def new_webhook(self):
+    #     dblclient = topgg.DBLClient(
+    #         token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjExMDY4NDg3ODIwMjIzNDQ3NjUiLCJib3QiOnRydWUsImlhdCI6MTY4NTM4MDE3OH0.asmaFn6G21iEcSg81_Fgo4t7_mwjnkValIa4Qa9Znsw",
+    #         bot=self.client,
+    #         autopost=False
+    #     )
+    #     webhook = topgg.WebhookManager(self.client)
+    #     webhook.dbl_webhook('/dbl')
+    #     await webhook.run(69)
+    #     print('Running...')
 
     async def _webhook(self):
         async def vote_handler(request):
+            print("reaches here")
             req_auth = request.headers.get('Authorization')
-            if self.bot.config.WEBHOOK_AUTH == req_auth:
+            if self.client.config.WEBHOOK_AUTH == req_auth:
                 data = await request.json()
                 if data.get('type') == 'upvote':
                     await self.on_dbl_vote(data)
@@ -17,15 +30,17 @@ class webhook(commands.Cog):
                     await self.on_dbl_test(data)
                 else:
                     return
+                print(200)
                 return web.Response(status=200)
             else:
+                print(401)
                 return web.Response(status=401)
 
-        app = web.Application(loop=self.bot.loop)
+        app = web.Application(loop=self.client.loop)
         app.router.add_post('/dblwebhook', vote_handler)
         runner = web.AppRunner(app)
         await runner.setup()
-        self._webserver = web.TCPSite(runner, '0.0.0.0', 5000)
+        self._webserver = web.TCPSite(runner, '0.0.0.0', 8000)
         await self._webserver.start()
 
     async def on_dbl_vote(self, data):
@@ -35,6 +50,7 @@ class webhook(commands.Cog):
     async def on_dbl_test(self, data):
         # There is a button on top.gg that you can use to send a test vote. it will be processed here
         userId = data["user"]
+        print(userId)
 
 async def setup(bot):
     await bot.add_cog(webhook(bot))
