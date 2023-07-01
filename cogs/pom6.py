@@ -1,5 +1,4 @@
 import discord
-from discord import app_commands
 from discord.ext import commands
 from io import BytesIO
 from warps.inventory_view import inventory_view
@@ -8,13 +7,13 @@ class pom6(commands.Cog):
     def __init__(self, client: commands.Bot):
         self.client = client
 
-    @app_commands.command(name="my_characters", description="View all the characters you own.")
-    async def my_charas(self, interaction: discord.Interaction):
-        await interaction.response.defer()
+    @commands.hybrid_command(name="my_characters", description="View all the characters you got from Warping.")
+    async def my_charas(self, ctx: commands.Context):
+        await ctx.defer()
         pompomParentDB = self.client.mongoConnect['PomPomDB']
         pompomCollection = pompomParentDB['characters']
 
-        user_id = interaction.user.id
+        user_id = ctx.author.id
         filter = {'_id': user_id}
 
         if await pompomCollection.find_one(filter) == None:
@@ -32,14 +31,14 @@ class pom6(commands.Cog):
             middle_man.seek(0)
             file = discord.File(middle_man, filename="charas.png")
 
-            my_charas_embed = discord.Embed(title=f"{interaction.user.name}'s Characters", color=0xffffff)
+            my_charas_embed = discord.Embed(title=f"{ctx.author.name}'s Characters", color=0xffffff)
             my_charas_embed.set_image(url="attachment://charas.png")
 
-            await interaction.followup.send(file=file, embed=my_charas_embed)
+            await ctx.send(file=file, embed=my_charas_embed)
         else:
-            my_charas_embed = discord.Embed(title=f"{interaction.user.name}'s Characters", description="You do not have any characters at the moment :( Start collecting by doing `/warp` now!",color=0xffffff)
+            my_charas_embed = discord.Embed(title=f"{ctx.author.name}'s Characters", description="You don't have any characters at the moment :( Start collecting by doing `/warp` now!",color=0xffffff)
 
-            await interaction.followup.send(embed=my_charas_embed)
+            await ctx.send(embed=my_charas_embed)
 
 async def setup(client: commands.Bot) -> None:
     await client.add_cog(pom6(client))

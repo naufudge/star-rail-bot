@@ -11,9 +11,9 @@ class pom3(commands.Cog):
         self.client = client
 
     # Light cones command
-    @app_commands.command(name="light_cone", description="Look up any light cone you want")
+    @commands.hybrid_command(name="light_cone", description="Look up any light cone you want")
     @app_commands.describe(name="Enter the name of the light cone")
-    async def light_cones_info(self, interaction: discord.Interaction, name: Optional[str]):
+    async def light_cones_info(self, ctx: commands.Context, *, name: Optional[str]):
         cone_names = [x['name'] for x in light_cones]
         colors = [0xc71e1e, 0xd83131, 0xc97f7f, 0x9a0000, 0x0f0707]
         if name:
@@ -30,7 +30,7 @@ class pom3(commands.Cog):
                 cone_embed.add_field(name="How to Obtain", value=light_cone['source'], inline=False)
             cone_embed.add_field(name="Effect", value=light_cone['effect'], inline=False)
             cone_embed.set_footer(text="If this isn't the light cone you are looking for, use just /light_cone to look up all light cones!")
-            await interaction.response.send_message(embed=cone_embed)
+            await ctx.send(embed=cone_embed)
         else:
             options = []
             path_list = sorted(list(path_and_cones))
@@ -42,12 +42,12 @@ class pom3(commands.Cog):
             cone_embed = discord.Embed(title="Light Cones", description=lc_desc, color=random.choice(colors))
 
             light_cone_view = LightConeView(options)
-            await interaction.response.send_message(embed=cone_embed, view=light_cone_view)
+            await ctx.send(embed=cone_embed, view=light_cone_view)
 
     # Relics command
-    @app_commands.command(name="relics", description="Look up any available Relic or Planar Ornament")
+    @commands.hybrid_command(name="relics", description="Look up any available Relic or Planar Ornament")
     @app_commands.describe(name="Enter the name of a Relic or Planar Ornament")
-    async def relics_info(self, interaction: discord.Interaction, name: Optional[str]):
+    async def relics_info(self, ctx: commands.Context, *, name: Optional[str]):
         relics_names = [x['name'] for x in relics]
         colors = [0xc71e1e, 0xd83131, 0xc97f7f, 0x9a0000, 0x0f0707]
         if name:
@@ -59,7 +59,7 @@ class pom3(commands.Cog):
             if relic_data['4pc'] != "":
                 relic_embed.add_field(name="4 Piece:", value=relic_data['4pc'], inline=False)
 
-            await interaction.response.send_message(embed=relic_embed)
+            await ctx.send(embed=relic_embed)
         else:
             only_relics = [x['name'] for x in relics if x['type'] == 'Relic']
             only_planar = [x['name'] for x in relics if x['type'] != 'Relic']
@@ -71,7 +71,7 @@ class pom3(commands.Cog):
             options = [relics_embed, planars_embed]
             relic_view = RelicsView(options)
 
-            await interaction.response.send_message(embed=relic_view.initial, view=relic_view)
+            await ctx.send(embed=relic_view.initial, view=relic_view)
 
 
 async def setup(client: commands.Bot) -> None:
