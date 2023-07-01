@@ -3,7 +3,7 @@ import discord
 import random
 from discord import app_commands
 from discord.ext import commands
-from poms.pom_funcs import similarity_sorter, eidolons, chara_file
+from helpers.pom_funcs import similarity_sorter, eidolons, chara_file
 
 
 class pom4(commands.Cog):
@@ -11,9 +11,9 @@ class pom4(commands.Cog):
         self.client = client
 
     # Eidolons command
-    @app_commands.command(name="eidolons", description="Gives you the Eidolons of a specific character.")
+    @commands.hybrid_command(name="eidolons", description="Gives you the Eidolons of a specific character.")
     @app_commands.describe(character_name="Enter the name of the character")
-    async def eidolons_search(self, interaction: discord.Interaction, character_name: str):
+    async def eidolons_search(self, ctx: commands.Context, *, character_name: str):
         # available_charas = [each['character'] for each in eidolons]
         available_charas = [each['name'] for each in chara_file]
         selected_chara = similarity_sorter(available_charas, character_name)[0]
@@ -32,7 +32,7 @@ class pom4(commands.Cog):
             eidolon_embed = discord.Embed(title=f"{selected_chara}'s Eidolons", description=f"Details regarding {selected_chara}'s Eidolons is not out yet.", color=cone_colors[len(rarity)])
         eidolon_embed.set_thumbnail(url=thumb)
 
-        await interaction.response.send_message(embed=eidolon_embed)
+        await ctx.send(embed=eidolon_embed)
 
 
 async def setup(client: commands.Bot) -> None:

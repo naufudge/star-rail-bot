@@ -19,15 +19,15 @@ class pom5(commands.Cog):
         self.fourstarPity, self.fivestarPity = 1, 1
 
     @app_commands.checks.cooldown(rate=10, per=120, key=lambda i: (i.user.id))
-    @app_commands.command(name="warp", description="Try out your luck in this Warp Simulator! (Beta Ver)")
+    @commands.hybrid_command(name="warp", description="Try out your luck in this Warp Simulator!")
     @app_commands.describe(warp_name="Choose one of the available Warps")
     @app_commands.choices(warp_name=[
         discord.app_commands.Choice(name="Stellar Warp", value=1)
     ])
-    async def warp(self, interaction: discord.Interaction, warp_name: discord.app_commands.Choice[int]):
+    async def warp(self, ctx: commands.Context, *, warp_name: discord.app_commands.Choice[int]):
         # Standard Banner
         if warp_name.value == 1:
-            await interaction.response.defer()
+            await ctx.defer()
             self.three_stars = [chara for chara, deets in standard_warps.items() if deets['rarity'] == 3]
             self.four_stars = [chara for chara, deets in standard_warps.items() if deets['rarity'] == 4]
             self.five_stars = [chara for chara, deets in standard_warps.items() if deets['rarity'] == 5]
@@ -36,8 +36,10 @@ class pom5(commands.Cog):
 
             pompomParentDB = self.client.mongoConnect['PomPomDB']
             pompomDB = pompomParentDB['characters']
+            # ---------------------- PLEASE REMEMBER TO CHANGE THIS (FOR TESTING PURPOSES)-----------------------
+            # pompomDB = pompomParentDB['tester']
 
-            user_id = interaction.user.id
+            user_id = ctx.author.id
             filter = {'_id': user_id}
             if await pompomDB.find_one(filter) == None:
                 new_user = {"_id": user_id, "ten_pulls": 0, "characters": {}}
@@ -94,7 +96,7 @@ class pom5(commands.Cog):
                 pulls_embed.set_image(url="https://cdn.discordapp.com/attachments/1117016812069081140/1117017472940384317/four_star.gif")
             pulls_embed.set_footer(text="Good news! You can now view the characters you pull by typing `/my_characters`")
 
-            await interaction.followup.send(embed=pulls_embed)
+            msg = await ctx.send(embed=pulls_embed)
 
             pulls_embed.add_field(name="4 Stars:", value=", ".join(set([result for result in results if result in self.four_stars])), inline=False)
             if [result for result in results if result in self.five_stars] != []:
@@ -104,7 +106,7 @@ class pom5(commands.Cog):
             pulls_embed.set_image(url="attachment://pulls.png")
 
             await asyncio.sleep(12)
-            await interaction.edit_original_response(attachments=[file], embed=pulls_embed)
+            await msg.edit(attachments=[file], embed=pulls_embed)
 
     def img_process(self, imgs: list):
         np.random.shuffle(imgs)
@@ -149,6 +151,5 @@ class pom5(commands.Cog):
             seconds_remaining = int(error.retry_after)
             await interaction.response.send_message(f"You can warp again after `{seconds_remaining}` seconds :)", ephemeral=True)
 
-            
 async def setup(client: commands.Bot) -> None:
     await client.add_cog(pom5(client))

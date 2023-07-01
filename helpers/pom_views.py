@@ -1,9 +1,9 @@
 import discord
 import random
-from typing import Any, List
+from typing import List
 from discord.interactions import Interaction
-from poms.pom_funcs import seperate_charas, seperate_lcs, similarity_sorter, light_cones, chara_file
-from poms.pom_misc import path_thumbs, path_emojis, combat_emojis,combat_colors
+from helpers.pom_funcs import seperate_charas, seperate_lcs, similarity_sorter, light_cones, chara_file
+from helpers.pom_misc import path_thumbs, path_emojis, combat_emojis,combat_colors
 
 
 path_and_cones = seperate_lcs(light_cones)

@@ -3,9 +3,9 @@ from discord import app_commands
 from discord.ext import commands
 from typing import Optional
 import random
-from poms.pom_views import InfoView, CharactersView
-from poms.pom_funcs import similarity_sorter, chara_file, best_light_cones, eidolons
-from poms.pom_misc import combat_emojis, path_emojis
+from helpers.pom_views import InfoView, CharactersView
+from helpers.pom_funcs import similarity_sorter, chara_file, best_light_cones, eidolons
+from helpers.pom_misc import combat_emojis, path_emojis
 
 
 class pom2(commands.Cog):
@@ -13,9 +13,9 @@ class pom2(commands.Cog):
         self.client = client
 
     # Character finder command
-    @app_commands.command(name="character", description="Search for a specific character.")
+    @commands.hybrid_command(name="character", description="Search for a specific character.")
     @app_commands.describe(chara_name="Enter the name of the character")
-    async def chara_search(self, interaction: discord.Interaction, chara_name: Optional[str]):
+    async def chara_search(self, ctx: commands.Context, *, chara_name: Optional[str]):
         if chara_name:
             names = [x['name'] for x in chara_file]
             result = similarity_sorter(names, chara_name)[0] # Finds the name most similar to the search
@@ -79,16 +79,18 @@ class pom2(commands.Cog):
 
             main_embeds = [info_embed, skills_embed, eidolon_embed, best_cone_embed]
             info_view = InfoView(main_embeds, best_cone_names)
-            await interaction.response.send_message(embed=info_view.initial, view=info_view)
+            # await interaction.response.send_message(embed=info_view.initial, view=info_view)
+            await ctx.send(embed=info_view.initial, view=info_view)
         else:
             emb = discord.Embed(title="Characters", description="Find any playable/announced character under their respective paths", color=0xffffff)
             charas_view = CharactersView()
-            await interaction.response.send_message(embed=emb, view=charas_view)
+            # await interaction.response.send_message(embed=emb, view=charas_view)
+            await ctx.send(embed=emb, view=charas_view)
 
     # Character skills command
-    @app_commands.command(name="skills", description="Gives you information regarding the skills of a specific character.")
+    @commands.hybrid_command(name="skills", description="Gives you information regarding the skills of a specific character.")
     @app_commands.describe(chara_name="Enter the name of the character")
-    async def skill_search(self, interaction: discord.Interaction, chara_name: str):
+    async def skill_search(self, ctx: commands.Context, *, chara_name: str):
         names = [x['name'] for x in chara_file]
         result = similarity_sorter(names, chara_name)[0] # finds the name most similar to the search
 
@@ -111,7 +113,7 @@ class pom2(commands.Cog):
             skills_embed.add_field(name="__Talent__", value=f"**Name:** *{chara_skills['talent']['name']}*\n**Tag:** {chara_skills['talent']['tag']}\n**Description:** {chara_skills['talent']['description']}", inline=False)
             skills_embed.add_field(name="__Technique__", value=f"**Name:** *{chara_skills['technique']['name']}*\n**Tag:** {chara_skills['technique']['tag']}\n**Description:** {chara_skills['technique']['description']}", inline=False)
 
-        await interaction.response.send_message(embed=skills_embed)
+        await ctx.send(embed=skills_embed)
 
 
 async def setup(client: commands.Bot) -> None:

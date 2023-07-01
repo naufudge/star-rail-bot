@@ -1,5 +1,5 @@
 from difflib import SequenceMatcher
-from poms.pom_misc import combat_emojis
+from helpers.pom_misc import combat_emojis
 import json
 
 def seperate_lcs(lcs):
