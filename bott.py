@@ -12,7 +12,7 @@ class PomPomClient(commands.AutoShardedBot):
         # intents.message_content = True
         super().__init__(**kwargs, command_prefix=commands.when_mentioned_or('pom$'), intents=intents, help_command=None)
         self.activity = discord.Game(name="/warp | Star Rail ✦")
-        self.topggpy = topgg.DBLClient(self, kwargs['topgg_token'])
+        # self.topggpy = topgg.DBLClient(self, kwargs['topgg_token'])
         # self.executor = ThreadPoolExecutor()
 
     # Because I seperated your cogs into a cog folder, we can just iterate over the folder instead of having to hard-code cog names with self.poms
@@ -36,13 +36,13 @@ class PomPomClient(commands.AutoShardedBot):
             # await report_channel.send(embed=embed)
             print(error)
 
-    @tasks.loop(hours=12)
-    async def update_stats(self):
-        try:
-            await self.topggpy.post_guild_count()
-            print(f'Posted server count ({self.topggpy.guild_count})')
-        except Exception as e:
-            print('Failed to post server count\n{}: {}'.format(type(e).__name__, e))
+    # @tasks.loop(hours=12)
+    # async def update_stats(self):
+    #     try:
+    #         await self.topggpy.post_guild_count()
+    #         print(f'Posted server count ({self.topggpy.guild_count})')
+    #     except Exception as e:
+    #         print('Failed to post server count\n{}: {}'.format(type(e).__name__, e))
 
     async def on_ready(self):
         # You can use a logger here instead of printing: https://discordpy.readthedocs.io/en/stable/logging.html

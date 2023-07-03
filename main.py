@@ -9,7 +9,7 @@ with open('config.json', 'r') as f:
     TOKEN = data['TOKEN']
     TOPGG = data['TOPGG_TOKEN']
 
-client = PomPomClient(topgg_token=TOPGG)
+client = PomPomClient()
 
 async def main():
     async with client:
