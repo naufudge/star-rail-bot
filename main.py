@@ -7,8 +7,9 @@ from warps.inventory_db import uri
 with open('config.json', 'r') as f:
     data = json.load(f)
     TOKEN = data['TOKEN']
+    TOPGG = data['TOPGG_TOKEN']
 
-client = PomPomClient()
+client = PomPomClient(topgg_token=TOPGG)
 
 async def main():
     async with client:
