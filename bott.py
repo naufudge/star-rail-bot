@@ -48,5 +48,5 @@ class PomPomClient(commands.AutoShardedBot):
         # You can use a logger here instead of printing: https://discordpy.readthedocs.io/en/stable/logging.html
         # The logger can be used globally through self.client.log.info("some string here")
         print(f'{self.user.name} has connected to Discord!, and now on {len(self.guilds)} servers!')
-        self.update_stats.start()
+        # self.update_stats.start()
 
