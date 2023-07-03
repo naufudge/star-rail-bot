@@ -2,6 +2,8 @@ import discord
 import random
 from discord.ext import commands
 from typing import Optional, Mapping, List
+from discord.ext.commands.context import Context
+from discord.ext.commands.errors import CommandError
 from helpers.pom_views import HelpView
 
 
@@ -10,8 +12,8 @@ from helpers.pom_views import HelpView
 class CustomHelpCommand(commands.HelpCommand):
     def __init__(self):
         self.colors = [0xc71e1e, 0xd83131, 0xc97f7f, 0x9a0000, 0x0f0707]
-        # super().__init__(command_attrs={"help": "Show help about the bot, a command, or a category."})
-        super().__init__()
+        super().__init__(command_attrs={"help": "Show help about the bot, a command, or a category."})
+        # super().__init__()
 
     async def send_bot_help(self, mapping: Mapping[Optional[commands.Cog], List[commands.Command]]):
         colors = [0xc71e1e, 0xd83131, 0xc97f7f, 0x9a0000, 0x0f0707]
@@ -49,19 +51,22 @@ class CustomHelpCommand(commands.HelpCommand):
         await self.context.send(group.qualified_name)
 
     async def send_command_help(self, command: commands.Command):
-        if command.clean_params != {}:
-            command_embed = discord.Embed(
-                title=f"Command: `{self.context.clean_prefix}{command.qualified_name} <{list(command.clean_params.keys())[0]}>`",
-                description=command.description,
-                color=random.choice(self.colors)
-                )
-        else:
-            command_embed = discord.Embed(
-                title=f"Command: `{self.context.clean_prefix}{command.qualified_name}`",
-                description=command.description,
-                color=random.choice(self.colors)
-                )
-        await self.context.send(embed=command_embed)
+        try:
+            if command.clean_params != {} and not command.hidden:
+                command_embed = discord.Embed(
+                    title=f"Command: `{self.context.clean_prefix}{command.qualified_name} <{list(command.clean_params.keys())[0]}>`",
+                    description=command.description,
+                    color=random.choice(self.colors)
+                    )
+            elif not command.hidden:
+                command_embed = discord.Embed(
+                    title=f"Command: `{self.context.clean_prefix}{command.qualified_name}`",
+                    description=command.description,
+                    color=random.choice(self.colors)
+                    )
+            await self.context.send(embed=command_embed)
+        except:
+            await self.send_error_message(error=f"No command called {command} found")
 
     async def send_error_message(self, error: str):
         error_embed = discord.Embed(
