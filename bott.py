@@ -2,6 +2,7 @@ import discord
 import os
 from discord.ext import commands
 from discord.ext.commands import errors
+from concurrent.futures import ThreadPoolExecutor
 
 class PomPomClient(commands.AutoShardedBot):
     def __init__(self, **kwargs):
@@ -10,6 +11,7 @@ class PomPomClient(commands.AutoShardedBot):
         # intents.message_content = True
         super().__init__(**kwargs, command_prefix=commands.when_mentioned_or('pom$'), intents=intents, help_command=None)
         self.activity = discord.Game(name="/warp | Star Rail ✦")
+        # self.executor = ThreadPoolExecutor()
 
     # Because I seperated your cogs into a cog folder, we can just iterate over the folder instead of having to hard-code cog names with self.poms
     async def setup_hook(self):

@@ -15,7 +15,7 @@ def human_format(num: int):
     return '{}{}'.format('{:f}'.format(num).rstrip('0').rstrip('.'), ['', 'K', 'M', 'B', 'T'][magnitude])
 
 def charas_by_rarity_sort(initial_dict: dict):
-    with open('warps/Data/all_warps.json', 'r') as all_warps_data_file:
+    with open('warps/data/all_warps.json', 'r') as all_warps_data_file:
         chara_and_wpn_data = json.load(all_warps_data_file)
 
     list_of_owned_charas = list(initial_dict)
