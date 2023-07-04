@@ -164,7 +164,7 @@
         "path": "The Abundance <:abundance:1106840945418313808>",
         "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
         "description": "Under the watch of the white irises, he bashed the coffin with his hands.'Sometimes, I feel like I underestimated you by proposing this deal.''",
-        "effect": "Increases ATK of the wearer by 20/25/30/35/40%. After the wearer using Ultimate, all allies gain 16/20/24/28/32 Speed for 1 turn. Additionally, for each different target the wearer attacks, recovers 5 Energy. Each attack can recover Energy a maximum of 3 time(s).",
+        "effect": "Increases the wearer's ATK by 24/28/32/36/40%. After the wearer uses an attack, for each different enemy target the wearer hits, regenerates 3/3.5/4/4.5/5 Energy. Each attack can regenerate Energy up to 3 time(s) this way. After the wearer uses their Ultimate, all allies gain 12/14/16/18/20 SPD for 1 turn.",
         "thumb": "",
         "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c0/Light_Cone_Echoes_of_the_Coffin.png/revision/latest/scale-to-width-down/350?cb=20220816225416",
         "source": ""
