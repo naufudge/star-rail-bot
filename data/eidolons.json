@@ -790,5 +790,104 @@
             "description": "Bailu can heal allies who received a killing blow 1 more time(s) in a single battle.",
             "picture": "https://wiki.hoyolab.com/_ipx/f_webp/https://upload-static.hoyoverse.com/hoyolab-wiki/2023/04/25/250281765/0a525359bff6b34573c3b0040f738784_6818005873490097251.png"
         }
+    },
+    {
+        "character": "Silver Wolf",
+        "e1": {
+            "name": "Social Engineering",
+            "description": "After using her Ultimate to attack enemies, Silver Wolf regenerates 7 Energy for every debuff that the target enemy currently has, up to 5 time(s).",
+            "picture": ""
+        },
+        "e2": {
+            "name": "Zombie Network",
+            "description": "When an enemy enters battle, reduce their Effect RES by 20%.",
+            "picture": ""
+        },
+        "e3": {
+            "name": "Payload",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": ""
+        },
+        "e4": {
+            "name": "Bounce Attack",
+            "description": "After using her Ultimate to attack enemies, deals Additional Quantum DMG equal to 20% of Silver Wolf's ATK for every debuff currently on the enemy target. This effect can be triggered for a maximum of 5 time(s).",
+            "picture": ""
+        },
+        "e5": {
+            "name": "Brute Force Attack",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": ""
+        },
+        "e6": {
+            "name": "Overlay Network",
+            "description": "For every debuff the target enemy has, the DMG dealt by Silver Wolf increases by 20%, up to a limit of 100%.",
+            "picture": ""
+        }
+    },
+    {
+        "character": "Luocha",
+        "e1": {
+            "name": "Ablution of the Quick",
+            "description": "While the Field is active, ATK of all allies increases by 20%.",
+            "picture": ""
+        },
+        "e2": {
+            "name": "Bestowal From the Pure",
+            "description": "When his Skill is triggered, if the target ally's HP is lower than 50%, Luocha's Outgoing Healing increases by 30%. If the target ally's HP is at 50% or higher, the ally receives a Shield that can absorb DMG equal to 18% of Luocha's ATK plus 240, lasting for 2 turns.",
+            "picture": ""
+        },
+        "e3": {
+            "name": "Surveyal by the Fool",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": ""
+        },
+        "e4": {
+            "name": "Heavy Lies the Crown",
+            "description": "When Luocha's Field is active, enemies become Weakened and deal 12% less DMG.",
+            "picture": ""
+        },
+        "e5": {
+            "name": "Cicatrix 'Neath the Pain",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": ""
+        },
+        "e6": {
+            "name": "Reunion With the Dust",
+            "description": "When Ultimate is used, there is a 100% fixed chance to reduce all enemies' All-Type RES by 20% for 2 turn(s).",
+            "picture": ""
+        }
+    },
+    {
+        "character": "Yukong",
+        "e1": {
+            "name": "Aerial Marshal",
+            "description": "At the start of battle, increases the SPD of all allies by 10% for 2 turn(s).",
+            "picture": ""
+        },
+        "e2": {
+            "name": "Skyward Command",
+            "description": "When any ally's current energy is equal to its energy limit, Yukong regenerates an additional 5 energy. This effect can only be triggered once for each ally. The trigger count is reset after Yukong casts her Ultimate.",
+            "picture": ""
+        },
+        "e3": {
+            "name": "Torrential Fusillade",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10.",
+            "picture": ""
+        },
+        "e4": {
+            "name": "Zephyrean Echoes",
+            "description": "When \"Roaring Bowstrings\" is active, Yukong deals 30% more DMG to enemies.",
+            "picture": ""
+        },
+        "e5": {
+            "name": "August Deadshot",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15.",
+            "picture": ""
+        },
+        "e6": {
+            "name": "Bowstring Thunderclap",
+            "description": "When Yukong uses her Ultimate, she immediately gains 1 stack(s) of \"Roaring Bowstrings.\"",
+            "picture": ""
+        }
     }
 ]
