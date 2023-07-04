@@ -2,13 +2,9 @@ import discord
 import random
 from discord.ext import commands
 from typing import Optional, Mapping, List
-from discord.ext.commands.context import Context
-from discord.ext.commands.errors import CommandError
 from helpers.pom_views import HelpView
 
 
-# This is untested and largely coded based on my experience. It would be best to test this out before proceeding :)
-# also cogs and commands would need descriptions + appropriate names!
 class CustomHelpCommand(commands.HelpCommand):
     def __init__(self):
         self.colors = [0xc71e1e, 0xd83131, 0xc97f7f, 0x9a0000, 0x0f0707]
