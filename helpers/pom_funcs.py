@@ -1,6 +1,8 @@
 from difflib import SequenceMatcher
-from helpers.pom_misc import combat_emojis
 import json
+import math
+from helpers.pom_misc import combat_emojis
+
 
 def seperate_lcs(lcs):
     """
@@ -70,6 +72,37 @@ def similarity_sorter(search_results, keyword):
 
     return sorted_results
 
+def level_calculator(exp: int):
+    """
+    Calculate the user's current level based on their current `exp`
+
+    Returns the level as a `float`
+    """
+    # +1 at the end because I don't want users to start from level 0
+    return (((-100) + math.sqrt((100**2) - (-4*25*exp))) / (2*25)) + 1
+
+def exp_required_calculator(level: int):
+    """
+    Returns the Exp required to reach a certain `level` as an `int`.
+    """
+    level = int(level - 1)
+    return (25*(level**2)) + (100*level)
+
+async def find_from_db(collection, user_id: int):
+    """
+    - `collection`: A pymongo Collection
+    - `user_id`: The user's Discord ID ("_id" in the Collection)
+
+    Finds the user's data from the Collection. If there is no data of that user, creates a new document in the Collection.
+    Returns the user's data from the Collection.
+    """
+    filter = {'_id': user_id}
+    if await collection.find_one(filter) == None:
+        new_user = {"_id": user_id, "ten_pulls": 0, "characters": {}, "uid": 0, "exp": 0}
+        await collection.insert_one(new_user)
+    return await collection.find_one(filter)
+
+# JSON File Handling
 with open('data/characters.json', 'r') as f:
     chara_file = json.load(f)
 with open('data/relics.json', 'r') as f:
@@ -80,3 +113,7 @@ with open('data/best_light_cones.json', 'r') as f:
     best_light_cones = json.load(f)
 with open('data/eidolons.json', 'r') as f:
     eidolons = json.load(f)
+with open('warps/data/all_warps.json', 'r') as f:
+    all_warp_details: dict = json.load(f)
+with open('warps/data/standard_banner.json', 'r') as f:
+    standard_warps: dict = json.load(f)
