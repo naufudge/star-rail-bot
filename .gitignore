@@ -9,6 +9,7 @@ inventory_db.py
 user_data.json
 hsr_timer
 pom7.py
+db_tester.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
