@@ -20,7 +20,6 @@ class pom1(commands.Cog):
     @commands.is_owner()
     @commands.guild_only()
     async def sync(self, ctx: commands.Context):
-        # await ctx.send(f'{self.client.user.name} is now on {len(self.client.guilds)} servers!')
         try:
             synced = await self.client.tree.sync()
             await ctx.send(f"{self.client.user.name.capitalize()} has synced {len(synced)} command(s)")
@@ -31,7 +30,7 @@ class pom1(commands.Cog):
     @commands.hybrid_command(name="check", with_app_command=False, description="checks the guild count", hidden=True)
     @commands.is_owner()
     async def check(self, ctx: commands.Context):
-        await ctx.send(f'`{self.client.user.name}` is now on **{len(self.client.guilds)}** servers!')
+        await ctx.send(f'`{self.client.user.name}` is now on **{len(self.client.guilds)}** servers! \n- __Shard Count:__ **{self.client.shard_count}**')
 
 async def setup(client: commands.Bot) -> None:
     await client.add_cog(pom1(client))
