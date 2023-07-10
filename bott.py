@@ -3,17 +3,16 @@ from discord import app_commands
 from discord.ext import commands, tasks
 from discord.ext.commands import errors
 # from concurrent.futures import ThreadPoolExecutor
-import topgg
+# import topgg
 import os
-from asyncio import sleep as go_to_sleep
 
 class PomPomClient(commands.AutoShardedBot):
-    def __init__(self, topgg_token: str = None, **kwargs):
+    def __init__(self, **kwargs):
         intents = discord.Intents.default()
         super().__init__(**kwargs, command_prefix=commands.when_mentioned_or('pom$'), intents=intents, help_command=None)
         self.activity = discord.Game(name="/warp | Star Rail ✦")
-        if topgg_token:
-            self.topggpy = topgg.DBLClient(self, topgg_token)
+        # if topgg_token:
+        #     self.topggpy = topgg.DBLClient(self, topgg_token)
         # self.executor = ThreadPoolExecutor()
 
     async def setup_hook(self):
@@ -23,7 +22,7 @@ class PomPomClient(commands.AutoShardedBot):
         except AttributeError:
             print("Not Connected to PomPomDB :(")
 
-        self.bg_task = self.loop.create_task(self.update_stats())
+        # self.bg_task = self.loop.create_task(self.update_stats())
 
         for filename in [file for file in os.listdir(f'{os.getcwd()}/cogs') if file.lower().endswith('.py')]:
             await self.load_extension(f'cogs.{filename[:-3]}')
@@ -45,17 +44,17 @@ class PomPomClient(commands.AutoShardedBot):
         else:
             print(f"{error.__class__.__name__}: {error}")
 
-    async def update_stats(self):
-        i = 0
-        await self.wait_until_ready()
-        try:
-            await self.topggpy.post_guild_count()
-            i += 1
-            if i < 1:
-                print(f'Posted server count ({self.topggpy.guild_count})')
-        except Exception as e:
-            print('Failed to post server count\n{}: {}'.format(type(e).__name__, e))
-        await go_to_sleep(60*60)
+    # async def update_stats(self):
+    #     i = 0
+    #     await self.wait_until_ready()
+    #     try:
+    #         await self.topggpy.post_guild_count()
+    #         i += 1
+    #         if i < 1:
+    #             print(f'Posted server count ({self.topggpy.guild_count})')
+    #     except Exception as e:
+    #         print('Failed to post server count\n{}: {}'.format(type(e).__name__, e))
+    #     await go_to_sleep(60*60)
 
     async def on_ready(self):
         # You can use a logger here instead of printing: https://discordpy.readthedocs.io/en/stable/logging.html
