@@ -12,6 +12,8 @@ This is just a discord bot that provides various information related to Honkai: 
 - `/relics [relic name]` -> Find any available relic or planar ornament (Use without relic name to view all the available relics and planar ornaments)
 - `/warp [warp name]` -> Try out your luck in this warp simulator.
 - `/my_characters` -> View all the characters that you get from warpping.
+- `/profile` -> Check out your profile.
+- `/set_uid [uid]` -> Set/edit your Star Rail UID which will be shown on your profile.
 
 
 #
