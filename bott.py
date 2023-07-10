@@ -55,7 +55,7 @@ class PomPomClient(commands.AutoShardedBot):
                 print(f'Posted server count ({self.topggpy.guild_count})')
         except Exception as e:
             print('Failed to post server count\n{}: {}'.format(type(e).__name__, e))
-        go_to_sleep(60*60)
+        await go_to_sleep(60*60)
 
     async def on_ready(self):
         # You can use a logger here instead of printing: https://discordpy.readthedocs.io/en/stable/logging.html
