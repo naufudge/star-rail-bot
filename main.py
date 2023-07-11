@@ -1,10 +1,10 @@
 import json
 import asyncio
-from topgg import DBLClient
+from topgg import DBLClient, WebhookManager
 from bott import PomPomClient
 from asyncio import sleep as gts
 
-with open('config.json', 'r') as f:
+with open('config_test.json', 'r') as f:
     data = json.load(f)
     TOKEN = data['TOKEN']
     TOPGG = data['TOPGG_TOKEN']
@@ -30,7 +30,6 @@ async def main():
         if not TOPGG == "":
             client.loop.create_task(dbl_server_count_update(client, TOPGG))
         await client.start(TOKEN)
-        await client.close()
 
 
 if __name__ == '__main__':

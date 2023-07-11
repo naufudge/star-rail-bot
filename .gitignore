@@ -10,7 +10,7 @@ user_data.json
 hsr_timer
 pom7.py
 db_tester.py
-web_hook.py
+webhook.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
