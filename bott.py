@@ -49,7 +49,7 @@ class PomPomClient(commands.AutoShardedBot):
         # You can use a logger here instead of printing: https://discordpy.readthedocs.io/en/stable/logging.html
         # The logger can be used globally through self.client.log.info("some string here")
         print(f'{self.user.name} has connected to Discord!, and now on {len(self.guilds)} servers! \nShard count: {self.shard_count}')
-        self.topgg_webhook = topgg.WebhookManager(self).dbl_webhook('/dblwebhook')
+        self.topgg_webhook = topgg.WebhookManager(self).dbl_webhook('/dblwebhook', 'maemae')
         await self.topgg_webhook.run(5000)
 
     async def on_dbl_test(self, data):
