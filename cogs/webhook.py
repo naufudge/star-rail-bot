@@ -7,17 +7,6 @@ class webhook(commands.Cog):
     def __init__(self, client: commands.Bot):
         self.client = client
 
-    # async def new_webhook(self):
-    #     dblclient = topgg.DBLClient(
-    #         token="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjExMDY4NDg3ODIwMjIzNDQ3NjUiLCJib3QiOnRydWUsImlhdCI6MTY4NTM4MDE3OH0.asmaFn6G21iEcSg81_Fgo4t7_mwjnkValIa4Qa9Znsw",
-    #         bot=self.client,
-    #         autopost=False
-    #     )
-    #     webhook = topgg.WebhookManager(self.client)
-    #     webhook.dbl_webhook('/dbl')
-    #     await webhook.run(69)
-    #     print('Running...')
-
     async def _webhook(self):
         async def vote_handler(request):
             print("reaches here")
