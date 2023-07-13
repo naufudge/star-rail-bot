@@ -41,7 +41,7 @@ class StarRailTimers(commands.Cog):
         else:
             pass
 
-    @commands.hybrid_command(name="timers", descriptions="Get the duration of certain events, banners, etc.")
+    @commands.hybrid_command(name="timers", description="Get the duration of certain events, banners, etc.")
     async def timers(self, ctx: commands.Context):
         title, description, color, banner = self.timers_data['title'], self.timers_data['description'], int(self.timers_data['color'], 16), self.timers_data['banner']
         fields = self.timers_data['fields']
