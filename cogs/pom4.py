@@ -1,6 +1,4 @@
-from typing import Optional
 import discord
-import random
 from discord import app_commands
 from discord.ext import commands
 from helpers.pom_funcs import similarity_sorter, eidolons, chara_file
@@ -14,7 +12,6 @@ class pom4(commands.Cog):
     @commands.hybrid_command(name="eidolons", description="Gives you the Eidolons of a specific character.")
     @app_commands.describe(character_name="Enter the name of the character")
     async def eidolons_search(self, ctx: commands.Context, *, character_name: str):
-        # available_charas = [each['character'] for each in eidolons]
         available_charas = [each['name'] for each in chara_file]
         selected_chara = similarity_sorter(available_charas, character_name)[0]
         cone_colors = {5: 0x0062cc, 7: 0xa000c8, 9: 0xedcb01}
