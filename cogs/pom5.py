@@ -122,7 +122,7 @@ class pom5(commands.Cog):
             }
         else:
             # five_star_prob = 0.006 -> 0.001 -> 0.0001
-            five_star_prob = 0.001
+            five_star_prob = 0.0015
             four_star_prob = four_star_probabilities[self.fourstarPity]
             three_star_prob = 1 - (four_star_prob + five_star_prob)
             probability = {
