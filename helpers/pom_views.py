@@ -173,3 +173,56 @@ class BestLcSelect(discord.ui.Select):
         cone_embed.add_field(name="Effect", value=light_cone['effect'], inline=False)
 
         await interaction.response.edit_message(embed=cone_embed)
+
+class LeaderboardsView(discord.ui.View):
+    def __init__(self, leaderboards: dict) -> None:
+        super().__init__(timeout=None)
+        self._leaderboards = leaderboards
+
+    @discord.ui.select(
+        placeholder="Choose a leaderboard",
+        options = [
+            discord.SelectOption(label="5 Stars Leaderboard", value=1),
+            discord.SelectOption(label="Ten Pulls Leaderboard", value=2),
+            discord.SelectOption(label="Total Characters Leaderboard", value=3),
+            discord.SelectOption(label="User Level Leaderboard", value=4)
+        ]
+    )
+    async def select_callback(self, interaction: discord.Interaction, select: discord.ui.Select):
+        pompom_emoji = "<:Pompom_working:1130937556742197450>"
+        if select.values[0] == str(1):
+            leaderboard_embed = discord.Embed(title=f"{pompom_emoji} __5 Stars Leaderboard__", description="Top 10 users with the most number of 5 Star character copies", color=0xffffff)
+            num = 1
+            for username, copies in self._leaderboards['five_stars'].items():
+                leaderboard_embed.add_field(
+                    name=f"{num}) {username}",
+                    value=f"`{[(f'{copy} Copies' if not copy == 1 else f'{copy} Copy') for copy in [copies]][0]}`",
+                    inline=False
+                    )
+                num += 1
+
+        elif select.values[0] == str(2):
+            leaderboard_embed = discord.Embed(title=f"{pompom_emoji} __Ten Pulls Leaderboard__", description="Top 10 users who have done the most number of ten pulls", color=0xffffff)
+            num = 1
+            for username, pulls in self._leaderboards['ten_pulls'].items():
+                leaderboard_embed.add_field(name=f"{num}) {username}", value=f"`{pulls} Pulls`", inline=False)
+                num += 1
+
+        elif select.values[0] == str(3):
+            leaderboard_embed = discord.Embed(title=f"{pompom_emoji} __Total Characters Leaderboard__", description="Top 10 users who have the most number of character copies", color=0xffffff)
+            num = 1
+            for username, copies in self._leaderboards['total_characters'].items():
+                leaderboard_embed.add_field(name=f"{num}) {username}", value=f"`{copies} Copies`", inline=False)
+                num += 1
+
+        elif select.values[0] == str(4):
+            leaderboard_embed = discord.Embed(title=f"{pompom_emoji} __User Level Leaderboard__", description="Top 10 users with the highest level", color=0xffffff)
+            num = 1
+            for username, level in self._leaderboards['levels'].items():
+                leaderboard_embed.add_field(name=f"{num}) {username}", value=f"`Level {level}`", inline=False)
+                num += 1
+        else:
+            leaderboard_embed = discord.Embed(title="Some error occured")
+
+        leaderboard_embed.set_footer(text=self._leaderboards['update_time'])
+        await interaction.response.edit_message(embed=leaderboard_embed, view=self)
