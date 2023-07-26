@@ -1,6 +1,6 @@
 import json
 import asyncio
-from topgg import DBLClient, WebhookManager
+from topgg import DBLClient
 from bott import PomPomClient
 from asyncio import sleep as gts
 
