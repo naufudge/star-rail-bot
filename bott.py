@@ -4,7 +4,8 @@ from discord.ext import commands
 from discord.ext.commands import errors
 from motor.motor_asyncio import AsyncIOMotorClient
 import os
-from warps.inventory_db import uri, test_uri
+from warps.inventory_db import uri
+# from warps.inventory_db import test_uri
 
 
 class PomPomClient(commands.AutoShardedBot):
