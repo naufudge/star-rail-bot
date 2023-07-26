@@ -33,8 +33,7 @@ class StarRailTimers(commands.Cog):
 
                 await ctx.send("<a:check:1129029037214400652> `/timers` was successfully updated!")
 
-                with open('hsr_timer/hsr_timers.json', 'r') as timers_file:
-                    self.timers_data = json.load(timers_file)
+                self.timers_data = data
 
             except Exception as e:
                 await ctx.send(f"Timers update failed :( The following error occured: \n`{e}`")
