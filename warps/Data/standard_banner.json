@@ -176,12 +176,6 @@
         "path": "The Harmony",
         "type": "weapon"
     },
-    "Carve the Moon, Weave the Clouds": {
-        "id": 34,
-        "rarity": 4,
-        "path": "The Harmony",
-        "type": "weapon"
-    },
     "Chorus": {
         "id": 35,
         "rarity": 3,
@@ -278,12 +272,6 @@
         "path": "The Nihility",
         "type": "weapon"
     },
-    "Incessant Rain": {
-        "id": 53,
-        "rarity": 5,
-        "path": "The Nihility",
-        "type": "weapon"
-    },
     "Landau's Choice": {
         "id": 54,
         "rarity": 4,
@@ -344,12 +332,6 @@
         "path": "The Erudition",
         "type": "weapon"
     },
-    "Nowhere to Run": {
-        "id": 64,
-        "rarity": 4,
-        "path": "The Destruction",
-        "type": "weapon"
-    },
     "On the Fall of an Aeon": {
         "id": 65,
         "rarity": 5,
@@ -408,12 +390,6 @@
         "id": 74,
         "rarity": 4,
         "path": "The Nihility",
-        "type": "weapon"
-    },
-    "Return to Darkness": {
-        "id": 75,
-        "rarity": 4,
-        "path": "The Hunt",
         "type": "weapon"
     },
     "River Flows in Spring": {
@@ -488,22 +464,10 @@
         "path": "The Erudition",
         "type": "weapon"
     },
-    "This Is Me!": {
-        "id": 88,
-        "rarity": 4,
-        "path": "The Preservation",
-        "type": "weapon"
-    },
     "Time Waits for No One": {
         "id": 89,
         "rarity": 5,
         "path": "The Abundance",
-        "type": "weapon"
-    },
-    "Today Is Another Peaceful Day": {
-        "id": 90,
-        "rarity": 4,
-        "path": "The Erudition",
         "type": "weapon"
     },
     "Trend of the Universal Market": {
@@ -524,22 +488,10 @@
         "path": "The Nihility",
         "type": "weapon"
     },
-    "Warmth Shortens Cold Nights": {
-        "id": 94,
-        "rarity": 4,
-        "path": "The Abundance",
-        "type": "weapon"
-    },
     "We Are Wildfire": {
         "id": 95,
         "rarity": 4,
         "path": "The Preservation",
-        "type": "weapon"
-    },
-    "We Will Meet Again": {
-        "id": 96,
-        "rarity": 4,
-        "path": "The Nihility",
         "type": "weapon"
     },
     "Woof! Walk Time!": {
