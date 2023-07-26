@@ -185,7 +185,7 @@ class pom6(commands.Cog):
         leaderboard_embed = discord.Embed(
             title=f"{pompom_emoji} __Leaderboards__",
             description="Select any leaderboard that you would like to view below.",
-            color=0xffffff
+            color=0x0062cc
             )
         leaderboard_embed.set_footer(text=self.leaderboard_dict['update_time'])
 

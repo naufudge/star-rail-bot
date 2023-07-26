@@ -89,7 +89,7 @@ class pom5(commands.Cog):
                 # 4* pull embed color and 4* warp animation
                 pulls_embed.color = 0xa000c8
                 pulls_embed.set_image(url="https://cdn.discordapp.com/attachments/1117016812069081140/1117017472940384317/four_star.gif")
-            pulls_embed.set_footer(text="Good news! You can now view the characters you pull with `/my_characters`")
+            pulls_embed.set_footer(text="Check out the brand new /leaderboards!")
 
             msg = await ctx.send(embed=pulls_embed)
 
