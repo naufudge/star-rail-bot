@@ -506,9 +506,9 @@
         "skills" : {
             "basic" : {"name":"Thorns of the Abyss", "tag":"Single Target", "description":"Deals Imaginary DMG equal to 50%-130% of Luocha's ATK to a single enemy."},
             "skill" : {"name":"Prayer of Abyss Flower", "tag":"Restore", "description":"After using his Skill, Luocha immediately restores the target ally's HP equal to 40%-70% of Luocha's ATK plus 200-1025. Meanwhile, Luocha gains 1 stack of Abyss Flower. When any ally's HP percentage drops to 50% or lower, an effect equivalent to Luocha's Skill will immediately be triggered and applied to this ally for one time (without consuming Skill Points). This effect can be triggered again after 2 turn(s)."},
-            "ult" : {"name":"Death Wish", "tag":"", "description":"Removes 1 buff(s) from all enemies and deals all enemies Imaginary DMG equal to 120%-240% of Luocha's ATK. At the same time, Luocha gains 1 stack of Abyss Flower."},
-            "talent" : {"name":"Cycle of Life", "tag":"", "description":"When Abyss Flower reaches 2 stacks, Luocha consumes all stacks of Abyss Flower to deploy a Field against the enemy. When any enemy in the Field is attacked by an ally, the attacking ally's HP is immediately restored by an amount equal to 12%-21% of Luocha's ATK plus 60-307.5. The Field's effect lasts for 2 turns. When Luocha is knocked down, the Field will be dispelled."},
-            "technique" : {"name":"Mercy of a Fool", "tag":"", "description":"After the Technique is used, the Talent will be immediately triggered at the start of the next battle."}
+            "ult" : {"name":"Death Wish", "tag":"AoE", "description":"Removes 1 buff(s) from all enemies and deals all enemies Imaginary DMG equal to 120%-240% of Luocha's ATK. At the same time, Luocha gains 1 stack of Abyss Flower."},
+            "talent" : {"name":"Cycle of Life", "tag":"Restore", "description":"When Abyss Flower reaches 2 stacks, Luocha consumes all stacks of Abyss Flower to deploy a Field against the enemy. When any enemy in the Field is attacked by an ally, the attacking ally's HP is immediately restored by an amount equal to 12%-21% of Luocha's ATK plus 60-308. The Field's effect lasts for 2 turns. When Luocha is knocked down, the Field will be dispelled."},
+            "technique" : {"name":"Mercy of a Fool", "tag":"Restore", "description":"After the Technique is used, the Talent will be immediately triggered at the start of the next battle."}
         },
         "eidolons" : {}
     },
@@ -518,17 +518,17 @@
         "id" : 26,
         "description": "Head of the Sky-Faring Commission on the Xianzhou Luofu. Yukong was a seasoned pilot and a deadshot. Since heading up the commission, she's been buried under mountains of paperwork.",
         "rarity" : "\u2726 \u2726 \u2726 \u2726",
-        "thumb" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/12/6799252/767cb7131b41bb1058c2ee329b77593e_1356198414386477791.png",
+        "thumb" : "https://hsr.hakush.in/UI/avataricon/1207.png",
         "picture" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/08/5308864/7636f20bab66ea8bdb2660c827600630_3013802819912701319.png",
         "path" : "The Harmony",
         "combat" : "Imaginary",
         "faction" : "Xianzhou Luofu",
         "skills" : {
             "basic" : {"name":"Arrowslinger", "tag":"Single Target", "description":"Deals 50%-130% of Yukong's ATK as Imaginary DMG to a target enemy."},
-            "skill" : {"name":"Emboldening Salvo", "tag":"Enhance", "description":"Obtains 2 stack(s) of \"Roaring Bowstrings\" (to a maximum of 2 stacks). When \"Roaring Bowstrings\" is active, the ATK of all allies increases by 40%-100%, and every time an ally's turn ends, Yukong loses 1 stack of \"Roaring Bowstrings.\" When it's the turn where Yukong gains \"Roaring Bowstrings\" by using Skill, \"Roaring Bowstrings\" will not be removed."},
-            "ult" : {"name":"Diving Kestrel", "tag":"", "description":"If \"Roaring Bowstrings\" is active on Yukong when her Ultimate is used, additionally increases all allies' CRIT Rate by 21%-31.5% and CRIT DMG by 39%-78%. At the same time, deals Imaginary DMG equal to 228%-456% of Yukong's ATK to a single enemy."},
-            "talent" : {"name":"Seven Layers, One Arrow", "tag":"", "description":"Basic ATK additionally deals Imaginary DMG equal to 40%-100% of Yukong's ATK, and increases the Toughness-Reducing DMG of this attack by 100%. This effect can be triggered again in 1 turn(s)."},
-            "technique" : {"name":"Chasing the Wind", "tag":"", "description":"After using her Technique, Yukong enters Sprint mode for 20 seconds. In Sprint mode, her Movement SPD increases by 35%, and Yukong gains 2 stack(s) of \"Roaring Bowstrings\" when she enters battle by attacking enemies."}
+            "skill" : {"name":"Emboldening Salvo", "tag":"Support", "description":"Obtains 2 stack(s) of \"Roaring Bowstrings\" (to a maximum of 2 stacks). When \"Roaring Bowstrings\" is active, the ATK of all allies increases by 40%-100%, and every time an ally's turn ends, Yukong loses 1 stack of \"Roaring Bowstrings.\" When it's the turn where Yukong gains \"Roaring Bowstrings\" by using Skill, \"Roaring Bowstrings\" will not be removed."},
+            "ult" : {"name":"Diving Kestrel", "tag":"Single Target", "description":"If \"Roaring Bowstrings\" is active on Yukong when her Ultimate is used, additionally increases all allies' CRIT Rate by 21%-31.5% and CRIT DMG by 39%-78%. At the same time, deals Imaginary DMG equal to 228%-456% of Yukong's ATK to a single enemy."},
+            "talent" : {"name":"Seven Layers, One Arrow", "tag":"Enhance", "description":"Basic ATK additionally deals Imaginary DMG equal to 40%-100% of Yukong's ATK, and increases the Toughness-Reducing DMG of this attack by 100%. This effect can be triggered again in 1 turn(s)."},
+            "technique" : {"name":"Chasing the Wind", "tag":"Enhance", "description":"After using her Technique, Yukong enters Sprint mode for 20 seconds. In Sprint mode, her Movement SPD increases by 35%, and Yukong gains 2 stack(s) of \"Roaring Bowstrings\" when she enters battle by attacking enemies."}
         },
         "eidolons" : {}
     },
@@ -557,7 +557,7 @@
     {
         "name" : "Blade",
         "id" : 28,
-        "description": "",
+        "description": "A swordsman who abandoned his body to become a blade. Birth name unknown. He pledges loyalty to \"Destiny's Slave,\" and possesses a terrifying self-healing ability. Blade wields an ancient sword riddled with cracks, just like his body and his mind.",
         "rarity" : "\u2726 \u2726 \u2726 \u2726 \u2726",
         "thumb" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/24/5308864/64c098cc21d7f053a020f4e051407e41_4906678554337574546.png",
         "picture" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/24/5308864/69979126001789194203104611286cc4_7182966574849486053.png",
@@ -565,11 +565,12 @@
         "combat" : "Wind",
         "faction" : "Stellaron Hunters",
         "skills" : {
-            "basic" : {"name":"", "tag":"", "description":""},
-            "skill" : {"name":"", "tag":"", "description":""},
-            "ult" : {"name":"", "tag":"", "description":""},
-            "talent" : {"name":"", "tag":"", "description":""},
-            "technique" : {"name":"", "tag":"", "description":""}
+            "basic" : {"name":"Shard Sword", "tag":"Single Target", "description":"Deals 50%-130% of Blade's ATK as Wind DMG to a target enemy."},
+            "basic2": {"name":"Forest of Swords", "tag":"Blast", "description":"Consumes HP equal to 10% of Blade's Max HP and deals Wind DMG equal to the sum of 20%-52% of his ATK and 50%-130% of his Max HP to a single enemy. In addition, deals Wind DMG equal to the sum of 8%-21% of Blade's ATK and 20%-52% of his Max HP to adjacent targets. If Blade's current HP is insufficient, his HP will be reduced to 1 when using Forest of Swords. Forest of Swords cannot regenerate Skill Points."},
+            "skill" : {"name":"Hellscape", "tag":"Enhance", "description":"Consumes HP equal to 30% of Blade's Max HP to enter the Hellscape state. When Hellscape is active, his Skill cannot be used, his DMG dealt increases by 12%-54%, and his Basic ATK Shard Sword is enhanced to Forest of Swords for 3 turn(s). If Blade's current HP is insufficient, his HP will be reduced to 1 when he uses his Skill. This Skill does not regenerate Energy. Using this Skill does not end the current turn."},
+            "ult" : {"name":"Death Sentence", "tag":"Blast", "description":"Sets Blade's current HP to 50% of his Max HP and deals Wind DMG to a single enemy equal to the sum of 24%-48% of his ATK, 60%-120% of his Max HP, and 60%-120% of the tally of Blade's HP loss in the current battle. At the same time, deals Wind DMG to adjacent targets equal to the sum of 9.6%-19.2% of his ATK, 24%-48% of his Max HP, and 24%-48% of the tally of his HP loss in the current battle. The tally of Blade's HP loss in the current battle is capped at 90% of his Max HP. This value will be reset and re-accumulated after his Ultimate has been used."},
+            "talent" : {"name":"Shuhu's Gift", "tag":"AoE", "description":"When Blade sustains DMG or consumes his HP, he gains 1 stack of Charge, stacking up to 5 times. A max of 1 Charge stack can be gained every time he is attacked. When Charge stack reaches maximum, immediately launches a follow-up attack on all enemies, dealing Wind DMG equal to 22%-55% of Blade's ATK plus 55%-138% of his Max HP. At the same time, restores Blade's HP by 25% of his Max HP. After the follow-up attack, all Charges are consumed."},
+            "technique" : {"name":"Karma Wind", "tag":"-", "description":"Immediately attacks the enemy. After entering combat, consumes 20% of Blade's Max HP while dealing Wind DMG equal to 40% of his Max HP to all enemies. If Blade's current HP is insufficient, his HP will be reduced to 1 when this Technique is used."}
         },
         "eidolons" : {}
     },
@@ -577,7 +578,7 @@
     {
         "name" : "Kafka",
         "id" : 29,
-        "description": "",
+        "description": "A member of the Stellaron Hunters. A dashing, collected, and professional beauty. Her hobby is shopping for and organizing her collection of coats.",
         "rarity" : "\u2726 \u2726 \u2726 \u2726 \u2726",
         "thumb" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/27/5308864/4893a52c54b02106778799cbebd289f6_452357800696146209.png",
         "picture" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/27/5308864/65d197d46bb434c561ba157123d8565e_3324824020268332080.png",
@@ -585,32 +586,93 @@
         "combat" : "Lightning",
         "faction" : "Stellaron Hunters",
         "skills" : {
-            "basic" : {"name":"", "tag":"", "description":""},
-            "skill" : {"name":"", "tag":"", "description":""},
-            "ult" : {"name":"", "tag":"", "description":""},
-            "talent" : {"name":"", "tag":"", "description":""},
-            "technique" : {"name":"", "tag":"", "description":""}
+            "basic" : {"name":"Midnight Tumult", "tag":"Single Target", "description":"Deals Lightning DMG equal to 50%-130% of Kafka's ATK to a single enemy."},
+            "skill" : {"name":"Caressing Moonlight", "tag":"Blast", "description":"Deals Lightning DMG equal to 80%-200% of Kafka's ATK to a target enemy and Lightning DMG equal to 30%-75% of Kafka's ATK to enemies adjacent to it. If the target enemy is currently receiving DoT, all DoTs currently placed on that enemy immediately produce DMG equal to 60%-83% of their original DMG."},
+            "ult" : {"name":"Twilight Trill", "tag":"AoE", "description":"Deals Lightning DMG equal to 48%-96% of Kafka's ATK to all enemies, with a 100% base chance for enemies hit to become Shocked and immediately take DMG from their current Shock state, equal to 80%-110% of its original DMG. Shock lasts for 2 turn(s). While Shocked, enemies receive Lightning DoT equal to 116%-361% of Kafka's ATK at the beginning of each turn."},
+            "talent" : {"name":"Gentle but Cruel", "tag":"Single Target", "description":"After an ally of Kafka's uses Basic ATK on an enemy target, Kafka immediately launches 1 follow-up attack and deals Lightning DMG equal to 42%-189% of her ATK to that target, with a 100% base chance to inflict Shock equivalent to that applied by her Ultimate to the attacked enemy target for 2 turns. This effect can only be triggered 1 time per turn."},
+            "technique" : {"name":"Mercy Is Not Forgiveness", "tag":"", "description":"Immediately attacks all enemies within a set range. After entering battle, deals Lightning DMG equal to 50% of Kafka's ATK to all enemies, with a 100% base chance to inflict Shock equivalent to that applied by her Ultimate on every enemy target for 2 turn(s)."}
         },
         "eidolons" : {}
     },
 
     {
         "name" : "Luka",
-        "id" : 28,
-        "description": "",
+        "id" : 30,
+        "description": "The boxing champion in Belobog's Underworld, and one of Wildfire's most capable fighters. The consecutive reigning champion of the Fight Club, whose enthusiasm inspires children of the Underworld to dream big.",
         "rarity" : "\u2726 \u2726 \u2726 \u2726",
         "thumb" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/27/5308864/c6d6b8bef93b257573df2eab95302f0e_1251386704248841120.png",
         "picture" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/05/29/5308864/9947591de84abc3f20b5ffcfa6a678fe_8082563694045560394.png",
         "path" : "The Nihility",
         "combat" : "Physical",
-        "faction" : "",
+        "faction" : "Belobog",
         "skills" : {
-            "basic" : {"name":"", "tag":"", "description":""},
-            "skill" : {"name":"", "tag":"", "description":""},
-            "ult" : {"name":"", "tag":"", "description":""},
-            "talent" : {"name":"", "tag":"", "description":""},
-            "technique" : {"name":"", "tag":"", "description":""}
+            "basic" : {"name":"Direct Punch", "tag":"Single Target", "description":"Deals Physical DMG equal to 50%-130% of Luka's ATK to a single enemy."},
+            "basic2" : {"name":"Sky-Shatter Fist", "tag":"Single Target", "description":"Consumes 2 stacks of Fighting Will. First, uses Direct Punch to deal 3 hits, with each hit dealing Physical DMG equal to 10%-26% of Luka's ATK to a single enemy target. Then, uses Rising Uppercut to deal 1 hit, dealing Physical DMG equal to 40%-104% of Luka's ATK to the single enemy target."},
+            "skill" : {"name":"Lacerating Fist", "tag":"Single Target", "description":"Deals Physical DMG equal to 60%-150% of Luka's ATK to a single enemy target. In addition, there is a 100% base chance to inflict Bleed on them, lasting for 3 turn(s). While Bleeding, the enemy will take 24% of their Max HP as Physical DoT at the start of each turn. This DMG will not exceed more than 130%-422% of Luka's ATK."},
+            "ult" : {"name":"Coup de Grâce", "tag":"Single Target", "description":"Receives 2 stack(s) of Fighting Will, with a 100% base chance to increase a single enemy target's DMG received by 12%-24% for 3 turn(s). Then, deals Physical DMG equal to 198%-396% of Luka's ATK to the target."},
+            "talent" : {"name":"Flying Sparks", "tag":"Enhance", "description":"After Luka uses his Basic ATK \"Direct Punch\" or Skill \"Lacerating Fist,\" he receives 1 stack(s) of Fighting Will, up to 4 stacks. When he has 2 or more stacks of Fighting Will, his Basic ATK \"Direct Punch\" is enhanced to \"Sky-Shatter Fist.\" After his Enhanced Basic ATK's \"Rising Uppercut\" hits a Bleeding enemy target, the Bleed status will immediately deal DMG for 1 time equal to 68%-94% of the original DMG to the target. At the start of battle, Luka will possess 1 stack of Fighting Will."},
+            "technique" : {"name":"Anticipator", "tag":"", "description":"Immediately attacks the enemy. Upon entering battle, Luka deals Physical DMG equal to 50% of his ATK to a random single enemy with a 100% base chance to inflict his Skill's Bleed effect on the target. Then, Luka gains 1 additional stack of Fighting Will."}
         },
         "eidolons" : {}
+    },
+
+    {
+        "name" : "Fu Xuan",
+        "id" : 31,
+        "description" : "The head of the Xianzhou Luofu's Divination Commission. A confident and blunt sage. Using her third eye and the Matrix of Prescience, Fu Xuan calculates the Xianzhou's route and predicts the fortune of future events. She firmly believes that everything she does is the \"best solution\" for the situation. Fu Xuan is waiting for the general's promised \"abdication.\" However, that day still seems... very far away.",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/07/07/5308864/973836d5f252e7c09d7e7759c785b777_5344259552714082513.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/07/07/5308864/9a522095e803ad694530cf88fe881ec9_4239359089315591132.png",
+        "path" : "The Preservation",
+        "combat" : "Quantum",
+        "faction" : "Xianzhou Luofu",
+        "skills" : {
+            "basic": {"name":"", "tag":"", "description":""},
+            "skill": {"name":"", "tag":"", "description":""},
+            "ult": {"name":"", "tag":"", "description":""},
+            "talent": {"name":"", "tag":"", "description":""},
+            "technique": {"name":"", "tag":"", "description":""}
+        },
+        "eidolons" : {}
+    },
+
+    {
+        "name" : "Imbibitor Lunae",
+        "id" : 32,
+        "description" : "",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/07/24/250281765/8f0c086968f504bde0b12d6b94b4622c_2558772353835707790.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/07/24/250281765/9f3e6413263e6e6ee5270949c8849b43_1220584959349484739.png",
+        "path" : "The Destruction",
+        "combat" : "Imaginary",
+        "faction" : "-",
+        "skills" : {
+            "basic": {"name":"", "tag":"", "description":""},
+            "skill": {"name":"", "tag":"", "description":""},
+            "ult": {"name":"", "tag":"", "description":""},
+            "talent": {"name":"", "tag":"", "description":""},
+            "technique": {"name":"", "tag":"", "description":""}
+        },
+        "eidolons": {}
+    },
+    
+    {
+        "name" : "Lynx",
+        "id" : 33,
+        "description" : "",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/07/07/5308864/021e173536079b09ced5d996b8d1f638_2603022534286175917.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/07/07/5308864/50f410379ef42da0c7510baab327008f_5666464381195723295.png",
+        "path" : "The Abundance",
+        "combat" : "Quantum",
+        "faction" : "-",
+        "skills" : {
+            "basic": {"name":"", "tag":"", "description":""},
+            "skill": {"name":"", "tag":"", "description":""},
+            "ult": {"name":"", "tag":"", "description":""},
+            "talent": {"name":"", "tag":"", "description":""},
+            "technique": {"name":"", "tag":"", "description":""}
+        },
+        "eidolons": {}
     }
 ]

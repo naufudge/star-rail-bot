@@ -708,5 +708,15 @@
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/76/Light_Cone_Before_the_Tutorial_Mission_Starts.png",
         "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5c/Light_Cone_Before_the_Tutorial_Mission_Starts_Artwork.png",
         "source": ""
+    },
+    {
+        "name": "The Unreachable Side",
+        "path": "The Destruction <:destruction:1108984285060407396>",
+        "rarity": "\u2726 \u2726 \u2726 \u2726",
+        "description": "He would come to this place every year, bringing new swords with him each time. He had seen all the owners of the swords draw their last breath. Every time he leaves, he would sorrowfully ponder... When would his own blade be brought here by someone else?",
+        "effect": "Increases the wearer's CRIT rate by 18% and increases their Max HP by 18%. When the wearer is attacked or consumes their own HP, their DMG increases by 24%. This effect is removed after the wearer uses an attack.",
+        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b7/Light_Cone_The_Unreachable_Side.png",
+        "picture": "https://hsr.hakush.in/UI/lightconemaxfigures/23009.png",
+        "source": ""
     }
 ]
