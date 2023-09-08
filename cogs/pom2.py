@@ -41,10 +41,12 @@ class pom2(commands.Cog):
                 skills_embed.add_field(name="Skills not found", value=f"Information regarding {chara_info['name']}'s skills is not out yet :(")
             else:
                 skills_embed.add_field(name="__Basic ATK__", value=f"**Name:** *{chara_skills['basic']['name']}*\n**Tag:** {chara_skills['basic']['tag']}\n**Description:** {chara_skills['basic']['description']}", inline=False)
-                try:
-                    skills_embed.add_field(name="__Basic ATK 2__", value=f"**Name:** *{chara_skills['basic2']['name']}*\n**Tag:** {chara_skills['basic2']['tag']}\n**Description:** {chara_skills['basic2']['description']}", inline=False)
-                except KeyError:
-                    pass
+                for x in range(2, 5):
+                    basic = f'basic{x}'
+                    try:
+                        skills_embed.add_field(name=f"__Basic ATK {x}__", value=f"**Name:** *{chara_skills[basic]['name']}*\n**Tag:** {chara_skills[basic]['tag']}\n**Description:** {chara_skills[basic]['description']}", inline=False)
+                    except KeyError:
+                        break
                 skills_embed.add_field(name="__Skill__", value=f"**Name:** *{chara_skills['skill']['name']}*\n**Tag:** {chara_skills['skill']['tag']}\n**Description:** {chara_skills['skill']['description']}", inline=False)
                 skills_embed.add_field(name="__Ultimate__", value=f"**Name:** *{chara_skills['ult']['name']}*\n**Tag:** {chara_skills['ult']['tag']}\n**Description:** {chara_skills['ult']['description']}", inline=False)
                 skills_embed.add_field(name="__Talent__", value=f"**Name:** *{chara_skills['talent']['name']}*\n**Tag:** {chara_skills['talent']['tag']}\n**Description:** {chara_skills['talent']['description']}", inline=False)
@@ -103,10 +105,12 @@ class pom2(commands.Cog):
             skills_embed.add_field(name="Skills not found", value="Information regarding this character's skills is not out yet :(")
         else:
             skills_embed.add_field(name="__Basic ATK__", value=f"**Name:** *{chara_skills['basic']['name']}*\n**Tag:** {chara_skills['basic']['tag']}\n**Description:** {chara_skills['basic']['description']}", inline=False)
-            try:
-                skills_embed.add_field(name="__Basic ATK 2__", value=f"**Name:** *{chara_skills['basic2']['name']}*\n**Tag:** {chara_skills['basic2']['tag']}\n**Description:** {chara_skills['basic2']['description']}", inline=False)
-            except KeyError:
-                pass
+            for x in range(2, 5):
+                basic = f'basic{x}'
+                try:
+                    skills_embed.add_field(name=f"__Basic ATK {x}__", value=f"**Name:** *{chara_skills[basic]['name']}*\n**Tag:** {chara_skills[basic]['tag']}\n**Description:** {chara_skills[basic]['description']}", inline=False)
+                except KeyError:
+                    break
             skills_embed.add_field(name="__Skill__", value=f"**Name:** *{chara_skills['skill']['name']}*\n**Tag:** {chara_skills['skill']['tag']}\n**Description:** {chara_skills['skill']['description']}", inline=False)
             skills_embed.add_field(name="__Ultimate__", value=f"**Name:** *{chara_skills['ult']['name']}*\n**Tag:** {chara_skills['ult']['tag']}\n**Description:** {chara_skills['ult']['description']}", inline=False)
             skills_embed.add_field(name="__Talent__", value=f"**Name:** *{chara_skills['talent']['name']}*\n**Tag:** {chara_skills['talent']['tag']}\n**Description:** {chara_skills['talent']['description']}", inline=False)

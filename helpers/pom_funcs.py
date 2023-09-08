@@ -103,7 +103,7 @@ async def find_from_db(collection, user_id: int):
     return await collection.find_one(filter)
 
 # JSON File Handling
-with open('data/characters.json', 'r') as f:
+with open('data/characters.json', 'r', encoding='utf-8') as f:
     chara_file = json.load(f)
 with open('data/relics.json', 'r') as f:
     relics = json.load(f)

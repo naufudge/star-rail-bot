@@ -639,23 +639,26 @@
     {
         "name" : "Imbibitor Lunae",
         "id" : 32,
-        "description" : "",
+        "description" : "Dan Heng's true form from his Vidyadhara lineage carries the residual power left behind by his past incarnation, the Imbibitor Lunae. Upon accepting the majestic horns atop his crown, he must accept all the merits and faults attributed to that sinner.",
         "rarity" : "\u2726 \u2726 \u2726 \u2726 \u2726",
         "thumb" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/07/24/250281765/8f0c086968f504bde0b12d6b94b4622c_2558772353835707790.png",
         "picture" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/07/24/250281765/9f3e6413263e6e6ee5270949c8849b43_1220584959349484739.png",
         "path" : "The Destruction",
         "combat" : "Imaginary",
-        "faction" : "-",
+        "faction" : "Xianzhou Luofu",
         "skills" : {
-            "basic": {"name":"", "tag":"", "description":""},
-            "skill": {"name":"", "tag":"", "description":""},
-            "ult": {"name":"", "tag":"", "description":""},
-            "talent": {"name":"", "tag":"", "description":""},
-            "technique": {"name":"", "tag":"", "description":""}
+            "basic": {"name":"Beneficent Lotus", "tag":"Single Target", "description":"Uses a 2-hit attack and deals Imaginary DMG equal to 50%-130% of Dan Heng • Imbibitor Lunae's ATK to a single enemy target."},
+            "basic2": {"name":"Transcendence", "tag":"Single Target", "description":"Uses a 3-hit attack and deals Imaginary DMG equal to 130%-338% of Dan Heng • Imbibitor Lunae's ATK to a single enemy target."},
+            "basic3": {"name":"Divine Spear", "tag":"Blast", "description":"Uses a 5-hit attack and deals Imaginary DMG equal to 190%-494% of Dan Heng • Imbibitor Lunae's ATK to a single enemy target. From the fourth hit onward, simultaneously deals Imaginary DMG equal to 30%-78% of Dan Heng • Imbibitor Lunae's ATK to adjacent targets."},
+            "basic4": {"name":"Fulgurant Leap", "tag":"Blast", "description":"Uses a 7-hit attack and deals Imaginary DMG equal to 250%-650% of Dan Heng • Imbibitor Lunae's ATK to a single enemy target. From the fourth hit onward, simultaneously deal Imaginary DMG equal to 90%-234% of Dan Heng • Imbibitor Lunae's ATK to adjacent targets."},
+            "skill": {"name":"Dracore Libre", "tag":"Enhance", "description":"Enhances Basic ATK. Enhancements may be applied up to 3 times consecutively. Using this ability does not consume Skill Points and is not considered as using a Skill. \nEnhanced once, Beneficent Lotus becomes Transcendence. Enhanced twice, Beneficent Lotus becomes Divine Spear. Enhanced thrice, Beneficent Lotus becomes Fulgurant Leap. \nWhen using Divine Spear or Fulgurant Leap, starting from the fourth hit, 1 stack of Outroar is gained before every hit. Each stack of Outroar increases Dan Heng • Imbibitor Lunae's CRIT DMG by 6%-15%, for a max of 4 stacks. These stacks last until the end of his turn."},
+            "ult": {"name":"Azure's Aqua Ablutes All", "tag":"Blast", "description":"Uses a 3-hit attack and deals Imaginary DMG equal to 180%-360% of Dan Heng • Imbibitor Lunae's ATK to a single enemy target. At the same time, deals Imaginary DMG equal to 84%-168% of Dan Heng • Imbibitor Lunae's ATK to adjacent targets. Then, obtains 2 Squama Sacrosancta. It's possible to hold up to 3 Squama Sacrosancta, which can be used to offset the consumption of Dan Heng • Imbibitor Lunae's skill points. Consuming Squama Sacrosancta is considered equivalent to consuming skill points."},
+            "talent": {"name":"Righteous Heart", "tag":"Enhance", "description":"After each hit dealt during an attack, Dan Heng • Imbibitor Lunae gains 1 stack of Righteous Heart, increasing his DMG by 5%-12.5%. This effect can stack up to 6 time(s), lasting until the end of his turn."},
+            "technique": {"name":"Heaven-Quelling Prismadrakon", "tag":"Enhance", "description":"After using his Technique, Dan Heng • Imbibitor Lunae enters the Leaping Dragon state for 20 seconds. While in the Leaping Dragon state, using his attack enables him to move forward rapidly for a set distance, attacking all enemies he touches and blocking all incoming attacks. After entering combat via attacking enemies in the Leaping Dragon state, Dan Heng • Imbibitor Lunae deals Imaginary DMG equal to 120% of his ATK to all enemies, and gains 1 Squama Sacrosancta."}
         },
         "eidolons": {}
     },
-    
+
     {
         "name" : "Lynx",
         "id" : 33,
