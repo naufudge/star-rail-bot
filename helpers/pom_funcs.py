@@ -98,7 +98,21 @@ async def find_from_db(collection, user_id: int):
     """
     filter = {'_id': user_id}
     if await collection.find_one(filter) == None:
-        new_user = {"_id": user_id, "ten_pulls": 0, "characters": {}, "uid": 0, "exp": 0}
+        new_user = {"_id": user_id, "ten_pulls": 0, "characters": {}, "uid": 0, "exp": 0, "five_star_Pity": 0}
+        await collection.insert_one(new_user)
+    return await collection.find_one(filter)
+
+async def find_user_cooldowns(collection, user_id: int):
+    """
+    - `collection`: A pymongo Collection
+    - `user_id`: The user's Discord ID ("_id" in the Collection)
+
+    Finds the user's cooldown data from the Collection. If there is no data of that user, creates a new document in the Collection.
+    Returns the user's cooldowns from the Collection.
+    """
+    filter = {'_id': user_id}
+    if await collection.find_one(filter) == None:
+        new_user = {"_id": user_id, "last_warp_time": 0, "available_warps": 10}
         await collection.insert_one(new_user)
     return await collection.find_one(filter)
 
@@ -113,7 +127,7 @@ with open('data/best_light_cones.json', 'r') as f:
     best_light_cones = json.load(f)
 with open('data/eidolons.json', 'r') as f:
     eidolons = json.load(f)
-with open('warps/data/all_warps.json', 'r') as f:
+with open('warps/data/warps_without_5_star_weapons.json', 'r') as f:
     all_warp_details: dict = json.load(f)
 with open('warps/data/standard_banner.json', 'r') as f:
     standard_warps: dict = json.load(f)
