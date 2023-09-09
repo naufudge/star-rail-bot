@@ -43,7 +43,7 @@ class pom6(commands.Cog):
 
             await ctx.send(file=file, embed=my_charas_embed)
         else:
-            my_charas_embed = discord.Embed(title=f"{ctx.author.name}'s Characters", description="You don't have any characters at the moment :( Start collecting by doing `/warp` now!",color=0xffffff)
+            my_charas_embed = discord.Embed(title=f"{ctx.author.name}'s Characters", description="You don't have any characters at the moment :( Start collecting with `/warp` now!",color=0xffffff)
 
             await ctx.send(embed=my_charas_embed)
 
@@ -73,6 +73,8 @@ class pom6(commands.Cog):
             value=f"- 4 Stars: {total_4_stars} \n- 5 Stars: {total_5_stars} \n- Total: {total_4_stars+total_5_stars}",
             inline=False
             )
+        if uid == "N/A":
+            profile_embed.set_footer(text="Share your UID with /set_uid")
 
         await ctx.send(embed=profile_embed)
 
