@@ -98,7 +98,7 @@ async def find_from_db(collection, user_id: int):
     """
     filter = {'_id': user_id}
     if await collection.find_one(filter) == None:
-        new_user = {"_id": user_id, "ten_pulls": 0, "characters": {}, "uid": 0, "exp": 0, "five_star_Pity": 0}
+        new_user = {"_id": user_id, "ten_pulls": 0, "characters": {}, "uid": 0, "exp": 0, "five_star_pity": 0}
         await collection.insert_one(new_user)
     return await collection.find_one(filter)
 

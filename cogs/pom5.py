@@ -86,7 +86,7 @@ class pom5(commands.Cog):
         chara_names = list(banner)
         rarities = [banner[chara]['rarity'] for chara in chara_names]
 
-        self.five_star_Pity = user_data['five_star_Pity']
+        self.five_star_Pity = user_data['five_star_pity']
 
         results = [] # This will contain the characters/weapons that a user gets from the 10 pull
         for pull in range(1, 11):
@@ -122,9 +122,9 @@ class pom5(commands.Cog):
         updated_user_exp = user_data['exp'] + np.random.randint(1, 10)
 
         if list_of_starCharas_got != []:
-            updated_post = {"$set": {"ten_pulls": updated_ten_pull_count, "characters": user_data["characters"], "exp": updated_user_exp, "five_star_Pity": self.five_star_Pity}}
+            updated_post = {"$set": {"ten_pulls": updated_ten_pull_count, "characters": user_data["characters"], "exp": updated_user_exp, "five_star_pity": self.five_star_Pity}}
         else:
-            updated_post = {"$set": {"ten_pulls": updated_ten_pull_count, "exp": updated_user_exp, "five_star_Pity": self.five_star_Pity}}
+            updated_post = {"$set": {"ten_pulls": updated_ten_pull_count, "exp": updated_user_exp, "five_star_pity": self.five_star_Pity}}
         updated_cds = {"$set": {"last_warp_time": int(time.time()), "available_warps": available_warps - 1}}
 
         with ThreadPoolExecutor() as executor:
