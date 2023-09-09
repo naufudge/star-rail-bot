@@ -153,6 +153,13 @@
         "combat": "Lightning",
         "type": "character"
     },
+    "Silver Wolf": {
+        "id": 23,
+        "rarity": 5,
+        "path": "The Nihility",
+        "combat": "Quantum",
+        "type": "character"
+    },
     "Luocha": {
         "id": 24,
         "rarity": 5,
@@ -516,5 +523,17 @@
         "rarity": 4,
         "path": "The Destruction",
         "type": "weapon"
+    },
+    "Luka" : {
+        "id": 98,
+        "rarity": 4,
+        "path": "The Nihility",
+        "type": "character"
+    },
+    "Imbibitor Lunae" : {
+        "id": 99,
+        "rarity": 5,
+        "path": "The Destruction",
+        "type": "character"
     }
 }
