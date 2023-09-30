@@ -40,10 +40,12 @@ class pom5(commands.Cog):
         user_data = await find_from_db(pompomDB, ctx.author.id)
         user_cooldowns = await find_user_cooldowns(cooldownsDB, ctx.author.id)
 
+        self.five_star_Pity = user_data['five_star_pity']
+
         if ((int(time.time() - user_cooldowns['last_warp_time'])) < 3600) and user_cooldowns['available_warps'] == 0:
             cooldown_embed = discord.Embed(
                 title="You're on cooldown",
-                description=f"Please wait `{int((3600 - (time.time() - user_cooldowns['last_warp_time']))/60)}` minutes to warp again :)",
+                description=f"Please wait `{int((3600 - (time.time() - user_cooldowns['last_warp_time']))/60)}` minutes to warp again :)\nYour current pity is `{self.five_star_Pity}`. Reach **90** to get a guaranteed 5 star.",
                 color=0xffffff
                 )
             await ctx.send(embed=cooldown_embed, ephemeral=True)
@@ -86,8 +88,7 @@ class pom5(commands.Cog):
         chara_names = list(banner)
         rarities = [banner[chara]['rarity'] for chara in chara_names]
 
-        self.five_star_Pity = user_data['five_star_pity']
-
+        self.five_star_Pity += 1
         results = [] # This will contain the characters/weapons that a user gets from the 10 pull
         for pull in range(1, 11):
             probability = self.probability_calculator(three_stars, four_stars, five_stars)
@@ -99,7 +100,7 @@ class pom5(commands.Cog):
             if chara in four_stars:
                 self.four_star_Pity = 1
             if chara in five_stars:
-                self.five_star_Pity = 1
+                self.five_star_Pity = 0
 
         # List of characters currently owned by the user
         list_of_charas_owned = list(user_data["characters"])
@@ -107,9 +108,6 @@ class pom5(commands.Cog):
         list_of_starCharas_got = [result for result in results if result in five_and_four_stars]
         # List of 5 stars that the user just got (if any)
         list_of_5_stars_gotten = [result for result in results if result in five_stars]
-
-        if not list_of_5_stars_gotten:
-            self.five_star_Pity += 1
 
         for chara_got in list_of_starCharas_got:
             if not chara_got in list_of_charas_owned:
@@ -192,11 +190,6 @@ class pom5(commands.Cog):
             }
         return probability
 
-    # @warp.error
-    # async def warp_error(self, ctx: commands.Context, error: commands.HybridCommandError):
-    #     if isinstance(error.original, app_commands.CommandOnCooldown):
-    #         seconds_remaining = int(error.original.retry_after)
-    #         await ctx.send(f"You can warp again after `{seconds_remaining}` seconds :)", ephemeral=True)
 
 async def setup(client: commands.Bot) -> None:
     await client.add_cog(pom5(client))
