@@ -53,16 +53,15 @@ class pom2(commands.Cog):
                 skills_embed.add_field(name="__Technique__", value=f"**Name:** *{chara_skills['technique']['name']}*\n**Description:** {chara_skills['technique']['description']}", inline=False)
 
             # Best Light Cones embed below
-            best_cones = [best for best in best_light_cones if best['chara_name'] == chara_info['name']]
-            if best_cones != []:
-                best_cone_embed = discord.Embed(title=f"Best Light Cones for {chara_info['name']}", description='\n'.join(best_cones[0]['light_cones']), color=cone_colors[len(chara_info['rarity'])])
-                best_cone_embed.set_footer(text="All credits to KeqingMains")
-                # Getting just the names of the best light cones for the character
-                best_cone_names = [best['light_cones'] for best in best_light_cones if best['chara_name'] == chara_info['name']][0]
-            else:
+            try:
+                best_cone_details = best_light_cones[result]
+                best_cone_names = best_cone_details['light_cones']
+                best_cone_embed = discord.Embed(title=f"Best Light Cones for {chara_info['name']}", description='\n'.join(best_cone_names), color=cone_colors[len(chara_info['rarity'])])
+                if best_cone_details['credit']:
+                    best_cone_embed.set_footer(text=f"All credits to {best_cone_details['credit']}")
+            except KeyError:
                 best_cone_names = None
                 best_cone_embed = discord.Embed(title="Sorry! Work in progress :(", description="We're still working on this, come back again later Trailblazer.", color=cone_colors[len(chara_info['rarity'])])
-                # best_cone_embed.set_image(url=)
             best_cone_embed.set_thumbnail(url=chara_info['thumb'])
 
             # Eidelons embed below
@@ -80,12 +79,11 @@ class pom2(commands.Cog):
 
             main_embeds = [info_embed, skills_embed, eidolon_embed, best_cone_embed]
             info_view = InfoView(main_embeds, best_cone_names)
-            # await interaction.response.send_message(embed=info_view.initial, view=info_view)
             await ctx.send(embed=info_view.initial, view=info_view)
         else:
             emb = discord.Embed(title="Characters", description="Find any playable/announced character under their respective paths", color=0xffffff)
             charas_view = CharactersView()
-            # await interaction.response.send_message(embed=emb, view=charas_view)
+            
             await ctx.send(embed=emb, view=charas_view)
 
     # Character skills command

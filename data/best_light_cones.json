@@ -1,5 +1,5 @@
-[
-    {
+{
+    "Seele": {
         "chara_name": "Seele",
         "light_cones": [
             "**1)** In The Night",
@@ -8,9 +8,10 @@
             "**4)** Return to Darkness",
             "**5)** Swordplay",
             "**6)** Only Silence Remains"
-        ]
+        ],
+        "credit" : "KeqingMains"
     },
-    {
+    "Bronya": {
         "chara_name": "Bronya",
         "light_cones": [
             "**1)** But the Battle Isn\u2019t Over",
@@ -19,9 +20,10 @@
             "**4)** Past and Future",
             "**5)** Memories of the Past",
             "**6)** Meshing Cogs"
-        ]
+        ],
+        "credit" : "KeqingMains"
     },
-    {
+    "Clara": {
         "chara_name": "Clara",
         "light_cones": [
             "**1)** Something Irreplaceable",
@@ -29,9 +31,10 @@
             "**3)** The Moles Welcome You",
             "**4)** A Secret Vow",
             "**5)** Collapsing Sky"
-        ]
+        ],
+        "credit" : "KeqingMains"
     },
-    {
+    "Welt": {
         "chara_name": "Welt",
         "light_cones": [
             "**1)** In the Name of the World",
@@ -39,9 +42,10 @@
             "**3)** Resolution Shines As Pearls of Sweat",
             "**4)** We Will Meet Again",
             "**5)** Loop"
-        ]
+        ],
+        "credit" : "KeqingMains"
     },
-    {
+    "Yanqing": {
         "chara_name": "Yanqing",
         "light_cones": [
             "**1)** Sleep Like the Dead",
@@ -51,9 +55,10 @@
             "**5)** Return to Darkness",
             "**6)** Swordplay",
             "**7)** Only Silence Remains"
-        ]
+        ],
+        "credit" : "KeqingMains"
     },
-    {
+    "Himeko": {
         "chara_name": "Himeko",
         "light_cones": [
             "**1)** Night on the Milky Way",
@@ -61,9 +66,10 @@
             "**3)** Make the World Clamor",
             "**4)** The Seriousness of Breakfast",
             "**5)** Genius\u2019 Repose"
-        ]
+        ],
+        "credit" : "KeqingMains"
     },
-    {
+    "Bailu": {
         "chara_name": "Bailu",
         "light_cones": [
             "**1)** Time Waits for No One",
@@ -72,9 +78,10 @@
             "**4)** Quid Pro Quo",
             "**5)** Warmth Shortens Cold Nights",
             "**6)** Cornucopia"
-        ]
+        ],
+        "credit" : "KeqingMains"
     },
-    {
+    "Gepard": {
         "chara_name": "Gepard",
         "light_cones": [
             "**1)** Moment of Victory",
@@ -82,6 +89,52 @@
             "**3)** Trend of Universal Market",
             "**4)** We Are Wildfire",
             "**5)** Day One of My New Life"
-        ]
+        ],
+        "credit" : "KeqingMains"
+    },
+    "Imbibitor Lunae": {
+        "chara_name": "Imbibitor Lunae",
+        "light_cones": [
+            "**1)** Brighter Than the Sun",
+            "**2)** On the Fall of an Aeon",
+            "**3)** A Secret Vow",
+            "**4)** Woof! Walk Time!"
+        ],
+        "credit" : "KeqingMains"
+    },
+    "Yukong": {
+        "chara_name": "Yukong",
+        "light_cones": [
+            "**1)** But The Battle Isn't Over",
+            "**2)** Carve the Moon, Weave the Clouds",
+            "**3)** Past and Future",
+            "**4)** Planetary Rendezvous",
+            "**5)** Dance! Dance! Dance!",
+            "**6)** Meshing Cogs"
+        ],
+        "credit" : ""
+    },
+    "Arlan": {
+        "chara_name": "Arlan",
+        "light_cones": [
+            "**1)** The Unreachable Side",
+            "**2)** Something Irreplaceable",
+            "**3)** On the Fall of an Aeon",
+            "**4)** The Moles Welcome You",
+            "**5)** A Secret Vow"
+        ],
+        "credit" : ""
+    },
+    "Fu Xuan": {
+        "chara_name": "Fu Xuan",
+        "light_cones": [
+            "**1)** She Already Shut Her Eyes",
+            "**2)** Texture of Memories",
+            "**3)** Day One of My New Life",
+            "**4)** Moment of Victory",
+            "**5)** Landau's Choice",
+            "**6)** Defense"
+        ],
+        "credit" : "KeqingMains"
     }
-]
+}
