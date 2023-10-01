@@ -165,9 +165,9 @@
         "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
         "description": "Under the watch of the white irises, he bashed the coffin with his hands.'Sometimes, I feel like I underestimated you by proposing this deal.''",
         "effect": "Increases the wearer's ATK by 24/28/32/36/40%. After the wearer uses an attack, for each different enemy target the wearer hits, regenerates 3/3.5/4/4.5/5 Energy. Each attack can regenerate Energy up to 3 time(s) this way. After the wearer uses their Ultimate, all allies gain 12/14/16/18/20 SPD for 1 turn.",
-        "thumb": "",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c0/Light_Cone_Echoes_of_the_Coffin.png/revision/latest/scale-to-width-down/350?cb=20220816225416",
-        "source": ""
+        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c0/Light_Cone_Echoes_of_the_Coffin.png",
+        "picture": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/06/08/6799252/b57ba07be186c25b2e98010303d723f4_7753175512192545273.png",
+        "source": "Limited Warp"
     },
     {
         "name": "Eyes of the Prey",
@@ -187,7 +187,7 @@
         "effect": "Increases the Break Effect dealt by the wearer by 16/20/24/28/32%, and increases their DMG to enemies afflicted with Shock or Wind Shear by 16/20/24/28/32%. This also applies to DoT.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1b/Light_Cone_Fermata.png/revision/latest?cb=20230430164908",
         "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/73/Light_Cone_Fermata_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171742",
-        "source": "Spend a total of 2600 Shield in Underground Shop located in Boulder Town, Jarilo-VI \n*Echo of war* (Weekly Boss) \nBuy from *Light Cone Manifest* (Forgotten Hall)"
+        "source": "- Spend a total of 2600 Shield in Underground Shop located in Boulder Town, Jarilo-VI \n- *Echo of war* (Weekly Boss) \n- Buy from *Light Cone Manifest* (Forgotten Hall)"
     },
     {
         "name": "Fine Fruit",
@@ -257,7 +257,7 @@
         "effect": "Increases the wearer's Effect Hit Rate by 24/28/32/36/40%. When the wearer deals DMG to an enemy that currently has 3 or more debuffs, increases the wearer's CRIT Rate by 12/14/16/18/20%. After the wearer uses their Basic ATK, Skill, or Ultimate, there is a 100% base chance to implant Aether Code on a random hit target that does not yet have it. Targets with Aether Code receive 12/14/16/18/20% increased DMG for 1 turn.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0b/Light_Cone_Incessant_Rain.png/",
         "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0b/Light_Cone_Incessant_Rain.png/revision/latest/scale-to-width-down/350?cb=20230323125244",
-        "source": ""
+        "source": "Limited Warp"
     },
     {
         "name": "Landau's Choice",
@@ -407,7 +407,7 @@
         "effect": "When the wearer uses their Skill, then the next ally taking action (except the wearer) deals 16/20/24/28/32% increased DMG for 1 turn(s).",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b0/Light_Cone_Past_and_Future.png/revision/latest?cb=20230430165356",
         "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b9/Light_Cone_Past_and_Future_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171824",
-        "source": "Spend a total of 590 Strale at Jeweler's Pagoda located in Central Starskiff Haven, Xianzhou Luofu. \n*Echo of war* (Weekly Boss) \nBuy from *Light Cone Manifest* (Forgotten Hall)"
+        "source": "- Spend a total of 590 Strale at Jeweler's Pagoda located in Central Starskiff Haven, Xianzhou Luofu. \n- *Echo of war* (Weekly Boss) \n- Buy from *Light Cone Manifest* (Forgotten Hall)"
     },
     {
         "name": "Perfect Timing",
@@ -417,7 +417,7 @@
         "effect": "Increases the wearer's Effect RES by 16/20/24/28/32% and increases Outgoing Healing by an amount that is equal to 33/36/39/42/45% of Effect RES. Outgoing Healing can be increased this way by up to 15/18/21/24/27%.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/77/Light_Cone_Perfect_Timing.png/revision/latest?cb=20230430165405",
         "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/25/Light_Cone_Perfect_Timing_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171826",
-        "source": ""
+        "source": "Regular Warp"
     },
     {
         "name": "Pioneering",
@@ -457,7 +457,7 @@
         "effect": "At the start of the wearer's turn, regenerates 8/10/12/14/16 Energy for a randomly chosen ally (excluding the wearer) whose current Energy is lower than 50%.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/71/Light_Cone_Quid_Pro_Quo.png/revision/latest?cb=20230430165451",
         "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/cf/Light_Cone_Quid_Pro_Quo_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171834",
-        "source": "Trailblazer *Level 20* Reward \n*Echo of war* (Weekly Boss) \nBuy from *Light Cone Manifest* (Forgotten Hall)"
+        "source": "- Trailblazer *Level 20* Reward \n- *Echo of war* (Weekly Boss) \n- Buy from *Light Cone Manifest* (Forgotten Hall)"
     },
     {
         "name": "Resolution Shines As Pearls of Sweat",
@@ -487,7 +487,7 @@
         "effect": "After entering battle, increases the wearer's SPD by 8/9/10/11/12% and DMG by 12/15/18/21/24%. When the wearer takes DMG, this effect will disappear. This effect will resume after the end of the wearer's next turn.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b3/Light_Cone_River_Flows_in_Spring.png/revision/latest?cb=20230430164059",
         "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a0/Light_Cone_River_Flows_in_Spring_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171840",
-        "source": "Complete Part 2 of *Operation Briefing* (Forgotten Hall) \n*Echo of War* (Weekly Boss) \nBuy from *Light Cone Manifest* (Forgotten Hall)"
+        "source": "- Complete Part 2 of *Operation Briefing* (Forgotten Hall) \n- *Echo of War* (Weekly Boss) \n- Buy from *Light Cone Manifest* (Forgotten Hall)"
     },
     {
         "name": "Sagacity",
@@ -597,7 +597,7 @@
         "effect": "Increases the wearer's DMG by 12/15/18/21/24%. For every defeated enemy, the wearer's ATK increases by 4/5/6/7/8%, stacking up to 3 time(s).",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d6/Light_Cone_The_Seriousness_of_Breakfast.png/revision/latest?cb=20230430164318",
         "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5a/Light_Cone_The_Seriousness_of_Breakfast_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171648",
-        "source": "*To Rot or To Burn* Mission Reward \n*Echo of war* (Weekly Boss) \nBuy from *Light Cone Manifest* (Forgotten Hall)"
+        "source": "- *To Rot or To Burn* Mission Reward \n- *Echo of war* (Weekly Boss) \n- Buy from *Light Cone Manifest* (Forgotten Hall)"
     },
     {
         "name": "This Is Me!",
@@ -675,9 +675,9 @@
         "rarity": "\u2726 \u2726 \u2726 \u2726",
         "description": "She got used to people losing their homes.And she got used to people losing their lives.But crying alone was useless.'Wear this red scarf, and then we shall share each other's pain.''We are family. We are Wildfire.'The moment that pair of big hands held her head, she could no longer hold back her tears.",
         "effect": "At the start of the battle, the DMG dealt to all allies decreases by 8/10/12/14/16% for 5 turn(s). At the same time, immediately restores HP to all allies equal to 30/35/40/45/50% of the respective HP difference between the characters' Max HP and current HP.",
-        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c2/Light_Cone_We_Are_Wildfire.png/revision/latest?cb=20230430164453",
-        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/22/Light_Cone_We_Are_Wildfire_Artwork.png/revision/latest/scale-to-width-down/350?cb=20230430171704",
-        "source": "Complete Part 4 of *Operation Briefing* (Interastral Guide) \nSpend 500 Shield in Underground Shop located in Boulder Town, Jarilo-VI \n*Echo of War* (Weekly Boss) \nBuy from *Light Cone Manifest* (Forgotten Hall)"
+        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c2/Light_Cone_We_Are_Wildfire.png",
+        "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/22/Light_Cone_We_Are_Wildfire_Artwork.png",
+        "source": "- Complete Part 4 of *Operation Briefing* (Interastral Guide) \n- Spend 500 Shield in Underground Shop located in Boulder Town, Jarilo-VI \n- *Echo of War* (Weekly Boss) \n- Buy from *Light Cone Manifest* (Forgotten Hall)"
     },
     {
         "name": "We Will Meet Again",
@@ -707,7 +707,7 @@
         "effect": "Increases the wearer's Effect Hit Rate by 20/25/30/35/40%. When the wearer attacks enemies that have reduced DEF, regenerates 4/5/6/7/8 Energy.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/76/Light_Cone_Before_the_Tutorial_Mission_Starts.png",
         "picture": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5c/Light_Cone_Before_the_Tutorial_Mission_Starts_Artwork.png",
-        "source": ""
+        "source": "Event Store"
     },
     {
         "name": "The Unreachable Side",
@@ -716,7 +716,47 @@
         "description": "He would come to this place every year, bringing new swords with him each time. He had seen all the owners of the swords draw their last breath. Every time he leaves, he would sorrowfully ponder... When would his own blade be brought here by someone else?",
         "effect": "Increases the wearer's CRIT rate by 18% and increases their Max HP by 18%. When the wearer is attacked or consumes their own HP, their DMG increases by 24%. This effect is removed after the wearer uses an attack.",
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b7/Light_Cone_The_Unreachable_Side.png",
-        "picture": "https://hsr.hakush.in/UI/lightconemaxfigures/23009.png",
-        "source": ""
+        "picture": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/07/10/6799252/9e33b8db3ced5f981c1427a842052e8a_9007039100645382605.png",
+        "source": "Limited Warp"
+    },
+    {
+        "name": "Patience Is All You Need",
+        "path": "The Nihility <:nihility:1108984309395763260>",
+        "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "description": "\"Could it be that there's something you haven't told me?\"\nShe watches as their neck stiffens, as if a lump is blocking their throat.\nShe knows she is feared, and that no further step is needed.\nAt this point, it no longer mattered what she said.\nAny word she utters radiates horror...\nThey stand no chance against her, and have no choice but to blurt out what she wants to hear.\nLike a spider waiting in its web, patience is all she needs.",
+        "effect": "Increases DMG dealt by the wearer by 24%/28%/32%/36%/40%. After every attack unleashed by the wearer, the wearer's SPD increases by 4.8%/5.6%/6.4%/7.2%/8%, stacking up to 3 times. If the wearer hits an enemy target that is not afflicted by Erode, there is a 100% base chance to inflict Erode on the target. Enemies afflicted with Erode are also considered to be Shocked and will receive Lightning DoT at the start of each turn equal to 60%/70%/80%/90%/100% of the wearer's ATK, lasting for 1 turn.",
+        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/87/Light_Cone_Patience_Is_All_You_Need.png",
+        "picture": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/07/10/6799252/3e4d37ab610e9d0270e4dc4507f9809d_3445322774549689808.png",
+        "source": "Limited Warp"
+    },
+    {
+        "name": "Brighter Than the Sun",
+        "path": "The Destruction <:destruction:1108984285060407396>",
+        "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "description": "From birth, all that ever lay before him was but a lightless dungeon.\nTo this darkness, irrelevant sins bound him... irrelevant memories engulfed him.\nHe writhed, gasping for breath with every fiber of his being, attempting to clasp a sliver of light in this fathomless ocean.\nUntil the day the general stepped into the lightless depths of this prison, he beheld a radiance shining brighter than the sun — the gaze of a young man.",
+        "effect": "Increases the wearer's CRIT Rate by 18%/21%/24%/27%/30%. When the wearer uses Basic ATK, they will gain one stack of Dragon's Call for 2 turns. Each stack of Dragon's Call increases the wearer's ATK by 18%/21%/24%/27%/30% and Energy Regeneration Rate by 6%/7%/8%/9%/10%. Dragon's Call can be stacked up to 2 times.",
+        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d0/Light_Cone_Brighter_Than_the_Sun.png",
+        "picture": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/25/250281765/274e4d01efb391334126171753e400d7_2691687760360431628.png",
+        "source": "Limited Warp"
+    },
+    {
+        "name": "She Already Shut Her Eyes",
+        "path": "The Preservation <:preservation:1108984312969306122>",
+        "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "description": "The ache in the middle of her forehead will accompany her for the rest of her life, but it is only a fraction of what she had experienced in the past. \nShe thought herself prescient until the departure of those for whom she cared. \nShe now \"sees\" the world ever-changing, the times ever-shifting... \nBut she already shut her eyes, because the future has already been determined... inside \"the third eye\".",
+        "effect": "Increases the wearer's Max HP by 24/28/32/36/40% and Energy Regeneration Rate by 12/14/16/18/20%. When the wearer's HP is decreased, increases the DMG of all allies by 9.0/10.5/12.0/13.5/15.0% for 2 turns. \nAt the beginning of each wave, restores HP equal to 80/85/90/95/100% of HP already lost by the character themselves for team.",
+        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0a/Light_Cone_She_Already_Shut_Her_Eyes.png",
+        "picture": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/25/250281765/a519d2e49b5bbefb2f189a80c30571cd_2101569505693000965.png",
+        "source": "Limited Warp"
+    },
+    {
+        "name": "Solitary Healing",
+        "path": "The Nihility <:nihility:1108984309395763260>",
+        "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "description": "Things molded by the hands of secrecy are shapeless and incorporeal. In the totality of emptiness, there yet exists a sudden dreaming. Those that court destruction will reap ruinous fruit, while those that clamor to live will survive. That which is extinguished may yet spark, and that which has dried may yet be filled anew. In compassion for the salvation of chaos, the elixir nurtures the shadows. With back faced to the darkness between the stars, the encapsulation of this vessel can only be done in vain. \n\"Paradoxical these knowings are, in them shine the fullness of our pride.\"",
+        "effect": "Increases the wearer's Break Effect by 20/25/30/35/40%. When the wearer uses their Ultimate, increases DoT dealt by the wearer by 24/30/36/42/48%, lasting for 2 turn(s). When a target enemy suffering from DoT imposed by the wearer is defeated, regenerates 4/4.5/5/5.5/6 Energy for the wearer.",
+        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/90/Light_Cone_Solitary_Healing.png",
+        "picture": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/25/167256510/490019a1c0cfe292ac02166c18c089ae_1509006542286448613.png",
+        "source": "Simulated Universe (Herta's Store)"
     }
 ]
