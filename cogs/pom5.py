@@ -9,8 +9,8 @@ from pymongo.collection import Collection
 from concurrent.futures import ThreadPoolExecutor
 from helpers.pom_funcs import find_from_db, find_user_cooldowns, standard_warps
 from warps.warp import ten_pull
-from warps.data.banners import seele_banner, jing_yuan_banner, kafka_banner, luocha_banner, silver_wolf_banner, blade_banner, imbibitor_lunae_banner
-from warps.probabilities import *
+from warps.data.banners import *
+from warps.probabilities import four_star_probabilities
 
 
 class pom5(commands.Cog):
@@ -29,6 +29,7 @@ class pom5(commands.Cog):
         app_commands.Choice(name="Kafka Banner", value=6),
         app_commands.Choice(name="Blade Banner", value=7),
         app_commands.Choice(name="Imbibitor Lunae Banner", value=8),
+        app_commands.Choice(name="Fu Xuan Banner", value=9),
     ])
     async def warp(self, ctx: commands.Context, *, warp_name: app_commands.Choice[int]):
         if warp_name.name.lower() == "":
@@ -55,7 +56,7 @@ class pom5(commands.Cog):
         elif ((int(time.time() - user_cooldowns['last_warp_time'])) > 3600) and user_cooldowns['available_warps'] <= 10:
             available_warps = 10
 
-        # Standard Banner
+        # Standard Banner & Other available banners
         if warp_name.value == 1 or warp_name.name.lower() == "stellar warp":
             banner = standard_warps
 
@@ -79,6 +80,9 @@ class pom5(commands.Cog):
 
         elif warp_name.value == 8 or warp_name.name.lower() in ["imbibitor lunae banner", "il", "imbibitor lunae"]:
             banner = imbibitor_lunae_banner
+
+        elif warp_name.value == 9 or warp_name.name.lower() in ["fu xuan banner", "fu xuan"]:
+            banner = fu_xuan_banner
 
         three_stars = [chara for chara, deets in banner.items() if deets['rarity'] == 3]
         four_stars = [chara for chara, deets in banner.items() if deets['rarity'] == 4]

@@ -505,5 +505,11 @@
         "rarity": 4,
         "path": "The Nihility",
         "type": "character"
+    },
+    "Lynx" : {
+        "id": 101,
+        "rarity": 4,
+        "path": "The Abundance",
+        "type": "character"
     }
 }
