@@ -619,7 +619,7 @@
     {
         "name" : "Fu Xuan",
         "id" : 31,
-        "description" : "The head of the Xianzhou Luofu's Divination Commission. A confident and blunt sage. Using her third eye and the Matrix of Prescience, Fu Xuan calculates the Xianzhou's route and predicts the fortune of future events. She firmly believes that everything she does is the \"best solution\" for the situation. Fu Xuan is waiting for the general's promised \"abdication.\" However, that day still seems... very far away.",
+        "description" : "The head of the Xianzhou Luofu's Divination Commission. A confident and blunt sage. Using her third eye and the Matrix of Prescience, Fu Xuan calculates the Xianzhou's route and predicts the fortune of future events. She firmly believes that everything she does is the \"best solution\" for the situation. Fu Xuan is waiting for the general's promised \"abdication\". However, that day still seems... very far away.",
         "rarity" : "\u2726 \u2726 \u2726 \u2726 \u2726",
         "thumb" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/07/07/5308864/973836d5f252e7c09d7e7759c785b777_5344259552714082513.png",
         "picture" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/07/07/5308864/9a522095e803ad694530cf88fe881ec9_4239359089315591132.png",
@@ -627,11 +627,11 @@
         "combat" : "Quantum",
         "faction" : "Xianzhou Luofu",
         "skills" : {
-            "basic": {"name":"", "tag":"", "description":""},
-            "skill": {"name":"", "tag":"", "description":""},
-            "ult": {"name":"", "tag":"", "description":""},
-            "talent": {"name":"", "tag":"", "description":""},
-            "technique": {"name":"", "tag":"", "description":""}
+            "basic": {"name":"Novaburst", "tag":"Single Target", "description":"Deals Quantum DMG equal to 25%-65% of Fu Xuan's Max HP to a single enemy."},
+            "skill": {"name":"Known by Stars, Shown by Hearts", "tag":"Defense", "description":"Activates Matrix of Prescience, via which other team members will Distribute 65% of the DMG they receive (before this DMG is mitigated by any Shields) to Fu Xuan for 3 turn(s). While affected by Matrix of Prescience, all team members gain the Knowledge effect, which increases their respective Max HP by 3%-7.5% of Fu Xuan's Max HP, and increases CRIT Rate by 6%-15%. When Fu Xuan is knocked down, the Matrix of Prescience will be dispelled."},
+            "ult": {"name":"Woes of Many Morphed to One", "tag":"AoE", "description":"Deals Quantum DMG equal to 60%-120% of Fu Xuan's Max HP to all enemies and obtains 1 trigger count for the HP Restore effect granted by Fu Xuan's Talent."},
+            "talent": {"name":"Bleak Breeds Bliss", "tag":"Restore", "description":"While Fu Xuan is still active in battle, Misfortune Avoidance is applied to the entire team. With Misfortune Avoidance, allies take 10%-22% less DMG. When Fu Xuan's current HP falls to 50% of her Max HP or less, HP Restore will be triggered for Fu Xuan, restoring her HP by 80%-95% of the amount of HP she is currently missing. This effect cannot be triggered if she receives a killing blow. This effect possesses 1 trigger count by default and can have a maximum of 2 trigger counts."},
+            "technique": {"name":"Of Fortune Comes Fate", "tag":"Defense", "description":"After the Technique is used, all team members receive a Barrier, lasting for 20 seconds. This Barrier can block all enemy attacks, and the team will not enter battle when attacked. Entering battle while the Barrier is active will have Fu Xuan automatically activate Matrix of Prescience at the start of the battle, lasting for 2 turn(s)."}
         },
         "eidolons" : {}
     },
@@ -662,13 +662,133 @@
     {
         "name" : "Lynx",
         "id" : 33,
-        "description" : "",
+        "description" : "A Belobogian Snow Plains Exploer, and the youngest of the Landau siblings. Calm and collected, with a strong drive for action. Often embarks on solo adventures to explore the snowy wilderness.",
         "rarity" : "\u2726 \u2726 \u2726 \u2726",
         "thumb" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/07/07/5308864/021e173536079b09ced5d996b8d1f638_2603022534286175917.png",
         "picture" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/07/07/5308864/50f410379ef42da0c7510baab327008f_5666464381195723295.png",
         "path" : "The Abundance",
         "combat" : "Quantum",
-        "faction" : "-",
+        "faction" : "Belobog",
+        "skills" : {
+            "basic": {"name":"Ice Crampon Technique", "tag":"Single Target", "description":"Deals Quantum DMG equal to 25%-65% of this character's Max HP to a single enemy."},
+            "skill": {"name":"Salted Camping Cans", "tag":"Restore", "description":"Applies \"Survival Response\" to a single target ally and increases their Max HP by 5%-8.7% of Lynx's Max HP plus 50-256. If the target ally is a character on the Path of Destruction or Preservation, the chance of them being attacked by enemies will greatly increase. \"Survival Response\" lasts for 2 turn(s). Restores the target's HP by 8%-14% of Lynx's Max HP plus 80-410."},
+            "ult": {"name":"Snowfield First Aid", "tag":"Restore", "description":"Dispels 1 debuff(s) from all allies and immediately restores their respective HP by an amount equal to 9%-15.7% of Lynx's Max HP plus 90-461."},
+            "talent": {"name":"Outdoor Survival Experience", "tag":"Restore", "description":"When using Lynx's Skill or Ultimate, applies continuous healing to the target ally for 2 turn(s), restoring the target ally's HP by an amount equal to 2.4%-4.2% of Lynx's Max HP plus 24-123 at the start of each turn. If the target has \"Survival Response\", the continuous healing effect additionally restores HP by an amount equal to 3%-5.3% of Lynx's Max HP plus 30-154."},
+            "technique": {"name":"Chocolate Energy Bar", "tag":"Restore", "description":"After Lynx uses her Technique, at the start of the next battle, all allies are granted her Talent's continuous healing effect, lasting for 2 turn(s)."}
+        },
+        "eidolons": {}
+    },
+
+    {
+        "name" : "Jingliu",
+        "id" : 34,
+        "description" : "One of the legendary heroes making up the High-Cloud Quintet, and bestowed with the title \"Transcendent Flash\". Having ascended beyond mortal concepts of victory, she chose to walk a different path to obtain the power capable of slaying gods. Thereafter, one Sword Champion of the Luofu was removed from the Xianzhou's records, and Thereafter, one Sword Champion of the Luofu was removed from the Xianzhou's records, and one nameless traitor was added. was added.",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/6799252/2455cabb24d079ba955efe42d0321787_749698389243962827.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/6799252/f4b4e47e34018b1ffa59f265d679323e_2827406687799701459.png",
+        "path" : "The Destruction",
+        "combat" : "Ice",
+        "faction" : "Xianzhou Luofu",
+        "skills" : {
+            "basic": {"name":"", "tag":"", "description":""},
+            "skill": {"name":"", "tag":"", "description":""},
+            "ult": {"name":"", "tag":"", "description":""},
+            "talent": {"name":"", "tag":"", "description":""},
+            "technique": {"name":"", "tag":"", "description":""}
+        },
+        "eidolons": {}
+    },
+
+    {
+        "name" : "Topaz & Numby",
+        "id" : 35,
+        "description" : "Topaz, Senior Manager of the Strategic Investment Department in the Interastral Peace Corporation, and leader of the Special Debts Picket Team. Already a member of the \"Ten Stonehearts\" at a young age, Topaz's core stone is the \"topaz of debt retrieval\". Her partner, the Warp Trotter \"Numby\", is also capable of acutely perceiving where riches are located. It can even perform jobs involving security, debt collection, and actuarial sciences. Presently they are traversing the cosmos together, chasing down various debts and liabilities that negatively influence the IPC's commercial ventures.",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/6799252/1ce49a269c54787b7fd60eeb8dc21b3e_6601512267259089855.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/6799252/2901df12fedc7386b27ad7f5edc711c5_6129232489521343003.png",
+        "path" : "The Hunt",
+        "combat" : "Fire",
+        "faction" : "N/A",
+        "skills" : {
+            "basic": {"name":"", "tag":"", "description":""},
+            "skill": {"name":"", "tag":"", "description":""},
+            "ult": {"name":"", "tag":"", "description":""},
+            "talent": {"name":"", "tag":"", "description":""},
+            "technique": {"name":"", "tag":"", "description":""}
+        },
+        "eidolons": {}
+    },
+
+    {
+        "name" : "Guinaifen",
+        "id" : 36,
+        "description" : "An outworlder who ended up residing on the Xianzhou by accident. She is now a passionate and vivacious street performer. With her real name being Guinevere, Guinaifen is the Xianzhou name given to her by her good friend Sushang. Faced with a whole new life on the Luofu and relying on her adoration of Xianzhou culture, Guinaifen quickly learned skills that would keep her clothed and fed — such as slurping noodles in a handstand, smashing slabs without harming the people it was placed upon, catching bullets with bare hands, and so on.",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/6799252/a76666754012d7c7c341f4af35be8b8d_744673384068951051.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/28/6799252/00918886e08e2061ca73618b0128f5e0_5096327128799333116.png",
+        "path" : "The Nihility",
+        "combat" : "Fire",
+        "faction" : "Xianzhou Luofu",
+        "skills" : {
+            "basic": {"name":"", "tag":"", "description":""},
+            "skill": {"name":"", "tag":"", "description":""},
+            "ult": {"name":"", "tag":"", "description":""},
+            "talent": {"name":"", "tag":"", "description":""},
+            "technique": {"name":"", "tag":"", "description":""}
+        },
+        "eidolons": {}
+    },
+
+    {
+        "name" : "Huohuo",
+        "id" : 37,
+        "description" : "-",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/27/5308864/672500fac57e179abac2a3b716cefbcc_8335871444552744144.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/26/167256510/3df107cb57862346dcf33e171cb40a94_6873119874958598944.png",
+        "path" : "The Abundance",
+        "combat" : "Wind",
+        "faction" : "Xianzhou Luofu",
+        "skills" : {
+            "basic": {"name":"", "tag":"", "description":""},
+            "skill": {"name":"", "tag":"", "description":""},
+            "ult": {"name":"", "tag":"", "description":""},
+            "talent": {"name":"", "tag":"", "description":""},
+            "technique": {"name":"", "tag":"", "description":""}
+        },
+        "eidolons": {}
+    },
+
+    {
+        "name" : "Argenti",
+        "id" : 38,
+        "description" : "-",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/27/250281765/08a6a1d81880eb8808b0c3853b044d75_9220859550153870783.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/27/250281765/89e75c682cb08583f29de9d11944cb42_7956111657918671185.png",
+        "path" : "The Erudition",
+        "combat" : "Physical",
+        "faction" : "Knights of Beauty",
+        "skills" : {
+            "basic": {"name":"", "tag":"", "description":""},
+            "skill": {"name":"", "tag":"", "description":""},
+            "ult": {"name":"", "tag":"", "description":""},
+            "talent": {"name":"", "tag":"", "description":""},
+            "technique": {"name":"", "tag":"", "description":""}
+        },
+        "eidolons": {}
+    },
+    
+    {
+        "name" : "Hanya",
+        "id" : 39,
+        "description" : "-",
+        "rarity" : "\u2726 \u2726 \u2726 \u2726",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/28/5308864/8514a95218f378c85a148f52c72596b3_6840966823911772166.png",
+        "picture" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/28/5308864/6dac33a229a6ea32b313f3484cd1111c_1845083463870835153.png",
+        "path" : "The Harmony",
+        "combat" : "Physical",
+        "faction" : "",
         "skills" : {
             "basic": {"name":"", "tag":"", "description":""},
             "skill": {"name":"", "tag":"", "description":""},
