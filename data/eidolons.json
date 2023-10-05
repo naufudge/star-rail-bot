@@ -889,5 +889,140 @@
             "description": "When Yukong uses her Ultimate, she immediately gains 1 stack(s) of \"Roaring Bowstrings.\"",
             "picture": ""
         }
+    },
+    {
+        "character": "Kafka",
+        "e1": {
+            "name": "Da Capo",
+            "description": "When the Talent triggers a follow-up attack, there is a 100% base chance to increase the DoT received by the target by 30% for 2 turn(s)."
+        },
+        "e2": {
+            "name": "Fortississimo",
+            "description": "While Kafka is on the field, DoT dealt by all allies increases by 25%."
+        },
+        "e3": {
+            "name": "Capriccio",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        "e4": {
+            "name": "Recitativo",
+            "description": "When an enemy target takes DMG from the Shock status inflicted by Kafka, Kafka additionally regenerates 2 Energy."
+        },
+        "e5": {
+            "name": "Doloroso",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e6": {
+            "name": "Leggiero",
+            "description": "The Shock inflicted on the enemy target by the Ultimate, the Technique, or the Talent-triggered follow-up attack has a DMG multiplier increase of 156% and lasts 1 turn(s) longer."
+        }
+    },
+    {
+        "character": "Blade",
+        "e1": {
+            "name": "Blade Cuts the Deepest in Hell",
+            "description": "Blade's Ultimate deals additionally increased DMG to a single enemy target, with the increased amount equal to 150% of Blade's total HP loss in the current battle.\nThe total HP Blade has lost in the current battle is capped at 90% of his Max HP. This value will be reset and re-accumulated after his Ultimate has been used."
+        },
+        "e2": {
+            "name": "Ten Thousand Sorrows From One Broken Dream",
+            "description": "When Blade is in the Hellscape state, his CRIT Rate increases by 15%."
+        },
+        "e3": {
+            "name": "Hardened Blade Bleeds Coldest Shade",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e4": {
+            "name": "Rejected by Death, Infected With Life",
+            "description": "When Blade's current HP drops to 50% or lower of his Max HP, increases his Max HP by 20%. Stacks up to 2 time(s)."
+        },
+        "e5": {
+            "name": "Death By Ten Lords' Gaze",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        "e6": {
+            "name": "Reborn Into an Empty Husk",
+            "description": "The maximum number of Charge stacks is reduced to 4. The DMG of the follow-up attack triggered by Blade's Talent additionally increases by 50% of his Max HP."
+        }
+    },
+    {
+        "character": "Imbibitor Lunae",
+        "e1": {
+            "name": "Tethered to Sky",
+            "description": "Increases the stackable Righteous Heart count by 4, and gains 1 extra stack of Righteous Heart for each hit during an attack."
+        },
+        "e2": {
+            "name": "Imperium On Cloud Nine",
+            "description": "After using his Ultimate, Dan Heng \u2022 Imbibitor Lunae's action is Advanced Forward by 100% and gains 1 extra Squama Sacrosancta."
+        },
+        "e3": {
+            "name": "Clothed in Clouds",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e4": {
+            "name": "Zephyr's Bliss",
+            "description": "The buff effect granted by Outroar lasts until the end of this character's next turn."
+        },
+        "e5": {
+            "name": "Fall is the Pride",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e6": {
+            "name": "Reign, Returned",
+            "description": "After any other ally uses their Ultimate, the Imaginary RES PEN of Dan Heng \u2022 Imbibitor Lunae's next Fulgurant Leap attack increases by 20%. This effect can stack up to 3 time(s)."
+        }
+    },
+    {
+        "character": "Fu Xuan",
+        "e1": {
+            "name": "Dominus Pacis",
+            "description": "The Knowledge effect increases CRIT DMG by 30%."
+        },
+        "e2": {
+            "name": "Optimus Felix",
+            "description": "If any team member is struck by a killing blow while Matrix of Prescience is active, then all allies who were struck by a killing blow during this action will not be knocked down, and 70% of their Max HP is immediately restored. This effect can trigger 1 time per battle."
+        },
+        "e3": {
+            "name": "Apex Nexus",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e4": {
+            "name": "Fortuna Stellaris",
+            "description": "When other allies under Matrix of Prescience are attacked, Fu Xuan regenerates 5 Energy."
+        },
+        "e5": {
+            "name": "Arbiter Primus",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e6": {
+            "name": "Omnia Vita",
+            "description": "Once Matrix of Prescience is activated, it will keep a tally of the total HP lost by all team members in the current battle. Fu Xuan's Ultimate DMG will increase by 200% of this tally of HP loss."
+        }
+    },
+    {
+        "character": "Lynx",
+        "e1": {
+            "name": "Morning of Snow Hike",
+            "description": "When healing allies with HP equal to or lower than 50%, Lynx's Outgoing Healing increases by 20%. This effect also works on continuous healing."
+        },
+        "e2": {
+            "name": "Noon of Portable Furnace",
+            "description": "A target with \"Survival Response\" can resist debuff application for 1 time(s)."
+        },
+        "e3": {
+            "name": "Afternoon of Avalanche Beacon",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        "e4": {
+            "name": "Dusk of Warm Campfire",
+            "description": "When \"Survival Response\" is gained, increases the target's ATK by an amount equal to 3% of Lynx's Max HP for 1 turn(s)."
+        },
+        "e5": {
+            "name": "Night of Aurora Tea",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e6": {
+            "name": "Dawn of Explorers' Chart",
+            "description": "Additionally boosts the Max HP increasing effect of \"Survival Response\" by an amount equal to 6% of Lynx's Max HP and increases Effect RES by 30%."
+        }
     }
 ]
