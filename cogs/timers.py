@@ -57,7 +57,7 @@ class StarRailTimers(commands.Cog):
                 print("Timers command couldn't find a name or value for the embed")
                 continue
 
-        timers_embed.set_footer(text="Credits to @littlemari for making the timers & banner!")
+        timers_embed.set_footer(text="Credits to @littlemari for making the timers!")
 
         await ctx.send(embeds=(banner_embed, timers_embed))
 
