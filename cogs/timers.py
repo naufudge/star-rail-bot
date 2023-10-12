@@ -57,6 +57,7 @@ class StarRailTimers(commands.Cog):
                 print("Timers command couldn't find a name or value for the embed")
                 continue
 
+        timers_embed.set_image(url="https://media.discordapp.net/attachments/1003543457446506547/1044828844986748928/Blank_square.svg.png?width=1920&height=35")
         timers_embed.set_footer(text="Credits to @littlemari for making the timers!")
 
         await ctx.send(embeds=(banner_embed, timers_embed))
