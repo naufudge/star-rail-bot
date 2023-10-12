@@ -6,7 +6,6 @@ from hsr_timer.HSRtimer import HsrTimersSheet
 class StarRailTimers(commands.Cog):
     def __init__(self, client: commands.Bot):
         self.client = client
-
         try:
             with open('hsr_timer/hsr_timers.json', 'r') as timers_file:
                 self.timers_data = json.load(timers_file)
@@ -52,9 +51,13 @@ class StarRailTimers(commands.Cog):
         else:
             timers_embed = discord.Embed(title=title, color=color)
         for field in fields:
-            timers_embed.add_field(name=field[0], value=field[1], inline=False)
+            try:
+                timers_embed.add_field(name=field[0], value=field[1], inline=False)
+            except IndexError:
+                print("Timers command couldn't find a name or value for the embed")
+                continue
 
-        timers_embed.set_footer(text="Credits to Mari for making the timers & banner!")
+        timers_embed.set_footer(text="Credits to @littlemari for making the timers & banner!")
 
         await ctx.send(embeds=(banner_embed, timers_embed))
 
