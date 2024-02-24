@@ -5,7 +5,7 @@ from typing import Optional
 from helpers.pom_views import InfoView, CharactersView
 from helpers.pom_funcs import similarity_sorter, chara_file, best_light_cones, eidolons
 from helpers.pom_misc import combat_emojis, path_emojis
-from helpers.pom_embeds import SkillsEmbed, PomPomEmbeds
+from helpers.pom_embeds import PomPomEmbeds
 
 
 class pom2(commands.Cog):
@@ -59,8 +59,8 @@ class pom2(commands.Cog):
     async def skill_search(self, ctx: commands.Context, *, chara_name: str):
         names = [x['name'] for x in chara_file]
         result = similarity_sorter(names, chara_name)[0] # finds the name most similar to the search
-
-        skills_embed = SkillsEmbed(character_name=result)
+        pom_embed = PomPomEmbeds(character_name=result)
+        skills_embed = pom_embed.Skills()
         await ctx.send(embed=skills_embed)
 
 

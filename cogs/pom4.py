@@ -1,7 +1,7 @@
 import discord
 from discord import app_commands
 from discord.ext import commands
-from helpers.pom_funcs import similarity_sorter, eidolons, chara_file
+from helpers.pom_funcs import similarity_sorter, chara_file
 from helpers.pom_embeds import PomPomEmbeds
 
 
