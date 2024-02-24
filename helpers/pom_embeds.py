@@ -39,8 +39,23 @@ class PomPomEmbeds:
                     skills_embed.add_field(name=f"__Basic ATK {x}__", value=f"**Name:** *{chara_skills[basic]['name']}*\n**Tag:** {chara_skills[basic]['tag']}\n**Description:** {chara_skills[basic]['description']}", inline=False)
                 except KeyError:
                     break
+
             skills_embed.add_field(name="__Skill__", value=f"**Name:** *{chara_skills['skill']['name']}*\n**Tag:** {chara_skills['skill']['tag']}\n**Description:** {chara_skills['skill']['description']}", inline=False)
+            for x in range(2, 5):
+                skill = f'skill{x}'
+                try:
+                    skills_embed.add_field(name=f"__Skill {x}__", value=f"**Name:** *{chara_skills[skill]['name']}*\n**Tag:** {chara_skills[skill]['tag']}\n**Description:** {chara_skills[skill]['description']}", inline=False)
+                except KeyError:
+                    break
+
             skills_embed.add_field(name="__Ultimate__", value=f"**Name:** *{chara_skills['ult']['name']}*\n**Tag:** {chara_skills['ult']['tag']}\n**Description:** {chara_skills['ult']['description']}", inline=False)
+            for x in range(2, 5):
+                ult = f'ult{x}'
+                try:
+                    skills_embed.add_field(name=f"__Ultimate {x}__", value=f"**Name:** *{chara_skills[ult]['name']}*\n**Tag:** {chara_skills[ult]['tag']}\n**Description:** {chara_skills[ult]['description']}", inline=False)
+                except KeyError:
+                    break
+
             skills_embed.add_field(name="__Talent__", value=f"**Name:** *{chara_skills['talent']['name']}*\n**Tag:** {chara_skills['talent']['tag']}\n**Description:** {chara_skills['talent']['description']}", inline=False)
             skills_embed.add_field(name="__Technique__", value=f"**Name:** *{chara_skills['technique']['name']}*\n**Description:** {chara_skills['technique']['description']}", inline=False)
 
