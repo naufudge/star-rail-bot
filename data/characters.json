@@ -690,11 +690,36 @@
         "combat" : "Ice",
         "faction" : "Xianzhou Luofu",
         "skills" : {
-            "basic": {"name":"", "tag":"", "description":""},
-            "skill": {"name":"", "tag":"", "description":""},
-            "ult": {"name":"", "tag":"", "description":""},
-            "talent": {"name":"", "tag":"", "description":""},
-            "technique": {"name":"", "tag":"", "description":""}
+            "basic": {
+                "name": "Lucent Moonglow",
+                "tag": "Single Target",
+                "description": "Deals Ice DMG equal to 50%-110% of Jingliu's ATK to a single enemy."
+            },
+            "skill": {
+                "name": "Moon On Glacial River",
+                "tag": "Blast",
+                "description": "Deals Ice DMG equal to 125%-275% of Jingliu's ATK to a single enemy, and deals Ice DMG equal to 62.5%-137.5% of Jingliu's ATK to adjacent enemies. Consumes 1 stack(s) of Syzygy. Using this ability does not consume Skill Points."
+            },
+            "skill2": {
+                "name": "Transcendent Flash",
+                "tag": "Single Target",
+                "description": "Deals Ice DMG equal to 100%-220% of Jingliu's ATK to a single enemy and obtains 1 stack(s) of Syzygy."
+            },
+            "ult": {
+                "name": "Florephemeral Dreamflux",
+                "tag": "Blast",
+                "description": "Deals Ice DMG equal to 180%-324% of Jingliu's ATK to a single enemy, and deals Ice DMG equal to 90%-162% of Jingliu's ATK to any adjacent enemies. Gains 1 stack(s) of Syzygy after attack ends."
+            },
+            "talent": {
+                "name": "Crescent Transmigration",
+                "tag": "Enhance",
+                "description": "When Jingliu has 2 stack(s) of Syzygy, she enters the Spectral Transmigration state with her Action Advanced by 100% and her CRIT Rate increases by 40%-52%. Then, Jingliu's Skill \"Transcendent Flash\" becomes enhanced and turns into \"Moon On Glacial River,\" and becomes the only ability she can use in battle. When Jingliu uses an attack in the Spectral Transmigration state, she consumes HP from all other allies equal to 4% of their respective Max HP (this cannot reduce allies' HP to lower than 1). Jingliu's ATK increases by 540% of the total HP consumed from all allies in this attack, capped at 90%-198% of her base ATK, lasting until the current attack ends. Jingliu cannot enter the Spectral Transmigration state again until the current Spectral Transmigration state ends. Syzygy can stack up to 3 times. When Syzygy stacks become 0, Jingliu will exit the Spectral Transmigration state."
+            },
+            "technique": {
+                "name": "Shine of Truth",
+                "tag": "Impair",
+                "description": "When Jingliu has 2 stack(s) of Syzygy, she enters the Spectral Transmigration state with her Action Advanced by 100% and her CRIT Rate increases by 40%-52%. Then, Jingliu's Skill \"Transcendent Flash\" becomes enhanced and turns into \"Moon On Glacial River,\" and becomes the only ability she can use in battle. When Jingliu uses an attack in the Spectral Transmigration state, she consumes HP from all other allies equal to 4% of their respective Max HP (this cannot reduce allies' HP to lower than 1). Jingliu's ATK increases by 540% of the total HP consumed from all allies in this attack, capped at 90%-198% of her base ATK, lasting until the current attack ends. Jingliu cannot enter the Spectral Transmigration state again until the current Spectral Transmigration state ends. Syzygy can stack up to 3 times. When Syzygy stacks become 0, Jingliu will exit the Spectral Transmigration state."
+            }
         },
         "eidolons": {}
     },
@@ -710,11 +735,31 @@
         "combat" : "Fire",
         "faction" : "N/A",
         "skills" : {
-            "basic": {"name":"", "tag":"", "description":""},
-            "skill": {"name":"", "tag":"", "description":""},
-            "ult": {"name":"", "tag":"", "description":""},
-            "talent": {"name":"", "tag":"", "description":""},
-            "technique": {"name":"", "tag":"", "description":""}
+            "basic": {
+                "name": "Deficit...",
+                "tag": "Single Target",
+                "description": "Deals Fire DMG equal to 50%-110% of Topaz's ATK to a single enemy."
+            },
+            "skill": {
+                "name": "Difficulty Paying?",
+                "tag": "Single Target",
+                "description": "Inflicts a single target enemy with a Proof of Debt status, increasing the DMG it takes from follow-up attacks by 25%-55%. Proof of Debt only takes effect on the most recent target it is applied to. If there are no enemies inflicted with Proof of Debt on the field when an ally's turn starts or when an ally takes action, Topaz will inflict a random enemy with Proof of Debt.Numby deals Fire DMG equal to 75%-165% of Topaz's ATK to this target. Using this Skill to deal DMG is considered as launching a follow-up attack."
+            },
+            "ult": {
+                "name": "Turn a Profit!",
+                "tag": "Enhance",
+                "description": "Numby enters the Windfall Bonanza! state and its DMG multiplier increases by 75%-165% and CRIT DMG increases by 12.5%-27.5%. Also, when enemies with Proof of Debt are hit by an ally's Basic ATK, Skill, or Ultimate, Numby's action is Advanced Forward by 50%. Numby exits the Windfall Bonanza! state after using 2 attacks."
+            },
+            "talent": {
+                "name": "Trotter Market!?",
+                "tag": "Single Target",
+                "description": "Summons Numby at the start of battle. Numby has 80 SPD by default. When taking action, Numby launches follow-up attacks on a single enemy target afflicted with Proof of Debt, dealing Fire DMG equal to 75%-165% of Topaz's ATK.When enemies afflicted with Proof of Debt receive an ally's follow-up attacks, Numby's action is Advanced Forward by 50%. The action Advance Forward effect cannot be triggered during Numby's own turn.When Topaz is downed, Numby disappears."
+            },
+            "technique": {
+                "name": "Explicit Subsidy",
+                "tag": "Enhance",
+                "description": "Summons Numby at the start of battle. Numby has 80 SPD by default. When taking action, Numby launches follow-up attacks on a single enemy target afflicted with Proof of Debt, dealing Fire DMG equal to 75%-165% of Topaz's ATK.When enemies afflicted with Proof of Debt receive an ally's follow-up attacks, Numby's action is Advanced Forward by 50%. The action Advance Forward effect cannot be triggered during Numby's own turn.When Topaz is downed, Numby disappears."
+            }
         },
         "eidolons": {}
     },
@@ -730,11 +775,31 @@
         "combat" : "Fire",
         "faction" : "Xianzhou Luofu",
         "skills" : {
-            "basic": {"name":"", "tag":"", "description":""},
-            "skill": {"name":"", "tag":"", "description":""},
-            "ult": {"name":"", "tag":"", "description":""},
-            "talent": {"name":"", "tag":"", "description":""},
-            "technique": {"name":"", "tag":"", "description":""}
+            "basic": {
+                "name": "Standing Ovation",
+                "tag": "Single Target",
+                "description": "Deals Fire DMG equal to 50%-110% of Guinaifen's ATK to a single enemy."
+            },
+            "skill": {
+                "name": "Blazing Welcome",
+                "tag": "Blast",
+                "description": "Deals Fire DMG equal to 60%-132% of Guinaifen's ATK to a single enemy and deals Fire DMG equal to 20%-44% of Guinaifen's ATK to any adjacent enemies with a 100% base chance to Burn the target and adjacent targets. When Burned, enemies will take a Fire DoT equal to 83.904%-240.0324% of Guinaifen's ATK at the beginning of each turn, lasting for 2 turn(s)."
+            },
+            "ult": {
+                "name": "Watch This Showstopper",
+                "tag": "AoE",
+                "description": "Deals Fire DMG equal to 72%-129.6% of Guinaifen's ATK to all enemies. If the target enemy is currently inflicted with Burn, then their Burn status immediately produce DMG equal to 72%-96% of their original DMG."
+            },
+            "talent": {
+                "name": "PatrAeon Benefits",
+                "tag": "Impair",
+                "description": "When Guinaifen is on the field, there is a 100% base chance to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives 4%-7.6% increased DMG, which lasts for 3 turn(s) and can stack up to 3 time(s)."
+            },
+            "technique": {
+                "name": "Skill Showcase",
+                "tag": "",
+                "description": "When Guinaifen is on the field, there is a 100% base chance to apply Firekiss to an enemy after their Burn status causes DMG. While inflicted with Firekiss, the enemy receives 4%-7.6% increased DMG, which lasts for 3 turn(s) and can stack up to 3 time(s)."
+            }
         },
         "eidolons": {}
     },
@@ -750,11 +815,31 @@
         "combat" : "Wind",
         "faction" : "Xianzhou Luofu",
         "skills" : {
-            "basic": {"name":"", "tag":"", "description":""},
-            "skill": {"name":"", "tag":"", "description":""},
-            "ult": {"name":"", "tag":"", "description":""},
-            "talent": {"name":"", "tag":"", "description":""},
-            "technique": {"name":"", "tag":"", "description":""}
+            "basic": {
+                "name": "Banner: Stormcaller",
+                "tag": "Single Target",
+                "description": "Deals Wind DMG equal to 25%-55% of Huohuo's Max HP to a target enemy."
+            },
+            "skill": {
+                "name": "Talisman: Protection",
+                "tag": "Restore",
+                "description": "Dispels 1 debuff(s) from a single target ally and immediately restores this ally's HP by an amount equal to 14%-22.4% of Huohuo's Max HP plus 140-623. At the same time, restores HP for allies that are adjacent to this target ally by an amount equal to 11.2%-17.92% of Huohuo's Max HP plus 112-498.4."
+            },
+            "ult": {
+                "name": "Tail: Spiritual Domination",
+                "tag": "Support",
+                "description": "Regenerates Energy for all allies (excluding this character) by an amount equal to 15%-21% of their respective Max Energy. At the same time, increases their ATK by 24%-43.2% for 2 turn(s)."
+            },
+            "talent": {
+                "name": "Possession: Ethereal Metaflow",
+                "tag": "Restore",
+                "description": "After using her Skill, Huohuo gains Divine Provision, lasting for 2 turn(s). This duration decreases by 1 turn at the start of each Huohuo's turn. If Huohuo has Divine Provision when an ally's turn starts or when an ally uses their Ultimate, restores HP for that ally by an amount equal to 3%-4.8% of Huohuo's Max HP plus 30-133.5. At the same time, every ally with 50% HP or lower receives healing once.When Divine Provision is triggered to heal an ally, dispel 1 debuff(s) from that ally. This effect can be triggered up to 6 time(s). Using the skill again resets the effect's trigger count."
+            },
+            "technique": {
+                "name": "Fiend: Impeachment of Evil",
+                "tag": "Impair",
+                "description": "After using her Skill, Huohuo gains Divine Provision, lasting for 2 turn(s). This duration decreases by 1 turn at the start of each Huohuo's turn. If Huohuo has Divine Provision when an ally's turn starts or when an ally uses their Ultimate, restores HP for that ally by an amount equal to 3%-4.8% of Huohuo's Max HP plus 30-133.5. At the same time, every ally with 50% HP or lower receives healing once.When Divine Provision is triggered to heal an ally, dispel 1 debuff(s) from that ally. This effect can be triggered up to 6 time(s). Using the skill again resets the effect's trigger count."
+            }
         },
         "eidolons": {}
     },
@@ -770,11 +855,36 @@
         "combat" : "Physical",
         "faction" : "Knights of Beauty",
         "skills" : {
-            "basic": {"name":"", "tag":"", "description":""},
-            "skill": {"name":"", "tag":"", "description":""},
-            "ult": {"name":"", "tag":"", "description":""},
-            "talent": {"name":"", "tag":"", "description":""},
-            "technique": {"name":"", "tag":"", "description":""}
+            "basic": {
+                "name": "Fleeting Fragrance",
+                "tag": "Single Target",
+                "description": "Deals Physical DMG equal to 50%-110% of Argenti's ATK to a single target enemy."
+            },
+            "skill": {
+                "name": "Justice, Hereby Blooms",
+                "tag": "AoE",
+                "description": "Deals Physical DMG equal to 60%-132% of Argenti's ATK to all enemies."
+            },
+            "ult": {
+                "name": "For In This Garden Supreme Beauty Bestows",
+                "tag": "AoE",
+                "description": "Consumes 90 Energy and deals Physical DMG equal to 96%-172.8% of Argenti's ATK to all enemies."
+            },
+            "ult2": {
+                "name": "Merit Bestowed in \"My\" Garden",
+                "tag": "AoE",
+                "description": "Consumes 180 Energy and deals Physical DMG equal to 168%-302.4% of Argenti's ATK to all enemies, and further deals DMG for 6 extra time(s), with each time dealing Physical DMG equal to 57%-102.6% of Argenti's ATK to a random enemy."
+            },
+            "talent": {
+                "name": "Sublime Object",
+                "tag": "Enhance",
+                "description": "For every enemy hit when Argenti uses his Basic Attack, Skill, or Ultimate, regenerates Argenti's Energy by 3, and grants him a stack of Apotheosis, increasing his CRIT Rate by 1%-2.8%. This effect can stack up to 10 time(s)."
+            },
+            "technique": {
+                "name": "Manifesto of Purest Virtue",
+                "tag": "Impair",
+                "description": "For every enemy hit when Argenti uses his Basic Attack, Skill, or Ultimate, regenerates Argenti's Energy by 3, and grants him a stack of Apotheosis, increasing his CRIT Rate by 1%-2.8%. This effect can stack up to 10 time(s)."
+            }
         },
         "eidolons": {}
     },
@@ -790,12 +900,294 @@
         "combat" : "Physical",
         "faction" : "",
         "skills" : {
+            "basic": {
+                "name": "Oracle Brush",
+                "tag": "Single Target",
+                "description": "Deals Physical DMG equal to 50%-110% of Hanya's ATK to a single enemy."
+            },
+            "skill": {
+                "name": "Samsara, Locked",
+                "tag": "Single Target",
+                "description": "Deals Physical DMG equal to 120%-264% of Hanya's ATK to a single enemy, then applies Burden to them.For every 2 Basic ATKs, Skills, or Ultimates allies use on an enemy with Burden, allies will immediately recover 1 Skill Point. Burden is only active on the latest target it is applied to, and will be dispelled automatically after the Skill Point recovery effect has been triggered 2 times."
+            },
+            "ult": {
+                "name": "Ten-Lords' Decree, All Shall Obey",
+                "tag": "Enhance",
+                "description": "Increases the SPD of a target ally by 15%-21% of Hanya's SPD and increases the same target ally's ATK by 36%-64.8%, lasting for 2 turn(s)."
+            },
+            "talent": {
+                "name": "Sanction",
+                "tag": "Support",
+                "description": "When an ally uses a Basic ATK, Skill, or Ultimate on an enemy inflicted with Burden, the DMG dealt increases by 15%-33% for 2 turn(s)."
+            },
+            "technique": {
+                "name": "Netherworld Judgment",
+                "tag": "",
+                "description": "When an ally uses a Basic ATK, Skill, or Ultimate on an enemy inflicted with Burden, the DMG dealt increases by 15%-33% for 2 turn(s)."
+            }
+        },
+        "eidolons": {}
+    },
+    {
+        "name": "Ruan Mei",
+        "id": 40,
+        "description": "A member of the Genius Society and an expert in life sciences. She teamed up with Herta and others to develop the Simulated Universe.",
+        "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2023/12/25/d8ac43b6abd3b9210deebd8a50eae5d1_4760046445899355689.png",
+        "picture": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2023/12/25/a1e3b879dfd5b4a7bbbef9e0f945cd3e_6228894815740263585.png",
+        "path": "The Harmony",
+        "combat": "Ice",
+        "faction": "Herta Space Station",
+        "skills": {
+            "basic": {
+                "name": "Threading Fragrance",
+                "tag": "Single Target",
+                "description": "Deals Ice DMG equal to 50%-110% of Ruan Mei's ATK to a single target enemy."
+            },
+            "skill": {
+                "name": "String Sings Slow Swirls",
+                "tag": "Support",
+                "description": "After using her Skill, Ruan Mei gains Overtone, lasting for 3 turn(s). This duration decreases by 1 at the start of Ruan Mei's turn. When Ruan Mei has Overtone, all allies' DMG increases by 16%-35.2% and Weakness Break Efficiency increases by 50%."
+            },
+            "ult": {
+                "name": "Petals to Stream, Repose in Dream",
+                "tag": "Support",
+                "description": "Ruan Mei deploys a field that lasts for 2 turns. The field's duration decreases by 1 at the start of her turn.While inside the field, all allies' All-Type RES PEN increases by 15%-27% and their attacks apply Thanatoplum Rebloom to the enemies hit.When these enemies attempt to recover from Weakness Break, Thanatoplum Rebloom is triggered, extending the duration of their Weakness Break, delaying their action by an amount equal to 20% of Ruan Mei's Break Effect plus 10%, and dealing Break DMG equal to 30%-54% of Ruan Mei's Ice Break DMG.Enemy targets cannot have Thanatoplum Rebloom re-applied to them until they recover from Weakness Break."
+            },
+            "talent": {
+                "name": "Somatotypical Helix",
+                "tag": "Support",
+                "description": "Increases SPD by 8%-10.4% for the team (excluding this character). When allies Break an enemy target's Weakness, Ruan Mei deals to this enemy target Break DMG equal to 60%-132% of her Ice Break DMG."
+            },
+            "technique": {
+                "name": "Silken Serenade",
+                "tag": "Enhance",
+                "description": "Increases SPD by 8%-10.4% for the team (excluding this character). When allies Break an enemy target's Weakness, Ruan Mei deals to this enemy target Break DMG equal to 60%-132% of her Ice Break DMG."
+            }
+        }
+    },
+    {
+        "name": "Dr. Ratio",
+        "id": 41,
+        "description": "An eccentric, self-centered, slightly gloomy, and yet elegant Intelligentsia Guild member.\nHe often wears a bizarre plaster head sculpture over his head despite his handsome features.",
+        "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/01/15/3fb391fb0d308ea8e89ea3ca32e8dc3b_8950865032730427405.png",
+        "picture": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/01/15/ffd54084256ea1c169d6d4665189a4dd_7121598687205664795.png",
+        "path": "The Hunt",
+        "combat": "Imaginary",
+        "faction": "Intelligentsia Guild",
+        "skills": {
+            "basic": {
+                "name": "Mind is Might",
+                "tag": "Single Target",
+                "description": "Deals Imaginary DMG equal to 50%-110% of Dr. Ratio's ATK to a single target enemy."
+            },
+            "skill": {
+                "name": "Intellectual Midwifery",
+                "tag": "Single Target",
+                "description": "Deals Imaginary DMG equal to 75%-165% of Dr. Ratio's ATK to a single target enemy."
+            },
+            "ult": {
+                "name": "Syllogistic Paradox",
+                "tag": "Single Target",
+                "description": "Deals Imaginary DMG equal to 144%-259.2% of Dr. Ratio's ATK to a single target enemy and applies Wiseman's Folly. When Dr. Ratio's allies attack a target afflicted with Wiseman's Folly, Dr. Ratio launches his Talent's follow-up attack for 1 time against this target.Wiseman's Folly can be triggered for up to 2 times and only affects the most recent target of Dr. Ratio's Ultimate. This trigger count resets after Dr. Ratio's Ultimate is used."
+            },
+            "talent": {
+                "name": "Cogito, Ergo Sum",
+                "tag": "Single Target",
+                "description": "When using his Skill, Dr. Ratio has a 40% fixed chance of launching a follow-up attack against his target for 1 time, dealing Imaginary DMG equal to 135%-297% of Dr. Ratio's ATK. For each debuff the target enemy has, the fixed chance of launching follow-up attack increases by 20%. If the target enemy is defeated before the follow-up attack triggers, the follow-up attack will be directed at a single random enemy instead."
+            },
+            "technique": {
+                "name": "Mold of Idolatry",
+                "tag": "Impair",
+                "description": "When using his Skill, Dr. Ratio has a 40% fixed chance of launching a follow-up attack against his target for 1 time, dealing Imaginary DMG equal to 135%-297% of Dr. Ratio's ATK. For each debuff the target enemy has, the fixed chance of launching follow-up attack increases by 20%. If the target enemy is defeated before the follow-up attack triggers, the follow-up attack will be directed at a single random enemy instead."
+            }
+        }
+    },
+    {
+        "name": "Xueyi",
+        "id": 42,
+        "description": "Judge of the Ten-Lords Commission, which controls life and death on the Luofu. For years after her death, she inhabited a puppet body and returned to the world to fulfill her mission.",
+        "rarity": "\u2726 \u2726 \u2726 \u2726",
+        "thumb": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2023/12/25/167256510/c4c71675cb2e2b0ecd158de74ee4bd50_6591375477037031331.png",
+        "picture": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2023/12/25/167256510/95758b20df9d0b94a2e6ac7e7976efb7_480514473823235648.png",
+        "path": "The Destruction",
+        "combat": "Quantum",
+        "faction": "Xianzhou Luofu",
+        "skills": {
+            "basic": {
+                "name": "Mara-Sunder Awl",
+                "tag": "Single Target",
+                "description": "Deals 50%-110% of Xueyi's ATK as Quantum DMG to a single target enemy."
+            },
+            "skill": {
+                "name": "Iniquity Obliteration",
+                "tag": "Blast",
+                "description": "Deals Quantum DMG equal to 70%-154% of Xueyi's ATK to a single enemy, and Quantum DMG equal to 35%-77% of Xueyi's ATK to any adjacent enemies."
+            },
+            "ult": {
+                "name": "Divine Castigation",
+                "tag": "Single Target",
+                "description": "Deals Quantum DMG equal to 150%-270% of Xueyi's ATK to a single target enemy. This attack ignores Weakness Types and reduces the enemy's Toughness. When the enemy's Weakness is Broken, the Quantum Weakness Break effect is triggered.In this attack, the more Toughness is reduced, the higher the DMG will be dealt, up to a max of 36%-64.8% increase."
+            },
+            "talent": {
+                "name": "Karmic Perpetuation",
+                "tag": "Bounce",
+                "description": "When Xueyi reduces enemy Toughness with attacks, Karma will be stacked. The more Toughness is reduced, the more stacks of Karma are added, up to 8 stacks.When Xueyi's allies reduce enemy Toughness with attacks, Xueyi gains 1 stacks of Karma.When Karma reaches the max number of stacks, consumes all current Karma stacks and immediately launches a follow-up attack against an enemy target, dealing DMG for 3 times, with each time dealing Quantum DMG equal to 45%-99% of Xueyi's ATK to a single random enemy. This follow-up attack will not add Karma stacks."
+            },
+            "technique": {
+                "name": "Summary Execution",
+                "tag": "",
+                "description": "When Xueyi reduces enemy Toughness with attacks, Karma will be stacked. The more Toughness is reduced, the more stacks of Karma are added, up to 8 stacks.When Xueyi's allies reduce enemy Toughness with attacks, Xueyi gains 1 stacks of Karma.When Karma reaches the max number of stacks, consumes all current Karma stacks and immediately launches a follow-up attack against an enemy target, dealing DMG for 3 times, with each time dealing Quantum DMG equal to 45%-99% of Xueyi's ATK to a single random enemy. This follow-up attack will not add Karma stacks."
+            }
+        }
+    },
+    {
+        "name": "Black Swan",
+        "id": 43,
+        "description": "A Memokeeper of the Garden of Recollection. A mysterious and elegant soothsayer.\nShe often wears a warm smile and is willing to patiently listen to the words of others, thus using such means as a pretext to enter \"memories\" and gain omniscience over certain matters.\nA lady passionate about collecting unique memories, yet the thoughts that guide her are hard to glean.",
+        "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/02/04/2262abfd4d364802d02de83985ce2ccc_1374510882608270077.png",
+        "picture": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/02/04/3b08e6fb550b9ce40aab2f1abe862420_6312031626798837302.png",
+        "path": "The Nihility",
+        "combat": "Wind",
+        "faction": "Garden of Recollection",
+        "skills": {
+            "basic": {
+                "name": "Percipience, Silent Dawn",
+                "tag": "Single Target",
+                "description": "Deals Wind DMG equal to 30%-66% of Black Swan's ATK to a single target enemy, with a 50%-68% base chance of inflicting 1 stack of Arcana. And if the hit target currently has Wind Shear, Bleed, Burn, or Shock applied to them, each respectively has a 50%-68% base chance of inflicting 1 extra stack of Arcana onto the enemy."
+            },
+            "skill": {
+                "name": "Decadence, False Twilight",
+                "tag": "Blast",
+                "description": "Deals Wind DMG equal to 45%-99% of Black Swan's ATK to a single target enemy and any adjacent targets. At the same time, there is a 100% base chance of inflicting 1 stack of Arcana on the target enemy and the adjacent targets. And there is a 100% base chance of reducing the DEF of the target enemy and the adjacent targets by 14.8%-22%, lasting for 3 turn(s)."
+            },
+            "ult": {
+                "name": "Bliss of Otherworld's Embrace",
+                "tag": "AoE",
+                "description": "Inflicts Epiphany on all enemies for 2 turn(s).Enemies affected by Epiphany take 15%-27% more DMG in their turn, and their Arcana effect is regarded as Wind Shear, Bleed, Burn, and Shock effects. In addition, when their Arcana effect is triggered at the beginning of the next turn, the Arcana stacks are not reset. The stack non-reset effect can be triggered up to 1 time(s) in Epiphany's duration, and its charges are replenished when Epiphany is applied again.Deals Wind DMG equal to 72%-129.6% of Black Swan's ATK to all enemies."
+            },
+            "talent": {
+                "name": "Loom of Fate's Caprice",
+                "tag": "Impair",
+                "description": "Every time an enemy target receives DoT at the start of each turn, there is a 50%-68% base chance for it to be inflicted with Arcana.While afflicted with Arcana, enemy targets receive Wind DoT equal to 96%-264% of Black Swan's ATK at the start of each turn. Each stack of Arcana increases this DoT DMG multiplier by 4.8%-13.2%. Then Arcana resets to 1 stack. Arcana can stack up to 50 times.Only when Arcana causes DMG at the start of an enemy target's turn, Black Swan triggers additional effects based on the number of Arcana stacks inflicted on the target:When there are 3 or more Arcana stacks, deals Wind DoT equal to 72%-198% of Black Swan's ATK to adjacent targets, with a 50%-68% base chance of inflicting 1 stack of Arcana on adjacent targets.When there are 7 or more Arcana stacks, enables the current DoT dealt this time to ignore 20% of the target's and adjacent targets' DEF."
+            },
+            "technique": {
+                "name": "From Façade to Vérité",
+                "tag": "Enhance",
+                "description": "Every time an enemy target receives DoT at the start of each turn, there is a 50%-68% base chance for it to be inflicted with Arcana.While afflicted with Arcana, enemy targets receive Wind DoT equal to 96%-264% of Black Swan's ATK at the start of each turn. Each stack of Arcana increases this DoT DMG multiplier by 4.8%-13.2%. Then Arcana resets to 1 stack. Arcana can stack up to 50 times.Only when Arcana causes DMG at the start of an enemy target's turn, Black Swan triggers additional effects based on the number of Arcana stacks inflicted on the target:When there are 3 or more Arcana stacks, deals Wind DoT equal to 72%-198% of Black Swan's ATK to adjacent targets, with a 50%-68% base chance of inflicting 1 stack of Arcana on adjacent targets.When there are 7 or more Arcana stacks, enables the current DoT dealt this time to ignore 20% of the target's and adjacent targets' DEF."
+            }
+        }
+    },
+    {
+        "name": "Sparkle (Coming Soon)",
+        "id": 44,
+        "description": "Coming Soon",
+        "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2023/12/14/5308864/92c661381319db705a2af8b047406c92_1764361586477527224.png",
+        "picture": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2023/12/14/5308864/71d9e0b6504b39811364d09b8e1936cf_2717607901320936080.png",
+        "path": "The Harmony",
+        "combat": "Quantum",
+        "faction": "Masked Fools",
+        "skills" : {
             "basic": {"name":"", "tag":"", "description":""},
             "skill": {"name":"", "tag":"", "description":""},
             "ult": {"name":"", "tag":"", "description":""},
             "talent": {"name":"", "tag":"", "description":""},
             "technique": {"name":"", "tag":"", "description":""}
-        },
-        "eidolons": {}
+        }
+    },
+    {
+        "name": "Misha",
+        "id": 45,
+        "description": "A well-behaved young man serving as a hotel bellboy in Penacony.\nMisha has a great longing for the Nameless and dreams of one day embarking on a journey of his own.",
+        "rarity": "\u2726 \u2726 \u2726 \u2726",
+        "thumb": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/02/04/cb544dfa0bbac9570be20fe13f044026_561198420637866337.png",
+        "picture": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/02/04/700cceeecd1073e4c246daec1b3f58cf_8905838742476108170.png",
+        "path": "The Destruction",
+        "combat": "Ice",
+        "faction": "Penacony",
+        "skills" : {
+            "basic": {
+                "name": "E-Excuse Me, Please!",
+                "tag": "Single Target",
+                "description": "Deals Ice DMG equal to 50%-110% of Misha's ATK to a single target enemy."
+            },
+            "skill": {
+                "name": "R-Room Service",
+                "tag": "Blast",
+                "description": "Increases the Hits Per Action for Misha's next Ultimate by 1 hit(s). Deals Ice DMG equal to 100%-220% of Misha's ATK to a single target enemy, and Ice DMG equal to 40%-88% of Misha's ATK to adjacent targets."
+            },
+            "ult": {
+                "name": "G-Gonna Be Late!",
+                "tag": "Bounce",
+                "description": "Has 3 Hits Per Action by default. First, uses 1 hit to deal Ice DMG equal to 36%-64.8% of Misha's ATK to a single target enemy. Then, the rest of the hits each deals Ice DMG equal to 36%-64.8% of Misha's ATK to a single random enemy. Just before each hit lands, there is a 12%-21.6% base chance to Freeze the target, lasting for 1 turn.While Frozen, enemy targets cannot take any actions, and at the start of their turn, they receive Additional Ice DMG equal to 18%-32.4% of Misha's ATK.This Ultimate can possess up to 10 Hits Per Action. After the Ultimate is used, its Hits Per Action will be reset to the default level."
+            },
+            "talent": {
+                "name": "Horological Escapement",
+                "tag": "Enhance",
+                "description": "Whenever any ally consumes 1 Skill Point, Misha's next Ultimate delivers 1 more Hit(s) Per Action and Misha regenerates 1-2.2 Energy."
+            },
+            "technique": {
+                "name": "Wait, You Are So Beautiful!",
+                "tag": "Impair",
+                "description": "After using the Technique, creates a dimension that lasts for 15 seconds. Enemies caught in the dimension are inflicted with Dream Prison and stop all their actions. Upon entering battle against enemies afflicted with Dream Prison, increases the Hits Per Action for Misha's next Ultimate by 2 hit(s). Only 1 dimension created by allies can exist at the same time."
+            }
+        }
+    },
+    {
+        "name": "Acheron (Coming Soon)",
+        "id": 46,
+        "description": "Acheron (Coming Soon)",
+        "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/24/5308864/4bcdfe9e14ce11cf76b78c7ad618eb9e_2082325428034746380.png",
+        "picture": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/24/5308864/4557011b2b62fe0a3157de9cc42348f2_7558594162039127084.png",
+        "path": "The Nihility",
+        "combat": "Lightning",
+        "faction": "Galaxy Ranger",
+        "skills" : {
+            "basic": {"name":"", "tag":"", "description":""},
+            "skill": {"name":"", "tag":"", "description":""},
+            "ult": {"name":"", "tag":"", "description":""},
+            "talent": {"name":"", "tag":"", "description":""},
+            "technique": {"name":"", "tag":"", "description":""}
+        }
+    },
+    {
+        "name": "Aventurine (Coming Soon)",
+        "id": 47,
+        "description": "Coming Soon",
+        "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/24/5308864/a295658476cf9532a669beb04f77ea48_8799558608390442652.png",
+        "picture": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/24/5308864/314ba5caa6a606c2e5ac8a6fdec5d0d5_5439415260804197740.png",
+        "path": "The Preservation",
+        "combat": "Imaginary",
+        "faction": "Interastral Peace Corporation",
+        "skills" : {
+            "basic": {"name":"", "tag":"", "description":""},
+            "skill": {"name":"", "tag":"", "description":""},
+            "ult": {"name":"", "tag":"", "description":""},
+            "talent": {"name":"", "tag":"", "description":""},
+            "technique": {"name":"", "tag":"", "description":""}
+        }
+    },
+    {
+        "name": "Gallagher (Coming Soon)",
+        "id": 48,
+        "description": "Coming Soon",
+        "rarity": "\u2726 \u2726 \u2726 \u2726",
+        "thumb": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/25/5308864/78c52773b88aa52b2f76950e8a0fa628_4549458641527267005.png",
+        "picture": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/25/5308864/c013dc642289a98ad5399e8cf21da248_5787079781416730253.png",
+        "path": "The Abundance",
+        "combat": "Fire",
+        "faction": "Penacony",
+        "skills" : {
+            "basic": {"name":"", "tag":"", "description":""},
+            "skill": {"name":"", "tag":"", "description":""},
+            "ult": {"name":"", "tag":"", "description":""},
+            "talent": {"name":"", "tag":"", "description":""},
+            "technique": {"name":"", "tag":"", "description":""}
+        }
     }
 ]

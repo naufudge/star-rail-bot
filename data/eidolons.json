@@ -1024,5 +1024,302 @@
             "name": "Dawn of Explorers' Chart",
             "description": "Additionally boosts the Max HP increasing effect of \"Survival Response\" by an amount equal to 6% of Lynx's Max HP and increases Effect RES by 30%."
         }
+    },
+    {
+        "character": "Jingliu",
+        "e1": {
+            "name": "Moon Crashes Tianguan Gate",
+            "description": "When using her Ultimate or Enhanced Skill, Jingliu's CRIT DMG increases by 24% for 1 turn(s). If only one enemy target is attacked, the target will additionally be dealt Ice DMG equal to 100% of Jingliu's ATK."
+        },
+        "e2": {
+            "name": "Crescent Shadows Qixing Dipper",
+            "description": "After using Ultimate, increases the DMG of the next Enhanced Skill by 80%."
+        },
+        "e3": {
+            "name": "Halfmoon Gapes Mercurial Haze",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e4": {
+            "name": "Lunarlance Shines Skyward Dome",
+            "description": "During the Spectral Transmigration state, the ATK gained from consuming allies' HP is additionally increased by 90% of the total HP consumed from the entire team. The cap for ATK gained this way also increases by 30%."
+        },
+        "e5": {
+            "name": "Night Shades Astral Radiance",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e6": {
+            "name": "Eclipse Hollows Corporeal Husk",
+            "description": "When Jingliu enters the Spectral Transmigration state, the Syzygy stack limit increases by 1, and Jingliu obtains 1 stack(s) of Syzygy. While she is in the Spectral Transmigration state, her CRIT DMG increases by 50%."
+        }
+    },
+    {
+        "character": "Topaz & Numby",
+        "e1": {
+            "name": "Future Market",
+            "description": "When enemies afflicted with Proof of Debt receive follow-up attacks, they will enter the Debtor state. This can take effect only once within a single action."
+        },
+        "e2": {
+            "name": "Bona Fide Acquisition",
+            "description": "After Numby takes action and launches an attack, Topaz regenerates 5 Energy."
+        },
+        "e3": {
+            "name": "Seize the Big and Free the Small",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        "e4": {
+            "name": "Agile Operation",
+            "description": "After Numby's turn begins, Topaz's action is Advanced Forward by 20%."
+        },
+        "e5": {
+            "name": "Inflationary Demand",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e6": {
+            "name": "Incentive Mechanism",
+            "description": "Numby's attack count during the Windfall Bonanza! state increases by 1, and its Fire RES PEN increases by 10% when it attacks."
+        }
+    },
+    {
+        "character": "Guinaifen",
+        "e1": {
+            "name": "Slurping Noodles During Handstand",
+            "description": "When Skill is used, there is a 100% base chance to reduce the attacked target enemy's Effect RES by 10% for 2 turn(s)."
+        },
+        "e2": {
+            "name": "Brushing Teeth While Whistling",
+            "description": "When an enemy target is Burned, Guinaifen's Basic ATK and Skill can increase the DMG multiplier of their Burn status by 40%."
+        },
+        "e3": {
+            "name": "Smashing Boulder on Chest",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        "e4": {
+            "name": "Blocking Pike with Neck",
+            "description": "Every time the Burn status inflicted by Guinaifen causes DMG, Guinaifen regenerates 2 Energy."
+        },
+        "e5": {
+            "name": "Swallowing Sword to Stomach",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e6": {
+            "name": "Catching Bullet with Hands",
+            "description": "Increases the stackable Firekiss count by 1."
+        }
+    },
+    {
+        "character": "Huohuo",
+        "e1": {
+            "name": "Anchored to Vessel, Specters Nestled",
+            "description": "The duration of Divine Provision produced by the Talent is extended by 1 turn(s). When Houhou possesses Divine Provision, all allies' SPD increases by 12%."
+        },
+        "e2": {
+            "name": "Sealed in Tail, Wraith Subdued",
+            "description": "If Houhou possesses Divine Provision when an ally is struck by a killing blow, the ally will not be knocked down, and their HP will immediately be restored by an amount equal to 50% of their Max HP. This reduces the duration of Divine Provision by 1 turn. This effect can only be triggered 2 time(s) per battle."
+        },
+        "e3": {
+            "name": "Cursed by Fate, Moths to Flame",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e4": {
+            "name": "Tied in Life, Bound to Strife",
+            "description": "When healing a target ally via Skill or Talen, the less HP the target ally currently has, the higher the amount of healing they will receive. The maximum increases in healing provided by Houhou is 80%."
+        },
+        "e5": {
+            "name": "Mandated by Edict, Evils Evicted",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e6": {
+            "name": "Woven Together, Cohere Forever",
+            "description": "When healing a target ally, increases the target ally's DMG dealt by 50% for 2 turn(s)."
+        }
+    },
+    {
+        "character": "Argenti",
+        "e1": {
+            "name": "A Lacuna in Kingdom of Aesthetics",
+            "description": "Each stack of Apotheosis additionally increases CRIT DMG by 4%."
+        },
+        "e2": {
+            "name": "Agate's Humility",
+            "description": "If the number of enemies on the field equals to 3 or more when the Ultimate is used, ATK increases by 40]% for 1 turn(s)."
+        },
+        "e3": {
+            "name": "Thorny Road's Glory",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e4": {
+            "name": "Trumpet's Dedication",
+            "description": "At the start of battle, gains 2 stack(s) of Apotheosis and increases the maximum stack limit of the Talent's effect by 2."
+        },
+        "e5": {
+            "name": "Snow, From Somewhere in Cosmos",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        "e6": {
+            "name": "\"Your\" Resplendence",
+            "description": "When using Ultimate, ignores 30% of enemy targets' DEF."
+        }
+    },
+    {
+        "character": "Hanya",
+        "e1": {
+            "name": "One Heart",
+            "description": "When an ally with Hanya's Ultimate's effect defeats an enemy, Hanya's action is Advanced Forward by 15%. This effect can only be triggered 1 time(s) per turn."
+        },
+        "e2": {
+            "name": "Two Views",
+            "description": "After using the Skill, this character's SPD increases by 20% for 1 turn(s)."
+        },
+        "e3": {
+            "name": "Three Temptations",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        "e4": {
+            "name": "Four Truths",
+            "description": "The Ultimate's duration is additionally extended for 1 turn(s)."
+        },
+        "e5": {
+            "name": "Five Skandhas",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e6": {
+            "name": "Six Reverences",
+            "description": "Increase the DMG Boost effect of the Talent by an additional 10%."
+        }
+    },
+    {
+        "character": "Ruan Mei",
+        "e1": {
+            "name": "Neuronic Embroidery",
+            "description": "While the Ultimate's field is deployed, the DMG dealt by all allies ignores 20% of the target's DEF."
+        },
+        "e2": {
+            "name": "Reedside Promenade",
+            "description": "With Ruan Mei on the field, all allies increase their ATK by 40% when dealing DMG to enemies with Weakness Break."
+        },
+        "e3": {
+            "name": "Viridescent Pirouette",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e4": {
+            "name": "Chatoyant \u00c9clat",
+            "description": "When an enemy target's Weakness is Broken, Ruan Mei's Break Effect increases by 100% for 3 turn(s)."
+        },
+        "e5": {
+            "name": "Languid Barrette",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        "e6": {
+            "name": "Sash Cascade",
+            "description": "Extends the duration of the Ultimate's field by 1 turn(s). The Talent's Break DMG multiplier additionally increases by 200%."
+        }
+    },
+    {
+        "character": "Dr. Ratio",
+        "e1": {
+            "name": "Pride Comes Before a Fall",
+            "description": "The maximum stackable count for the Trace \"Summation\" increases by 4. When a battle begins, immediately obtains 4 stacks of Summation. Needs to unlock Summation first."
+        },
+        "e2": {
+            "name": "The Divine Is in the Details",
+            "description": "When his Talent's follow-up attack hits a target, for every debuff the target has, additionally deals Imaginary Additional DMG equal to 20% of Dr. Ratio's ATK. This effect can be triggered for a maximum of 4 time(s) during each follow-up attack."
+        },
+        "e3": {
+            "name": "Know Thyself",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        "e4": {
+            "name": "Ignorance Is Blight",
+            "description": "When triggering the Talent, additionally regenerates 15 Energy for Dr. Ratio."
+        },
+        "e5": {
+            "name": "Sic Itur Ad Astra",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e6": {
+            "name": "Vincit Omnia Veritas",
+            "description": "Additionally increases the triggerable count for Wiseman's Folly by 1. The DMG dealt by the Talent's follow-up attack increases by 50%."
+        }
+    },
+    {
+        "character": "Xueyi",
+        "e1": {
+            "name": "Dvesha, Inhibited",
+            "description": "Increases the DMG dealt by the Talent's follow-up attack by 40%."
+        },
+        "e2": {
+            "name": "Klesha, Breached",
+            "description": "Talent's follow-up attack reduces enemy Toughness regardless of Weakness types. At the same time, restores Xueyi's HP by an amount equal to 5% of her Max HP. When breaking Weakness, triggers the Quantum Break Effect."
+        },
+        "e3": {
+            "name": "Du\u1e25kha, Ceased",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e4": {
+            "name": "Karma, Severed",
+            "description": "When using Ultimate, increases Break Effect by 40% for 2 turn(s)."
+        },
+        "e5": {
+            "name": "Deva, Enthralled",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e6": {
+            "name": "Sa\u1e43s\u0101ra, Mastered",
+            "description": "The max stack limit for Karma decreases to 6."
+        }
+    },
+    {
+        "character": "Misha",
+        "e1": {
+            "name": "Whimsicality of Fancy",
+            "description": "When using the Ultimate, for every enemy on the field, additionally increases the Hits Per Action for the Ultimate by 1 hit(s), up to a maximum increase of 5 hit(s)."
+        },
+        "e2": {
+            "name": "Yearning of Youth",
+            "description": "Before each hit of the Ultimate lands, there is a 24% base chance of reducing the target's DEF by 16% for 3 turn(s)."
+        },
+        "e3": {
+            "name": "Vestige of Happiness",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        "e4": {
+            "name": "Visage of Kinship",
+            "description": "Increases the DMG multiplier for each hit of the Ultimate by 6%."
+        },
+        "e5": {
+            "name": "Genesis of First Love",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e6": {
+            "name": "Estrangement of Dream",
+            "description": "When using the Ultimate, increases own DMG by 30%, lasting until the end of the turn. In addition, the next time the Skill is used, recovers 1 Skill Point(s) for the team."
+        }
+    },
+    {
+        "character": "Black Swan",
+        "e1": {
+            "name": "Seven Pillars of Wisdom",
+            "description": "While Black Swan is active in battle, enemies afflicted with Wind Shear, Bleed, Burn, or Shock will have their corresponding Wind, Physical, Fire, or Lightning RES respectively reduced by 25%."
+        },
+        "e2": {
+            "name": "Weep Not For Me, My Lamb",
+            "description": "When an enemy target afflicted with Arcana is defeated, there is a 100% base chance of inflicting 6 stack(s) of Arcana on adjacent targets."
+        },
+        "e3": {
+            "name": "As Above, So Below",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e4": {
+            "name": "In Tears We Gift",
+            "description": "While in the Epiphany state, enemy targets have their Effect RES reduced by 10%. And at the start of their turn or when they get defeated, Black Swan regenerates 8 Energy. This Energy Regeneration effect can only trigger up to 1 time while Epiphany lasts. And this trigger count resets after the enemy gets inflicted with Epiphany again."
+        },
+        "e5": {
+            "name": "Linnutee Flyway",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        "e6": {
+            "name": "Pantheon Merciful, Masses Pitiful",
+            "description": "When enemy targets get attacked by Black Swan's allies, Black Swan has a 65% base chance of inflicting 1 stack of Arcana on the target.\nEach time Black Swan inflicts Arcana on an enemy target, there is a 50% fixed chance to additionally increase the number of Arcana stacks afflicted this time by 1."
+        }
     }
 ]

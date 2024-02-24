@@ -758,5 +758,175 @@
         "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/90/Light_Cone_Solitary_Healing.png",
         "picture": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/08/25/167256510/490019a1c0cfe292ac02166c18c089ae_1509006542286448613.png",
         "source": "Simulated Universe (Herta's Store)"
+    },
+    {
+        "name": "Worrisome, Blissful",
+        "path": "The Hunt <:hunt:1108984298977116203>",
+        "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "description": "For a competent IPC professional, \"feeling overwhelmed\" is absolutely not allowed.\nStand tall and take on whatever comes your way, be it burnout or overwork!\nUnless... it's being overwhelmed by \"them.\"\n\"Oh, don't get so antsy! I only have two hands!\"\nA girl who just returned home from working overtime is pinned down by a group of fluffy creatures.\nThey may not fully understand her words, simply nuzzling their round heads closer to her palm.\nThe feeling of exhaustion gradually fades from her body, replaced by the warmth and comfort brought by stroking their fur.",
+        "effect": "Increase the wearer's CRIT Rate by 18%/21%/24%/27%/30% and their follow-up attacks' DMG by 30%/35%/40%/45%/50%. After the wearer uses a follow-up attack, apply the Tame state to the target, stacking up to 2 stacks. When allies hit enemy targets under the Tame state, every Tame stack increases the CRIT DMG dealt by 12%/14%/16%/18%/20%.",
+        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/37/Light_Cone_Worrisome%2C_Blissful.png",
+        "picture": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/10/01/6799252/4f2ab7074d519b215cd150b8cf1f433a_3257119075936702359.png",
+        "source": "Limited Warp"
+    },
+    {
+        "name": "I Shall Be My Own Sword",
+        "path": "The Destruction <:destruction:1108984285060407396>",
+        "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "description": "The blade shattered, plunging into the bone-chilling cold.\nAll earthly instruments are mere futilities, their worth discernible with a single glance.\n\"What use do I have of swords?\"\nShe holds no attachment, nor does her gaze accommodate anything within.\n\"From now on, I shall be my own sword.\"\nTo transcend perceived precipices and achieve unprecedented breakthroughs,\none must regard themselves as \"kindling\" to fuel their own fire.",
+        "effect": "Increases the wearer's CRIT DMG by 20%/23%/26%/29%/32%. When an ally gets attacked or loses HP, the wearer gains 1 stack of Eclipse, up to a max of 3 stacks. Each stack of Eclipse increases the DMG of the wearer's next attack by 14%/16.5%/19%/21.5%/24%. When 3 stacks are reached, additionally enables the attack to ignore 12%/14%/16%/18%/20% of the enemy's DEF. This effect will be removed after the wearer uses an attack.",
+        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c7/Light_Cone_I_Shall_Be_My_Own_Sword.png",
+        "picture": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/10/01/6799252/0f027ac017c57d6b62617d379e3087fc_2587795555586038708.png",
+        "source": "Limited Warp"
+    },
+    {
+        "name": "An Instant Before A Gaze",
+        "path": "The Erudition <:erudition:1108984287455359109>",
+        "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "description": "He once heard a ballad, singing in praise of that sliver of light:\nRose blooms, to answer THEIR smile.\nDawn shines, to illuminate THEIR visage.\nMelody plays, to banish THEIR fatigue.\nBut, light, once gone, never returns. Yet, he still gallops to the far beyond.\nAll that is needed is to wait for, to believe in, and to preach about everything that is of the Beauty in this cosmos.\nEven if everything is but a fleeting instant before a gaze, he has already found the answer he sought.",
+        "effect": "Increases the wearer's CRIT DMG by 36%/42%/48%/54%/60%. When the wearer uses Ultimate, increases the wearer's Ultimate DMG based on their Max Energy. Each point of Energy increases the Ultimate DMG by 0.36%/0.42%/0.48%/0.54%/0.6%, up to 180 points of Energy.",
+        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/2/24/Light_Cone_An_Instant_Before_A_Gaze.png",
+        "picture": "https://upload-static.hoyoverse.com/hoyowiki/2023/12/05/0e2afe2fd46c9699a4e73807bf63e794_4690802445219194102.png",
+        "source": "Limited Warp"
+    },
+    {
+        "name": "Hey, Over Here",
+        "path": "The Abundance <:abundance:1106840945418313808>",
+        "rarity": "\u2726 \u2726 \u2726 \u2726",
+        "description": "Three girls stroll in the darkness, and the surroundings seem to gain a hint of eeriness.\n\"Huohuo, hurry up or we won't wait for you!\"\nShe steps forward confidently with her phone clutched in her hand, seemingly unaffected by the paranormal ambiance.\n\"I-I'm over here!\"\nThe girl standing ahead responds timidly.\n\"Huh? So you were in the front all along, then who is following Shangshang and me...\"\nThe perfect end for this scene would definitely be a girlish scream.",
+        "effect": "Increases the wearer's Max HP by 8%/9%/10%/11%/12%. Increases Outgoing Healing when the wearer uses their Skill by 16%/19%/22%/25%/28%, lasting for 2 turns.",
+        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/45/Light_Cone_Hey%2C_Over_Here.png",
+        "picture": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/11/19/167256510/a456df12439bf48602745abaf0faefe8_3738571763511981481.png",
+        "source": "- Limited reward from A Foxian Tale of the Haunted event \n- Superimposition requires Exorcismal Fulu instead of an identical Light Cone"
+    },
+    {
+        "name": "Night of Fright",
+        "path": "The Abundance <:abundance:1106840945418313808>",
+        "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "description": "The girl hides behind the door and dares not move one step closer.\nPerhaps due to the fact that tonight's objective is already within her reach, her heart is actually beating faster.\n\"I'm not scared, not scared, not scared...\"\nIn darkness, silence lets out a piercing scream.\nThe girl is shivering and grasps the \"weapon\" in her hands tight, but still does not dare to approach the \"target.\"\n\"There is nothing to be s-s-scared of!\"\nThe tail behind her has finally had enough and suddenly lights up.\n\"Hurry up. You're just picking up a delivery!\"",
+        "effect": "Increases the wearer's Energy Regeneration Rate by 12%/14%/16%/18%/20%. When any ally uses their Ultimate, restores HP to them equal to 10%/11%/12%/13%/14% of their Max HP. When the wearer provides healing for allies, increases the healed ally's ATK by 2.4%/2.8%/3.2%/3.6%/4.0%. This effect can stack up to 5 times and lasts for 2 turn(s).",
+        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/df/Light_Cone_Night_of_Fright.png",
+        "picture": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/11/09/5308864/636bc159e273bad34ecd7c978122d742_9086345269915155643.png",
+        "source": "Limited Warp"
+    },
+    {
+        "name": "Past Self in Mirror",
+        "path": "The Harmony <:harmony:1108984292312358972>",
+        "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "description": "She once loved to seal the moment when plum blossoms were on the verge of wilting and keep them close to her.\nIt has been many years since then. Many lifeforms - rambunctious, sweet, and everything in between - have bloomed from her hands, but the plum blossoms still wilt at their preordained times.\nIt has been many years since then. Her visage in the mirror seems untouched by time. But, in the grand scheme of the cosmos, is she too destined to last for but a fleeting moment?\n\"If all is set for eventual demise, what purpose, then, does creation serve?\"\nAfter a silence that seems to stretch to eternity, the winds blow, the petals fall, and the reflection in the mirror tenders the same answer as always.\n\"For the day when plum blossoms are no longer kept.\"\nShe deftly caresses the icy surface of the mirror. Such soliloquies have happened too many times for her to count.",
+        "effect": "Increases the wearer's Break Effect by 60%/70%/80%/90%/100%. When the wearer uses their Ultimate, increases all allies' DMG by 24%/28%/32%/36%/40%, lasting for 3 turn(s). Should the wearer's Break Effect exceed or equal 150%, 1 Skill Point will be recovered. At the start of each wave, all allies regenerate 10/12.5/15/17.5/20 Energy immediately. Effects of the same type cannot stack.",
+        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a4/Light_Cone_Past_Self_in_Mirror.png",
+        "picture": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2023/12/25/9abbea4b755e183768a9a2a30600cad0_964949891846795661.png",
+        "source": "Limited Warp"
+    },
+    {
+        "name": "Baptism of Pure Thought",
+        "path": "The Hunt <:hunt:1108984298977116203>",
+        "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "description": "The afternoon sunshine is just right, and the floral scents fill the air.\nThough he tries to keep his thoughts pure, cognitive stagnancy inevitably attracts particulates of mind like gathered dust.\n\"Healing one's thoughts is just as vital as the maintenance of one's health.\"\nThe fools' clamoring fades alongside fatigue as he sinks into the water, letting all thoughts loose, his mind elucidated and ordered.\n\"Truth eludes all filths, accepting only those of pure thoughts.\"",
+        "effect": "Increases the wearer's CRIT DMG by 20%/23%/26%/29%/32%. For every debuff on the enemy target, the wearer's CRIT DMG dealt against this target increases by 8%/9%/10%/11%/12%, stacking up to 3 times. When using Ultimate to attack the enemy target, the wearer receives the Disputation effect, which increases DMG dealt by 36%/42%/48%/54%/60% and enables their follow-up attacks to ignore 24%/28%/32%/36%/40% of the target's DEF. This effect lasts for 2 turns.",
+        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5a/Light_Cone_Baptism_of_Pure_Thought.png",
+        "picture": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2023/12/25/167256510/c72a1d9e62b2935a8b36fdf968a3d34f_7639598452661147263.png",
+        "source": "Limited Warp"
+    },
+    {
+        "name": "What Is Real?",
+        "path": "The Abundance <:abundance:1106840945418313808>",
+        "rarity": "\u2726 \u2726 \u2726 \u2726",
+        "description": "\"Suppose if all the clocks are displaying the wrong time...\"\n\"If those bound to promises fulfilled their vows through betrayal...\"\n\"If those who sink into the realm of dreams never truly fell asleep...\"\n\"If the dead return to life, only to discover their names have been stripped...\"\n\"If... if...\"\nHe blows out the flame, and in darkness, there is but the eternal ticking of the timepiece.",
+        "effect": "Increases the wearer's Break Effect by 24%/30%/36%/42%/48%. After using Basic ATK, restores HP for the wearer by an amount equal to 2%/2.5%/3%/3.5%/4% of Max HP plus 800.",
+        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0c/Light_Cone_What_Is_Real.png",
+        "picture": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/02/04/167256510/1a7d7b3004c41e55447a626d6d11f3ec_6649405654609661308.png",
+        "source": "- Clockie Plaza - Clockie's Offering: Clockie Statue Level 10 Reward \n- Buy from *Light Cone Manifest* (Forgotten Hall)"
+    },
+    {
+        "name": "Dreamville Adventure",
+        "path": "The Harmony <:harmony:1108984292312358972>",
+        "rarity": "\u2726 \u2726 \u2726 \u2726",
+        "description": "\"Hello, dear viewers! Clockie and his pals have come to see you all again!\"\n\"In the previous episode, Boss Stone discovered that Dreamville was sitting on a wealth of natural resources, and moved to seize control over the city. In response, Clockie joined forces with Brother Hanu and Origami Bird, and together, they sent Boss Stone and his goons running from Dreamville.\"\n\"But Boss Stone isn't going to be defeated that easily, and this time, he's gathered a legion of thugs to fulfill his oath of turning Dreamville into a crater. In this episode, Clockie might just be standing against the greatest threat he ever faced!\"\n\"What scheme will Clockie employ to escape from this crisis? And what new friends will join his party? Stay tuned for the latest episode of 'Dreamville Adventure'!\"",
+        "effect": "After the wearer uses a Basic ATK, Skill, or Ultimate, all allies gain Childishness, which increases the DMG dealt by the corresponding ability they used by 12%/14%/16%/18%/20%. Childishness only takes effect with the most recent ability used by the wearer and cannot be stacked.",
+        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/73/Light_Cone_Dreamville_Adventure.png",
+        "picture": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/02/04/167256510/f6d2ac34b172301149fd399462311feb_1192402363132322262.png",
+        "source": "- Buy from *Light Cone Manifest* (Forgotten Hall)"
+    },
+    {
+        "name": "Final Victor",
+        "path": "The Hunt <:hunt:1108984298977116203>",
+        "rarity": "\u2726 \u2726 \u2726 \u2726",
+        "description": "\"You don't believe me?\"\nHe provocatively looks at the man before him, then draws out a revolver, empties its cylinder, and leaves a single shot in the chamber.\n\"Seems like I'll need to get you up to speed on how I do things if our cooperation were to remain amicable.\"\nHe pushes the gun into his opponent's hand, spins the cylinder, and points the barrel to his own chest.\nHe pulls the trigger repeatedly, and the smile on his face remains the same after three empty clicks.\n\"Life is a grand gamble, and I'll always be the final victor.\"",
+        "effect": "Increases the wearer's ATK by 12%/14%/16%/18%/20%. When the wearer lands a CRIT hit on enemies, they will gain a stack of Good Fortune. This effect can be stacked 4 time(s). Every stack of Good Fortune the wearer has will increase their CRIT DMG by 8%/9%/10%/11%/12%. Good Fortune will be removed at the end of the wearer's turn.",
+        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5a/Light_Cone_Final_Victor.png",
+        "picture": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/02/04/167256510/1dacebf139cc2bbaa5198246a5e5bdb3_6228985121740067256.png",
+        "source": "- Lady Vermilion's \"Great Tree\" - \"Find a total of 20 birds\" Collection Reward \n- Buy from *Light Cone Manifest* (Forgotten Hall)"
+    },
+    {
+        "name": "Flames Afar",
+        "path": "The Destruction <:destruction:1108984285060407396>",
+        "rarity": "\u2726 \u2726 \u2726 \u2726",
+        "description": "\"Package secured. I'll leave covering our retreat to you.\"\nTheir comrade's voice comes through the communicator.\nThey glance around the surroundings, watching as the savaged remnants of their enemies continue to pass through the complex architecture inside the vast and abandoned structure. They are drawing ever closer.\n\"Please hold.\"\nAfter a beat of quietude, a series of apocalyptic explosions rocket up into the sky. Waves of displaced air cast clouds of dust high across the battlefield, and smoke scatter in all directions, the blinding white cleaving light into the night.\n\"You know they purposely planted loads of gunpowder in there, right?\"\nWith a rustle, they flung open the cape as if they just finished a leisurely stroll.\n\"Of course.\"\n\"So, let's light it up. All I need to do is play the part of the match.\"",
+        "effect": "When the HP lost by the wearer during a single attack exceeds 25% of their Max HP, or if the HP they consume is greater than 25% of their Max HP, then immediately heals them for 15% of their Max HP while also increasing the DMG they deal by 25%/31.25%/37.5%/43.75%/50% for 2 turn(s). This effect can only be triggered once every 3 turn(s).",
+        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/46/Light_Cone_Flames_Afar.png",
+        "picture": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/02/04/167256510/8d5ad6281a3754f6298e828c25fc564b_6529524770082663481.png",
+        "source": "- Buy from *Light Cone Manifest* (Forgotten Hall)"
+    },
+    {
+        "name": "Destiny's Threads Forewoven",
+        "path": "The Preservation <:preservation:1108984312969306122>",
+        "rarity": "\u2726 \u2726 \u2726 \u2726",
+        "description": "Destiny always tows the masses onward without reason, and she lurks within the darkness, waiting to inscribe the most crucial of instants.\nSorting, matching, shuffling, drawing... She simulates fate's hand in how it manipulates all variables for the masses, seeking the trajectory of truth beneath the visage of a disorderly exterior.\nFinally, when all the characters are in their place, she brushes over the card faces that are in stasis, and assembles the unfathomable truth.\n\"Still missing a card... So, I'll add one in.\"",
+        "effect": "Increases the wearer's Effect RES by 12%/14%/16%/18%/20%. For every 100 of DEF the wearer has, increases the DMG dealt by 0.8%/0.9%/1.1%/1.1%/1.2% to a max increase of 32%/36%/40%/44%/48%.",
+        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/ba/Light_Cone_Destiny%27s_Threads_Forewoven.png",
+        "picture": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/02/04/167256510/e416cdb95c4768eab3ac77542feb78af_8612372164544936379.png",
+        "source": "- Whodunit Mission Reward \n- Buy from *Light Cone Manifest* (Forgotten Hall)"
+    },
+    {
+        "name": "The Day The Cosmos Fell",
+        "path": "The Erudition <:erudition:1108984287455359109>",
+        "rarity": "\u2726 \u2726 \u2726 \u2726",
+        "description": "\"Molten Cheese Tart! You are in charge of disarming the planet's lookouts with your charm!\"\n\"Gray Bean Paste! You will be in charge of breaching the planet's line of defense!\"\n\"Salty Rimeplume! Bring us the head of the planet's leader!\"\n\"My lord, what are you going to do!\"\n\"I shall pretend to be an adorable kitten to befuddle these stupid humans!\"\nThat day, the Cosmos remembered... the terror of being ruled by them.",
+        "effect": "Increases the wearer's ATK by 16%/18%/20%/22%/24%. When the wearer uses an attack and affects no fewer than 2 attacked enemies with a corresponding Weakness, the wearer's CRIT DMG increases by 20%/25%/30%/35%/40% for 2 turn(s).",
+        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fe/Light_Cone_The_Day_The_Cosmos_Fell.png",
+        "picture": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/02/04/167256510/d98b1546afc0b6636fba2f1b0b0cbcc0_6692077932956045169.png",
+        "source": "- Young Master Gold's \"Great Tree\" - \"Find a total of 20 birds\" Collection Reward \n- Buy from *Light Cone Manifest* (Forgotten Hall)"
+    },
+    {
+        "name": "It's Showtime",
+        "path": "The Nihility <:nihility:1108984309395763260>",
+        "rarity": "\u2726 \u2726 \u2726 \u2726",
+        "description": "-Who witnessed his death?\n-Me! I spied it with my little eyes!\n-Who took his blood?\n-Me! I used my little saucer!\n-Who dug his grave?\n-Me! Using my chisel and shovel!\nThe wise uses all techniques in their arsenal, the sovereign soothes their heart with power, the hero views themselves to be righteous, and the fool laughs ceaselessly-\n\"Now, let us welcome Ms. Sparkle to bring us the performance of the year-'Penacony's Night of Fright'!\"",
+        "effect": "When the wearer inflicts a debuff on an enemy, they gain a stack of Trick. Every stack of Trick increases the wearer's DMG dealt by 6%/7%/8%/9%/10% for a max of 3 stack(s). This effect lasts for 1 turn(s). When the wearer's Effect Hit Rate is greater than or equal to 80%, increases ATK by 20%/24%/28%/32%/36%.",
+        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f3/Light_Cone_It%27s_Showtime.png",
+        "picture": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/02/04/167256510/ac30a3a0f375ff30ec0768815570ab6f_69516986816672063.png",
+        "source": "- Aideen Park - Golden Capsule Machine Humongous Prize \n- Buy from *Light Cone Manifest* (Forgotten Hall)"
+    },
+    {
+        "name": "Indelible Promise",
+        "path": "The Destruction <:destruction:1108984285060407396>",
+        "rarity": "\u2726 \u2726 \u2726 \u2726",
+        "description": "A weathered past. A sworn duty to defend home. A dream to blaze a trail across the world-\nThese were entrusted to the unworldly youth by a pair of rough, calloused hands.\n\"Soon, we'll be able to go to a larger world.\"\nThe boy happily accepted his inheritance. Guarded by youth, he could not yet feel the weight born by the object's significance.\n\"Of course. Before that time comes, however, guard this place well, Misha.\"\nHe thus engraved that promise deep inside his heart, holding to it forever and always.",
+        "effect": "Increases the wearer's Break Effect by 28%/35%/42%/49%/56%. When the wearer uses their Ultimate, increases CRIT Rate by 15%/18.75%/22.5%/26.25%/30%, lasting for 2 turn(s).",
+        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/73/Light_Cone_Indelible_Promise.png",
+        "picture": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/02/04/3d2c000744065606335224819b4c2c8e_1440791885639005208.png",
+        "source": "Limited Warp"
+    },
+    {
+        "name": "Earthly Escapade (Coming Soon)",
+        "path": "The Harmony <:harmony:1108984292312358972>",
+        "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "description": "Coming Soon",
+        "effect": "",
+        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5b/Light_Cone_Earthly_Escapade.png",
+        "picture": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/29/5308864/f0f1566c60413b7371cf172381376f8d_8408718515910245298.png",
+        "source": "Limited Warp"
+    },
+    {
+        "name": "Reforged Remembrance",
+        "path": "The Nihility <:nihility:1108984309395763260>",
+        "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "description": "Light the candles, spread the cards, breathe in the fragrance...\nThese broken memories become faces in the dancing light.\nThe apparitions that emerge from flames tell her of pasts fondly recalled.\nTime is shorn. The moment is frozen. She turns these most precious instants into crystallizations of eternity.\n\"There is too much lost, and too little that remains... We nurture remembrance against the cruelties of time.\"",
+        "effect": "Increases the wearer's Effect Hit Rate by 40%/45%/50%/55%60%. When the wearer deals DMG to an enemy inflicted with Wind Shear, Burn, Shock, or Bleed, each respectively grants 1 stack of Prophet, stacking up to 4 time(s). In a single battle, only 1 stack of Prophet can be granted for each type of DoT. Every stack of Prophet increases wearer's ATK by 5%/6%/7%/8%/9% and enables the DoT dealt to ignore 7.2%/7.9%/8.6%/9.3%/10% of the target's DEF.",
+        "thumb": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/f7/Light_Cone_Reforged_Remembrance.png",
+        "picture": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/29/5308864/38b8751c03fae5f57727485edda3a9d0_7959367183558512564.png",
+        "source": "Limited Warp"
     }
 ]
