@@ -2,6 +2,7 @@ import discord
 from discord import app_commands
 from discord.ext import commands
 from io import BytesIO
+from copy import deepcopy
 import time
 import asyncio
 import numpy as np
@@ -19,20 +20,27 @@ class pom5(commands.Cog):
         self.four_star_Pity, self.fivestarPity = 1, 1
 
     @commands.hybrid_command(name="warp", description="Try out your luck in this Warp Simulator!")
-    @app_commands.describe(warp_name="Choose one of the available Warps")
-    @app_commands.choices(warp_name=[
+    @app_commands.describe(banner_name="Choose one of the available Warps")
+    @app_commands.choices(banner_name=[
         app_commands.Choice(name="Stellar Warp", value=1),
-        app_commands.Choice(name="Seele Banner", value=2),
-        app_commands.Choice(name="Jing Yuan Banner", value=3),
-        app_commands.Choice(name="Silver Wolf Banner", value=4),
-        app_commands.Choice(name="Luocha Banner", value=5),
-        app_commands.Choice(name="Kafka Banner", value=6),
-        app_commands.Choice(name="Blade Banner", value=7),
-        app_commands.Choice(name="Imbibitor Lunae Banner", value=8),
-        app_commands.Choice(name="Fu Xuan Banner", value=9),
+        app_commands.Choice(name="Seele", value=2),
+        app_commands.Choice(name="Jing Yuan", value=3),
+        app_commands.Choice(name="Silver Wolf", value=4),
+        app_commands.Choice(name="Luocha", value=5),
+        app_commands.Choice(name="Kafka", value=6),
+        app_commands.Choice(name="Blade", value=7),
+        app_commands.Choice(name="Imbibitor Lunae", value=8),
+        app_commands.Choice(name="Fu Xuan", value=9),
+        app_commands.Choice(name="Jingliu", value=10),
+        app_commands.Choice(name="Topaz & Numby", value=11),
+        app_commands.Choice(name="Huohuo", value=12),
+        app_commands.Choice(name="Argenti", value=13),
+        app_commands.Choice(name="Ruan Mei", value=14),
+        app_commands.Choice(name="Dr. Ratio", value=15),
+        app_commands.Choice(name="Black Swan", value=16),
     ])
-    async def warp(self, ctx: commands.Context, *, warp_name: app_commands.Choice[int]):
-        if warp_name.name.lower() == "":
+    async def warp(self, ctx: commands.Context, *, banner_name: app_commands.Choice[int]):
+        if banner_name.name.lower() == "":
             return
 
         await ctx.defer()
@@ -57,32 +65,44 @@ class pom5(commands.Cog):
             available_warps = 10
 
         # Standard Banner & Other available banners
-        if warp_name.value == 1 or warp_name.name.lower() == "stellar warp":
-            banner = standard_warps
-
-        elif warp_name.value == 2 or warp_name.name.lower() in ["seele banner", "seele"]:
-            banner = seele_banner
-
-        elif warp_name.value == 3 or warp_name.name.lower() in ["jing yuan banner", "jing yuan"]:
-            banner = jing_yuan_banner
-
-        elif warp_name.value == 4 or warp_name.name.lower() in ["silver wolf banner", "silver wolf"]:
-            banner = silver_wolf_banner
-
-        elif warp_name.value == 5 or warp_name.name.lower() in ["luocha banner", "luocha"]:
-            banner = luocha_banner
-
-        elif warp_name.value == 6 or warp_name.name.lower() in ["kafka banner", "kafka"]:
-            banner = kafka_banner
-
-        elif warp_name.value == 7 or warp_name.name.lower() in ["blade banner", "blade"]:
-            banner = blade_banner
-
-        elif warp_name.value == 8 or warp_name.name.lower() in ["imbibitor lunae banner", "il", "imbibitor lunae"]:
-            banner = imbibitor_lunae_banner
-
-        elif warp_name.value == 9 or warp_name.name.lower() in ["fu xuan banner", "fu xuan"]:
-            banner = fu_xuan_banner
+        banner = deepcopy(standard_warps)
+        match banner_name.value:
+            case 1:
+                banner = banner
+            case 2:
+                banner.update(seele)
+            case 3:
+                banner.update(jing_yuan)
+            case 4:
+                banner.update(silver_wolf)
+            case 5:
+                banner.update(luocha)
+            case 6:
+                banner.update(kafka)
+            case 7:
+                banner.update(blade)
+            case 8:
+                banner.update(imbibitor_lunae)
+            case 9:
+                banner.update(fu_xuan)
+            case 10:
+                banner.update(jingliu)
+            case 11:
+                banner.update(topaz_and_numby)
+            case 12:
+                banner.update(huohuo)            
+            case 13:
+                banner.update(argenti)
+            case 14:
+                banner.update(ruan_mei)
+            case 15:
+                banner.update(dr_ratio)
+            case 16:
+                banner.update(black_swan)
+            # case 17:
+            #     banner.update()
+            case _:
+                return
 
         three_stars = [chara for chara, deets in banner.items() if deets['rarity'] == 3]
         four_stars = [chara for chara, deets in banner.items() if deets['rarity'] == 4]
@@ -136,7 +156,7 @@ class pom5(commands.Cog):
         await pompomDB.update_one({'_id': ctx.author.id}, updated_post)
         await cooldownsDB.update_one({'_id': ctx.author.id}, updated_cds)
 
-        pulls_embed = discord.Embed(title=f"Warp Simulator - {warp_name.name}")
+        pulls_embed = discord.Embed(title=f"Warp Simulator - {banner_name.name}")
         if list_of_5_stars_gotten != []:
             # 5* pull embed color and 5* warp animation
             pulls_embed.color = 0xedcb01
@@ -145,7 +165,7 @@ class pom5(commands.Cog):
             # 4* pull embed color and 4* warp animation
             pulls_embed.color = 0xa000c8
             pulls_embed.set_image(url="https://cdn.discordapp.com/attachments/1117016812069081140/1117017472940384317/four_star.gif")
-        pulls_embed.set_footer(text="Check out the brand new /warp banners! If you encounter any errors/problems contact me (@nauf) ASAP!")
+        pulls_embed.set_footer(text="New banners added! Contact me (@nauf) if there's any problems.")
 
         msg = await ctx.send(embed=pulls_embed)
 
@@ -184,7 +204,7 @@ class pom5(commands.Cog):
             }
         else:
             # five_star_prob = 0.006 -> 0.001 -> 0.0001 -> 0.0015 REMEMBER TO CHANGE BELOW
-            five_star_prob = 0.005
+            five_star_prob = 0.075
             four_star_prob = four_star_probabilities[self.four_star_Pity]
             three_star_prob = 1 - (four_star_prob + five_star_prob)
             probability = {
