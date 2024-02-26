@@ -807,9 +807,9 @@
     {
         "name" : "Huohuo",
         "id" : 37,
-        "description" : "-",
+        "description" : "A pitiable and helpless Foxian girl who is also a Ten-Lords Commission Judge-in-training, who fears ghosts but must catch them. Due to having a heliobus named Tail sealed in her tail by the judges of the Ten-Lords Comission, she became a \"cursed one\" who attracts inhuman beings. She fears demons and heliobi, but contrarily is tasked with their capture and entrusted with the heavy task of eradicating vile spirits. Though she believes herself lacking in ability, she is unable to muster the courage to resign and continues onward despite walking in a valley of her own fear.",
         "rarity" : "\u2726 \u2726 \u2726 \u2726 \u2726",
-        "thumb" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/27/5308864/672500fac57e179abac2a3b716cefbcc_8335871444552744144.png",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/11/13/6799252/03d42b83135aed98ab433ba450dce0e6_6220915316382370419.png",
         "picture" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/26/167256510/3df107cb57862346dcf33e171cb40a94_6873119874958598944.png",
         "path" : "The Abundance",
         "combat" : "Wind",
@@ -847,7 +847,7 @@
     {
         "name" : "Argenti",
         "id" : 38,
-        "description" : "-",
+        "description" : "A classic knight of the \"Knights of Beauty\" who is piously seeking his missing Aeon Idrila the \"Beauty\". Forthright and candid, he wanders the cosmos espousing the virtues of Idrila's good name.",
         "rarity" : "\u2726 \u2726 \u2726 \u2726 \u2726",
         "thumb" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/12/05/5308864/9448edefb4d1253e987da31271c15981_2765074313465488246.png",
         "picture" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/27/250281765/89e75c682cb08583f29de9d11944cb42_7956111657918671185.png",
@@ -892,13 +892,13 @@
     {
         "name" : "Hanya",
         "id" : 39,
-        "description" : "-",
+        "description" : "One of the judges of the Xianzhou Luofu's Ten-Lords Commission. Ordained by the Ten-Lords and wielding the authority of the Oracle Brush, she reads the multitudes of human sins and transgressions, then issues punishments and karmic retribution.",
         "rarity" : "\u2726 \u2726 \u2726 \u2726",
-        "thumb" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/28/5308864/8514a95218f378c85a148f52c72596b3_6840966823911772166.png",
+        "thumb" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/12/06/5308864/2645332fb60980c541394c70976f81ca_4303281471540817699.png",
         "picture" : "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/09/28/5308864/6dac33a229a6ea32b313f3484cd1111c_1845083463870835153.png",
         "path" : "The Harmony",
         "combat" : "Physical",
-        "faction" : "",
+        "faction" : "Xianzhou Luofu",
         "skills" : {
             "basic": {
                 "name": "Oracle Brush",
