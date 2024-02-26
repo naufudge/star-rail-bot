@@ -547,5 +547,71 @@
         "rarity": 4,
         "path": "The Abundance",
         "type": "character"
+    },
+    "Topaz & Numby": {
+        "id": 102,
+        "rarity": 5,
+        "path": "The Hunt",
+        "type": "character"
+    },
+    "Jingliu": {
+        "id": 34,
+        "rarity": 5,
+        "path": "The Destruction",
+        "type": "character"
+    },
+    "Argenti": {
+        "id": 38,
+        "rarity": 5,
+        "path": "The Erudition",
+        "type": "character"
+    },
+    "Huohuo": {
+        "id": 37,
+        "rarity": 5,
+        "path": "The Abundance",
+        "type": "character"
+    },
+    "Dr. Ratio": {
+        "id": 41,
+        "rarity": 5,
+        "path": "The Hunt",
+        "type": "character"
+    },
+    "Ruan Mei": {
+        "id": 40,
+        "rarity": 5,
+        "path": "The Harmony",
+        "type": "character"
+    },
+    "Black Swan": {
+        "id": 43,
+        "rarity": 5,
+        "path": "The Nihility",
+        "type": "character"
+    },
+    "Guinaifen": {
+        "id": 102,
+        "rarity": 4,
+        "path": "The Nihility",
+        "type": "character"
+    },
+    "Hanya": {
+        "id": 103,
+        "rarity": 4,
+        "path": "The Harmony",
+        "type": "character"
+    },
+    "Xueyi": {
+        "id": 104,
+        "rarity": 4,
+        "path": "The Destruction",
+        "type": "character"
+    },
+    "Misha": {
+        "id": 105,
+        "rarity": 4,
+        "path": "The Destruction",
+        "type": "character"
     }
 }
