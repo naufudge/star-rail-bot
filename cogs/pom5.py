@@ -65,10 +65,10 @@ class pom5(commands.Cog):
             available_warps = 10
 
         # Standard Banner & Other available banners
-        banner = deepcopy(standard_warps)
+        banner = deepcopy(base_limited_warp)
         match banner_name.value:
             case 1:
-                banner = banner
+                banner = deepcopy(standard_warps)
             case 2:
                 banner.update(seele)
             case 3:
@@ -204,7 +204,7 @@ class pom5(commands.Cog):
             }
         else:
             # five_star_prob = 0.006 -> 0.001 -> 0.0001 -> 0.0015 REMEMBER TO CHANGE BELOW
-            five_star_prob = 0.075
+            five_star_prob = 0.05
             four_star_prob = four_star_probabilities[self.four_star_Pity]
             three_star_prob = 1 - (four_star_prob + five_star_prob)
             probability = {
