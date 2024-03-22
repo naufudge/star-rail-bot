@@ -54,9 +54,11 @@ class pom5(commands.Cog):
         if ((int(time.time() - user_cooldowns['last_warp_time'])) < 3600) and user_cooldowns['available_warps'] == 0:
             cooldown_embed = discord.Embed(
                 title="You're on cooldown",
-                description=f"Please wait `{int((3600 - (time.time() - user_cooldowns['last_warp_time']))/60)}` minutes to warp again :)\nYour current pity is `{self.five_star_Pity}`. Reach **90** to get a guaranteed 5 star.",
+                description=f"Please wait `{int((3600 - (time.time() - user_cooldowns['last_warp_time']))/60)}` minutes to warp again :)\nYour current pity is `{self.five_star_Pity}`. Reach **180* to get a guaranteed limited 5 star.",
                 color=0xffffff
-                )
+            ).set_footer(
+                "P.S: Each /warp is considered 1 pity."
+            )
             await ctx.send(embed=cooldown_embed, ephemeral=True)
             return
         elif ((int(time.time() - user_cooldowns['last_warp_time'])) < 3600) and not user_cooldowns['available_warps'] == 0:
@@ -66,61 +68,71 @@ class pom5(commands.Cog):
 
         # Standard Banner & Other available banners
         banner = deepcopy(base_limited_warp)
+        limited_character = None
         match banner_name.value:
             case 1:
                 banner = deepcopy(standard_warps)
             case 2:
-                banner.update(seele)
+                limited_character = seele
             case 3:
-                banner.update(jing_yuan)
+                limited_character = jing_yuan
             case 4:
-                banner.update(silver_wolf)
+                limited_character = silver_wolf
             case 5:
-                banner.update(luocha)
+                limited_character = luocha
             case 6:
-                banner.update(kafka)
+                limited_character = kafka
             case 7:
-                banner.update(blade)
+                limited_character = blade
             case 8:
-                banner.update(imbibitor_lunae)
+                limited_character = imbibitor_lunae
             case 9:
-                banner.update(fu_xuan)
+                limited_character = fu_xuan
             case 10:
-                banner.update(jingliu)
+                limited_character = jingliu
             case 11:
-                banner.update(topaz_and_numby)
+                limited_character = topaz_and_numby
             case 12:
-                banner.update(huohuo)            
+                limited_character = huohuo
             case 13:
-                banner.update(argenti)
+                limited_character = argenti
             case 14:
-                banner.update(ruan_mei)
+                limited_character = ruan_mei
             case 15:
-                banner.update(dr_ratio)
+                limited_character = dr_ratio
             case 16:
-                banner.update(black_swan)
+                limited_character = black_swan
             # case 17:
             #     banner.update()
             case _:
                 return
+            
+        if limited_character:
+            banner.update(limited_character)
 
         three_stars = [chara for chara, deets in banner.items() if deets['rarity'] == 3]
         four_stars = [chara for chara, deets in banner.items() if deets['rarity'] == 4]
         five_stars = [chara for chara, deets in banner.items() if deets['rarity'] == 5]
         five_and_four_stars = [chara for chara, deets in banner.items() if (deets['rarity'] == 5 or deets['rarity'] == 4) and (deets['type'] == 'character')]
 
+        # All the names of the characters in the banner as a list
         chara_names = list(banner)
         rarities = [banner[chara]['rarity'] for chara in chara_names]
 
         self.five_star_Pity += 1
         results = [] # This will contain the characters/weapons that a user gets from the 10 pull
         for pull in range(1, 11):
-            probability = self.probability_calculator(three_stars, four_stars, five_stars)
-            chances = [probability[rarity] for rarity in rarities]
+            if self.five_star_Pity == 180:
+                # Get the character name from the individual dictionary
+                chara = list(limited_character.keys())[0]
+            else:
+                probability = self.probability_calculator(three_stars, four_stars, five_stars)
+                chances = [probability[rarity] for rarity in rarities]
+                chara = np.random.choice(chara_names, p=chances)
 
-            self.four_star_Pity += 1
-            chara = np.random.choice(chara_names, p=chances)
             results.append(chara)
+            self.four_star_Pity += 1
+
             if chara in four_stars:
                 self.four_star_Pity = 1
             if chara in five_stars:
@@ -190,13 +202,13 @@ class pom5(commands.Cog):
         return file
 
     def probability_calculator(self, three_stars, four_stars, five_stars):
-        if self.five_star_Pity == 90:
-            probability = {
-                3 : 0,
-                4 : 0,
-                5 : 1/len(five_stars)
-            }
-        elif self.four_star_Pity == 10:
+        # if self.five_star_Pity == 90:
+        #     probability = {
+        #         3 : 0,
+        #         4 : 0,
+        #         5 : 1/len(five_stars)
+        #     }
+        if self.four_star_Pity == 10:
             probability = {
                 3 : 0,
                 4 : 1/len(four_stars),
@@ -204,7 +216,7 @@ class pom5(commands.Cog):
             }
         else:
             # five_star_prob = 0.006 -> 0.001 -> 0.0001 -> 0.0015 REMEMBER TO CHANGE BELOW
-            five_star_prob = 0.05
+            five_star_prob = 0.045
             four_star_prob = four_star_probabilities[self.four_star_Pity]
             three_star_prob = 1 - (four_star_prob + five_star_prob)
             probability = {
