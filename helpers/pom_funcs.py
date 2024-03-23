@@ -116,6 +116,11 @@ async def find_user_cooldowns(collection, user_id: int):
         await collection.insert_one(new_user)
     return await collection.find_one(filter)
 
+async def add_feedback(collection, msg):
+    """Pushes the feedback provided by the user to the database."""
+    feedback = {"message": msg}
+    await collection.insert_one(feedback)
+
 # JSON File Handling
 with open('data/characters.json', 'r', encoding='utf-8') as f:
     chara_file = json.load(f)

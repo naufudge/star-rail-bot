@@ -17,10 +17,11 @@ class PomPomClient(commands.AutoShardedBot):
     async def setup_hook(self):
         try:
             # REMEMBER TO CHANGE THIS WHEN TESTING -------------------------------------
+            # self.user_data_collection = self.mongoConnect['PomPomDB']['tester']
             self.mongoConnect = AsyncIOMotorClient(uri)
             self.user_data_collection = self.mongoConnect['PomPomDB']['characters']
             self.user_cooldowns = self.mongoConnect['PomPomDB']['cooldowns']
-            # self.user_data_collection = self.mongoConnect['PomPomDB']['tester']
+            self.user_feedbacks = self.mongoConnect['PomPomDB']['feedback']
         except AttributeError:
             print("Not Connected to PomPomDB :(")
 

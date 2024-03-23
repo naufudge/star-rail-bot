@@ -1,13 +1,14 @@
 import discord
-import random
 from discord import app_commands
 from discord.ext import commands
 from typing import Optional
 from cogs.help import CustomHelpCommand
+from helpers.pom_funcs import add_feedback
 
 class pom1(commands.Cog):
     def __init__(self, client: commands.Bot):
         self.client = client
+        self.user_feedbacks = client.user_feedbacks
 
     @app_commands.command(name="help", description="Get help on how to use Pom-Pom")
     @app_commands.describe(command_name="Get more information about a specific command")
@@ -15,6 +16,17 @@ class pom1(commands.Cog):
         custom_help = CustomHelpCommand()
         custom_help.context = ctx = await commands.Context.from_interaction(interaction)
         await custom_help.command_callback(ctx, command = command_name)
+
+    @commands.hybrid_command(name="feedback", description="Provide anonymous feedback or suggestions for Pom-pom's development.")
+    @app_commands.describe(msg="Enter anything you would like to tell me.")
+    async def feedback(self, ctx: commands.Context, msg: str):
+        await add_feedback(self.user_feedbacks, msg)
+        feedback_embed = discord.Embed(
+            title="Feedback submitted successfully!",
+            description="Thank you for the feedback and the constant support for Pom-Pom. It is very much appreciated.",
+            color=0xf94449
+        )
+        await ctx.send(embed=feedback_embed)
 
     @commands.hybrid_command(name="sync", with_app_command=False, description="syncs the slash commands", hidden=True)
     @commands.is_owner()
