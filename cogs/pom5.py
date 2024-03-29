@@ -54,10 +54,10 @@ class pom5(commands.Cog):
         if ((int(time.time() - user_cooldowns['last_warp_time'])) < 3600) and user_cooldowns['available_warps'] == 0:
             cooldown_embed = discord.Embed(
                 title="You're on cooldown",
-                description=f"Please wait `{int((3600 - (time.time() - user_cooldowns['last_warp_time']))/60)}` minutes to warp again :)\nYour current pity is `{self.five_star_Pity}`. Reach **180* to get a guaranteed limited 5 star.",
+                description=f"Please wait `{int((3600 - (time.time() - user_cooldowns['last_warp_time']))/60)}` minutes to warp again :)\nYour current pity is `{self.five_star_Pity}`. Reach **180** to get a guaranteed limited 5 star.",
                 color=0xffffff
             ).set_footer(
-                "P.S: Each /warp is considered 1 pity."
+                text="P.S: Each /warp is considered 1 pity."
             )
             await ctx.send(embed=cooldown_embed, ephemeral=True)
             return
