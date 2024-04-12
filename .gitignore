@@ -12,6 +12,7 @@ pom7.py
 db_tester.py
 webhook.py
 leaderboards.json
+test.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
