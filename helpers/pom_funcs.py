@@ -112,7 +112,7 @@ async def find_user_cooldowns(collection, user_id: int):
     """
     filter = {'_id': user_id}
     if await collection.find_one(filter) == None:
-        new_user = {"_id": user_id, "last_warp_time": 0, "available_warps": 10}
+        new_user = {"_id": user_id, "last_warp_time": 0, "available_warps": 10, "pity": False}
         await collection.insert_one(new_user)
     return await collection.find_one(filter)
 
