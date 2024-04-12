@@ -3,8 +3,7 @@ from discord import app_commands
 from discord.ext import commands
 from typing import Optional
 from helpers.pom_views import InfoView, CharactersView
-from helpers.pom_funcs import similarity_sorter, chara_file, best_light_cones, eidolons
-from helpers.pom_misc import combat_emojis, path_emojis
+from helpers.pom_funcs import similarity_sorter, chara_file, best_light_cones
 from helpers.pom_embeds import PomPomEmbeds
 
 
