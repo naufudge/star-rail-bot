@@ -38,6 +38,8 @@ class pom5(commands.Cog):
         app_commands.Choice(name="Ruan Mei", value=14),
         app_commands.Choice(name="Dr. Ratio", value=15),
         app_commands.Choice(name="Black Swan", value=16),
+        app_commands.Choice(name="Sparkle", value=17),
+        app_commands.Choice(name="Acheron", value=18),
     ])
     async def warp(self, ctx: commands.Context, *, banner_name: app_commands.Choice[int]):
         if banner_name.name.lower() == "":
@@ -48,17 +50,16 @@ class pom5(commands.Cog):
         cooldownsDB: Collection = self.client.user_cooldowns
         user_data = await find_from_db(pompomDB, ctx.author.id)
         user_cooldowns = await find_user_cooldowns(cooldownsDB, ctx.author.id)
+        user_pity: bool = user_cooldowns['pity']
 
         self.five_star_Pity = user_data['five_star_pity']
 
         if ((int(time.time() - user_cooldowns['last_warp_time'])) < 3600) and user_cooldowns['available_warps'] == 0:
             cooldown_embed = discord.Embed(
                 title="You're on cooldown",
-                description=f"Please wait `{int((3600 - (time.time() - user_cooldowns['last_warp_time']))/60)}` minutes to warp again :)\nYour current pity is `{self.five_star_Pity}`. Reach **180** to get a guaranteed limited 5 star.",
+                description=f"Please wait `{int((3600 - (time.time() - user_cooldowns['last_warp_time']))/60)}` minutes to warp again :)",
                 color=0xffffff
-            ).set_footer(
-                text="P.S: Each /warp is considered 1 pity."
-            )
+            ).set_footer(text="50/50 has been added due to high demand! If you get a normal 5 star, your next 5 star will be a limited character.")
             await ctx.send(embed=cooldown_embed, ephemeral=True)
             return
         elif ((int(time.time() - user_cooldowns['last_warp_time'])) < 3600) and not user_cooldowns['available_warps'] == 0:
@@ -102,8 +103,10 @@ class pom5(commands.Cog):
                 limited_character = dr_ratio
             case 16:
                 limited_character = black_swan
-            # case 17:
-            #     banner.update()
+            case 17:
+                limited_character = sparkle
+            case 18:
+                limited_character = acheron
             case _:
                 return
             
@@ -117,27 +120,29 @@ class pom5(commands.Cog):
 
         # All the names of the characters in the banner as a list
         chara_names = list(banner)
+        limited_character_name = list(limited_character.keys())[0]
         rarities = [banner[chara]['rarity'] for chara in chara_names]
 
-        self.five_star_Pity += 1
         results = [] # This will contain the characters/weapons that a user gets from the 10 pull
         for pull in range(1, 11):
-            if self.five_star_Pity == 180:
-                # Get the character name from the individual dictionary
-                chara = list(limited_character.keys())[0]
-            else:
-                probability = self.probability_calculator(three_stars, four_stars, five_stars)
-                chances = [probability[rarity] for rarity in rarities]
-                chara = np.random.choice(chara_names, p=chances)
-
-            results.append(chara)
+            probability = self.probability_calculator(three_stars, four_stars, five_stars)
+            chances = [probability[rarity] for rarity in rarities]
+            chara: str = np.random.choice(chara_names, p=chances)
+            
             self.four_star_Pity += 1
 
             if chara in four_stars:
                 self.four_star_Pity = 1
-            if chara in five_stars:
-                self.five_star_Pity = 0
 
+            if chara in five_stars:
+                if user_pity == True or chara == limited_character_name:
+                    chara = limited_character_name
+                    user_pity = False
+                elif chara != limited_character_name:
+                    user_pity = True
+
+            results.append(chara)
+            
         # List of characters currently owned by the user
         list_of_charas_owned = list(user_data["characters"])
         # List of 4 or 5 star CHARACTERS that the user just got
@@ -152,19 +157,22 @@ class pom5(commands.Cog):
             else:
                 user_data["characters"][chara_got] += 1
 
+        # Update user ten pull count
         updated_ten_pull_count = user_data["ten_pulls"] + 1
+        # Update the user's total experience by giving them some experience points
         updated_user_exp = user_data['exp'] + np.random.randint(1, 10)
-
-        if list_of_starCharas_got != []:
-            updated_post = {"$set": {"ten_pulls": updated_ten_pull_count, "characters": user_data["characters"], "exp": updated_user_exp, "five_star_pity": self.five_star_Pity}}
-        else:
-            updated_post = {"$set": {"ten_pulls": updated_ten_pull_count, "exp": updated_user_exp, "five_star_pity": self.five_star_Pity}}
-        updated_cds = {"$set": {"last_warp_time": int(time.time()), "available_warps": available_warps - 1}}
 
         with ThreadPoolExecutor() as executor:
             future = executor.submit(self.img_process, results)
             file = future.result()
+            
         # Update the MongoDB collections
+        if list_of_starCharas_got != []:
+            updated_post = {"$set": {"ten_pulls": updated_ten_pull_count, "characters": user_data["characters"], "exp": updated_user_exp, "five_star_pity": self.five_star_Pity}}
+        else:
+            updated_post = {"$set": {"ten_pulls": updated_ten_pull_count, "exp": updated_user_exp, "five_star_pity": self.five_star_Pity}}
+        updated_cds = {"$set": {"last_warp_time": int(time.time()), "available_warps": available_warps - 1, "pity": user_pity}}
+
         await pompomDB.update_one({'_id': ctx.author.id}, updated_post)
         await cooldownsDB.update_one({'_id': ctx.author.id}, updated_cds)
 
@@ -216,7 +224,8 @@ class pom5(commands.Cog):
             }
         else:
             # five_star_prob = 0.006 -> 0.001 -> 0.0001 -> 0.0015 REMEMBER TO CHANGE BELOW
-            five_star_prob = 0.045
+            five_star_prob = 0.02
+            # five_star_prob = 0.09
             four_star_prob = four_star_probabilities[self.four_star_Pity]
             three_star_prob = 1 - (four_star_prob + five_star_prob)
             probability = {
