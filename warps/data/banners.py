@@ -182,6 +182,12 @@ base_limited_warp = {
         "path": "The Destruction",
         "type": "character"
     },
+    "Gallagher": {
+        "id": 106,
+        "rarity": 4,
+        "path": "The Abundance",
+        "type": "character"
+    },
 
     "A Secret Vow": {
         "id": 28,
@@ -656,6 +662,24 @@ ruan_mei = {
 black_swan = {
     "Black Swan": {
         "id": 43,
+        "rarity": 5,
+        "path": "The Nihility",
+        "type": "character"
+    }
+}
+
+sparkle = {
+    "Sparkle" : {
+        "id": 44,
+        "rarity": 5,
+        "path": "The Harmony",
+        "type": "character"
+    }
+}
+
+acheron = {
+    "Acheron" : {
+        "id": 46,
         "rarity": 5,
         "path": "The Nihility",
         "type": "character"

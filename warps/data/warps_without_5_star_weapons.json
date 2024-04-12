@@ -613,5 +613,23 @@
         "rarity": 4,
         "path": "The Destruction",
         "type": "character"
+    },
+    "Sparkle" : {
+        "id": 44,
+        "rarity": 5,
+        "path": "The Harmony",
+        "type": "character"
+    },
+    "Acheron" : {
+        "id": 46,
+        "rarity": 5,
+        "path": "The Nihility",
+        "type": "character"
+    },
+    "Gallagher": {
+        "id": 106,
+        "rarity": 4,
+        "path": "The Abundance",
+        "type": "character"
     }
 }
