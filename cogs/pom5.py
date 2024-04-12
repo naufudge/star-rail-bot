@@ -18,6 +18,7 @@ class pom5(commands.Cog):
     def __init__(self, client: commands.Bot):
         self.client = client
         self.four_star_Pity, self.fivestarPity = 1, 1
+        self.announcement = True
 
     @commands.hybrid_command(name="warp", description="Try out your luck in this Warp Simulator!")
     @app_commands.describe(banner_name="Choose one of the available Warps")
@@ -171,11 +172,12 @@ class pom5(commands.Cog):
             updated_post = {"$set": {"ten_pulls": updated_ten_pull_count, "characters": user_data["characters"], "exp": updated_user_exp, "five_star_pity": self.five_star_Pity}}
         else:
             updated_post = {"$set": {"ten_pulls": updated_ten_pull_count, "exp": updated_user_exp, "five_star_pity": self.five_star_Pity}}
-        updated_cds = {"$set": {"last_warp_time": int(time.time()), "available_warps": available_warps - 1, "pity": user_pity}}
 
         await pompomDB.update_one({'_id': ctx.author.id}, updated_post)
-        await cooldownsDB.update_one({'_id': ctx.author.id}, updated_cds)
 
+        # footer_texts = [
+        #     "Now you can provide feedback, suggestions, or anything in general that you would like to tell me using /feedback.",
+        # ]
         pulls_embed = discord.Embed(title=f"Warp Simulator - {banner_name.name}")
         if list_of_5_stars_gotten != []:
             # 5* pull embed color and 5* warp animation
@@ -188,6 +190,22 @@ class pom5(commands.Cog):
         pulls_embed.set_footer(text="Now you can provide feedback, suggestions, or anything in general that you would like to tell me using /feedback.")
 
         msg = await ctx.send(embed=pulls_embed)
+
+        # Show an announcement if you wanna
+        if self.announcement and user_cooldowns['message']:
+            announcement_embed = discord.Embed(
+                title="Announcement!",
+                description="Looking for some help with building a support server for Pom-Pom! Only condition is being able to communicate in **English**. \n",
+                color=0xf94449
+            ).set_footer(text="Add me (@nauf) if you're interested :)")
+            await ctx.interaction.followup.send(embed=announcement_embed, ephemeral=True)
+
+            updated_cds = {"$set": {"last_warp_time": int(time.time()), "available_warps": available_warps - 1, "pity": user_pity, "message": False}}
+        else:
+            updated_cds = {"$set": {"last_warp_time": int(time.time()), "available_warps": available_warps - 1, "pity": user_pity}}
+
+        # Update the cooldowns collection
+        await cooldownsDB.update_one({'_id': ctx.author.id}, updated_cds)
 
         pulls_embed.add_field(name="4 Stars:", value=", ".join(set([result for result in results if result in four_stars])), inline=False)
         if list_of_5_stars_gotten != []:
@@ -224,7 +242,7 @@ class pom5(commands.Cog):
             }
         else:
             # five_star_prob = 0.006 -> 0.001 -> 0.0001 -> 0.0015 REMEMBER TO CHANGE BELOW
-            five_star_prob = 0.02
+            five_star_prob = 0.015
             # five_star_prob = 0.09
             four_star_prob = four_star_probabilities[self.four_star_Pity]
             three_star_prob = 1 - (four_star_prob + five_star_prob)
