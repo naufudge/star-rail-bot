@@ -1081,21 +1081,41 @@
         }
     },
     {
-        "name": "Sparkle (Coming Soon)",
+        "name": "Sparkle",
         "id": 44,
-        "description": "Coming Soon",
+        "description": "A member of the Masked Fools. Inscrutable and unscrupulous. A dangerous maestro of theatrics, utterly engrossed in the art of performance. Adorned with innumerable masks, she is the hero with a thousand faces. Wealth, status, power... None of this matters to Sparkle. The only thing that can get her attention is \"amusement.\"",
         "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
-        "thumb": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2023/12/14/5308864/92c661381319db705a2af8b047406c92_1764361586477527224.png",
+        "thumb": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/02/27/e036508b1ca8c5732a77e34b682e05b9_1612166978437617005.png",
         "picture": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2023/12/14/5308864/71d9e0b6504b39811364d09b8e1936cf_2717607901320936080.png",
         "path": "The Harmony",
         "combat": "Quantum",
         "faction": "Masked Fools",
         "skills" : {
-            "basic": {"name":"", "tag":"", "description":""},
-            "skill": {"name":"", "tag":"", "description":""},
-            "ult": {"name":"", "tag":"", "description":""},
-            "talent": {"name":"", "tag":"", "description":""},
-            "technique": {"name":"", "tag":"", "description":""}
+            "basic": {
+                "name": "Monodrama",
+                "tag": "Single Target",
+                "description": "Deals Quantum DMG equal to 50%-110% of Sparkle's ATK to a single target enemy."
+            },
+            "skill": {
+                "name": "Dreamdiver",
+                "tag": "Support",
+                "description": "Increases the CRIT DMG of a single ally by 12%-26.4% of Sparkle's CRIT DMG plus 27%-48.6%, lasting for 1 turn(s). And at the same time, Advances Forward this ally's action by 50%.When Sparkle uses this ability on herself, the Action Advance effect will not trigger."
+            },
+            "ult": {
+                "name": "The Hero with a Thousand Faces",
+                "tag": "Support",
+                "description": "Recovers 4 Skill Points for the team and grants all allies Cipher. When allies with Cipher trigger the DMG Boost effect provided by Sparkle's Talent, each stack additionally increases its effect by 6%-10.8%, lasting for 2 turns."
+            },
+            "talent": {
+                "name": "Red Herring",
+                "tag": "Support",
+                "description": "While Sparkle is on the battlefield, additionally increases the max number of Skill Points by 2. Whenever an ally consumes 1 Skill Point, all allies' DMG increases by 3%-6.6%. This effect lasts for 2 turn(s) and can stack up to 3 time(s)."
+            },
+            "technique": {
+                "name": "Unreliable Narrator",
+                "tag": "Support",
+                "description": "While Sparkle is on the battlefield, additionally increases the max number of Skill Points by 2. Whenever an ally consumes 1 Skill Point, all allies' DMG increases by 3%-6.6%. This effect lasts for 2 turn(s) and can stack up to 3 time(s)."
+            }
         }
     },
     {
@@ -1137,21 +1157,41 @@
         }
     },
     {
-        "name": "Acheron (Coming Soon)",
+        "name": "Acheron",
         "id": 46,
-        "description": "Acheron (Coming Soon)",
+        "description": "A drifter claiming to be a Galaxy Ranger. Her true name is unknown. She walks the cosmos alone, carrying with her a long sword.",
         "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
-        "thumb": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/24/5308864/4bcdfe9e14ce11cf76b78c7ad618eb9e_2082325428034746380.png",
+        "thumb": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/20/9cb4a2305547a5dabf6c30ee58f8245a_185738241261815724.png",
         "picture": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/24/5308864/4557011b2b62fe0a3157de9cc42348f2_7558594162039127084.png",
         "path": "The Nihility",
         "combat": "Lightning",
         "faction": "Galaxy Ranger",
         "skills" : {
-            "basic": {"name":"", "tag":"", "description":""},
-            "skill": {"name":"", "tag":"", "description":""},
-            "ult": {"name":"", "tag":"", "description":""},
-            "talent": {"name":"", "tag":"", "description":""},
-            "technique": {"name":"", "tag":"", "description":""}
+            "basic": {
+                "name": "Trilateral Wiltcross",
+                "tag": "Single Target",
+                "description": "Deals Lightning DMG equal to 50%-110% of Acheron's ATK to a single target enemy."
+            },
+            "skill": {
+                "name": "Octobolt Flash",
+                "tag": "Blast",
+                "description": "Gains 1 point(s) of Slashed Dream. Inflicts 1 stack(s) of Crimson Knot on a single target enemy, dealing Lightning DMG equal to 80%-176% of Acheron's ATK to this target, as well as Lightning DMG equal to 30%-66% of Acheron's ATK to adjacent targets."
+            },
+            "ult": {
+                "name": "Slashed Dream Cries in Red",
+                "tag": "AoE",
+                "description": "Sequentially unleash Rainblade 3 times and Stygian Resurge 1 time, dealing Lightning DMG up to 223.2%-401.76% of Acheron's ATK to a single target enemy, as well as Lightning DMG up to 180%-324% of Acheron's ATK to other targets.Rainblade: Deals Lightning DMG equal to 14.4%-25.92% of Acheron's ATK to a single target enemy and removes up to 3 stacks of Crimson Knot from the target. When Crimson Knot is removed, immediately deals Lightning DMG equal to 9%-16.2% of Acheron's ATK to all enemies. For every stack of Crimson Knot removed, this DMG Multiplier is additionally increased, up to a maximum of 36%-64.8%.Stygian Resurge: Deals Lightning DMG equal to 72%-129.6% of Acheron's ATK to all enemies and remove all Crimson Knots.Crimson Knot cannot be applied to enemies during the Ultimate."
+            },
+            "talent": {
+                "name": "Atop Rainleaf Hangs Oneness",
+                "tag": "Enhance",
+                "description": "When Slashed Dream reaches 9 point(s), the Ultimate can be activated. During the Ultimate, reduces enemies' Toughness regardless of Weakness Types and reduces all enemies' All-Type RES by 10%-22%, lasting until the end of the Ultimate.When any unit inflicts debuffs on an enemy target while using their ability, Acheron gains 1 point of Slashed Dream and inflicts 1 stack of Crimson Knot on the target. If debuffs are inflicted on multiple targets, then the 1 stack of Crimson Knot will be inflicted on the enemy target with the most Crimson Knot stacks. This effect can only trigger once per every ability usage.After an enemy target exits the field or gets defeated by any unit while Acheron is on the field, their Crimson Knot stacks will be transferred to the enemy target with the most Crimson Knot stacks on the whole field."
+            },
+            "technique": {
+                "name": "Quadrivalent Ascendance",
+                "tag": "",
+                "description": "When Slashed Dream reaches 9 point(s), the Ultimate can be activated. During the Ultimate, reduces enemies' Toughness regardless of Weakness Types and reduces all enemies' All-Type RES by 10%-22%, lasting until the end of the Ultimate.When any unit inflicts debuffs on an enemy target while using their ability, Acheron gains 1 point of Slashed Dream and inflicts 1 stack of Crimson Knot on the target. If debuffs are inflicted on multiple targets, then the 1 stack of Crimson Knot will be inflicted on the enemy target with the most Crimson Knot stacks. This effect can only trigger once per every ability usage.After an enemy target exits the field or gets defeated by any unit while Acheron is on the field, their Crimson Knot stacks will be transferred to the enemy target with the most Crimson Knot stacks on the whole field."
+            }
         }
     },
     {
@@ -1159,7 +1199,7 @@
         "id": 47,
         "description": "Coming Soon",
         "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
-        "thumb": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/24/5308864/a295658476cf9532a669beb04f77ea48_8799558608390442652.png",
+        "thumb": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/04/03/3912553045c7ee6d816b6f1224d25ce7_5596945107422903292.png",
         "picture": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/24/5308864/314ba5caa6a606c2e5ac8a6fdec5d0d5_5439415260804197740.png",
         "path": "The Preservation",
         "combat": "Imaginary",
@@ -1173,21 +1213,58 @@
         }
     },
     {
-        "name": "Gallagher (Coming Soon)",
+        "name": "Gallagher",
         "id": 48,
-        "description": "Coming Soon",
+        "description": "A security officer from the Bloodhound Family in Penacony. He is also a slovenly and indolent drinksmith. Though unorganized in apparel and casual in how he makes his drinks, he is always courteous toward visiting guests but keeps his vigilance about him. He seems to carry a weight of a complicated past, yet he never voluntarily divulges any details.",
         "rarity": "\u2726 \u2726 \u2726 \u2726",
-        "thumb": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/25/5308864/78c52773b88aa52b2f76950e8a0fa628_4549458641527267005.png",
+        "thumb": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/03/20/c21f99431377dfc00a2e5ff5e1933d3f_7709442928600875177.png",
         "picture": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/25/5308864/c013dc642289a98ad5399e8cf21da248_5787079781416730253.png",
         "path": "The Abundance",
         "combat": "Fire",
         "faction": "Penacony",
         "skills" : {
-            "basic": {"name":"", "tag":"", "description":""},
-            "skill": {"name":"", "tag":"", "description":""},
-            "ult": {"name":"", "tag":"", "description":""},
-            "talent": {"name":"", "tag":"", "description":""},
-            "technique": {"name":"", "tag":"", "description":""}
+            "basic": {
+                "name": "Corkage Fee",
+                "tag": "Single Target",
+                "description": "Deals Fire DMG equal to 50%-110% of Gallagher's ATK to a single target enemy."
+            },
+            "basic2": {
+                "name": "Nectar Blitz",
+                "tag": "Single Target",
+                "description": "Deals Fire DMG equal to 125%-275% of Gallagher's ATK to a single target enemy. Reduces the target's ATK by 10%-16%, lasting for 2 turn(s)."
+            },
+            "skill": {
+                "name": "Special Brew",
+                "tag": "Restore",
+                "description": "Immediately heals a target ally for 200-1768 HP."
+            },
+            "ult": {
+                "name": "Champagne Etiquette",
+                "tag": "AoE",
+                "description": "Inflicts Besotted on all enemies, lasting for 2 turn(s). At the same time, deals Fire DMG equal to 75%-165% of Gallagher's ATK to all enemies, and enhances this unit's next Basic ATK to Nectar Blitz."
+            },
+            "talent": {
+                "name": "Tipsy Tussle",
+                "tag": "Restore",
+                "description": "The Besotted state increases the Break DMG that targets receive by 6%-13.2%. Every time a Besotted target is attacked by an ally, the attacker's HP gets restored by 80-707.2."
+            },
+            "technique": {
+                "name": "Artisan Elixir",
+                "tag": "",
+                "description": "The Besotted state increases the Break DMG that targets receive by 6%-13.2%. Every time a Besotted target is attacked by an ally, the attacker's HP gets restored by 80-707.2."
+            }
         }
+    },
+    {
+        "name": "Robin (Coming Soon)",
+        "id": 49,
+        "description": "(Coming Soon)",
+        "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/03/12/5308864/a27a0e5de7b3bbb3fd3d6f078b87ba18_852419572662786616.png",
+        "picture": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/03/12/5308864/4e56e3a271f51c7fde033e8b51dcd0ff_3045556972131537200.png",
+        "path": "The Harmony",
+        "combat": "Physical",
+        "faction": "Penacony",
+        "skills": {}
     }
 ]
