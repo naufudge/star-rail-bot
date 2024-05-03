@@ -18,7 +18,8 @@ class pom5(commands.Cog):
     def __init__(self, client: commands.Bot):
         self.client = client
         self.four_star_Pity, self.fivestarPity = 1, 1
-        self.announcement = True
+        self.cooldown = 900 # This is the cooldown between 10 warps in seconds
+        self.announcement = False
 
     @commands.hybrid_command(name="warp", description="Try out your luck in this Warp Simulator!")
     @app_commands.describe(banner_name="Choose one of the available Warps")
@@ -41,6 +42,7 @@ class pom5(commands.Cog):
         app_commands.Choice(name="Black Swan", value=16),
         app_commands.Choice(name="Sparkle", value=17),
         app_commands.Choice(name="Acheron", value=18),
+        app_commands.Choice(name="Aventurine", value=19),
     ])
     async def warp(self, ctx: commands.Context, *, banner_name: app_commands.Choice[int]):
         if banner_name.name.lower() == "":
@@ -55,17 +57,17 @@ class pom5(commands.Cog):
 
         self.five_star_Pity = user_data['five_star_pity']
 
-        if ((int(time.time() - user_cooldowns['last_warp_time'])) < 3600) and user_cooldowns['available_warps'] == 0:
+        if ((int(time.time() - user_cooldowns['last_warp_time'])) < self.cooldown) and user_cooldowns['available_warps'] == 0:
             cooldown_embed = discord.Embed(
                 title="You're on cooldown",
-                description=f"Please wait `{int((3600 - (time.time() - user_cooldowns['last_warp_time']))/60)}` minutes to warp again :)",
+                description=f"Please wait `{int((self.cooldown - (time.time() - user_cooldowns['last_warp_time']))/60)}` minutes to warp again :)",
                 color=0xffffff
             ).set_footer(text="50/50 has been added due to high demand! If you get a normal 5 star, your next 5 star will be a limited character.")
             await ctx.send(embed=cooldown_embed, ephemeral=True)
             return
-        elif ((int(time.time() - user_cooldowns['last_warp_time'])) < 3600) and not user_cooldowns['available_warps'] == 0:
+        elif ((int(time.time() - user_cooldowns['last_warp_time'])) < self.cooldown) and not user_cooldowns['available_warps'] == 0:
             available_warps = user_cooldowns['available_warps']
-        elif ((int(time.time() - user_cooldowns['last_warp_time'])) > 3600) and user_cooldowns['available_warps'] <= 10:
+        elif ((int(time.time() - user_cooldowns['last_warp_time'])) > self.cooldown) and user_cooldowns['available_warps'] <= 10:
             available_warps = 10
 
         # Standard Banner & Other available banners
@@ -108,6 +110,8 @@ class pom5(commands.Cog):
                 limited_character = sparkle
             case 18:
                 limited_character = acheron
+            case 19:
+                limited_character = aventurine
             case _:
                 return
             
