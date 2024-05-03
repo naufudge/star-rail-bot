@@ -686,6 +686,14 @@ acheron = {
     }
 }
 
+aventurine = {
+    "Aventurine" : {
+        "id": 47,
+        "rarity": 5,
+        "path": "The Preservation",
+        "type": "character"
+    }
+}
 
 
 if __name__ == "__main__":

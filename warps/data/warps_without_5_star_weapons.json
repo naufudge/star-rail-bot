@@ -631,5 +631,11 @@
         "rarity": 4,
         "path": "The Abundance",
         "type": "character"
+    },
+    "Aventurine" : {
+        "id": 47,
+        "rarity": 5,
+        "path": "The Preservation",
+        "type": "character"
     }
 }
