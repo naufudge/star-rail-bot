@@ -1195,9 +1195,9 @@
         }
     },
     {
-        "name": "Aventurine (Coming Soon)",
+        "name": "Aventurine",
         "id": 47,
-        "description": "Coming Soon",
+        "description": "A senior manager in the IPC Strategic Investment Department and one of the Ten Stonehearts, known for his cornerstone \"Aventurine of stratagems.\" He always dons a smile that conceals his true intentions and lives by the principle of \"the greater the risk, the greater the reward.\"",
         "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
         "thumb": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/04/03/3912553045c7ee6d816b6f1224d25ce7_5596945107422903292.png",
         "picture": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/24/5308864/314ba5caa6a606c2e5ac8a6fdec5d0d5_5439415260804197740.png",
@@ -1205,11 +1205,31 @@
         "combat": "Imaginary",
         "faction": "Interastral Peace Corporation",
         "skills" : {
-            "basic": {"name":"", "tag":"", "description":""},
-            "skill": {"name":"", "tag":"", "description":""},
-            "ult": {"name":"", "tag":"", "description":""},
-            "talent": {"name":"", "tag":"", "description":""},
-            "technique": {"name":"", "tag":"", "description":""}
+            "basic": {
+                "name": "Straight Bet",
+                "tag": "Single Target",
+                "description": "Deals Imaginary DMG equal to 50%-110% of Aventurine's DEF to a single target enemy."
+            },
+            "skill": {
+                "name": "Cornerstone Deluxe",
+                "tag": "Defense",
+                "description": "Provides all allies with a Fortified Wager shield that can block DMG equal to 16%-25.6% of Aventurine's DEF plus 80-356, lasting for 3 turn(s). When repeatedly gaining Fortified Wager, the Shield effect can stack, up to 200% of the Shield provided by the current Skill."
+            },
+            "ult": {
+                "name": "Roulette Shark",
+                "tag": "Single Target",
+                "description": "Randomly gains 1 to 7 points of Blind Bet. Then inflicts Unnerved on a single target enemy, lasting for 3 turn(s). And deals Imaginary DMG equal to 162%-291.6% of Aventurine's DEF to the single target enemy. When an ally hits an Unnerved enemy target, the CRIT DMG dealt increases by 9%-16.2%."
+            },
+            "talent": {
+                "name": "Shot Loaded Right",
+                "tag": "Bounce",
+                "description": "For any single ally with Fortified Wager, their Effect RES increases by 25%-55%, and when they get attacked, Aventurine gains 1 point of Blind Bet. When Aventurine has Fortified Wager, he can resist Crowd Control debuffs. This effect can trigger again after 2 turn(s). Aventurine additionally gains 1 point(s) of Blind Bet after getting attacked. Upon reaching 7 points of Blind Bet, Aventurine consumes the 7 points to launch a 7-hit follow-up attack, with each hit dealing Imaginary DMG equal to 12.5%-27.5% of Aventurine's DEF to a single random enemy. Blind Bet is capped at 10 points."
+            },
+            "technique": {
+                "name": "The Red or the Black",
+                "tag": "Defense",
+                "description": "After using the Technique, 1 of the following effects will be granted:There is a chance for DEF to increase by 24%.There is a high chance for DEF to increase by 36%.There is a small chance for DEF to increase by 60%.When this Technique is used repeatedly, the acquired effect with the highest buff value is retained.When the next battle starts, increases all allies' DEF by the corresponding value, lasting for 3 turn(s)."
+            }
         }
     },
     {
@@ -1256,15 +1276,75 @@
         }
     },
     {
-        "name": "Robin (Coming Soon)",
+        "name": "Robin",
         "id": 49,
-        "description": "(Coming Soon)",
+        "description": "Coming Soon",
         "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
         "thumb": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/03/12/5308864/a27a0e5de7b3bbb3fd3d6f078b87ba18_852419572662786616.png",
         "picture": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/03/12/5308864/4e56e3a271f51c7fde033e8b51dcd0ff_3045556972131537200.png",
         "path": "The Harmony",
         "combat": "Physical",
         "faction": "Penacony",
-        "skills": {}
+        "skills": {
+            "basic": {"name":"", "tag":"", "description":""},
+            "skill": {"name":"", "tag":"", "description":""},
+            "ult": {"name":"", "tag":"", "description":""},
+            "talent": {"name":"", "tag":"", "description":""},
+            "technique": {"name":"", "tag":"", "description":""}
+        }
+    },
+    {
+        "name": "Boothill",
+        "id": 49,
+        "description": "Coming Soon",
+        "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
+        "thumb": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/03/13/5308864/f64f6fb0c89d70fa6146dc98c5946a27_3786523589262769684.png",
+        "picture": "",
+        "path": "The Hunt",
+        "combat": "Physical",
+        "faction": "Galaxy Rangers",
+        "skills": {
+            "basic": {"name":"", "tag":"", "description":""},
+            "skill": {"name":"", "tag":"", "description":""},
+            "ult": {"name":"", "tag":"", "description":""},
+            "talent": {"name":"", "tag":"", "description":""},
+            "technique": {"name":"", "tag":"", "description":""}
+        }
+    },
+    {
+        "name": "Firefly",
+        "id": 50,
+        "description": "Coming Soon",
+        "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726 ",
+        "thumb": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/04/24/167256510/4ed291eff2b8f6ec2cdbfed377b4b81e_5203211138359869762.png",
+        "picture": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/04/24/167256510/779b91b83317680272eb654ae5e4d795_2554024074603405667.png",
+        "path": "The Destruction",
+        "combat": "Fire",
+        "faction": "Stellaron Hunters",
+        "skills": {
+            "basic": {"name":"", "tag":"", "description":""},
+            "skill": {"name":"", "tag":"", "description":""},
+            "ult": {"name":"", "tag":"", "description":""},
+            "talent": {"name":"", "tag":"", "description":""},
+            "technique": {"name":"", "tag":"", "description":""}
+        }
+    },
+    {
+        "name": "Jade",
+        "id": 51,
+        "description": "Coming Soon",
+        "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726 ",
+        "thumb": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/04/27/310141917/5135f9fee2b1c68c835d062b86293f2f_5616623388040544068.png",
+        "picture": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/04/27/310141917/0adf7f38b91fceb8780d9501d354b1a8_2777154249267430261.png",
+        "path": "The Erudition",
+        "combat": "Quantum",
+        "faction": "Interastral Peace Corporation",
+        "skills": {
+            "basic": {"name":"", "tag":"", "description":""},
+            "skill": {"name":"", "tag":"", "description":""},
+            "ult": {"name":"", "tag":"", "description":""},
+            "talent": {"name":"", "tag":"", "description":""},
+            "technique": {"name":"", "tag":"", "description":""}
+        }
     }
 ]
