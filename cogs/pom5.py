@@ -125,7 +125,16 @@ class pom5(commands.Cog):
 
         # All the names of the characters in the banner as a list
         chara_names = list(banner)
-        limited_character_name = list(limited_character.keys())[0]
+        try:
+            limited_character_name = list(limited_character.keys())[0]
+        except AttributeError:
+            await ctx.send(embed=discord.Embed(
+                title="Sorry, there was an Error :(",
+                description="Please try again!",
+                color=0xf94449
+            ))
+            return
+        
         rarities = [banner[chara]['rarity'] for chara in chara_names]
 
         results = [] # This will contain the characters/weapons that a user gets from the 10 pull
