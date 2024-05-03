@@ -191,14 +191,15 @@ class pom5(commands.Cog):
         # footer_texts = [
         #     "Now you can provide feedback, suggestions, or anything in general that you would like to tell me using /feedback.",
         # ]
-        pulls_embed = discord.Embed(title=f"Warp Simulator - {banner_name.name}")
+        pulls_embed = discord.Embed(title=f"Warp Simulator - {banner_name.name}", color=0xffffff)
         if list_of_5_stars_gotten != []:
             # 5* pull embed color and 5* warp animation
-            pulls_embed.color = 0xedcb01
+            # setting embed_color here, but will be assigned to the embed after warp animation
+            embed_color = 0xedcb01
             pulls_embed.set_image(url="https://cdn.discordapp.com/attachments/1117016812069081140/1117017484000772096/five_star.gif")
         else:
             # 4* pull embed color and 4* warp animation
-            pulls_embed.color = 0xa000c8
+            embed_color = 0xa000c8
             pulls_embed.set_image(url="https://cdn.discordapp.com/attachments/1117016812069081140/1117017472940384317/four_star.gif")
         pulls_embed.set_footer(text="Now you can provide feedback, suggestions, or anything in general that you would like to tell me using /feedback.")
 
@@ -226,6 +227,7 @@ class pom5(commands.Cog):
         else:
             pulls_embed.add_field(name="5 Stars:", value="--", inline=False)
         pulls_embed.set_image(url="attachment://pulls.png")
+        pulls_embed.color = embed_color
 
         await asyncio.sleep(12.5)
         await msg.edit(attachments=[file], embed=pulls_embed)
