@@ -911,7 +911,7 @@
     },
     {
         "name": "Earthly Escapade",
-        "path": "Harmony",
+        "path": "The Harmony <:harmony:1108984292312358972>",
         "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
         "description": "Just as fireworks can flicker, she too can shift between ten different colors in a minute.\n\nWhen the light show nears its end, she sits high above, regarding the bustling masses beneath her feet with boredom.\nThoughts flow and vanish, and slyness circulates across myriad eyes like a dancing kaleidoscope.\n\"I've made my decision. This is how we're going to have fun today!\"\n\nBouncing and hopping, she glides through the crowds, her golden-red tail flitting in and out of sight.\n\"Keep up! The brightest fireworks are just about to begin!\"",
         "effect": "Increases the wearer's CRIT DMG by 32%/39%/46%/53%/60%. At the start of the battle, the wearer gains Mask, lasting for 3 turn(s). While the wearer has Mask, the wearer's allies have their CRIT Rate increased by 10%/11%/12%/13%/14% and their CRIT DMG increased by 28%/35%/42%/49%/56%. For every 1 Skill Point the wearer recovers (including Skill Points that exceed the limit), they gain 1 stack of Radiant Flame. And when the wearer has 4 stacks of Radiant Flame, all the stacks are removed, and they gain Mask for 4 turn(s).",
@@ -931,7 +931,7 @@
     },
     {
         "name": "Inherently Unjust Destiny",
-        "path": "The Preservation",
+        "path": "The Preservation <:preservation:1108984312969306122>",
         "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
         "description": "With the final card revealed, despondency, rage, helplessness, calm... Thousands of emotions immediately emerge from the faces of his opponents.\n\"Since we're already here, why don't we make everything more exciting?\"\nHe puts in all his chips. Those who have accepted their losses leave the table while muttering curses, secretly hoping that he would lose.\n\nVictories, reputation, luck... He had never cared for any of that. He's only drunk on the moment that makes his very life quiver -\nHell is only one decision away from heaven.\n\nThe chips are cast as lamentations ring out, dissipating in an instant when the dust finally settles, just like this illusory sense of satisfaction.\n\"To have everything, or to lose everything, yet I have no power to choose...\"",
         "effect": "Increases the wearer's DEF by 40%/46%/52%/58%/64%. When the wearer provides a Shield to an ally, the wearer's CRIT DMG increases by 40%/46%/52%/58%/64%, lasting for 2 turn(s). When the wearer's follow-up attack hits an enemy target, there is a 100%/115%/130%/145%/160% base chance to increase the DMG taken by the attacked enemy target by 10%/11.5%/13%/14.5%/16%, lasting for 2 turn(s).",
@@ -941,7 +941,7 @@
     },
     {
         "name": "Along the Passing Shore",
-        "path": "The Nihility",
+        "path": "The Nihility <:nihility:1108984309395763260>",
         "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
         "description": "Flowing in the narrow border between \"existence\" and \"nothingness,\" the ice-cold tides eternally lap against the shores and bring all things to their final end.\n\nIn this place, the drowned ask for help, lament with songs, find their happiness, enjoy sweet moments, and suffer great agony... All these are reflected in the water. She cannot experience these, but she can feel them -\nThere are still many roads to walk, many sounds to listen to, and many things to change before she arrives at the end.\n\nShe reaches out and saves the drowning from the temptations of Nihility, and one mirage after another bursts apart behind her figure.\nShe keeps walking in this boundless world, all for an end that does not exist.\n\n- And it's always raining here.",
         "effect": "Increases the wearer's CRIT DMG by 36%/42%/48%/54%/60%. When the wearer hits the enemy target, inflicts Mirage Fizzle on the enemy, lasting for 1 turn. Each time the wearer attacks, this effect can only trigger 1 time on each target. The wearer deals 24%/28%/32%/36%/40% increased DMG to targets afflicted with Mirage Fizzle, and DMG dealt by the wearer's Ultimate additionally increases by 24%/28%/32%/36%/40%.",
@@ -951,7 +951,7 @@
     },
     {
         "name": "Concert for Two",
-        "path": "The Preservation",
+        "path": "The Preservation <:preservation:1108984312969306122>",
         "rarity": "\u2726 \u2726 \u2726 \u2726",
         "description": "\"Big brother, what's this...\"\n\"It's been so long since you sang with joy... I've built a stage for you, though it's... a bit rudimentary.\"\n\"But the teacher thinks I'm not cut out for this...\"\n\"Nonsense, I think you sound amazing! And your dreams will definitely come true. You deserve to sing on a bigger stage...\"\n...\n\nMany years later, she stood on a dazzling stage, looking at the surging fans below, but lost herself for a moment...\nOn the long journey of chasing dreams, she would always remember that trusting gaze and her first \"concert.\"\nNo glamorous lights, no elaborate makeup, just a child building a stage to encourage another child to pursue their dreams.\n\"Now, our dreams have come true. But... are they still 'our' dreams?\"\nShe tightened her grip on the microphone. Before the next song began, she didn't even have time to feel sad.",
         "effect": "Increases the wearer's DEF by 16%/20%/24%/28%/32%. For every on-field character that has a Shield, the DMG dealt by the wearer increases by 4%/5%/6%/7%/8%.",
@@ -961,7 +961,7 @@
     },
     {
         "name": "Flowing Nightglow",
-        "path": "Harmony",
+        "path": "The Harmony <:harmony:1108984292312358972>",
         "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
         "description": "Time flows through the mirror, metamorphosing the once inexperienced little girl into a seasoned songstress.\nShe studies her reflection in the mirror. Time has altered all but her green eyes, which still remain as serene as a lake, as if recounting an unshakable faith.\n\n\"You seem in high spirits today.\"\n\"Yes... after all, there's a very important 'performance'.\"\n\"Indeed. The Charmony Festival's rehearsal is about to start. Please head to the preparation room.\"\n...\n\nShe steps out from the dressing room, leaving behind the brilliant lights of the theater, fading into the distance.\n\"My stage lies not here.\"\nShe closes her eyes, letting the night swallow her silhouette.\n\"From the past to the present, my song has always been for...\"\n\"For those who have lost hope.\"",
         "effect": "Every time an ally attacks, the wearer gains 1 stack of Cantillation. Each stack of Cantillation increases the wearer's Energy Regeneration Rate by 3.0/3.5/4.0/4.5/5.0%, stacking up to 5 time(s). When the wearer uses their Ultimate, removes Cantillation and gains Cadenza. Cadenza increases the Wearer's ATK by 48/60/72/84/96% and increases all allies' DMG dealt by 24/28/32/36/40%, lasting for 1 turn(s).",
@@ -971,7 +971,7 @@
     },
     {
         "name": "Sailing Towards A Second Life",
-        "path": "The Hunt",
+        "path": "The Hunt <:hunt:1108984298977116203>",
         "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
         "description": "Coming Soon",
         "effect": "",
@@ -981,7 +981,7 @@
     },
     {
         "name": "For Tomorrow's Journey",
-        "path": "The Harmony",
+        "path": "The Harmony <:harmony:1108984292312358972>",
         "rarity": "\u2726 \u2726 \u2726 \u2726",
         "description": "Coming Soon",
         "effect": "",
