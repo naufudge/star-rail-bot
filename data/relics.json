@@ -166,5 +166,61 @@
         "2pc" : "Increases the wearer's Break Effect by 20%. When the wearer's SPD reaches 145 or higher, the wearer's Break Effect increases by an extra 28%.",
         "4pc" : "",
         "thumb" : "https://static.wikia.nocookie.net/houkai-star-rail/images/9/92/Item_Talia_Kingdom_of_Banditry.png/"
+    },
+    {
+        "name": "Penacony Land of the Dreams",
+        "type": "Planar Ornaments",
+        "2pc": "Increases wearer's Energy Regeneration Rate by 5%. Increases DMG for all other allies with the same damage Type as the wearer by 10%.",
+        "4pc": "",
+        "thumb": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/11/11/167256510/c07ed43391202637a84703c1dae9fdef_7067071666669570294.png"
+    },
+    {
+        "name": "Firmament Frontline Glamoth",
+        "type": "Planar Ornaments",
+        "2pc": "Increases the wearer's ATK by 12%. When the wearer's SPD is equal to or higher than 135/160, the wearer deals 12%/18% more DMG.",
+        "4pc": "",
+        "thumb": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/11/11/167256510/cf16b49f7ae07c7a878c4e8f489664d4_1701623849896781732.png"
+    },
+    {
+        "name": "Prisoner in Deep Confinement",
+        "type": "Relic",
+        "2pc": "ATK increases by 12%.",
+        "4pc": "For every DoT the target enemy is afflicted with, the wearer will ignore 6% of its DEF when dealing DMG to it. This effect is valid for a max of 3 DoTs.",
+        "thumb": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/11/11/167256510/b5fc08a71e55a752325531bd8107b45d_1040803494079669150.png"
+    },
+    {
+        "name": "The Ashblazing Grand Duke",
+        "type": "Relic",
+        "2pc": "Increase follow-up attack DMG dealt by 20%.",
+        "4pc": "When the wearer uses follow-up attacks, increase the wearer's ATK by 6% every time the follow-up attack deals DMG. This effect can stack for a maximum of 8 time(s) and lasts for 3 turn(s). This effect is removed the next time the wearer uses a follow-up attack.",
+        "thumb": "https://upload-static.hoyoverse.com/hoyolab-wiki/2023/11/11/167256510/0612c086536a853f6a843be9f6a22176_8726810874497887864.png"
+    },
+    {
+        "name": "Pioneer Diver of Dead Waters",
+        "type": "Relic",
+        "2pc": "Increases DMG dealt to enemies with debuff by 12%.",
+        "4pc": "Increases CRIT Rate by 4%. The wearer deals 8%/12% increased CRIT DMG to enemies with at least 2/3 debuffs. After the wearer inflicts a debuff on enemy targets, the aforementioned effects increase by 100%, lasting for 1 turn(s).",
+        "thumb": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/29/167256510/04619395905d918695e7d19faeea3fd3_5120385868455138078.png"
+    },
+    {
+        "name": "Watchmaker, Master of Dream Machinations",
+        "type": "Relic",
+        "2pc": "Increases Break Effect by 16%.",
+        "4pc": "When the wearer uses their Ultimate on an ally, Break Effect for all allies increases by 30% for 2 turn(s). This effect cannot be stacked.",
+        "thumb": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/01/29/167256510/9b8f4830f314d9cdc479b630944d0a03_8689874715459481337.png"
+    },
+    {
+        "name": "Izumo Gensei and Takama Divine Realm",
+        "type": "Planar Ornaments",
+        "2pc": "Increases the wearer's ATK by 12%. When entering battle, if at least one other ally follows the same Path as the wearer, then the wearer's CRIT Rate increases by 12%.",
+        "4pc": "",
+        "thumb": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/03/29/167256510/8eb5726dc239e6936d95e2a9879354e6_8023893520618388811.png"
+    },
+    {
+        "name": "Sigonia, the Unclaimed Desolation",
+        "type": "Planar Ornaments",
+        "2pc": "Increases the wearer's CRIT Rate by 4%. When an enemy target gets defeated, the wearer's CRIT DMG increases by 4%, stacking up to 10 time(s).",
+        "4pc": "",
+        "thumb": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/03/29/167256510/29f2a1337784e16dcca37355d1c83f93_3181545870560101643.png"
     }
 ]
