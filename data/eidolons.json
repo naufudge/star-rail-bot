@@ -1321,5 +1321,167 @@
             "name": "Pantheon Merciful, Masses Pitiful",
             "description": "When enemy targets get attacked by Black Swan's allies, Black Swan has a 65% base chance of inflicting 1 stack of Arcana on the target.\nEach time Black Swan inflicts Arcana on an enemy target, there is a 50% fixed chance to additionally increase the number of Arcana stacks afflicted this time by 1."
         }
+    },
+    {
+        "character": "Sparkle",
+        "e1": {
+            "name": "Suspension of Disbelief",
+            "description": "The Cipher effect applied by the Ultimate lasts for 1 extra turn. All allies affected by Cipher have their ATK increased by 40%."
+        },
+        "e2": {
+            "name": "Purely Fictitious",
+            "description": "Each Talent stack allows allies to ignore 8% of the enemy target's DEF when dealing DMG to enemies."
+        },
+        "e3": {
+            "name": "Pipedream",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        "e4": {
+            "name": "Life Is a Gamble",
+            "description": "The Ultimate recovers 1 more Skill Point. The Talent additionally increases Max Skill Points by 1."
+        },
+        "e5": {
+            "name": "Parallax Truth",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e6": {
+            "name": "Narrative Polysemy",
+            "description": "The CRIT DMG Boost effect of Sparkle's Skill additionally increases by 30% of Sparkle's CRIT DMG, and when she uses her Skill, the CRIT DMG Boost effect will apply to all allies currently with Cipher. When Sparkle uses her Ultimate, this effect will spread to all allies with Cipher should the allied target have the CRIT DMG increase effect provided by the Skill active on them."
+        }
+    },
+    {
+        "character": "Misha",
+        "e1": {
+            "name": "Whimsicality of Fancy",
+            "description": "When using the Ultimate, for every enemy on the field, additionally increases the Hits Per Action for the Ultimate by 1 hit(s), up to a maximum increase of 5 hit(s)."
+        },
+        "e2": {
+            "name": "Yearning of Youth",
+            "description": "Before each hit of the Ultimate lands, there is a 24% base chance of reducing the target's DEF by 16% for 3 turn(s)."
+        },
+        "e3": {
+            "name": "Vestige of Happiness",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        "e4": {
+            "name": "Visage of Kinship",
+            "description": "Increases the DMG multiplier for each hit of the Ultimate by 6%."
+        },
+        "e5": {
+            "name": "Genesis of First Love",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e6": {
+            "name": "Estrangement of Dream",
+            "description": "When using the Ultimate, increases own DMG by 30%, lasting until the end of the turn. In addition, the next time the Skill is used, recovers 1 Skill Point(s) for the team."
+        }
+    },
+    {
+        "character": "Acheron",
+        "e1": {
+            "name": "Silenced Sky Spake Sooth",
+            "description": "CRIT Rate increases by 18% when dealing DMG to debuffed enemies."
+        },
+        "e2": {
+            "name": "Mute Thunder in Still Tempest",
+            "description": "The number of Nihility characters required for the Trace \"The Abyss\" to achieve its highest possible effect is reduced by 1. When this unit's turn starts, gains 1 point of Slashed Dream and inflicts 1 stack of Crimson Knot on the enemy with the most Crimson Knot stacks."
+        },
+        "e3": {
+            "name": "Frost Bites in Death",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        "e4": {
+            "name": "Shrined Fire for Mirrored Soul",
+            "description": "When enemy targets enter combat, afflict them with the Ultimate DMG Vulnerable Vulnerability state, increasing the amount of Ultimate DMG they take by 8%."
+        },
+        "e5": {
+            "name": "Strewn Souls on Erased Earths",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e6": {
+            "name": "Apocalypse, the Emancipator",
+            "description": "Increases the All-Type RES PEN for the Ultimate DMG dealt by Acheron by 20%. The DMG dealt by Basic ATK and Skill will also be considered as Ultimate DMG and can reduce enemy toughness regardless of Weakness Types. When Weakness is broken, triggers the Lightning Weakness Break effect."
+        }
+    },
+    {
+        "character": "Aventurine",
+        "e1": {
+            "name": "Prisoner's Dilemma",
+            "description": "Increases CRIT DMG by 20% for allies with Fortified Wager. After using the Ultimate, provides all allies with a Fortified Wager shield, whose Shield effect is equal to 100% of the one provided by the Skill, lasting for 3 turn(s)."
+        },
+        "e2": {
+            "name": "Bounded Rationality",
+            "description": "When using Basic ATK, reduces the target's All-Type RES by 12% for 3 turn(s)."
+        },
+        "e3": {
+            "name": "Droprate Maxing",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        "e4": {
+            "name": "Unexpected Hanging Paradox",
+            "description": "When triggering his Talent's follow-up attack, first increases Aventurine's DEF by 40% for 2 turn(s), and additionally increases the Hits Per Action for his talent's follow-up attack by 3."
+        },
+        "e5": {
+            "name": "Ambiguity Aversion",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e6": {
+            "name": "Stag Hunt Game",
+            "description": "For every ally with a Shield, the DMG dealt by Aventurine increases by 50%, up to a maximum of 150%."
+        }
+    },
+    {
+        "character": "Gallagher",
+        "e1": {
+            "name": "Salty Dog",
+            "description": "When Gallagher enters the battle, regenerates 20 Energy and increases Effect RES by 50%."
+        },
+        "e2": {
+            "name": "Lion's Tail",
+            "description": "When using the Skill, removes 1 debuff(s) from a target ally. At the same time, increases their Effect RES by 30%, lasting for 2 turn(s)."
+        },
+        "e3": {
+            "name": "Corpse Reviver",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nBasic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        "e4": {
+            "name": "Last Word",
+            "description": "Extends the duration of the Besotted state inflicted by Gallagher's Ultimate by 1 turn(s)."
+        },
+        "e5": {
+            "name": "Death in the Afternoon",
+            "description": "Ultimate Lv. +2, up to a maximum of Lv. 15.\nTalent Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e6": {
+            "name": "Blood and Sand",
+            "description": "Increases Gallagher's Break Effect by 20% and Weakness Break Efficiency by 20%."
+        }
+    },
+    {
+        "character": "Robin",
+        "e1": {
+            "name": "Land of Smiles",
+            "description": "While the Concerto state is active, all allies' All-Type RES PEN increases by 24%."
+        },
+        "e2": {
+            "name": "Afternoon Tea For Two",
+            "description": "While the Concerto state is active, all allies' SPD increases by 16%. The Talent's Energy Regeneration effect additionally increases by 1."
+        },
+        "e3": {
+            "name": "Inverted Tuning",
+            "description": "Skill Lv. +2, up to a maximum of Lv. 15.\nUltimate Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e4": {
+            "name": "Raindrop Key",
+            "description": "When using the Ultimate, dispels Crowd Control debuffs from all allies. While Robin is in the Concerto state, increases the Effect RES of all allies by 50%."
+        },
+        "e5": {
+            "name": "Lonestar's Lament",
+            "description": "Basic ATK Lv. +1, up to a maximum of Lv. 10.\nTalent Lv. +2, up to a maximum of Lv. 15."
+        },
+        "e6": {
+            "name": "Moonless Midnight",
+            "description": "While the Concerto state is active, the CRIT DMG of the Additional Physical DMG caused by the Ultimate increases by 450%. The effect of Moonless Midnight can trigger up to 8 time(s). And the trigger count resets each time the Ultimate is used."
+        }
     }
 ]

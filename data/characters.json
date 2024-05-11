@@ -1278,24 +1278,44 @@
     {
         "name": "Robin",
         "id": 49,
-        "description": "Coming Soon",
-        "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
-        "thumb": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/03/12/5308864/a27a0e5de7b3bbb3fd3d6f078b87ba18_852419572662786616.png",
-        "picture": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/03/12/5308864/4e56e3a271f51c7fde033e8b51dcd0ff_3045556972131537200.png",
-        "path": "The Harmony",
+        "description": "A Halovian singer who was born in Penacony and has risen to cosmic fame. An elegant and demure young lady.",
+        "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726 ",
+        "thumb": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/04/28/e1714be4caece69c5515e59f5bec8612_179118072871566612.png",
+        "picture": "https://act-webstatic.hoyoverse.com/event-static-hoyowiki-admin/2024/04/28/5de480c69cc78d114a7dbde6705e5e98_1159322692641605847.png",
+        "path": "Harmony",
         "combat": "Physical",
         "faction": "Penacony",
         "skills": {
-            "basic": {"name":"", "tag":"", "description":""},
-            "skill": {"name":"", "tag":"", "description":""},
-            "ult": {"name":"", "tag":"", "description":""},
-            "talent": {"name":"", "tag":"", "description":""},
-            "technique": {"name":"", "tag":"", "description":""}
+            "basic": {
+                "name": "Wingflip White Noise",
+                "tag": "Single Target",
+                "description": "Deals Physical DMG equal to 50%-110% of Robin's ATK to a single target enemy."
+            },
+            "skill": {
+                "name": "Pinion's Aria",
+                "tag": "Support",
+                "description": "Increase DMG dealt by all allies by 25%-55%, lasting for 3 turn(s). This duration reduces by 1 at the start of Robin's every turn."
+            },
+            "ult": {
+                "name": "Vox Harmonique, Opus Cosmique",
+                "tag": "Support",
+                "description": "Robin enters the Concerto state and makes all other allies immediately take action.While in the Concerto state, increase all allies' ATK by 15.2%-24.32% of Robin's ATK plus 50-230. Moreover, after every attack by allies, Robin deals Additional Physical DMG equal to 72%-129.6% of her ATK for 1 time, with a fixed CRIT Rate for this damage set at 100% and fixed CRIT DMG set at 150%.While in the Concerto state, Robin is immune to Crowd Control debuffs and cannot enter her turn or take action until the Concerto state ends.A Concerto countdown appears on the Action Order bar. When the countdown's turn begins, Robin exits the Concerto state and immediately takes action. The countdown has its own fixed SPD of 90."
+            },
+            "talent": {
+                "name": "Tonal Resonance",
+                "tag": "Support",
+                "description": "Increase all allies' CRIT DMG by 5%-23%. Moreover, after allies attack enemy targets, Robin additionally regenerates 2 Energy for herself."
+            },
+            "technique": {
+                "name": "Overture of Inebriation",
+                "tag": "Support",
+                "description": "After using Technique, creates a special dimension around the character that lasts for 15 seconds. Enemies within this dimension will not attack Robin and will follow Robin while the dimension is active. After entering battle while the dimension is active, Robin regenerates 5 Energy at the start of each wave. Only 1 dimension created by allies can exist at the same time."
+            }
         }
     },
     {
         "name": "Boothill",
-        "id": 49,
+        "id": 50,
         "description": "Coming Soon",
         "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726",
         "thumb": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/03/13/5308864/f64f6fb0c89d70fa6146dc98c5946a27_3786523589262769684.png",
@@ -1313,7 +1333,7 @@
     },
     {
         "name": "Firefly",
-        "id": 50,
+        "id": 51,
         "description": "Coming Soon",
         "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726 ",
         "thumb": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/04/24/167256510/4ed291eff2b8f6ec2cdbfed377b4b81e_5203211138359869762.png",
@@ -1331,7 +1351,7 @@
     },
     {
         "name": "Jade",
-        "id": 51,
+        "id": 52,
         "description": "Coming Soon",
         "rarity": "\u2726 \u2726 \u2726 \u2726 \u2726 ",
         "thumb": "https://act-upload.hoyoverse.com/event-ugc-hoyowiki/2024/04/27/310141917/5135f9fee2b1c68c835d062b86293f2f_5616623388040544068.png",
